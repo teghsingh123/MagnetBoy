@@ -1,0 +1,2103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Bogdan Vladu</string>
+	<key>CreatedWith</key>
+	<string>SpriteHelper</string>
+	<key>SHEETS_INFO</key>
+	<array>
+		<dict>
+			<key>2HDSuffix</key>
+			<string>-ipadhd</string>
+			<key>AllowFreeMove</key>
+			<true/>
+			<key>AllowRotation</key>
+			<false/>
+			<key>Crop</key>
+			<false/>
+			<key>DropSprites</key>
+			<false/>
+			<key>HDSuffix</key>
+			<string>-hd</string>
+			<key>IsRendable</key>
+			<true/>
+			<key>MaxSheetSize</key>
+			<integer>1024</integer>
+			<key>NpotSize</key>
+			<string>{392, 480}</string>
+			<key>Padding</key>
+			<integer>16</integer>
+			<key>PixelFormat</key>
+			<integer>0</integer>
+			<key>SheetImage</key>
+			<string>glass_glass.png</string>
+			<key>SheetImage-HD</key>
+			<string>glass_glass-ipadhd.png</string>
+			<key>SheetName</key>
+			<string>glass</string>
+			<key>SheetSceneImageName</key>
+			<string></string>
+			<key>Sheet_Sprites_Info</key>
+			<dict>
+				<key>amsar</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vaxAEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAA9AIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwUAAAABAQAAZ2xh
+					c3MAAAADAAAAAQEAADE2MAAJAAAAAQEAAGFt
+					c2FyLnBuZwAAABwAAAABBgAABAAAABQAAAAg
+					AAAANAAAAEwAAABcAAAAaAAAAAgAAAAEAwAA
+					V7kAAAAAAAAIAAAABAMAAJPIBQAAAAAACAAA
+					AAQDAAD1yAUAAAAAAAgAAAAEAwAAMNMFAAAA
+					AAAIAAAABAMAAJ9fBgAAAAAACAAAAAQDAABv
+					jgcAAAAAAAgAAAAEAwAAmp4HAAAAAAAcAAAA
+					AQYAAKAAAACwAAAAwAAAANAAAADgAAAA8AAA
+					AAABAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAA
+					AAAAAAAAAAAAAAAAAAABBQAABAAAAAMDAAAD
+					AAAABAAAAAMDAAAEAAAACAAAAAQDAAAFAAAA
+					AAAAAAQAAAADAwAA9QEAAAwAAAABAQAATWFj
+					aW50b3NoIEhECAAAAAQDAAAAgIE9dAAAAAgA
+					AAAABAAAQbT0dG8AAAAkAAAAAQEAADlFRkI1
+					MzQ1LUFENTMtM0IyRS1BOTNELTNCOTlENUFB
+					MDFGOBgAAAABAgAAgQAAAAEACADvPwAAAQAI
+					AAAAAAAAAAAAAQAAAAEBAAAvAAAABAAAAAMD
+					AAAAAQAAwgAAAAECAAAyNTc1NTIxNTJkOGFh
+					YWI1ZWI3MTI2ZmM5NDk5NjEwNTE3YzQxMGZm
+					OzAwMDAwMDAwOzAwMDAwMDAwMDAwMDAwMjA7
+					Y29tLmFwcGxlLmFwcC1zYW5kYm94LnJlYWQt
+					d3JpdGU7MDAwMDAwMDE7MGUwMDAwMDI7MDAw
+					MDAwMDAwMDA3OWU5YTsvdXNlcnMvZ2FtZS9k
+					b3dubG9hZHMvbWFnbmV0IHJlc291cmNlcy9n
+					bGFzcy8xNjAvYW1zYXIucG5nAAAA5AAAAP7/
+					//8BAAAAAAAAABIAAAAEEAAAfAAAAAAAAAAF
+					EAAAEAEAAAAAAAAQEAAANAEAAAAAAABUEAAA
+					XAEAAAAAAABVEAAAaAEAAAAAAABWEAAAVAEA
+					AAAAAAACIAAAEAIAAAAAAAAQIAAAkAEAAAAA
+					AAARIAAAxAEAAAAAAAASIAAApAEAAAAAAAAT
+					IAAAtAEAAAAAAAAgIAAA8AEAAAAAAAAwIAAA
+					VAEAAAAAAAABwAAAdAEAAAAAAAARwAAAFAAA
+					AAAAAAASwAAAhAEAAAAAAAAQ0AAAHAIAAAAA
+					AACA8AAAKAIAAAAAAAA=
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{2.263904793261716, 19.075118356598459}</string>
+										<string>{2.323302935632519, 21.095343933184168}</string>
+										<string>{1.6871401902455148, 22.2369934983696}</string>
+										<string>{0.98193785746182272, 22.854045539555333}</string>
+										<string>{-0.8251431202964028, 22.809970393756352}</string>
+										<string>{-1.7519263568261607, 22.127322140695252}</string>
+										<string>{-2.2796229316627716, 21.046964561797111}</string>
+										<string>{-2.2276280285985663, 19.080972081622114}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.0</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>0.0</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<false/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>0.0</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-2.25, -22.875}</string>
+								<key>LHWidth</key>
+								<real>0.0</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{0.089487885605734618, 15.176111673511542}</string>
+									<string>{-0.11849172665108654, 7.3121417528115558}</string>
+									<string>{1.9922945726953571, 2.9907114372189909}</string>
+									<string>{5.6994275188143888, 0.2601184249745927}</string>
+									<string>{12.927751429847291, 0.083817841778667912}</string>
+									<string>{15.748560760982059, 2.5520260065216007}</string>
+									<string>{18.293211742530076, 7.1186242672633284}</string>
+									<string>{18.055619173046864, 15.199526573606164}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-2.2355480858438312, -21.617776125094522}</string>
+										<string>{-1.7066463397041076, -22.190753016745902}</string>
+										<string>{-0.69291799293630163, -22.940030490443846}</string>
+										<string>{1.114162973041104, -22.807805053908908}</string>
+										<string>{1.7312150102041173, -22.278903307769184}</string>
+										<string>{2.2601167563438409, -21.485550688559599}</string>
+										<string>{2.2212066665064469, -19.215680805231614}</string>
+										<string>{-2.2231519539094862, -19.187445162565595}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.0</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>0.0</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<false/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>0.0</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-2.25, -22.875}</string>
+								<key>LHWidth</key>
+								<real>0.0</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture_1</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{0.10739218436205533, 168.24978065026238}</string>
+									<string>{17.884826666025788, 168.36272322092645}</string>
+									<string>{18.040467025375364, 177.44220275423839}</string>
+									<string>{15.924860040816469, 180.61561323107674}</string>
+									<string>{13.456651892164416, 182.73122021563563}</string>
+									<string>{6.2283280282547935, 183.26012196177538}</string>
+									<string>{2.1734146411835695, 180.26301206698361}</string>
+									<string>{0.057807656624675019, 177.97110450037809}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>glass</string>
+					<key>SHSpriteName</key>
+					<string>amsar</string>
+					<key>SheetImage</key>
+					<string>glass_glass.png</string>
+					<key>SheetImage-HD</key>
+					<string>glass_glass-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{50, 74}, {4.5, 45.75}}</string>
+						<key>Frame-HD</key>
+						<string>{{200, 296}, {18, 183}}</string>
+						<key>Image</key>
+						<string>glass_glass.png</string>
+						<key>Image-HD</key>
+						<string>glass_glass-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<false/>
+						<key>Name</key>
+						<string>amsar</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/glass/160/amsar.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/glass/160/amsar.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {18, 183}}</string>
+						<key>OriginalSize</key>
+						<string>{18, 183}</string>
+						<key>Position</key>
+						<string>{200, 296}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{4.5, 45.75}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, 0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>bulan</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vaxAEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAA9AIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwUAAAABAQAAZ2xh
+					c3MAAAADAAAAAQEAADE2MAAJAAAAAQEAAGJ1
+					bGFuLnBuZwAAABwAAAABBgAABAAAABQAAAAg
+					AAAANAAAAEwAAABcAAAAaAAAAAgAAAAEAwAA
+					V7kAAAAAAAAIAAAABAMAAJPIBQAAAAAACAAA
+					AAQDAAD1yAUAAAAAAAgAAAAEAwAAMNMFAAAA
+					AAAIAAAABAMAAJ9fBgAAAAAACAAAAAQDAABv
+					jgcAAAAAAAgAAAAEAwAADpAHAAAAAAAcAAAA
+					AQYAAKAAAACwAAAAwAAAANAAAADgAAAA8AAA
+					AAABAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAA
+					AAAAAAAAAAAAAAAAAAABBQAABAAAAAMDAAAD
+					AAAABAAAAAMDAAAEAAAACAAAAAQDAAAFAAAA
+					AAAAAAQAAAADAwAA9QEAAAwAAAABAQAATWFj
+					aW50b3NoIEhECAAAAAQDAAAAgIE9dAAAAAgA
+					AAAABAAAQbT0dG8AAAAkAAAAAQEAADlFRkI1
+					MzQ1LUFENTMtM0IyRS1BOTNELTNCOTlENUFB
+					MDFGOBgAAAABAgAAgQAAAAEACADvPwAAAQAI
+					AAAAAAAAAAAAAQAAAAEBAAAvAAAABAAAAAMD
+					AAAAAQAAwgAAAAECAABmM2JiZmI5ZGZlM2Fk
+					OWZlMjhhNTk2YWIxODRlOWZhNDVhNjFjYWI1
+					OzAwMDAwMDAwOzAwMDAwMDAwMDAwMDAwMjA7
+					Y29tLmFwcGxlLmFwcC1zYW5kYm94LnJlYWQt
+					d3JpdGU7MDAwMDAwMDE7MGUwMDAwMDI7MDAw
+					MDAwMDAwMDA3OTAwZTsvdXNlcnMvZ2FtZS9k
+					b3dubG9hZHMvbWFnbmV0IHJlc291cmNlcy9n
+					bGFzcy8xNjAvYnVsYW4ucG5nAAAA5AAAAP7/
+					//8BAAAAAAAAABIAAAAEEAAAfAAAAAAAAAAF
+					EAAAEAEAAAAAAAAQEAAANAEAAAAAAABUEAAA
+					XAEAAAAAAABVEAAAaAEAAAAAAABWEAAAVAEA
+					AAAAAAACIAAAEAIAAAAAAAAQIAAAkAEAAAAA
+					AAARIAAAxAEAAAAAAAASIAAApAEAAAAAAAAT
+					IAAAtAEAAAAAAAAgIAAA8AEAAAAAAAAwIAAA
+					VAEAAAAAAAABwAAAdAEAAAAAAAARwAAAFAAA
+					AAAAAAASwAAAhAEAAAAAAAAQ0AAAHAIAAAAA
+					AACA8AAAKAIAAAAAAAA=
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{23.992262733153098, -19.247581805967755}</string>
+										<string>{23.249516122679481, -19.433268458586156}</string>
+										<string>{23.249516122679481, -23.889748121427857}</string>
+										<string>{24.177949385771505, -23.704061468809442}</string>
+									</array>
+									<array>
+										<string>{-18.954303742266923, 23.15353010274799}</string>
+										<string>{-18.797630632549101, 24.126934346972842}</string>
+										<string>{-24.028046443857981, 24.10735022044997}</string>
+										<string>{-24.003384939910795, 23.314555259547117}</string>
+									</array>
+									<array>
+										<string>{-7.0362670706199779, 21.183510779165037}</string>
+										<string>{-12.580754468283082, 22.864845395387444}</string>
+										<string>{-18.797630632549101, 24.126934346972842}</string>
+										<string>{-18.954303742266923, 23.15353010274799}</string>
+										<string>{-12.680851181333418, 21.940764159056965}</string>
+									</array>
+									<array>
+										<string>{-7.0362670706199779, 21.183510779165037}</string>
+										<string>{-12.680851181333418, 21.940764159056965}</string>
+										<string>{-7.6462767368520446, 20.521276730835165}</string>
+									</array>
+									<array>
+										<string>{-1.4003870215575311, 18.815280622857433}</string>
+										<string>{-7.0362670706199779, 21.183510779165037}</string>
+										<string>{-7.6462767368520446, 20.521276730835165}</string>
+										<string>{-1.8595262939670114, 18.105174247638981}</string>
+									</array>
+									<array>
+										<string>{21.578336249113846, -9.4061892171923489}</string>
+										<string>{20.953819809399512, -9.1588488189298189}</string>
+										<string>{22.345019029127684, -15.573742377627966}</string>
+										<string>{23.249516122679481, -19.433268458586156}</string>
+										<string>{23.992262733153098, -19.247581805967755}</string>
+										<string>{23.249516122679481, -15.348162100981277}</string>
+									</array>
+									<array>
+										<string>{16.522726988975926, 2.1499035534036395}</string>
+										<string>{18.50507708282025, -3.3539648898881751}</string>
+										<string>{20.953819809399512, -9.1588488189298189}</string>
+										<string>{21.578336249113846, -9.4061892171923489}</string>
+										<string>{19.350096417693003, -2.9071563755482117}</string>
+									</array>
+									<array>
+										<string>{12.665376923430458, 6.9342362132272015}</string>
+										<string>{15.45067671270651, 1.7350099399118903}</string>
+										<string>{18.50507708282025, -3.3539648898881751}</string>
+										<string>{16.522726988975926, 2.1499035534036395}</string>
+									</array>
+									<array>
+										<string>{12.108316965575241, 6.1914896027535775}</string>
+										<string>{15.45067671270651, 1.7350099399118903}</string>
+										<string>{12.665376923430458, 6.9342362132272015}</string>
+									</array>
+									<array>
+										<string>{3.6189553069067024, 15.663684901704926}</string>
+										<string>{7.8375239553519549, 10.83365591821368}</string>
+										<string>{12.108316965575241, 6.1914896027535775}</string>
+										<string>{12.665376923430458, 6.9342362132272015}</string>
+										<string>{8.6709378665621486, 11.47703115410787}</string>
+									</array>
+									<array>
+										<string>{3.184477550636263, 14.871615275209038}</string>
+										<string>{7.8375239553519549, 10.83365591821368}</string>
+										<string>{3.6189553069067024, 15.663684901704926}</string>
+									</array>
+									<array>
+										<string>{-1.4003870215575311, 18.815280622857433}</string>
+										<string>{-1.8595262939670114, 18.105174247638981}</string>
+										<string>{3.184477550636263, 14.871615275209038}</string>
+										<string>{3.6189553069067024, 15.663684901704926}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.0</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>0.0</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<false/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>0.0</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-24, -24}</string>
+								<key>LHWidth</key>
+								<real>0.0</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{-0.11218577543192509, -0.42940088179987868}</string>
+									<string>{20.809477469803596, -0.50773738789136758}</string>
+									<string>{45.676982126867671, 4.5406184184502223}</string>
+									<string>{67.854931717520088, 11.265956883339854}</string>
+									<string>{90.398451913769875, 20.738877508570269}</string>
+									<string>{110.47582122762681, 33.345260393180283}</string>
+									<string>{130.68375146624859, 50.091875383568521}</string>
+									<string>{146.66150769372183, 68.263055147091194}</string>
+									<string>{162.0909079559037, 87.400385786385442}</string>
+									<string>{173.40038567077201, 107.62862550219285}</string>
+									<string>{182.31334499645538, 133.6247568687694}</string>
+									<string>{188.99806449071792, 157.39264840392511}</string>
+									<string>{191.96905093261239, 172.99032722387102}</string>
+									<string>{192.71179754308602, 190.81624587523777}</string>
+									<string>{188.99806449071792, 191.55899248571143}</string>
+									<string>{188.99806449071792, 173.73307383434462}</string>
+									<string>{185.38007611651074, 158.29496951051186}</string>
+									<string>{179.81527923759805, 132.63539527571928}</string>
+									<string>{170.020308331281, 109.4158595595527}</string>
+									<string>{157.80270685082604, 89.059960240352439}</string>
+									<string>{144.43326786230097, 71.23404158898569}</string>
+									<string>{127.35009582140782, 52.665376327145282}</string>
+									<string>{108.73791020254505, 36.513538899163862}</string>
+									<string>{88.561894824131954, 23.579303009444075}</string>
+									<string>{65.414893052591822, 13.914893076659339}</string>
+									<string>{45.276595274666327, 8.2369433637721414}</string>
+									<string>{20.182785030932308, 3.3858795890080415}</string>
+									<string>{-0.013539759643180105, 2.7417789618115336}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-19.763056280306653, -16.765472833824347}</string>
+										<string>{-19.264748764368385, -15.921178834469792}</string>
+										<string>{-23.690038759511335, -15.029737859405365}</string>
+										<string>{-23.632737020936037, -16.071323916626085}</string>
+									</array>
+									<array>
+										<string>{-16.335106622991603, -18.5955018003026}</string>
+										<string>{-16.176257471151658, -21.557784156257611}</string>
+										<string>{-15.932543743526958, -23.693180644097467}</string>
+										<string>{-14.881528294415419, -23.797629386830295}</string>
+										<string>{-15.154980899022236, -21.403287051451343}</string>
+									</array>
+									<array>
+										<string>{-17.371615294715664, -19.035782271714226}</string>
+										<string>{-16.176257471151658, -21.557784156257611}</string>
+										<string>{-16.335106622991603, -18.5955018003026}</string>
+									</array>
+									<array>
+										<string>{-19.763056280306653, -16.765472833824347}</string>
+										<string>{-17.371615294715664, -19.035782271714226}</string>
+										<string>{-16.335106622991603, -18.5955018003026}</string>
+										<string>{-19.264748764368385, -15.921178834469792}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.0</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>0.0</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<false/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>0.0</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-24, -24}</string>
+								<key>LHWidth</key>
+								<real>0.0</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture_1</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{1.2398449619546632, 156.11895143762146}</string>
+									<string>{18.941004942526455, 159.68471533787917}</string>
+									<string>{30.659573508033596, 170.3820072012104}</string>
+									<string>{35.380076403911055, 181.61314820580537}</string>
+									<string>{36.473886822338322, 191.19051754732118}</string>
+									<string>{32.269825025892168, 190.77272257638987}</string>
+									<string>{31.294970115393369, 182.23113662503044}</string>
+									<string>{26.513538821137345, 172.1431290868569}</string>
+									<string>{16.947774878773384, 163.06189133529739}</string>
+									<string>{1.4690519162558502, 160.28529566650437}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>glass</string>
+					<key>SHSpriteName</key>
+					<string>bulan</string>
+					<key>SheetImage</key>
+					<string>glass_glass.png</string>
+					<key>SheetImage-HD</key>
+					<string>glass_glass-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{0, 47}, {48, 48}}</string>
+						<key>Frame-HD</key>
+						<string>{{0, 188}, {192, 192}}</string>
+						<key>Image</key>
+						<string>glass_glass.png</string>
+						<key>Image-HD</key>
+						<string>glass_glass-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<false/>
+						<key>Name</key>
+						<string>bulan</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/glass/160/bulan.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/glass/160/bulan.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {192, 192}}</string>
+						<key>OriginalSize</key>
+						<string>{192, 192}</string>
+						<key>Position</key>
+						<string>{0, 188}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{48, 48}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, 0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>gol</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vawgEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAA7AIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwUAAAABAQAAZ2xh
+					c3MAAAADAAAAAQEAADE2MAAHAAAAAQEAAGdv
+					bC5wbmcAHAAAAAEGAAAEAAAAFAAAACAAAAA0
+					AAAATAAAAFwAAABoAAAACAAAAAQDAABXuQAA
+					AAAAAAgAAAAEAwAAk8gFAAAAAAAIAAAABAMA
+					APXIBQAAAAAACAAAAAQDAAAw0wUAAAAAAAgA
+					AAAEAwAAn18GAAAAAAAIAAAABAMAAG+OBwAA
+					AAAACAAAAAQDAAD/jgcAAAAAABwAAAABBgAA
+					nAAAAKwAAAC8AAAAzAAAANwAAADsAAAA/AAA
+					ABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAA
+					AAAAAAAAAAAAAAEFAAAEAAAAAwMAAAMAAAAE
+					AAAAAwMAAAQAAAAIAAAABAMAAAUAAAAAAAAA
+					BAAAAAMDAAD1AQAADAAAAAEBAABNYWNpbnRv
+					c2ggSEQIAAAABAMAAACAgT10AAAACAAAAAAE
+					AABBtPR0bwAAACQAAAABAQAAOUVGQjUzNDUt
+					QUQ1My0zQjJFLUE5M0QtM0I5OUQ1QUEwMUY4
+					GAAAAAECAACBAAAAAQAIAO8/AAABAAgAAAAA
+					AAAAAAABAAAAAQEAAC8AAAAEAAAAAwMAAAAB
+					AADAAAAAAQIAADliZWNiN2FiZTFlZjk4YTUy
+					NjU3ZGRjM2ZhZDk2ZTFiNDk4MTRhY2Q7MDAw
+					MDAwMDA7MDAwMDAwMDAwMDAwMDAyMDtjb20u
+					YXBwbGUuYXBwLXNhbmRib3gucmVhZC13cml0
+					ZTswMDAwMDAwMTswZTAwMDAwMjswMDAwMDAw
+					MDAwMDc4ZWZmOy91c2Vycy9nYW1lL2Rvd25s
+					b2Fkcy9tYWduZXQgcmVzb3VyY2VzL2dsYXNz
+					LzE2MC9nb2wucG5nAOQAAAD+////AQAAAAAA
+					AAASAAAABBAAAHgAAAAAAAAABRAAAAwBAAAA
+					AAAAEBAAADABAAAAAAAAVBAAAFgBAAAAAAAA
+					VRAAAGQBAAAAAAAAVhAAAFABAAAAAAAAAiAA
+					AAwCAAAAAAAAECAAAIwBAAAAAAAAESAAAMAB
+					AAAAAAAAEiAAAKABAAAAAAAAEyAAALABAAAA
+					AAAAICAAAOwBAAAAAAAAMCAAAFABAAAAAAAA
+					AcAAAHABAAAAAAAAEcAAABQAAAAAAAAAEsAA
+					AIABAAAAAAAAENAAABgCAAAAAAAAgPAAACQC
+					AAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-19.236399903765324, -19.994046171322253}</string>
+										<string>{19.215788195062423, -19.940401350421432}</string>
+										<string>{19.22863272814493, -19.234465059054187}</string>
+										<string>{-19.208534813097017, -19.229478356503009}</string>
+									</array>
+									<array>
+										<string>{-19.2267287235384, -20.02227332236729}</string>
+										<string>{-19.208534813097017, -19.229478356503009}</string>
+										<string>{-19.236399903765324, -19.994046171322253}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.0</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>0.0</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<false/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>0.0</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-19.25, -20}</string>
+								<key>LHWidth</key>
+								<real>0.0</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{0.093085105846398619, 160.08909328946916}</string>
+									<string>{0.054400384938702473, 159.97618468528901}</string>
+									<string>{153.86315278024969, 159.76160540168573}</string>
+									<string>{153.91453091257972, 156.93786023621675}</string>
+									<string>{0.16586074761193004, 156.91791342601203}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{19.277683009567454, 18.901112482613129}</string>
+										<string>{19.252900611297335, 19.937742064502462}</string>
+										<string>{-19.388298176721715, 20.018738194821573}</string>
+										<string>{-19.325435507938995, 19.468085395459394}</string>
+									</array>
+									<array>
+										<string>{-19.325435507938995, 19.468085395459394}</string>
+										<string>{-19.366538022755567, 19.099371668161552}</string>
+										<string>{19.277683009567454, 18.901112482613129}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.0</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>0.0</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<false/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>0.0</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-19.25, -20}</string>
+								<key>LHWidth</key>
+								<real>0.0</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture_1</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{-0.55319270688686117, -0.074952779286292071}</string>
+									<string>{154.01160244518934, 0.24903174199015154}</string>
+									<string>{154.11073203826982, 4.3955500695474825}</string>
+									<string>{-0.46615209102226629, 3.6025133273537904}</string>
+									<string>{-0.30174203175597825, 2.1276584181624258}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>glass</string>
+					<key>SHSpriteName</key>
+					<string>gol</string>
+					<key>SheetImage</key>
+					<string>glass_glass.png</string>
+					<key>SheetImage-HD</key>
+					<string>glass_glass-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{59, 77}, {38.5, 40}}</string>
+						<key>Frame-HD</key>
+						<string>{{236, 308}, {154, 160}}</string>
+						<key>Image</key>
+						<string>glass_glass.png</string>
+						<key>Image-HD</key>
+						<string>glass_glass-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<false/>
+						<key>Name</key>
+						<string>gol</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/glass/160/gol.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/glass/160/gol.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {154, 160}}</string>
+						<key>OriginalSize</key>
+						<string>{154, 160}</string>
+						<key>Position</key>
+						<string>{236, 308}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{38.5, 40}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, 0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>salaa1</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vaxAEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAA9AIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwUAAAABAQAAZ2xh
+					c3MAAAADAAAAAQEAADE2MAAKAAAAAQEAAHNh
+					bGFhMS5wbmcAABwAAAABBgAABAAAABQAAAAg
+					AAAANAAAAEwAAABcAAAAaAAAAAgAAAAEAwAA
+					V7kAAAAAAAAIAAAABAMAAJPIBQAAAAAACAAA
+					AAQDAAD1yAUAAAAAAAgAAAAEAwAAMNMFAAAA
+					AAAIAAAABAMAAJ9fBgAAAAAACAAAAAQDAABv
+					jgcAAAAAAAgAAAAEAwAAJp8HAAAAAAAcAAAA
+					AQYAAKAAAACwAAAAwAAAANAAAADgAAAA8AAA
+					AAABAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAA
+					AAAAAAAAAAAAAAAAAAABBQAABAAAAAMDAAAD
+					AAAABAAAAAMDAAAEAAAACAAAAAQDAAAFAAAA
+					AAAAAAQAAAADAwAA9QEAAAwAAAABAQAATWFj
+					aW50b3NoIEhECAAAAAQDAAAAgIE9dAAAAAgA
+					AAAABAAAQbT0dG8AAAAkAAAAAQEAADlFRkI1
+					MzQ1LUFENTMtM0IyRS1BOTNELTNCOTlENUFB
+					MDFGOBgAAAABAgAAgQAAAAEACADvPwAAAQAI
+					AAAAAAAAAAAAAQAAAAEBAAAvAAAABAAAAAMD
+					AAAAAQAAwwAAAAECAABhNWJjNDUzMDA2N2Zj
+					YmFjOTc0OTBkYTg2Y2VjNGM1ODVlZDczNzdh
+					OzAwMDAwMDAwOzAwMDAwMDAwMDAwMDAwMjA7
+					Y29tLmFwcGxlLmFwcC1zYW5kYm94LnJlYWQt
+					d3JpdGU7MDAwMDAwMDE7MGUwMDAwMDI7MDAw
+					MDAwMDAwMDA3OWYyNjsvdXNlcnMvZ2FtZS9k
+					b3dubG9hZHMvbWFnbmV0IHJlc291cmNlcy9n
+					bGFzcy8xNjAvc2FsYWExLnBuZwAA5AAAAP7/
+					//8BAAAAAAAAABIAAAAEEAAAfAAAAAAAAAAF
+					EAAAEAEAAAAAAAAQEAAANAEAAAAAAABUEAAA
+					XAEAAAAAAABVEAAAaAEAAAAAAABWEAAAVAEA
+					AAAAAAACIAAAEAIAAAAAAAAQIAAAkAEAAAAA
+					AAARIAAAxAEAAAAAAAASIAAApAEAAAAAAAAT
+					IAAAtAEAAAAAAAAgIAAA8AEAAAAAAAAwIAAA
+					VAEAAAAAAAABwAAAdAEAAAAAAAARwAAAFAAA
+					AAAAAAASwAAAhAEAAAAAAAAQ0AAAHAIAAAAA
+					AACA8AAAKAIAAAAAAAA=
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-46.929190784375493, -14.361270539417653}</string>
+										<string>{-47.536127189583659, -18.176299372154716}</string>
+										<string>{-47.781001645806896, -22.406564827227939}</string>
+										<string>{-46.98270414992259, -22.400807062703947}</string>
+										<string>{-46.929190784375493, -18.089594171410695}</string>
+									</array>
+									<array>
+										<string>{-46.14884397767927, -10.719652108168624}</string>
+										<string>{-46.929190784375493, -14.361270539417653}</string>
+										<string>{-46.929190784375493, -18.089594171410695}</string>
+										<string>{-46.322254379167319, -14.361270539417653}</string>
+									</array>
+									<array>
+										<string>{-44.93497116726293, -6.904623275431554}</string>
+										<string>{-46.14884397767927, -10.719652108168624}</string>
+										<string>{-46.322254379167319, -14.361270539417653}</string>
+										<string>{-45.541907572471104, -10.806357308912652}</string>
+									</array>
+									<array>
+										<string>{-43.807803557590617, -3.6098256471586296}</string>
+										<string>{-44.93497116726293, -6.904623275431554}</string>
+										<string>{-45.541907572471104, -10.806357308912652}</string>
+										<string>{-44.414739962798784, -6.9913284761755747}</string>
+									</array>
+									<array>
+										<string>{-42.247109944198172, -0.48843842037375396}</string>
+										<string>{-43.807803557590617, -3.6098256471586296}</string>
+										<string>{-44.414739962798784, -6.9913284761755747}</string>
+										<string>{-43.200867152382443, -3.8699412493906991}</string>
+									</array>
+									<array>
+										<string>{-42.247109944198172, -0.48843842037375396}</string>
+										<string>{-43.200867152382443, -3.8699412493906991}</string>
+										<string>{-41.726878739734033, -0.83525922334985125}</string>
+									</array>
+									<array>
+										<string>{-38.865607115181227, 5.494220430963928}</string>
+										<string>{-40.773121531549762, 2.4595384049230731}</string>
+										<string>{-42.247109944198172, -0.48843842037375396}</string>
+										<string>{-41.726878739734033, -0.83525922334985125}</string>
+										<string>{-40.079479925597568, 2.1127176019469758}</string>
+									</array>
+									<array>
+										<string>{-38.865607115181227, 5.494220430963928}</string>
+										<string>{-40.079479925597568, 2.1127176019469758}</string>
+										<string>{-38.258670709973053, 4.973989226499782}</string>
+									</array>
+									<array>
+										<string>{-36.524566695092567, 8.2687868547727064}</string>
+										<string>{-38.865607115181227, 5.494220430963928}</string>
+										<string>{-38.258670709973053, 4.973989226499782}</string>
+										<string>{-36.091040691372449, 7.7485556503085604}</string>
+									</array>
+									<array>
+										<string>{-31.669075453427208, 13.384393698670138}</string>
+										<string>{-34.183526275003913, 11.043353278581485}</string>
+										<string>{-36.524566695092567, 8.2687868547727064}</string>
+										<string>{-36.091040691372449, 7.7485556503085604}</string>
+										<string>{-33.66329507053976, 10.34971167262929}</string>
+										<string>{-31.322254650451107, 12.864162494205999}</string>
+									</array>
+									<array>
+										<string>{-25.166185396222339, 17.996365252895814}</string>
+										<string>{-28.894509029618426, 15.638728918014777}</string>
+										<string>{-31.669075453427208, 13.384393698670138}</string>
+										<string>{-31.322254650451107, 12.864162494205999}</string>
+										<string>{-28.37427782515428, 15.118497713550632}</string>
+									</array>
+									<array>
+										<string>{-21.788069487761216, 19.936055427873612}</string>
+										<string>{-25.166185396222339, 17.996365252895814}</string>
+										<string>{-28.37427782515428, 15.118497713550632}</string>
+										<string>{-24.735368928666279, 17.435490987731306}</string>
+									</array>
+									<array>
+										<string>{-20.22398895521599, 21.10115656488831}</string>
+										<string>{-21.788069487761216, 19.936055427873612}</string>
+										<string>{-24.735368928666279, 17.435490987731306}</string>
+										<string>{-21.437861765632331, 19.280347349263799}</string>
+									</array>
+									<array>
+										<string>{-20.22398895521599, 21.10115656488831}</string>
+										<string>{-19.096821345543674, 20.49422015968014}</string>
+										<string>{-19.112401186554475, 22.447458025299493}</string>
+										<string>{-20.08918946405905, 22.440006792780867}</string>
+									</array>
+									<array>
+										<string>{-21.437861765632331, 19.280347349263799}</string>
+										<string>{-19.096821345543674, 20.49422015968014}</string>
+										<string>{-20.22398895521599, 21.10115656488831}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.0</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>0.0</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<false/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>0.0</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-47.75, -22.5}</string>
+								<key>LHWidth</key>
+								<real>0.0</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{114.5503952537821, 0.2101678988020268}</string>
+									<string>{114.6127146178253, 8.0231193612794414}</string>
+									<string>{105.24855293747068, 12.878610602944804}</string>
+									<string>{92.058524285334883, 20.258036049074775}</string>
+									<string>{77.502888699382879, 29.526009145797474}</string>
+									<string>{65.710981398195571, 38.543350023176004}</string>
+									<string>{56.346819717840944, 48.601153309482839}</string>
+									<string>{46.635837234510213, 59.005777398765758}</string>
+									<string>{37.96531716010778, 70.104043094000872}</string>
+									<string>{30.682080297609737, 81.549129592212097}</string>
+									<string>{24.092485041063881, 93.341036893399405}</string>
+									<string>{18.196531390470227, 105.4797649975628}</string>
+									<string>{13.341040148804865, 117.9653139047023}</string>
+									<string>{8.8323697101156, 133.22542923565061}</string>
+									<string>{5.7109824833307243, 147.44508215767061}</string>
+									<string>{3.2832368624980433, 162.35837668564278}</string>
+									<string>{3.0691834003096403, 179.60322825081579}</string>
+									<string>{-0.12400658322759739, 179.62625930891176}</string>
+									<string>{0.85549124166536217, 162.70519748861886}</string>
+									<string>{3.2832368624980433, 147.44508215767061}</string>
+									<string>{6.4046240892829189, 132.8786084326745}</string>
+									<string>{11.260115330948281, 117.61849310172622}</string>
+									<string>{15.768785769637546, 104.43930258863452}</string>
+									<string>{22.011560223207297, 91.953753681495016}</string>
+									<string>{27.907513873800955, 80.161846380307708}</string>
+									<string>{35.537571539275099, 68.023118276144288}</string>
+									<string>{44.901733219629726, 56.924852580909175}</string>
+									<string>{54.265894899984353, 45.826586885674061}</string>
+									<string>{64.323698186291168, 36.462425205319448}</string>
+									<string>{75.421963881526295, 27.44508432794089}</string>
+									<string>{90.335258415110644, 18.014538988416746}</string>
+									<string>{103.84772204895513, 10.255778288505553}</string>
+									<string>{110.10404417913604, 5.5953737404467603}</string>
+									<string>{110.6432421437638, 0.23997282887653171}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{47.839596754816768, -19.390174379732073}</string>
+										<string>{47.145955126415927, -19.476879583282184}</string>
+										<string>{47.059249922865817, -22.598266911085958}</string>
+										<string>{47.839596754816768, -22.424856503985737}</string>
+									</array>
+									<array>
+										<string>{20.180636822333341, 20.927745271066669}</string>
+										<string>{20.09393161878323, 22.315028527868346}</string>
+										<string>{19.226879583282184, 22.315028527868346}</string>
+										<string>{19.40028999038239, 20.580924456866249}</string>
+									</array>
+									<array>
+										<string>{22.348266911085958, 19.540462014264993}</string>
+										<string>{20.180636822333341, 20.927745271066669}</string>
+										<string>{19.40028999038239, 20.580924456866249}</string>
+										<string>{22.088151300435641, 18.933525589414259}</string>
+									</array>
+									<array>
+										<string>{27.550579124092238, 16.505779890011322}</string>
+										<string>{24.776012610488891, 18.153178757463312}</string>
+										<string>{22.348266911085958, 19.540462014264993}</string>
+										<string>{22.088151300435641, 18.933525589414259}</string>
+										<string>{24.51589699983856, 17.546242332612582}</string>
+									</array>
+									<array>
+										<string>{30.411850841245695, 14.424855004808805}</string>
+										<string>{27.550579124092238, 16.505779890011322}</string>
+										<string>{24.51589699983856, 17.546242332612582}</string>
+										<string>{27.290463513441921, 15.812138261610485}</string>
+									</array>
+									<array>
+										<string>{33.013006947748849, 11.910404101855768}</string>
+										<string>{30.411850841245695, 14.424855004808805}</string>
+										<string>{27.290463513441921, 15.812138261610485}</string>
+										<string>{30.151735230595378, 13.817918579958075}</string>
+									</array>
+									<array>
+										<string>{35.267342240051576, 9.0491323847023111}</string>
+										<string>{35.440752647151783, 9.5693636060029306}</string>
+										<string>{33.013006947748849, 11.910404101855768}</string>
+										<string>{30.151735230595378, 13.817918579958075}</string>
+										<string>{32.666186133548422, 11.303467677005038}</string>
+									</array>
+									<array>
+										<string>{41.770232506309426, 0.55202243679203633}</string>
+										<string>{39.949423231757237, 3.673409764595803}</string>
+										<string>{37.69508793945451, 6.794797092399584}</string>
+										<string>{35.440752647151783, 9.5693636060029306}</string>
+										<string>{35.267342240051576, 9.0491323847023111}</string>
+										<string>{37.261561921703972, 6.2745658710989574}</string>
+										<string>{39.60260241755681, 3.1531785432951835}</string>
+									</array>
+									<array>
+										<string>{44.718209427012994, -5.8641626259157178}</string>
+										<string>{43.330926170211313, -2.5693648910117375}</string>
+										<string>{41.770232506309426, 0.55202243679203633}</string>
+										<string>{39.60260241755681, 3.1531785432951835}</string>
+										<string>{41.336706488558903, -0.14161919160880387}</string>
+										<string>{42.89740015246079, -3.0895961123123712}</string>
+									</array>
+									<array>
+										<string>{45.758671869614247, -9.2456655643698156}</string>
+										<string>{44.718209427012994, -5.8641626259157178}</string>
+										<string>{42.89740015246079, -3.0895961123123712}</string>
+										<string>{44.19797820571236, -6.210983440116145}</string>
+									</array>
+									<array>
+										<string>{46.712429108665404, -12.713873706374002}</string>
+										<string>{45.758671869614247, -9.2456655643698156}</string>
+										<string>{44.19797820571236, -6.210983440116145}</string>
+										<string>{45.238440648313613, -9.5924863785702286}</string>
+									</array>
+									<array>
+										<string>{47.319365533516134, -16.44219745902852}</string>
+										<string>{46.712429108665404, -12.713873706374002}</string>
+										<string>{45.238440648313613, -9.5924863785702286}</string>
+										<string>{46.278903090914881, -13.060694520574422}</string>
+									</array>
+									<array>
+										<string>{47.145955126415927, -19.476879583282184}</string>
+										<string>{47.839596754816768, -19.390174379732073}</string>
+										<string>{47.319365533516134, -16.44219745902852}</string>
+										<string>{46.278903090914881, -13.060694520574422}</string>
+										<string>{46.712429108665404, -16.789018273228919}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.0</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>0.0</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<false/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>0.0</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-47.75, -22.5}</string>
+								<key>LHWidth</key>
+								<real>0.0</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture_1</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{271.37572647513292, 0.73988588852661508}</string>
+									<string>{271.72254728933336, 6.2890189157333225}</string>
+									<string>{280.39306764434383, 11.83815194294003}</string>
+									<string>{290.10405044195556, 17.387284970146752}</string>
+									<string>{301.20231649636895, 23.976880439954712}</string>
+									<string>{312.64740336498278, 32.30057998076478}</string>
+									<string>{323.0520277909954, 42.358383592576928}</string>
+									<string>{332.76301058860713, 51.722545575988278}</string>
+									<string>{341.78035175781804, 62.820811630401664}</string>
+									<string>{350.79769292702895, 75.306360941616788}</string>
+									<string>{358.08093002523771, 87.791910252831855}</string>
+									<string>{364.32370468084525, 100.27745956404695}</string>
+									<string>{369.87283770805197, 113.45665050366287}</string>
+									<string>{374.03468747845699, 126.98266225747926}</string>
+									<string>{377.84971643466162, 140.85549482549601}</string>
+									<string>{380.27746213406454, 155.76878983611408}</string>
+									<string>{382.35838701926707, 167.56069751892829}</string>
+									<string>{382.35838701926707, 179.69942601594295}</string>
+									<string>{379.23699969146327, 180.39306764434383}</string>
+									<string>{379.58382050566371, 167.90751833312873}</string>
+									<string>{377.84971643466162, 157.15607309291568}</string>
+									<string>{376.11561236365952, 142.24277808229769}</string>
+									<string>{371.95376259325445, 128.36994551428091}</string>
+									<string>{367.79191282284944, 114.84393376046458}</string>
+									<string>{362.58960060984316, 102.35838444924948}</string>
+									<string>{356.34682595423561, 90.566476766435215}</string>
+									<string>{349.41040967022724, 77.387285826819266}</string>
+									<string>{340.04624768681589, 64.901736515604171}</string>
+									<string>{332.0693689602063, 53.803470461190756}</string>
+									<string>{321.66474453419369, 44.786129291979847}</string>
+									<string>{311.60694092238151, 34.7283256801677}</string>
+									<string>{300.16185405376768, 26.751446953558059}</string>
+									<string>{289.06358799935424, 19.815030669549671}</string>
+									<string>{279.35260520174256, 14.265897642342964}</string>
+									<string>{268.60115996152956, 7.6763021725350029}</string>
+									<string>{267.90751833312873, 0.73988588852661508}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-7.7320037173618346, -20.525566326883705}</string>
+										<string>{-8.1249713538181254, -20.522094730957889}</string>
+										<string>{-8.1936411951227086, -22.51445159794423}</string>
+										<string>{-7.7379308399563627, -22.502174008366026}</string>
+									</array>
+									<array>
+										<string>{-7.0868797615394357, -17.950828220700942}</string>
+										<string>{-7.6672288476331332, -18.882993828332545}</string>
+										<string>{-8.1249713538181254, -20.522094730957889}</string>
+										<string>{-7.7320037173618346, -20.525566326883705}</string>
+										<string>{-7.3193072789145646, -19.073338875217317}</string>
+									</array>
+									<array>
+										<string>{-7.0868797615394357, -17.950828220700942}</string>
+										<string>{-7.3193072789145646, -19.073338875217317}</string>
+										<string>{-6.8031403647743574, -18.208403653562812}</string>
+									</array>
+									<array>
+										<string>{-4.9855486760837735, -15.513006438149802}</string>
+										<string>{-6.1560689195168976, -16.640174079974301}</string>
+										<string>{-7.0868797615394357, -17.950828220700942}</string>
+										<string>{-6.8031403647743574, -18.208403653562812}</string>
+										<string>{-5.8059458547298206, -16.921373287445064}</string>
+									</array>
+									<array>
+										<string>{-3.4031787173686254, -14.580925503564174}</string>
+										<string>{-4.9855486760837735, -15.513006438149802}</string>
+										<string>{-5.8059458547298206, -16.921373287445064}</string>
+										<string>{-4.6427074911640318, -15.839929093557721}</string>
+									</array>
+									<array>
+										<string>{-3.4031787173686254, -14.580925503564174}</string>
+										<string>{-4.6427074911640318, -15.839929093557721}</string>
+										<string>{-3.1754928791041408, -15.025459026043869}</string>
+									</array>
+									<array>
+										<string>{-1.1804264824066735, -14.505566498600537}</string>
+										<string>{-1.3136171844786162, -14.073479911982396}</string>
+										<string>{-3.4031787173686254, -14.580925503564174}</string>
+										<string>{-3.1754928791041408, -15.025459026043869}</string>
+									</array>
+									<array>
+										<string>{1.6462986190260835, -14.520638303825329}</string>
+										<string>{1.6678055706801231, -14.090499195403567}</string>
+										<string>{-1.3136171844786162, -14.073479911982396}</string>
+										<string>{-1.1804264824066735, -14.505566498600537}</string>
+									</array>
+									<array>
+										<string>{4.1797162604022589, -15.503523070550223}</string>
+										<string>{4.4219658729898441, -15.144509324476424}</string>
+										<string>{1.6678055706801231, -14.090499195403567}</string>
+										<string>{1.6462986190260835, -14.520638303825329}</string>
+									</array>
+									<array>
+										<string>{6.7962828450303618, -17.521959190880708}</string>
+										<string>{5.7526028546439179, -16.152880672417751}</string>
+										<string>{4.4219658729898441, -15.144509324476424}</string>
+										<string>{4.1797162604022589, -15.503523070550223}</string>
+										<string>{5.4345708680183336, -16.506560020765065}</string>
+									</array>
+									<array>
+										<string>{6.7962828450303618, -17.521959190880708}</string>
+										<string>{5.4345708680183336, -16.506560020765065}</string>
+										<string>{6.4028071963491939, -17.734319235963738}</string>
+									</array>
+									<array>
+										<string>{7.6030476830776337, -18.951155604268607}</string>
+										<string>{6.7962828450303618, -17.521959190880708}</string>
+										<string>{6.4028071963491939, -17.734319235963738}</string>
+										<string>{7.193484138994144, -19.096793288103825}</string>
+									</array>
+									<array>
+										<string>{7.7172716210173391, -20.519893233847327}</string>
+										<string>{7.7902598022536438, -22.51326617321692}</string>
+										<string>{8.2153185137453377, -22.51445159794423}</string>
+										<string>{8.1787397589385122, -20.538182601351437}</string>
+									</array>
+									<array>
+										<string>{7.193484138994144, -19.096793288103825}</string>
+										<string>{7.7172716210173391, -20.519893233847327}</string>
+										<string>{8.1787397589385122, -20.538182601351437}</string>
+										<string>{7.6030476830776337, -18.951155604268607}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.0</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>0.0</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<false/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>0.0</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-47.75, -22.5}</string>
+								<key>LHWidth</key>
+								<real>0.0</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture_2</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{185.74553126208554, 146.29391964792958}</string>
+									<string>{177.3872851305255, 148.3237020142567}</string>
+									<string>{171.05780529566491, 152.05202575259921}</string>
+									<string>{166.37572432193241, 156.5606963198972}</string>
+									<string>{162.65248095384226, 161.80331288280377}</string>
+									<string>{160.33108460946747, 165.53197531333018}</string>
+									<string>{158.5001145847275, 172.08837892383156}</string>
+									<string>{158.22543521950917, 180.05780639177692}</string>
+									<string>{160.04827664017455, 180.0086960334641}</string>
+									<string>{160.07198513055266, 172.10226530753482}</string>
+									<string>{161.72277088434174, 166.29335550086927}</string>
+									<string>{163.78743854090257, 162.83361461425125}</string>
+									<string>{167.77621658108072, 157.68549314978026}</string>
+									<string>{172.42917003534387, 153.35971637423089}</string>
+									<string>{178.29802848358344, 150.10183610417548}</string>
+									<string>{186.27829407037331, 148.02226599440215}</string>
+									<string>{197.58519447610433, 148.08255321530132}</string>
+									<string>{207.71886504160904, 152.01409228220089}</string>
+									<string>{212.73828347207333, 156.02624008306026}</string>
+									<string>{216.61122878539678, 160.93727694385495}</string>
+									<string>{219.77393655597658, 166.3871731524153}</string>
+									<string>{221.86908648406936, 172.07957293538931}</string>
+									<string>{222.16103920901458, 180.05306469286768}</string>
+									<string>{223.86127405498135, 180.05780639177692}</string>
+									<string>{223.71495903575405, 172.15273040540575}</string>
+									<string>{221.41219073231053, 165.80462241707443}</string>
+									<string>{218.18513138012145, 160.08783676352283}</string>
+									<string>{214.01041141857567, 154.61152268967101}</string>
+									<string>{208.68786349195938, 150.57803729790569}</string>
+									<string>{197.67122228272049, 146.36199678161427}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>glass</string>
+					<key>SHSpriteName</key>
+					<string>salaa1</string>
+					<key>SheetImage</key>
+					<string>glass_glass.png</string>
+					<key>SheetImage-HD</key>
+					<string>glass_glass-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{0, 0}, {95.5, 45}}</string>
+						<key>Frame-HD</key>
+						<string>{{0, 0}, {382, 180}}</string>
+						<key>Image</key>
+						<string>glass_glass.png</string>
+						<key>Image-HD</key>
+						<string>glass_glass-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<false/>
+						<key>Name</key>
+						<string>salaa1</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/glass/160/salaa1.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/glass/160/salaa1.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {382, 180}}</string>
+						<key>OriginalSize</key>
+						<string>{382, 180}</string>
+						<key>Position</key>
+						<string>{0, 0}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{95.5, 45}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, 0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>wind_on</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va9gDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAvAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwQAAAABAQAAd2lu
+					ZAsAAAABAQAAd2luZF9vbi5wbmcAGAAAAAEG
+					AAAEAAAAFAAAACAAAAA0AAAATAAAAFgAAAAI
+					AAAABAMAAFe5AAAAAAAACAAAAAQDAACTyAUA
+					AAAAAAgAAAAEAwAA9cgFAAAAAAAIAAAABAMA
+					ADDTBQAAAAAACAAAAAQDAADYnwcAAAAAAAgA
+					AAAEAwAAVaoHAAAAAAAYAAAAAQYAAIwAAACc
+					AAAArAAAALwAAADMAAAA3AAAABgAAAABAgAA
+					AQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAAAAA
+					AAEFAAAEAAAAAwMAAAMAAAAIAAAABAMAAAQA
+					AAAAAAAABAAAAAMDAAD1AQAADAAAAAEBAABN
+					YWNpbnRvc2ggSEQIAAAABAMAAACAgT10AAAA
+					CAAAAAAEAABBtPR0bwAAACQAAAABAQAAOUVG
+					QjUzNDUtQUQ1My0zQjJFLUE5M0QtM0I5OUQ1
+					QUEwMUY4GAAAAAECAACBAAAAAQAIAO8/AAAB
+					AAgAAAAAAAAAAAABAAAAAQEAAC8AAAAEAAAA
+					AwMAAAABAAC/AAAAAQIAADgwNjlmMTBmYzZl
+					ODlkZTRlN2VlYTg4MGE1M2RlMTM2ODVjYzg0
+					N2Q7MDAwMDAwMDA7MDAwMDAwMDAwMDAwMDAy
+					MDtjb20uYXBwbGUuYXBwLXNhbmRib3gucmVh
+					ZC13cml0ZTswMDAwMDAwMTswZTAwMDAwMjsw
+					MDAwMDAwMDAwMDdhYTU1Oy91c2Vycy9nYW1l
+					L2Rvd25sb2Fkcy9tYWduZXQgcmVzb3VyY2Vz
+					L3dpbmQvd2luZF9vbi5wbmcAAOQAAAD+////
+					AQAAAAAAAAASAAAABBAAAGwAAAAAAAAABRAA
+					AOwAAAAAAAAAEBAAAAwBAAAAAAAAVBAAADQB
+					AAAAAAAAVRAAADQBAAAAAAAAVhAAACwBAAAA
+					AAAAAiAAANwBAAAAAAAAECAAAFwBAAAAAAAA
+					ESAAAJABAAAAAAAAEiAAAHABAAAAAAAAEyAA
+					AIABAAAAAAAAICAAALwBAAAAAAAAMCAAACwB
+					AAAAAAAAAcAAAEABAAAAAAAAEcAAABQAAAAA
+					AAAAEsAAAFABAAAAAAAAENAAAOgBAAAAAAAA
+					gPAAAPQBAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-18.096338552400624, -6.0703283017204086}</string>
+										<string>{-9.2331399941397336, -4.6252415802648272}</string>
+										<string>{-0.17726320635142656, 12.908477306729552}</string>
+										<string>{-0.080924091587718294, 13.101155536256961}</string>
+										<string>{-16.554912716181335, 5.77938281421536}</string>
+									</array>
+									<array>
+										<string>{-16.554912716181335, 5.77938281421536}</string>
+										<string>{-23.876685438222943, 2.6965311417767879}</string>
+										<string>{-23.876685438222943, -4.7215806950285355}</string>
+										<string>{-21.275529339602897, -9.0568408593952654}</string>
+										<string>{-18.096338552400624, -6.0703283017204086}</string>
+									</array>
+									<array>
+										<string>{17.260116565879244, 5.5867045846879435}</string>
+										<string>{12.539499942457695, -4.9142589245559378}</string>
+										<string>{22.462428763119334, -8.2861279412856277}</string>
+										<string>{23.811176369811207, -4.6252415802648272}</string>
+										<string>{23.811176369811207, 2.5038529122493713}</string>
+									</array>
+									<array>
+										<string>{17.260116565879244, 5.5867045846879435}</string>
+										<string>{13.021195516276208, 8.8622344866539251}</string>
+										<string>{-0.17726320635142656, 12.908477306729552}</string>
+										<string>{-9.2331399941397336, -4.6252415802648272}</string>
+										<string>{12.539499942457695, -4.9142589245559378}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>0.0</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<false/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>0.0</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-24, -12.5}</string>
+								<key>LHWidth</key>
+								<real>0.0</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{95.290947174594294, -1.6339092269182061}</string>
+									<string>{148.08478206510483, 14.5510620533843}</string>
+									<string>{165.04046626351698, 27.653181661248226}</string>
+									<string>{191.24470547924483, 39.984588351002515}</string>
+									<string>{191.24470547924483, 68.500966321059309}</string>
+									<string>{185.84971505247734, 83.144511765142511}</string>
+									<string>{146.15799976983078, 69.657035698223751}</string>
+									<string>{59.067440023441065, 68.500966321059309}</string>
+									<string>{23.614645790397503, 74.281313206881634}</string>
+									<string>{10.89788264158841, 86.227363437581062}</string>
+									<string>{0.49325824710822985, 68.886322780114142}</string>
+									<string>{0.49325824710822985, 39.213875432892848}</string>
+									<string>{29.780349135274662, 26.88246874313856}</string>
+									<string>{95.676303633649127, -2.4046221450278438}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>glass</string>
+					<key>SHSpriteName</key>
+					<string>wind_on</string>
+					<key>SheetImage</key>
+					<string>glass_glass.png</string>
+					<key>SheetImage-HD</key>
+					<string>glass_glass-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{50, 47}, {48, 25}}</string>
+						<key>Frame-HD</key>
+						<string>{{200, 188}, {192, 100}}</string>
+						<key>Image</key>
+						<string>glass_glass.png</string>
+						<key>Image-HD</key>
+						<string>glass_glass-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<false/>
+						<key>Name</key>
+						<string>wind_on</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/wind/wind_on.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/wind/wind_on.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {192, 100}}</string>
+						<key>OriginalSize</key>
+						<string>{192, 100}</string>
+						<key>Position</key>
+						<string>{200, 188}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{48, 25}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>6</integer>
+						<key>TextureOffset</key>
+						<string>{0, 0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>windsite</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va9gDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAvAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwQAAAABAQAAd2lu
+					ZAwAAAABAQAAd2luZHNpdGUucG5nGAAAAAEG
+					AAAEAAAAFAAAACAAAAA0AAAATAAAAFgAAAAI
+					AAAABAMAAFe5AAAAAAAACAAAAAQDAACTyAUA
+					AAAAAAgAAAAEAwAA9cgFAAAAAAAIAAAABAMA
+					ADDTBQAAAAAACAAAAAQDAADYnwcAAAAAAAgA
+					AAAEAwAAH6oHAAAAAAAYAAAAAQYAAIwAAACc
+					AAAArAAAALwAAADMAAAA3AAAABgAAAABAgAA
+					AQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAAAAA
+					AAEFAAAEAAAAAwMAAAMAAAAIAAAABAMAAAQA
+					AAAAAAAABAAAAAMDAAD1AQAADAAAAAEBAABN
+					YWNpbnRvc2ggSEQIAAAABAMAAACAgT10AAAA
+					CAAAAAAEAABBtPR0bwAAACQAAAABAQAAOUVG
+					QjUzNDUtQUQ1My0zQjJFLUE5M0QtM0I5OUQ1
+					QUEwMUY4GAAAAAECAACBAAAAAQAIAO8/AAAB
+					AAgAAAAAAAAAAAABAAAAAQEAAC8AAAAEAAAA
+					AwMAAAABAADAAAAAAQIAADUwNzUxYjAzODcy
+					NzNhMGU2YTc0OTc5OWVjMTcwNGM5NzgzNTAz
+					Y2Q7MDAwMDAwMDA7MDAwMDAwMDAwMDAwMDAy
+					MDtjb20uYXBwbGUuYXBwLXNhbmRib3gucmVh
+					ZC13cml0ZTswMDAwMDAwMTswZTAwMDAwMjsw
+					MDAwMDAwMDAwMDdhYTFmOy91c2Vycy9nYW1l
+					L2Rvd25sb2Fkcy9tYWduZXQgcmVzb3VyY2Vz
+					L3dpbmQvd2luZHNpdGUucG5nAOQAAAD+////
+					AQAAAAAAAAASAAAABBAAAGwAAAAAAAAABRAA
+					AOwAAAAAAAAAEBAAAAwBAAAAAAAAVBAAADQB
+					AAAAAAAAVRAAADQBAAAAAAAAVhAAACwBAAAA
+					AAAAAiAAANwBAAAAAAAAECAAAFwBAAAAAAAA
+					ESAAAJABAAAAAAAAEiAAAHABAAAAAAAAEyAA
+					AIABAAAAAAAAICAAALwBAAAAAAAAMCAAACwB
+					AAAAAAAAAcAAAEABAAAAAAAAEcAAABQAAAAA
+					AAAAEsAAAFABAAAAAAAAENAAAOgBAAAAAAAA
+					gPAAAPQBAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.0</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-22, -4.125}</string>
+										<string>{22, -4.125}</string>
+										<string>{22, 4.125}</string>
+										<string>{-22, 4.125}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.0</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>33</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<true/>
+								<key>IsSensor</key>
+								<true/>
+								<key>LHHeight</key>
+								<real>8.25</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-22, -4.125}</string>
+								<key>LHWidth</key>
+								<real>44</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.0</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{0, 0}</string>
+									<string>{176, 0}</string>
+									<string>{176, 33}</string>
+									<string>{0, 33}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>176</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>glass</string>
+					<key>SHSpriteName</key>
+					<string>windsite</string>
+					<key>SheetImage</key>
+					<string>glass_glass.png</string>
+					<key>SheetImage-HD</key>
+					<string>glass_glass-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{0, 97}, {44, 8.75}}</string>
+						<key>Frame-HD</key>
+						<string>{{0, 388}, {176, 33}}</string>
+						<key>Image</key>
+						<string>glass_glass.png</string>
+						<key>Image-HD</key>
+						<string>glass_glass-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<false/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<false/>
+						<key>Name</key>
+						<string>windsite</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/wind/windsite.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/wind/windsite.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {176, 33}}</string>
+						<key>OriginalSize</key>
+						<string>{176, 33}</string>
+						<key>Position</key>
+						<string>{0, 388}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{44, 8.25}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>18</integer>
+						<key>TextureOffset</key>
+						<string>{0, 0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+			</dict>
+			<key>Size</key>
+			<string>{512, 512}</string>
+			<key>Trim</key>
+			<false/>
+			<key>ZOrder</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>SH_ANIMATIONS_LIST</key>
+	<array>
+		<dict>
+			<key>DelayPerUnit</key>
+			<real>0.10000000149011612</real>
+			<key>Frames</key>
+			<array/>
+			<key>Loop</key>
+			<false/>
+			<key>Repetitions</key>
+			<integer>1</integer>
+			<key>RestoreOriginalFrame</key>
+			<false/>
+			<key>StartAtLaunch</key>
+			<false/>
+			<key>UniqueName</key>
+			<string>wind_generator</string>
+		</dict>
+	</array>
+	<key>SaveSettings</key>
+	<dict>
+		<key>Dither</key>
+		<true/>
+		<key>DocumentName</key>
+		<string>glass</string>
+		<key>HD2XSuffix</key>
+		<string>-ipadhd</string>
+		<key>HDSuffix</key>
+		<string>-hd</string>
+		<key>ImageFormatId</key>
+		<integer>0</integer>
+		<key>Npot</key>
+		<true/>
+		<key>PvrBpp</key>
+		<integer>1</integer>
+		<key>PvrRemoveParent</key>
+		<true/>
+		<key>ResamplingAlgorithm</key>
+		<integer>4</integer>
+		<key>ResizingOptions</key>
+		<integer>2</integer>
+	</dict>
+	<key>SceneFolderSandboxBookmark</key>
+	<data>
+	Ym9va2wDAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAdAIA
+	AAUAAAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJAAAAAQEAAERvd25sb2FkcwAAAAkA
+	AAABAQAATWFnbmV0MTQ5AAAABgAAAAEBAABJbWFnZXMAABQAAAABBgAABAAAABQAAAAg
+	AAAANAAAAEgAAAAIAAAABAMAAFe5AAAAAAAACAAAAAQDAACTyAUAAAAAAAgAAAAEAwAA
+	9cgFAAAAAAAIAAAABAMAAO54BwAAAAAACAAAAAQDAAANeQcAAAAAABQAAAABBgAAdAAA
+	AIQAAACUAAAApAAAALQAAAAYAAAAAQIAAAIAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAgA
+	AAAEAwAAAwAAAAAAAAAEAAAAAwMAAPUBAAAMAAAAAQEAAE1hY2ludG9zaCBIRAgAAAAE
+	AwAAAICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAAAAEBAAA5RUZCNTM0NS1BRDUzLTNC
+	MkUtQTkzRC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAABAAgA7z8AAAEACAAAAAAAAAAA
+	AAEAAAABAQAALwAAAAAAAAABBQAABAAAAAMDAAAAAQAArgAAAAECAAA4MTgyZDY0NDlh
+	YTUxMjBhYzAzZjRkMWQ0OTZjYzUzMGRkMmY0MWQyOzAwMDAwMDAwOzAwMDAwMDAwMDAw
+	MDAwMjA7Y29tLmFwcGxlLmFwcC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAwMDE7MGUw
+	MDAwMDI7MDAwMDAwMDAwMDA3NzkwZDsvdXNlcnMvZ2FtZS9kb3dubG9hZHMvbWFnbmV0
+	MTQ5L2ltYWdlcwAAAMAAAAD+////AQAAAAAAAAAPAAAABBAAAFgAAAAAAAAABRAAAMQA
+	AAAAAAAAEBAAAOAAAAAAAAAAAiAAAJwBAAAAAAAAECAAABwBAAAAAAAAESAAAFABAAAA
+	AAAAEiAAADABAAAAAAAAEyAAAEABAAAAAAAAICAAAHwBAAAAAAAAMCAAAKgBAAAAAAAA
+	AcAAAAABAAAAAAAAEcAAABQAAAAAAAAAEsAAABABAAAAAAAAENAAALABAAAAAAAAgPAA
+	ALwBAAAAAAAA
+	</data>
+	<key>Version</key>
+	<string>1.8.157</string>
+</dict>
+</plist>

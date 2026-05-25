@@ -1,0 +1,1019 @@
+{
+  "world": {
+    "x": 0,
+    "y": 0,
+    "w": 870,
+    "h": 320
+  },
+  "gravity": {
+    "x": 0,
+    "y": 0
+  },
+  "background": "{{0.35553699999999999, 0.60869399999999996}, {1, 1.36374e-238}}",
+  "objects": [
+    {
+      "name": "1_3_2",
+      "type": "LHSprite",
+      "tag": "ROBOT_PIECE",
+      "position": {
+        "x": 531,
+        "y": 252
+      },
+      "size": {
+        "x": 32.5,
+        "y": 40
+      },
+      "frame": {
+        "x": 43,
+        "y": 85,
+        "w": 32.5,
+        "h": 40
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "robotpack1_robotpack1.png",
+      "sprite": "1_3_2",
+      "animation": null
+    },
+    {
+      "name": "star_01",
+      "type": "LHSprite",
+      "tag": "STAR",
+      "position": {
+        "x": 272,
+        "y": 114
+      },
+      "size": {
+        "x": 30,
+        "y": 30
+      },
+      "frame": {
+        "x": 98,
+        "y": 111,
+        "w": 30,
+        "h": 30
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "star_sheet.png",
+      "sprite": "star_01",
+      "animation": "star_normal"
+    },
+    {
+      "name": "star_01_1",
+      "type": "LHSprite",
+      "tag": "STAR",
+      "position": {
+        "x": 439,
+        "y": 110
+      },
+      "size": {
+        "x": 30,
+        "y": 30
+      },
+      "frame": {
+        "x": 98,
+        "y": 111,
+        "w": 30,
+        "h": 30
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "star_sheet.png",
+      "sprite": "star_01",
+      "animation": "star_normal"
+    },
+    {
+      "name": "star_01_2",
+      "type": "LHSprite",
+      "tag": "STAR",
+      "position": {
+        "x": 711,
+        "y": 104
+      },
+      "size": {
+        "x": 30,
+        "y": 30
+      },
+      "frame": {
+        "x": 98,
+        "y": 111,
+        "w": 30,
+        "h": 30
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "star_sheet.png",
+      "sprite": "star_01",
+      "animation": "star_normal"
+    },
+    {
+      "name": "wood_1_2_1",
+      "type": "LHSprite",
+      "tag": "WOOD",
+      "position": {
+        "x": 137,
+        "y": 308
+      },
+      "size": {
+        "x": 49,
+        "y": 24.5
+      },
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 49,
+        "h": 24.5
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "woods_wood.png",
+      "sprite": "wood_1_2",
+      "animation": null
+    },
+    {
+      "name": "wood_1_2_2",
+      "type": "LHSprite",
+      "tag": "WOOD",
+      "position": {
+        "x": 186,
+        "y": 308
+      },
+      "size": {
+        "x": 49,
+        "y": 24.5
+      },
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 49,
+        "h": 24.5
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "woods_wood.png",
+      "sprite": "wood_1_2",
+      "animation": null
+    },
+    {
+      "name": "wood_1_2_3",
+      "type": "LHSprite",
+      "tag": "WOOD",
+      "position": {
+        "x": 235,
+        "y": 308
+      },
+      "size": {
+        "x": 49,
+        "y": 24.5
+      },
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 49,
+        "h": 24.5
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "woods_wood.png",
+      "sprite": "wood_1_2",
+      "animation": null
+    },
+    {
+      "name": "wood_1_2_4",
+      "type": "LHSprite",
+      "tag": "WOOD",
+      "position": {
+        "x": 308,
+        "y": 121
+      },
+      "size": {
+        "x": 49,
+        "y": 24.5
+      },
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 49,
+        "h": 24.5
+      },
+      "angle": 90,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "woods_wood.png",
+      "sprite": "wood_1_2",
+      "animation": null
+    },
+    {
+      "name": "wood_1_2_5",
+      "type": "LHSprite",
+      "tag": "WOOD",
+      "position": {
+        "x": 332,
+        "y": 121
+      },
+      "size": {
+        "x": 49,
+        "y": 24.5
+      },
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 49,
+        "h": 24.5
+      },
+      "angle": 90,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "woods_wood.png",
+      "sprite": "wood_1_2",
+      "animation": null
+    },
+    {
+      "name": "wood_1_2_6",
+      "type": "LHSprite",
+      "tag": "WOOD",
+      "position": {
+        "x": 332,
+        "y": 72
+      },
+      "size": {
+        "x": 49,
+        "y": 24.5
+      },
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 49,
+        "h": 24.5
+      },
+      "angle": 90,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "woods_wood.png",
+      "sprite": "wood_1_2",
+      "animation": null
+    },
+    {
+      "name": "wood_1_2_7",
+      "type": "LHSprite",
+      "tag": "WOOD",
+      "position": {
+        "x": 332,
+        "y": 23
+      },
+      "size": {
+        "x": 49,
+        "y": 24.5
+      },
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 49,
+        "h": 24.5
+      },
+      "angle": 90,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "woods_wood.png",
+      "sprite": "wood_1_2",
+      "animation": null
+    },
+    {
+      "name": "wood_1_2_8",
+      "type": "LHSprite",
+      "tag": "WOOD",
+      "position": {
+        "x": 308,
+        "y": 23
+      },
+      "size": {
+        "x": 49,
+        "y": 24.5
+      },
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 49,
+        "h": 24.5
+      },
+      "angle": 90,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "woods_wood.png",
+      "sprite": "wood_1_2",
+      "animation": null
+    },
+    {
+      "name": "wood_1_2_9",
+      "type": "LHSprite",
+      "tag": "WOOD",
+      "position": {
+        "x": 308,
+        "y": 72
+      },
+      "size": {
+        "x": 49,
+        "y": 24.5
+      },
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 49,
+        "h": 24.5
+      },
+      "angle": 90,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "woods_wood.png",
+      "sprite": "wood_1_2",
+      "animation": null
+    },
+    {
+      "name": "wood_1_2_10",
+      "type": "LHSprite",
+      "tag": "WOOD",
+      "position": {
+        "x": 849,
+        "y": 308
+      },
+      "size": {
+        "x": 49,
+        "y": 24.5
+      },
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 49,
+        "h": 24.5
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "woods_wood.png",
+      "sprite": "wood_1_2",
+      "animation": null
+    },
+    {
+      "name": "wood_1_2_11",
+      "type": "LHSprite",
+      "tag": "WOOD",
+      "position": {
+        "x": 800,
+        "y": 308
+      },
+      "size": {
+        "x": 49,
+        "y": 24.5
+      },
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 49,
+        "h": 24.5
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "woods_wood.png",
+      "sprite": "wood_1_2",
+      "animation": null
+    },
+    {
+      "name": "wood_1_2_12",
+      "type": "LHSprite",
+      "tag": "WOOD",
+      "position": {
+        "x": 751,
+        "y": 308
+      },
+      "size": {
+        "x": 49,
+        "y": 24.5
+      },
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 49,
+        "h": 24.5
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "woods_wood.png",
+      "sprite": "wood_1_2",
+      "animation": null
+    },
+    {
+      "name": "wood_1_2_13",
+      "type": "LHSprite",
+      "tag": "WOOD",
+      "position": {
+        "x": 617,
+        "y": 308
+      },
+      "size": {
+        "x": 49,
+        "y": 24.5
+      },
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 49,
+        "h": 24.5
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "woods_wood.png",
+      "sprite": "wood_1_2",
+      "animation": null
+    },
+    {
+      "name": "wood_1_2_14",
+      "type": "LHSprite",
+      "tag": "WOOD",
+      "position": {
+        "x": 568,
+        "y": 308
+      },
+      "size": {
+        "x": 49,
+        "y": 24.5
+      },
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 49,
+        "h": 24.5
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "woods_wood.png",
+      "sprite": "wood_1_2",
+      "animation": null
+    },
+    {
+      "name": "wood_1_2_15",
+      "type": "LHSprite",
+      "tag": "WOOD",
+      "position": {
+        "x": 519,
+        "y": 308
+      },
+      "size": {
+        "x": 49,
+        "y": 24.5
+      },
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 49,
+        "h": 24.5
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "woods_wood.png",
+      "sprite": "wood_1_2",
+      "animation": null
+    },
+    {
+      "name": "wood_1_2_16",
+      "type": "LHSprite",
+      "tag": "WOOD",
+      "position": {
+        "x": 470,
+        "y": 308
+      },
+      "size": {
+        "x": 49,
+        "y": 24.5
+      },
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 49,
+        "h": 24.5
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "woods_wood.png",
+      "sprite": "wood_1_2",
+      "animation": null
+    },
+    {
+      "name": "wood_1_2_17",
+      "type": "LHSprite",
+      "tag": "WOOD",
+      "position": {
+        "x": 421,
+        "y": 308
+      },
+      "size": {
+        "x": 49,
+        "y": 24.5
+      },
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 49,
+        "h": 24.5
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "woods_wood.png",
+      "sprite": "wood_1_2",
+      "animation": null
+    },
+    {
+      "name": "wood_1_2_18",
+      "type": "LHSprite",
+      "tag": "WOOD",
+      "position": {
+        "x": 449,
+        "y": 284
+      },
+      "size": {
+        "x": 49,
+        "y": 24.5
+      },
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 49,
+        "h": 24.5
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "woods_wood.png",
+      "sprite": "wood_1_2",
+      "animation": null
+    },
+    {
+      "name": "wood_1_2_19",
+      "type": "LHSprite",
+      "tag": "WOOD",
+      "position": {
+        "x": 449,
+        "y": 260
+      },
+      "size": {
+        "x": 49,
+        "y": 24.5
+      },
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 49,
+        "h": 24.5
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "woods_wood.png",
+      "sprite": "wood_1_2",
+      "animation": null
+    },
+    {
+      "name": "wood_1_2_20",
+      "type": "LHSprite",
+      "tag": "WOOD",
+      "position": {
+        "x": 449,
+        "y": 237
+      },
+      "size": {
+        "x": 49,
+        "y": 24.5
+      },
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 49,
+        "h": 24.5
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "woods_wood.png",
+      "sprite": "wood_1_2",
+      "animation": null
+    },
+    {
+      "name": "wood_1_2_21",
+      "type": "LHSprite",
+      "tag": "WOOD",
+      "position": {
+        "x": 449,
+        "y": 213
+      },
+      "size": {
+        "x": 49,
+        "y": 24.5
+      },
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 49,
+        "h": 24.5
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "woods_wood.png",
+      "sprite": "wood_1_2",
+      "animation": null
+    },
+    {
+      "name": "wood_1_2_22",
+      "type": "LHSprite",
+      "tag": "WOOD",
+      "position": {
+        "x": 449,
+        "y": 189
+      },
+      "size": {
+        "x": 49,
+        "y": 24.5
+      },
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 49,
+        "h": 24.5
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "woods_wood.png",
+      "sprite": "wood_1_2",
+      "animation": null
+    },
+    {
+      "name": "range_magnet_circle",
+      "type": "LHSprite",
+      "tag": "MAGNET_RANGE",
+      "position": {
+        "x": 113,
+        "y": 176
+      },
+      "size": {
+        "x": 62,
+        "y": 62
+      },
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 62,
+        "h": 62
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "magnet_magnet_sheets.png",
+      "sprite": "magnet_range_red",
+      "animation": "RR_CIRCLE1"
+    },
+    {
+      "name": "range_magnet_circle_1",
+      "type": "LHSprite",
+      "tag": "MAGNET_RANGE",
+      "position": {
+        "x": 303,
+        "y": 246
+      },
+      "size": {
+        "x": 62,
+        "y": 62
+      },
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 62,
+        "h": 62
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "magnet_magnet_sheets.png",
+      "sprite": "magnet_range_red",
+      "animation": "BB_CIRCLE1"
+    },
+    {
+      "name": "range_magnet_circle_2",
+      "type": "LHSprite",
+      "tag": "MAGNET_RANGE",
+      "position": {
+        "x": 589,
+        "y": 66
+      },
+      "size": {
+        "x": 62,
+        "y": 62
+      },
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 62,
+        "h": 62
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "magnet_magnet_sheets.png",
+      "sprite": "magnet_range_red",
+      "animation": "RR_CIRCLE1"
+    },
+    {
+      "name": "range_magnet_circle_3",
+      "type": "LHSprite",
+      "tag": "MAGNET_RANGE",
+      "position": {
+        "x": 807,
+        "y": 157
+      },
+      "size": {
+        "x": 62,
+        "y": 62
+      },
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 62,
+        "h": 62
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "magnet_magnet_sheets.png",
+      "sprite": "magnet_range_red",
+      "animation": "RR_CIRCLE1"
+    },
+    {
+      "name": "magnet_circle",
+      "type": "LHSprite",
+      "tag": "MAGNET",
+      "position": {
+        "x": 113,
+        "y": 176
+      },
+      "size": {
+        "x": 32,
+        "y": 32
+      },
+      "frame": {
+        "x": 168,
+        "y": 194,
+        "w": 32,
+        "h": 32
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 1,
+      "sheet": "magnet_magnet_sheets.png",
+      "sprite": "magnet_circle",
+      "animation": null
+    },
+    {
+      "name": "magnet_circle_1",
+      "type": "LHSprite",
+      "tag": "MAGNET",
+      "position": {
+        "x": 303,
+        "y": 246
+      },
+      "size": {
+        "x": 32,
+        "y": 32
+      },
+      "frame": {
+        "x": 168,
+        "y": 194,
+        "w": 32,
+        "h": 32
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 1,
+      "sheet": "magnet_magnet_sheets.png",
+      "sprite": "magnet_circle",
+      "animation": null
+    },
+    {
+      "name": "magnet_circle_2",
+      "type": "LHSprite",
+      "tag": "MAGNET",
+      "position": {
+        "x": 589,
+        "y": 66
+      },
+      "size": {
+        "x": 32,
+        "y": 32
+      },
+      "frame": {
+        "x": 168,
+        "y": 194,
+        "w": 32,
+        "h": 32
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 1,
+      "sheet": "magnet_magnet_sheets.png",
+      "sprite": "magnet_circle",
+      "animation": null
+    },
+    {
+      "name": "magnet_circle_3",
+      "type": "LHSprite",
+      "tag": "MAGNET",
+      "position": {
+        "x": 807,
+        "y": 157
+      },
+      "size": {
+        "x": 32,
+        "y": 32
+      },
+      "frame": {
+        "x": 168,
+        "y": 194,
+        "w": 32,
+        "h": 32
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 1,
+      "sheet": "magnet_magnet_sheets.png",
+      "sprite": "magnet_circle",
+      "animation": null
+    },
+    {
+      "name": "range_hero",
+      "type": "LHSprite",
+      "tag": "MAGNET_RANGE",
+      "position": {
+        "x": 60,
+        "y": 80
+      },
+      "size": {
+        "x": 64,
+        "y": 64
+      },
+      "frame": {
+        "x": 0,
+        "y": 206,
+        "w": 64,
+        "h": 64
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 1,
+      "sheet": "hero_hero_sheet.png",
+      "sprite": "hero_blue",
+      "animation": "BOR"
+    },
+    {
+      "name": "hero",
+      "type": "LHSprite",
+      "tag": "HERO",
+      "position": {
+        "x": 60,
+        "y": 80
+      },
+      "size": {
+        "x": 32,
+        "y": 32
+      },
+      "frame": {
+        "x": 243,
+        "y": 267,
+        "w": 32,
+        "h": 32
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 1,
+      "sheet": "hero_hero_sheet.png",
+      "sprite": "hero",
+      "animation": "normal"
+    }
+  ],
+  "joints": [
+    {
+      "name": "Untitled_Joint_1",
+      "objectA": "hero",
+      "objectB": "range_hero",
+      "type": 6
+    },
+    {
+      "name": "Untitled_Joint_1_1",
+      "objectA": "magnet_circle",
+      "objectB": "range_magnet_circle",
+      "type": 6
+    },
+    {
+      "name": "Untitled_Joint_1_2",
+      "objectA": "magnet_circle_1",
+      "objectB": "range_magnet_circle_1",
+      "type": 6
+    },
+    {
+      "name": "Untitled_Joint_1_3",
+      "objectA": "magnet_circle_2",
+      "objectB": "range_magnet_circle_2",
+      "type": 6
+    },
+    {
+      "name": "Untitled_Joint_1_4",
+      "objectA": "magnet_circle_3",
+      "objectB": "range_magnet_circle_3",
+      "type": 6
+    }
+  ]
+}

@@ -1,0 +1,4744 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Bogdan Vladu</string>
+	<key>CreatedWith</key>
+	<string>SpriteHelper</string>
+	<key>SHEETS_INFO</key>
+	<array>
+		<dict>
+			<key>2HDSuffix</key>
+			<string>-ipadhd</string>
+			<key>AllowFreeMove</key>
+			<true/>
+			<key>AllowRotation</key>
+			<false/>
+			<key>Crop</key>
+			<false/>
+			<key>DropSprites</key>
+			<false/>
+			<key>HDSuffix</key>
+			<string>-hd</string>
+			<key>IsRendable</key>
+			<true/>
+			<key>MaxSheetSize</key>
+			<integer>4096</integer>
+			<key>NpotSize</key>
+			<string>{632, 640}</string>
+			<key>Padding</key>
+			<integer>8</integer>
+			<key>PixelFormat</key>
+			<integer>0</integer>
+			<key>SheetImage</key>
+			<string>robotpack3_UntitledSheet.png</string>
+			<key>SheetImage-HD</key>
+			<string>robotpack3_UntitledSheet-ipadhd.png</string>
+			<key>SheetName</key>
+			<string>UntitledSheet</string>
+			<key>SheetSceneImageName</key>
+			<string></string>
+			<key>Sheet_Sprites_Info</key>
+			<dict>
+				<key>3_3_1</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+QDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAyAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwoAAAABAQAAcm9i
+					b3RwYWNrMwAACQAAAAEBAAAzXzNfMS5wbmcA
+					AAAYAAAAAQYAAAQAAAAUAAAAIAAAADQAAABM
+					AAAAYAAAAAgAAAAEAwAAV7kAAAAAAAAIAAAA
+					BAMAAJPIBQAAAAAACAAAAAQDAAD1yAUAAAAA
+					AAgAAAAEAwAAMNMFAAAAAAAIAAAABAMAAPc2
+					BgAAAAAACAAAAAQDAAB1NwYAAAAAABgAAAAB
+					BgAAlAAAAKQAAAC0AAAAxAAAANQAAADkAAAA
+					GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
+					AAAAAAAAAAAAAQUAAAQAAAADAwAAAwAAAAgA
+					AAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAM
+					AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
+					AICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAA
+					AAEBAAA5RUZCNTM0NS1BRDUzLTNCMkUtQTkz
+					RC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAAB
+					AAgA7z8AAAEACAAAAAAAAAAAAAEAAAABAQAA
+					LwAAAAQAAAADAwAAAAEAAMMAAAABAgAAYThm
+					MzZkMTRkNjE3MDkwNzIwNDEwZGE3YTkzODgw
+					NzAyNzk5YjQ3NzswMDAwMDAwMDswMDAwMDAw
+					MDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2Fu
+					ZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzBl
+					MDAwMDAyOzAwMDAwMDAwMDAwNjM3NzU7L3Vz
+					ZXJzL2dhbWUvZG93bmxvYWRzL21hZ25ldCBy
+					ZXNvdXJjZXMvcm9ib3RwYWNrMy8zXzNfMS5w
+					bmcAAOQAAAD+////AQAAAAAAAAASAAAABBAA
+					AHQAAAAAAAAABRAAAPQAAAAAAAAAEBAAABQB
+					AAAAAAAAVBAAADwBAAAAAAAAVRAAADwBAAAA
+					AAAAVhAAADQBAAAAAAAAAiAAAOQBAAAAAAAA
+					ECAAAGQBAAAAAAAAESAAAJgBAAAAAAAAEiAA
+					AHgBAAAAAAAAEyAAAIgBAAAAAAAAICAAAMQB
+					AAAAAAAAMCAAADQBAAAAAAAAAcAAAEgBAAAA
+					AAAAEcAAABQAAAAAAAAAEsAAAFgBAAAAAAAA
+					ENAAAPABAAAAAAAAgPAAAPwBAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{4.5, 10.125}</string>
+										<string>{0.25, 12.125}</string>
+										<string>{0.25, 11.875}</string>
+									</array>
+									<array>
+										<string>{-5.5, -11.875}</string>
+										<string>{12, -7.375}</string>
+										<string>{14.25, 1.125}</string>
+										<string>{13, 10.125}</string>
+										<string>{4.5, 10.125}</string>
+									</array>
+									<array>
+										<string>{-13.5, -8.125}</string>
+										<string>{-5.5, -11.875}</string>
+										<string>{4.5, 10.125}</string>
+										<string>{0.25, 11.875}</string>
+										<string>{-11, 7.125}</string>
+										<string>{-14.5, -1.125}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>0.0</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<false/>
+								<key>IsSensor</key>
+								<true/>
+								<key>LHHeight</key>
+								<real>0.0</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-14.5, -12.125}</string>
+								<key>LHWidth</key>
+								<real>0.0</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{59, 1}</string>
+									<string>{14, 20}</string>
+									<string>{0, 53}</string>
+									<string>{4, 81}</string>
+									<string>{36, 96}</string>
+									<string>{106, 78}</string>
+									<string>{115, 44}</string>
+									<string>{110, 8}</string>
+									<string>{76, 8}</string>
+									<string>{59, 0}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>UntitledSheet</string>
+					<key>SHSpriteName</key>
+					<string>3_3_1</string>
+					<key>SheetImage</key>
+					<string>robotpack3_UntitledSheet.png</string>
+					<key>SheetImage-HD</key>
+					<string>robotpack3_UntitledSheet-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{92, 132}, {29, 24.75}}</string>
+						<key>Frame-HD</key>
+						<string>{{368, 528}, {116, 97}}</string>
+						<key>Image</key>
+						<string>robotpack3_UntitledSheet.png</string>
+						<key>Image-HD</key>
+						<string>robotpack3_UntitledSheet-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>3_3_1</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/robotpack3/3_3_1.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/robotpack3/3_3_1.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {116, 97}}</string>
+						<key>OriginalSize</key>
+						<string>{116, 97}</string>
+						<key>Position</key>
+						<string>{368, 528}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{29, 24.25}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>12</integer>
+						<key>TextureOffset</key>
+						<string>{0, -0.25}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>3_3_10</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+QDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAyAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwoAAAABAQAAcm9i
+					b3RwYWNrMwAACgAAAAEBAAAzXzNfMTAucG5n
+					AAAYAAAAAQYAAAQAAAAUAAAAIAAAADQAAABM
+					AAAAYAAAAAgAAAAEAwAAV7kAAAAAAAAIAAAA
+					BAMAAJPIBQAAAAAACAAAAAQDAAD1yAUAAAAA
+					AAgAAAAEAwAAMNMFAAAAAAAIAAAABAMAAPc2
+					BgAAAAAACAAAAAQDAAB+NwYAAAAAABgAAAAB
+					BgAAlAAAAKQAAAC0AAAAxAAAANQAAADkAAAA
+					GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
+					AAAAAAAAAAAAAQUAAAQAAAADAwAAAwAAAAgA
+					AAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAM
+					AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
+					AICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAA
+					AAEBAAA5RUZCNTM0NS1BRDUzLTNCMkUtQTkz
+					RC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAAB
+					AAgA7z8AAAEACAAAAAAAAAAAAAEAAAABAQAA
+					LwAAAAQAAAADAwAAAAEAAMQAAAABAgAAYzEz
+					YWNiMWY2YWI4MjM3OTc2N2EyOTFlZTZiODlh
+					MzkxZjZkYmRkNjswMDAwMDAwMDswMDAwMDAw
+					MDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2Fu
+					ZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzBl
+					MDAwMDAyOzAwMDAwMDAwMDAwNjM3N2U7L3Vz
+					ZXJzL2dhbWUvZG93bmxvYWRzL21hZ25ldCBy
+					ZXNvdXJjZXMvcm9ib3RwYWNrMy8zXzNfMTAu
+					cG5nAOQAAAD+////AQAAAAAAAAASAAAABBAA
+					AHQAAAAAAAAABRAAAPQAAAAAAAAAEBAAABQB
+					AAAAAAAAVBAAADwBAAAAAAAAVRAAADwBAAAA
+					AAAAVhAAADQBAAAAAAAAAiAAAOQBAAAAAAAA
+					ECAAAGQBAAAAAAAAESAAAJgBAAAAAAAAEiAA
+					AHgBAAAAAAAAEyAAAIgBAAAAAAAAICAAAMQB
+					AAAAAAAAMCAAADQBAAAAAAAAAcAAAEgBAAAA
+					AAAAEcAAABQAAAAAAAAAEsAAAFgBAAAAAAAA
+					ENAAAPABAAAAAAAAgPAAAPwBAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{10.5, -6.875}</string>
+										<string>{19.75, 0.625}</string>
+										<string>{19.75, 3.125}</string>
+										<string>{16.5, 3.375}</string>
+									</array>
+									<array>
+										<string>{7.75, 8.375}</string>
+										<string>{10.5, -6.875}</string>
+										<string>{16.5, 3.375}</string>
+										<string>{14.5, 7.875}</string>
+										<string>{8, 8.625}</string>
+									</array>
+									<array>
+										<string>{-14, -5.875}</string>
+										<string>{3.75, -8.375}</string>
+										<string>{10.5, -6.875}</string>
+										<string>{7.75, 8.375}</string>
+										<string>{-2, 6.375}</string>
+									</array>
+									<array>
+										<string>{-20, 0.625}</string>
+										<string>{-14, -5.875}</string>
+										<string>{-2, 6.375}</string>
+										<string>{-10.75, 7.625}</string>
+										<string>{-19, 4.375}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>0.0</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<false/>
+								<key>IsSensor</key>
+								<true/>
+								<key>LHHeight</key>
+								<real>0.0</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-20, -8.625}</string>
+								<key>LHWidth</key>
+								<real>0.0</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{111, 1}</string>
+									<string>{72, 9}</string>
+									<string>{37, 4}</string>
+									<string>{4, 17}</string>
+									<string>{0, 32}</string>
+									<string>{24, 58}</string>
+									<string>{95, 68}</string>
+									<string>{122, 62}</string>
+									<string>{159, 32}</string>
+									<string>{159, 22}</string>
+									<string>{146, 21}</string>
+									<string>{138, 3}</string>
+									<string>{112, 0}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>UntitledSheet</string>
+					<key>SHSpriteName</key>
+					<string>3_3_10</string>
+					<key>SheetImage</key>
+					<string>robotpack3_UntitledSheet.png</string>
+					<key>SheetImage-HD</key>
+					<string>robotpack3_UntitledSheet-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{117, 92}, {40, 17.75}}</string>
+						<key>Frame-HD</key>
+						<string>{{468, 368}, {160, 69}}</string>
+						<key>Image</key>
+						<string>robotpack3_UntitledSheet.png</string>
+						<key>Image-HD</key>
+						<string>robotpack3_UntitledSheet-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>3_3_10</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/robotpack3/3_3_10.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/robotpack3/3_3_10.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {160, 69}}</string>
+						<key>OriginalSize</key>
+						<string>{160, 69}</string>
+						<key>Position</key>
+						<string>{468, 368}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{40, 17.25}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>12</integer>
+						<key>TextureOffset</key>
+						<string>{0, -0.25}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>3_3_11</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+QDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAyAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwoAAAABAQAAcm9i
+					b3RwYWNrMwAACgAAAAEBAAAzXzNfMTEucG5n
+					AAAYAAAAAQYAAAQAAAAUAAAAIAAAADQAAABM
+					AAAAYAAAAAgAAAAEAwAAV7kAAAAAAAAIAAAA
+					BAMAAJPIBQAAAAAACAAAAAQDAAD1yAUAAAAA
+					AAgAAAAEAwAAMNMFAAAAAAAIAAAABAMAAPc2
+					BgAAAAAACAAAAAQDAAB/NwYAAAAAABgAAAAB
+					BgAAlAAAAKQAAAC0AAAAxAAAANQAAADkAAAA
+					GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
+					AAAAAAAAAAAAAQUAAAQAAAADAwAAAwAAAAgA
+					AAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAM
+					AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
+					AICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAA
+					AAEBAAA5RUZCNTM0NS1BRDUzLTNCMkUtQTkz
+					RC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAAB
+					AAgA7z8AAAEACAAAAAAAAAAAAAEAAAABAQAA
+					LwAAAAQAAAADAwAAAAEAAMQAAAABAgAAMWJh
+					MGI2N2VlZjMzZTUyYzc1M2ZiYjU4YjYxZGY4
+					MWQ0MzhmNGRmMTswMDAwMDAwMDswMDAwMDAw
+					MDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2Fu
+					ZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzBl
+					MDAwMDAyOzAwMDAwMDAwMDAwNjM3N2Y7L3Vz
+					ZXJzL2dhbWUvZG93bmxvYWRzL21hZ25ldCBy
+					ZXNvdXJjZXMvcm9ib3RwYWNrMy8zXzNfMTEu
+					cG5nAOQAAAD+////AQAAAAAAAAASAAAABBAA
+					AHQAAAAAAAAABRAAAPQAAAAAAAAAEBAAABQB
+					AAAAAAAAVBAAADwBAAAAAAAAVRAAADwBAAAA
+					AAAAVhAAADQBAAAAAAAAAiAAAOQBAAAAAAAA
+					ECAAAGQBAAAAAAAAESAAAJgBAAAAAAAAEiAA
+					AHgBAAAAAAAAEyAAAIgBAAAAAAAAICAAAMQB
+					AAAAAAAAMCAAADQBAAAAAAAAAcAAAEgBAAAA
+					AAAAEcAAABQAAAAAAAAAEsAAAFgBAAAAAAAA
+					ENAAAPABAAAAAAAAgPAAAPwBAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-8.625, 14.5}</string>
+										<string>{-13.375, 10.25}</string>
+										<string>{-8.875, -9}</string>
+										<string>{-4.875, -19.5}</string>
+										<string>{5.375, -18.75}</string>
+										<string>{5.125, -8.5}</string>
+										<string>{-5.125, 13.25}</string>
+									</array>
+									<array>
+										<string>{5.125, -8.5}</string>
+										<string>{11.875, -3}</string>
+										<string>{13.625, 1.5}</string>
+										<string>{13.375, 6.75}</string>
+										<string>{1.875, 19.75}</string>
+										<string>{-5.875, 16.25}</string>
+										<string>{-5.125, 13.25}</string>
+									</array>
+									<array>
+										<string>{1.875, 19.75}</string>
+										<string>{13.375, 6.75}</string>
+										<string>{16.625, 10.5}</string>
+										<string>{14.625, 15.25}</string>
+										<string>{10.875, 18.75}</string>
+										<string>{2.125, 20}</string>
+									</array>
+									<array>
+										<string>{-16.875, -2.75}</string>
+										<string>{-8.875, -9}</string>
+										<string>{-13.375, 10.25}</string>
+										<string>{-16.625, 3.25}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>0.0</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<false/>
+								<key>IsSensor</key>
+								<true/>
+								<key>LHHeight</key>
+								<real>0.0</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-16.875, -20}</string>
+								<key>LHWidth</key>
+								<real>0.0</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{75, 1}</string>
+									<string>{44, 15}</string>
+									<string>{47, 27}</string>
+									<string>{33, 22}</string>
+									<string>{14, 39}</string>
+									<string>{1, 67}</string>
+									<string>{0, 91}</string>
+									<string>{32, 116}</string>
+									<string>{48, 158}</string>
+									<string>{89, 155}</string>
+									<string>{88, 114}</string>
+									<string>{115, 92}</string>
+									<string>{122, 74}</string>
+									<string>{121, 53}</string>
+									<string>{134, 38}</string>
+									<string>{126, 19}</string>
+									<string>{111, 5}</string>
+									<string>{76, 0}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>UntitledSheet</string>
+					<key>SHSpriteName</key>
+					<string>3_3_11</string>
+					<key>SheetImage</key>
+					<string>robotpack3_UntitledSheet.png</string>
+					<key>SheetImage-HD</key>
+					<string>robotpack3_UntitledSheet-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{1, 120}, {33.75, 40}}</string>
+						<key>Frame-HD</key>
+						<string>{{4, 480}, {135, 160}}</string>
+						<key>Image</key>
+						<string>robotpack3_UntitledSheet.png</string>
+						<key>Image-HD</key>
+						<string>robotpack3_UntitledSheet-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>3_3_11</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/robotpack3/3_3_11.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/robotpack3/3_3_11.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {135, 160}}</string>
+						<key>OriginalSize</key>
+						<string>{135, 160}</string>
+						<key>Position</key>
+						<string>{4, 480}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{33.75, 40}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>12</integer>
+						<key>TextureOffset</key>
+						<string>{0, -0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>3_3_12</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+QDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAyAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwoAAAABAQAAcm9i
+					b3RwYWNrMwAACgAAAAEBAAAzXzNfMTIucG5n
+					AAAYAAAAAQYAAAQAAAAUAAAAIAAAADQAAABM
+					AAAAYAAAAAgAAAAEAwAAV7kAAAAAAAAIAAAA
+					BAMAAJPIBQAAAAAACAAAAAQDAAD1yAUAAAAA
+					AAgAAAAEAwAAMNMFAAAAAAAIAAAABAMAAPc2
+					BgAAAAAACAAAAAQDAACANwYAAAAAABgAAAAB
+					BgAAlAAAAKQAAAC0AAAAxAAAANQAAADkAAAA
+					GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
+					AAAAAAAAAAAAAQUAAAQAAAADAwAAAwAAAAgA
+					AAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAM
+					AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
+					AICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAA
+					AAEBAAA5RUZCNTM0NS1BRDUzLTNCMkUtQTkz
+					RC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAAB
+					AAgA7z8AAAEACAAAAAAAAAAAAAEAAAABAQAA
+					LwAAAAQAAAADAwAAAAEAAMQAAAABAgAAZjJl
+					YmM4ODZmN2ZjZDQzOTA4NWQxOWE4NmZkNTA0
+					YzgxMDRlYzllNTswMDAwMDAwMDswMDAwMDAw
+					MDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2Fu
+					ZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzBl
+					MDAwMDAyOzAwMDAwMDAwMDAwNjM3ODA7L3Vz
+					ZXJzL2dhbWUvZG93bmxvYWRzL21hZ25ldCBy
+					ZXNvdXJjZXMvcm9ib3RwYWNrMy8zXzNfMTIu
+					cG5nAOQAAAD+////AQAAAAAAAAASAAAABBAA
+					AHQAAAAAAAAABRAAAPQAAAAAAAAAEBAAABQB
+					AAAAAAAAVBAAADwBAAAAAAAAVRAAADwBAAAA
+					AAAAVhAAADQBAAAAAAAAAiAAAOQBAAAAAAAA
+					ECAAAGQBAAAAAAAAESAAAJgBAAAAAAAAEiAA
+					AHgBAAAAAAAAEyAAAIgBAAAAAAAAICAAAMQB
+					AAAAAAAAMCAAADQBAAAAAAAAAcAAAEgBAAAA
+					AAAAEcAAABQAAAAAAAAAEsAAAFgBAAAAAAAA
+					ENAAAPABAAAAAAAAgPAAAPwBAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{5.25, -10.25}</string>
+										<string>{1.25, -7.5}</string>
+										<string>{-10.25, -7.75}</string>
+										<string>{-12.5, -9.75}</string>
+										<string>{-13.75, -14}</string>
+										<string>{-6.75, -14}</string>
+									</array>
+									<array>
+										<string>{8, 18.75}</string>
+										<string>{1.75, 20}</string>
+										<string>{1.75, 19.75}</string>
+									</array>
+									<array>
+										<string>{13.5, 13.75}</string>
+										<string>{8, 18.75}</string>
+										<string>{1.75, 19.75}</string>
+										<string>{1.75, 17.75}</string>
+										<string>{8, 13.5}</string>
+									</array>
+									<array>
+										<string>{6.75, 12.25}</string>
+										<string>{6.75, 6.25}</string>
+										<string>{13.5, 13.75}</string>
+										<string>{8, 13.5}</string>
+									</array>
+									<array>
+										<string>{-10.25, -7.75}</string>
+										<string>{1.25, -7.5}</string>
+										<string>{6.75, 6.25}</string>
+										<string>{6.75, 12.25}</string>
+										<string>{2.75, 14}</string>
+										<string>{-7.5, 12.25}</string>
+									</array>
+									<array>
+										<string>{5.25, -10.25}</string>
+										<string>{-6.75, -14}</string>
+										<string>{-4.25, -19.5}</string>
+										<string>{1.25, -19.75}</string>
+										<string>{5.5, -15}</string>
+									</array>
+									<array>
+										<string>{-12, 14}</string>
+										<string>{-13.75, 12.5}</string>
+										<string>{-10.25, -7.75}</string>
+										<string>{-7.5, 12.25}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>0.0</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<false/>
+								<key>IsSensor</key>
+								<true/>
+								<key>LHHeight</key>
+								<real>0.0</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-13.75, -20}</string>
+								<key>LHWidth</key>
+								<real>0.0</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{62, 1}</string>
+									<string>{62, 9}</string>
+									<string>{87, 26}</string>
+									<string>{82, 31}</string>
+									<string>{66, 24}</string>
+									<string>{25, 31}</string>
+									<string>{7, 24}</string>
+									<string>{0, 30}</string>
+									<string>{14, 111}</string>
+									<string>{5, 119}</string>
+									<string>{0, 136}</string>
+									<string>{28, 136}</string>
+									<string>{38, 158}</string>
+									<string>{60, 159}</string>
+									<string>{77, 140}</string>
+									<string>{76, 121}</string>
+									<string>{60, 110}</string>
+									<string>{82, 55}</string>
+									<string>{109, 25}</string>
+									<string>{87, 5}</string>
+									<string>{62, 0}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>UntitledSheet</string>
+					<key>SHSpriteName</key>
+					<string>3_3_12</string>
+					<key>SheetImage</key>
+					<string>robotpack3_UntitledSheet.png</string>
+					<key>SheetImage-HD</key>
+					<string>robotpack3_UntitledSheet-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{36, 69}, {27.5, 40}}</string>
+						<key>Frame-HD</key>
+						<string>{{144, 276}, {110, 160}}</string>
+						<key>Image</key>
+						<string>robotpack3_UntitledSheet.png</string>
+						<key>Image-HD</key>
+						<string>robotpack3_UntitledSheet-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>3_3_12</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/robotpack3/3_3_12.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/robotpack3/3_3_12.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {110, 160}}</string>
+						<key>OriginalSize</key>
+						<string>{110, 160}</string>
+						<key>Position</key>
+						<string>{144, 276}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{27.5, 40}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>12</integer>
+						<key>TextureOffset</key>
+						<string>{0, -0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>3_3_13</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+QDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAyAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwoAAAABAQAAcm9i
+					b3RwYWNrMwAACgAAAAEBAAAzXzNfMTMucG5n
+					AAAYAAAAAQYAAAQAAAAUAAAAIAAAADQAAABM
+					AAAAYAAAAAgAAAAEAwAAV7kAAAAAAAAIAAAA
+					BAMAAJPIBQAAAAAACAAAAAQDAAD1yAUAAAAA
+					AAgAAAAEAwAAMNMFAAAAAAAIAAAABAMAAPc2
+					BgAAAAAACAAAAAQDAACBNwYAAAAAABgAAAAB
+					BgAAlAAAAKQAAAC0AAAAxAAAANQAAADkAAAA
+					GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
+					AAAAAAAAAAAAAQUAAAQAAAADAwAAAwAAAAgA
+					AAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAM
+					AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
+					AICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAA
+					AAEBAAA5RUZCNTM0NS1BRDUzLTNCMkUtQTkz
+					RC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAAB
+					AAgA7z8AAAEACAAAAAAAAAAAAAEAAAABAQAA
+					LwAAAAQAAAADAwAAAAEAAMQAAAABAgAAZmVj
+					Y2Q0OWVhY2Y3OThhYWFiNzI3NTEzNzA4Y2Y2
+					ZWRlZmEzYzQyODswMDAwMDAwMDswMDAwMDAw
+					MDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2Fu
+					ZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzBl
+					MDAwMDAyOzAwMDAwMDAwMDAwNjM3ODE7L3Vz
+					ZXJzL2dhbWUvZG93bmxvYWRzL21hZ25ldCBy
+					ZXNvdXJjZXMvcm9ib3RwYWNrMy8zXzNfMTMu
+					cG5nAOQAAAD+////AQAAAAAAAAASAAAABBAA
+					AHQAAAAAAAAABRAAAPQAAAAAAAAAEBAAABQB
+					AAAAAAAAVBAAADwBAAAAAAAAVRAAADwBAAAA
+					AAAAVhAAADQBAAAAAAAAAiAAAOQBAAAAAAAA
+					ECAAAGQBAAAAAAAAESAAAJgBAAAAAAAAEiAA
+					AHgBAAAAAAAAEyAAAIgBAAAAAAAAICAAAMQB
+					AAAAAAAAMCAAADQBAAAAAAAAAcAAAEgBAAAA
+					AAAAEcAAABQAAAAAAAAAEsAAAFgBAAAAAAAA
+					ENAAAPABAAAAAAAAgPAAAPwBAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{15, -4.125}</string>
+										<string>{18.25, -2.125}</string>
+										<string>{19.75, 4.625}</string>
+										<string>{16, 5.125}</string>
+									</array>
+									<array>
+										<string>{15, -4.125}</string>
+										<string>{16, 5.125}</string>
+										<string>{14.5, 9.875}</string>
+										<string>{9.5, 10.625}</string>
+										<string>{9.25, 10.375}</string>
+									</array>
+									<array>
+										<string>{-5.25, -8.125}</string>
+										<string>{-2, -10.375}</string>
+										<string>{3.25, -10.375}</string>
+										<string>{13.75, -7.375}</string>
+										<string>{15, -4.125}</string>
+										<string>{9.25, 10.375}</string>
+										<string>{-4, 6.375}</string>
+									</array>
+									<array>
+										<string>{-20, 1.625}</string>
+										<string>{-20, -1.875}</string>
+										<string>{-12.25, -8.125}</string>
+										<string>{-5.25, -8.125}</string>
+										<string>{-4, 6.375}</string>
+										<string>{-9, 7.375}</string>
+										<string>{-17, 4.625}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>0.0</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<false/>
+								<key>IsSensor</key>
+								<true/>
+								<key>LHHeight</key>
+								<real>0.0</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-20, -10.625}</string>
+								<key>LHWidth</key>
+								<real>0.0</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{117, 1}</string>
+									<string>{64, 17}</string>
+									<string>{44, 13}</string>
+									<string>{12, 24}</string>
+									<string>{0, 36}</string>
+									<string>{0, 50}</string>
+									<string>{31, 75}</string>
+									<string>{59, 75}</string>
+									<string>{72, 84}</string>
+									<string>{93, 84}</string>
+									<string>{135, 72}</string>
+									<string>{140, 59}</string>
+									<string>{153, 51}</string>
+									<string>{159, 24}</string>
+									<string>{144, 22}</string>
+									<string>{138, 3}</string>
+									<string>{118, 0}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>UntitledSheet</string>
+					<key>SHSpriteName</key>
+					<string>3_3_13</string>
+					<key>SheetImage</key>
+					<string>robotpack3_UntitledSheet.png</string>
+					<key>SheetImage-HD</key>
+					<string>robotpack3_UntitledSheet-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{92, 110}, {40, 21.75}}</string>
+						<key>Frame-HD</key>
+						<string>{{368, 440}, {160, 85}}</string>
+						<key>Image</key>
+						<string>robotpack3_UntitledSheet.png</string>
+						<key>Image-HD</key>
+						<string>robotpack3_UntitledSheet-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>3_3_13</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/robotpack3/3_3_13.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/robotpack3/3_3_13.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {160, 85}}</string>
+						<key>OriginalSize</key>
+						<string>{160, 85}</string>
+						<key>Position</key>
+						<string>{368, 440}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{40, 21.25}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>12</integer>
+						<key>TextureOffset</key>
+						<string>{0, -0.25}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>3_3_14</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+QDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAyAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwoAAAABAQAAcm9i
+					b3RwYWNrMwAACgAAAAEBAAAzXzNfMTQucG5n
+					AAAYAAAAAQYAAAQAAAAUAAAAIAAAADQAAABM
+					AAAAYAAAAAgAAAAEAwAAV7kAAAAAAAAIAAAA
+					BAMAAJPIBQAAAAAACAAAAAQDAAD1yAUAAAAA
+					AAgAAAAEAwAAMNMFAAAAAAAIAAAABAMAAPc2
+					BgAAAAAACAAAAAQDAACCNwYAAAAAABgAAAAB
+					BgAAlAAAAKQAAAC0AAAAxAAAANQAAADkAAAA
+					GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
+					AAAAAAAAAAAAAQUAAAQAAAADAwAAAwAAAAgA
+					AAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAM
+					AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
+					AICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAA
+					AAEBAAA5RUZCNTM0NS1BRDUzLTNCMkUtQTkz
+					RC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAAB
+					AAgA7z8AAAEACAAAAAAAAAAAAAEAAAABAQAA
+					LwAAAAQAAAADAwAAAAEAAMQAAAABAgAAYThj
+					MmViZjNmODZiNTMwYWM1ZjE5MTk2ZGVlY2M5
+					ODQwYWNiYzIzYzswMDAwMDAwMDswMDAwMDAw
+					MDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2Fu
+					ZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzBl
+					MDAwMDAyOzAwMDAwMDAwMDAwNjM3ODI7L3Vz
+					ZXJzL2dhbWUvZG93bmxvYWRzL21hZ25ldCBy
+					ZXNvdXJjZXMvcm9ib3RwYWNrMy8zXzNfMTQu
+					cG5nAOQAAAD+////AQAAAAAAAAASAAAABBAA
+					AHQAAAAAAAAABRAAAPQAAAAAAAAAEBAAABQB
+					AAAAAAAAVBAAADwBAAAAAAAAVRAAADwBAAAA
+					AAAAVhAAADQBAAAAAAAAAiAAAOQBAAAAAAAA
+					ECAAAGQBAAAAAAAAESAAAJgBAAAAAAAAEiAA
+					AHgBAAAAAAAAEyAAAIgBAAAAAAAAICAAAMQB
+					AAAAAAAAMCAAADQBAAAAAAAAAcAAAEgBAAAA
+					AAAAEcAAABQAAAAAAAAAEsAAAFgBAAAAAAAA
+					ENAAAPABAAAAAAAAgPAAAPwBAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-4.875, -19}</string>
+										<string>{7.375, -18.5}</string>
+										<string>{12.625, -7.75}</string>
+									</array>
+									<array>
+										<string>{-9.875, -13.5}</string>
+										<string>{-4.875, -19}</string>
+										<string>{12.625, -7.75}</string>
+									</array>
+									<array>
+										<string>{-12.375, -7.25}</string>
+										<string>{-9.875, -13.5}</string>
+										<string>{12.625, -7.75}</string>
+									</array>
+									<array>
+										<string>{-12.375, -7.25}</string>
+										<string>{12.625, -7.75}</string>
+										<string>{11.875, 8.25}</string>
+									</array>
+									<array>
+										<string>{-12.375, 10.5}</string>
+										<string>{-12.375, -7.25}</string>
+										<string>{11.875, 8.25}</string>
+									</array>
+									<array>
+										<string>{-12.375, 10.5}</string>
+										<string>{11.875, 8.25}</string>
+										<string>{4.875, 19.5}</string>
+									</array>
+									<array>
+										<string>{-5.375, 19.75}</string>
+										<string>{-12.375, 10.5}</string>
+										<string>{4.875, 19.5}</string>
+									</array>
+									<array>
+										<string>{4.875, 19.5}</string>
+										<string>{-5.125, 20}</string>
+										<string>{-5.375, 19.75}</string>
+									</array>
+									<array>
+										<string>{-9.625, 16.5}</string>
+										<string>{-12.375, 10.5}</string>
+										<string>{-5.375, 19.75}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>0.0</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<false/>
+								<key>IsSensor</key>
+								<true/>
+								<key>LHHeight</key>
+								<real>0.0</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-12.875, -20}</string>
+								<key>LHWidth</key>
+								<real>0.0</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{30, 1}</string>
+									<string>{13, 14}</string>
+									<string>{2, 38}</string>
+									<string>{2, 109}</string>
+									<string>{12, 134}</string>
+									<string>{32, 156}</string>
+									<string>{81, 154}</string>
+									<string>{102, 111}</string>
+									<string>{99, 47}</string>
+									<string>{71, 2}</string>
+									<string>{31, 0}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>UntitledSheet</string>
+					<key>SHSpriteName</key>
+					<string>3_3_14</string>
+					<key>SheetImage</key>
+					<string>robotpack3_UntitledSheet.png</string>
+					<key>SheetImage-HD</key>
+					<string>robotpack3_UntitledSheet-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{65, 70}, {25.75, 40}}</string>
+						<key>Frame-HD</key>
+						<string>{{260, 280}, {103, 160}}</string>
+						<key>Image</key>
+						<string>robotpack3_UntitledSheet.png</string>
+						<key>Image-HD</key>
+						<string>robotpack3_UntitledSheet-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>3_3_14</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/robotpack3/3_3_14.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/robotpack3/3_3_14.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {103, 160}}</string>
+						<key>OriginalSize</key>
+						<string>{103, 160}</string>
+						<key>Position</key>
+						<string>{260, 280}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{25.75, 40}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>12</integer>
+						<key>TextureOffset</key>
+						<string>{0, -0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>3_3_15</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+QDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAyAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwoAAAABAQAAcm9i
+					b3RwYWNrMwAACgAAAAEBAAAzXzNfMTUucG5n
+					AAAYAAAAAQYAAAQAAAAUAAAAIAAAADQAAABM
+					AAAAYAAAAAgAAAAEAwAAV7kAAAAAAAAIAAAA
+					BAMAAJPIBQAAAAAACAAAAAQDAAD1yAUAAAAA
+					AAgAAAAEAwAAMNMFAAAAAAAIAAAABAMAAPc2
+					BgAAAAAACAAAAAQDAACDNwYAAAAAABgAAAAB
+					BgAAlAAAAKQAAAC0AAAAxAAAANQAAADkAAAA
+					GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
+					AAAAAAAAAAAAAQUAAAQAAAADAwAAAwAAAAgA
+					AAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAM
+					AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
+					AICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAA
+					AAEBAAA5RUZCNTM0NS1BRDUzLTNCMkUtQTkz
+					RC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAAB
+					AAgA7z8AAAEACAAAAAAAAAAAAAEAAAABAQAA
+					LwAAAAQAAAADAwAAAAEAAMQAAAABAgAAZTM2
+					NjNiYWUxNzUzZTYxOGEzMzZlMzlhYjEwNzU3
+					NjMzMThlMGUzZjswMDAwMDAwMDswMDAwMDAw
+					MDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2Fu
+					ZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzBl
+					MDAwMDAyOzAwMDAwMDAwMDAwNjM3ODM7L3Vz
+					ZXJzL2dhbWUvZG93bmxvYWRzL21hZ25ldCBy
+					ZXNvdXJjZXMvcm9ib3RwYWNrMy8zXzNfMTUu
+					cG5nAOQAAAD+////AQAAAAAAAAASAAAABBAA
+					AHQAAAAAAAAABRAAAPQAAAAAAAAAEBAAABQB
+					AAAAAAAAVBAAADwBAAAAAAAAVRAAADwBAAAA
+					AAAAVhAAADQBAAAAAAAAAiAAAOQBAAAAAAAA
+					ECAAAGQBAAAAAAAAESAAAJgBAAAAAAAAEiAA
+					AHgBAAAAAAAAEyAAAIgBAAAAAAAAICAAAMQB
+					AAAAAAAAMCAAADQBAAAAAAAAAcAAAEgBAAAA
+					AAAAEcAAABQAAAAAAAAAEsAAAFgBAAAAAAAA
+					ENAAAPABAAAAAAAAgPAAAPwBAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{10.25, -4.75}</string>
+										<string>{3.5, -13.75}</string>
+										<string>{18, -15}</string>
+										<string>{19.75, -7}</string>
+										<string>{16.25, -3.5}</string>
+									</array>
+									<array>
+										<string>{4.25, -0.75}</string>
+										<string>{-5.25, -4.75}</string>
+										<string>{3.5, -13.75}</string>
+										<string>{10.25, -4.75}</string>
+									</array>
+									<array>
+										<string>{-18.25, 12.5}</string>
+										<string>{-20, 7.25}</string>
+										<string>{-8.75, -4.75}</string>
+										<string>{-5.25, -4.75}</string>
+										<string>{4.25, -0.75}</string>
+										<string>{0.5, 13.75}</string>
+										<string>{-3, 15.25}</string>
+									</array>
+									<array>
+										<string>{-2, 15}</string>
+										<string>{-3, 15.25}</string>
+										<string>{-18.25, 12.5}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>0.0</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<false/>
+								<key>IsSensor</key>
+								<true/>
+								<key>LHHeight</key>
+								<real>0.0</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-20, -15.25}</string>
+								<key>LHWidth</key>
+								<real>0.0</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{72, 1}</string>
+									<string>{7, 11}</string>
+									<string>{0, 32}</string>
+									<string>{45, 80}</string>
+									<string>{59, 80}</string>
+									<string>{94, 116}</string>
+									<string>{152, 121}</string>
+									<string>{159, 89}</string>
+									<string>{145, 75}</string>
+									<string>{121, 80}</string>
+									<string>{97, 64}</string>
+									<string>{82, 6}</string>
+									<string>{68, 0}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>UntitledSheet</string>
+					<key>SHSpriteName</key>
+					<string>3_3_15</string>
+					<key>SheetImage</key>
+					<string>robotpack3_UntitledSheet.png</string>
+					<key>SheetImage-HD</key>
+					<string>robotpack3_UntitledSheet-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{82, 0}, {40, 30.5}}</string>
+						<key>Frame-HD</key>
+						<string>{{328, 0}, {160, 122}}</string>
+						<key>Image</key>
+						<string>robotpack3_UntitledSheet.png</string>
+						<key>Image-HD</key>
+						<string>robotpack3_UntitledSheet-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>3_3_15</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/robotpack3/3_3_15.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/robotpack3/3_3_15.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {160, 122}}</string>
+						<key>OriginalSize</key>
+						<string>{160, 122}</string>
+						<key>Position</key>
+						<string>{328, 0}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{40, 30.5}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>12</integer>
+						<key>TextureOffset</key>
+						<string>{0, -0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>3_3_16</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+QDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAyAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwoAAAABAQAAcm9i
+					b3RwYWNrMwAACgAAAAEBAAAzXzNfMTYucG5n
+					AAAYAAAAAQYAAAQAAAAUAAAAIAAAADQAAABM
+					AAAAYAAAAAgAAAAEAwAAV7kAAAAAAAAIAAAA
+					BAMAAJPIBQAAAAAACAAAAAQDAAD1yAUAAAAA
+					AAgAAAAEAwAAMNMFAAAAAAAIAAAABAMAAPc2
+					BgAAAAAACAAAAAQDAACENwYAAAAAABgAAAAB
+					BgAAlAAAAKQAAAC0AAAAxAAAANQAAADkAAAA
+					GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
+					AAAAAAAAAAAAAQUAAAQAAAADAwAAAwAAAAgA
+					AAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAM
+					AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
+					AICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAA
+					AAEBAAA5RUZCNTM0NS1BRDUzLTNCMkUtQTkz
+					RC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAAB
+					AAgA7z8AAAEACAAAAAAAAAAAAAEAAAABAQAA
+					LwAAAAQAAAADAwAAAAEAAMQAAAABAgAANTVi
+					M2MwZGFhNmNmOWM5NmMwOGFiMzFjY2I4MDFh
+					YjA0NjcwMjE0MDswMDAwMDAwMDswMDAwMDAw
+					MDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2Fu
+					ZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzBl
+					MDAwMDAyOzAwMDAwMDAwMDAwNjM3ODQ7L3Vz
+					ZXJzL2dhbWUvZG93bmxvYWRzL21hZ25ldCBy
+					ZXNvdXJjZXMvcm9ib3RwYWNrMy8zXzNfMTYu
+					cG5nAOQAAAD+////AQAAAAAAAAASAAAABBAA
+					AHQAAAAAAAAABRAAAPQAAAAAAAAAEBAAABQB
+					AAAAAAAAVBAAADwBAAAAAAAAVRAAADwBAAAA
+					AAAAVhAAADQBAAAAAAAAAiAAAOQBAAAAAAAA
+					ECAAAGQBAAAAAAAAESAAAJgBAAAAAAAAEiAA
+					AHgBAAAAAAAAEyAAAIgBAAAAAAAAICAAAMQB
+					AAAAAAAAMCAAADQBAAAAAAAAAcAAAEgBAAAA
+					AAAAEcAAABQAAAAAAAAAEsAAAFgBAAAAAAAA
+					ENAAAPABAAAAAAAAgPAAAPwBAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{14, 14.5}</string>
+										<string>{5, 15.5}</string>
+										<string>{5, 15.25}</string>
+									</array>
+									<array>
+										<string>{10.5, -14.5}</string>
+										<string>{15.25, 1.25}</string>
+										<string>{14, 14.5}</string>
+										<string>{5, 15.25}</string>
+										<string>{4.5, 2.5}</string>
+									</array>
+									<array>
+										<string>{10.5, -14.5}</string>
+										<string>{19.75, -5.75}</string>
+										<string>{15.25, 1.25}</string>
+									</array>
+									<array>
+										<string>{-17, -11.25}</string>
+										<string>{-3.75, -15.25}</string>
+										<string>{10.5, -14.5}</string>
+										<string>{4.5, 2.5}</string>
+										<string>{-6, -0.75}</string>
+									</array>
+									<array>
+										<string>{-20, -8.75}</string>
+										<string>{-17, -11.25}</string>
+										<string>{-6, -0.75}</string>
+										<string>{-17.25, -0.25}</string>
+										<string>{-20, -4.75}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>0.0</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<false/>
+								<key>IsSensor</key>
+								<true/>
+								<key>LHHeight</key>
+								<real>0.0</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-20, -15.5}</string>
+								<key>LHWidth</key>
+								<real>0.0</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{100, 1}</string>
+									<string>{98, 52}</string>
+									<string>{56, 65}</string>
+									<string>{11, 63}</string>
+									<string>{0, 81}</string>
+									<string>{0, 97}</string>
+									<string>{12, 107}</string>
+									<string>{65, 123}</string>
+									<string>{122, 120}</string>
+									<string>{159, 85}</string>
+									<string>{141, 57}</string>
+									<string>{136, 4}</string>
+									<string>{100, 0}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>UntitledSheet</string>
+					<key>SHSpriteName</key>
+					<string>3_3_16</string>
+					<key>SheetImage</key>
+					<string>robotpack3_UntitledSheet.png</string>
+					<key>SheetImage-HD</key>
+					<string>robotpack3_UntitledSheet-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{41, 0}, {40, 31}}</string>
+						<key>Frame-HD</key>
+						<string>{{164, 0}, {160, 124}}</string>
+						<key>Image</key>
+						<string>robotpack3_UntitledSheet.png</string>
+						<key>Image-HD</key>
+						<string>robotpack3_UntitledSheet-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>3_3_16</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/robotpack3/3_3_16.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/robotpack3/3_3_16.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {160, 124}}</string>
+						<key>OriginalSize</key>
+						<string>{160, 124}</string>
+						<key>Position</key>
+						<string>{164, 0}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{40, 31}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>12</integer>
+						<key>TextureOffset</key>
+						<string>{0, -0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>3_3_17</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+QDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAyAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwoAAAABAQAAcm9i
+					b3RwYWNrMwAACgAAAAEBAAAzXzNfMTcucG5n
+					AAAYAAAAAQYAAAQAAAAUAAAAIAAAADQAAABM
+					AAAAYAAAAAgAAAAEAwAAV7kAAAAAAAAIAAAA
+					BAMAAJPIBQAAAAAACAAAAAQDAAD1yAUAAAAA
+					AAgAAAAEAwAAMNMFAAAAAAAIAAAABAMAAPc2
+					BgAAAAAACAAAAAQDAACFNwYAAAAAABgAAAAB
+					BgAAlAAAAKQAAAC0AAAAxAAAANQAAADkAAAA
+					GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
+					AAAAAAAAAAAAAQUAAAQAAAADAwAAAwAAAAgA
+					AAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAM
+					AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
+					AICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAA
+					AAEBAAA5RUZCNTM0NS1BRDUzLTNCMkUtQTkz
+					RC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAAB
+					AAgA7z8AAAEACAAAAAAAAAAAAAEAAAABAQAA
+					LwAAAAQAAAADAwAAAAEAAMQAAAABAgAAZmVi
+					NWE0OWMzZjAyNzUxNjY1NjNkY2Q3YWM0NDkw
+					OTcwNDNiZDM1ZTswMDAwMDAwMDswMDAwMDAw
+					MDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2Fu
+					ZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzBl
+					MDAwMDAyOzAwMDAwMDAwMDAwNjM3ODU7L3Vz
+					ZXJzL2dhbWUvZG93bmxvYWRzL21hZ25ldCBy
+					ZXNvdXJjZXMvcm9ib3RwYWNrMy8zXzNfMTcu
+					cG5nAOQAAAD+////AQAAAAAAAAASAAAABBAA
+					AHQAAAAAAAAABRAAAPQAAAAAAAAAEBAAABQB
+					AAAAAAAAVBAAADwBAAAAAAAAVRAAADwBAAAA
+					AAAAVhAAADQBAAAAAAAAAiAAAOQBAAAAAAAA
+					ECAAAGQBAAAAAAAAESAAAJgBAAAAAAAAEiAA
+					AHgBAAAAAAAAEyAAAIgBAAAAAAAAICAAAMQB
+					AAAAAAAAMCAAADQBAAAAAAAAAcAAAEgBAAAA
+					AAAAEcAAABQAAAAAAAAAEsAAAFgBAAAAAAAA
+					ENAAAPABAAAAAAAAgPAAAPwBAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-11.375, 8}</string>
+										<string>{-12.375, -11.75}</string>
+										<string>{-9.375, -18.75}</string>
+										<string>{-0.625, -19.75}</string>
+										<string>{4.125, -17.25}</string>
+										<string>{2.125, -10.25}</string>
+									</array>
+									<array>
+										<string>{-3.125, 20}</string>
+										<string>{-3.375, 19.75}</string>
+										<string>{-11.375, 8}</string>
+										<string>{2.125, -10.25}</string>
+										<string>{12.625, -2}</string>
+										<string>{10.375, 13.25}</string>
+										<string>{7.125, 19}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>0.0</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<false/>
+								<key>IsSensor</key>
+								<true/>
+								<key>LHHeight</key>
+								<real>0.0</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-12.875, -20}</string>
+								<key>LHWidth</key>
+								<real>0.0</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{38, 1}</string>
+									<string>{6, 48}</string>
+									<string>{2, 127}</string>
+									<string>{14, 155}</string>
+									<string>{49, 159}</string>
+									<string>{68, 149}</string>
+									<string>{60, 121}</string>
+									<string>{102, 88}</string>
+									<string>{93, 27}</string>
+									<string>{80, 4}</string>
+									<string>{39, 0}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>UntitledSheet</string>
+					<key>SHSpriteName</key>
+					<string>3_3_17</string>
+					<key>SheetImage</key>
+					<string>robotpack3_UntitledSheet.png</string>
+					<key>SheetImage-HD</key>
+					<string>robotpack3_UntitledSheet-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{65, 110}, {25.75, 40}}</string>
+						<key>Frame-HD</key>
+						<string>{{260, 440}, {103, 160}}</string>
+						<key>Image</key>
+						<string>robotpack3_UntitledSheet.png</string>
+						<key>Image-HD</key>
+						<string>robotpack3_UntitledSheet-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>3_3_17</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/robotpack3/3_3_17.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/robotpack3/3_3_17.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {103, 160}}</string>
+						<key>OriginalSize</key>
+						<string>{103, 160}</string>
+						<key>Position</key>
+						<string>{260, 440}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{25.75, 40}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>12</integer>
+						<key>TextureOffset</key>
+						<string>{0, -0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>3_3_18</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+QDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAyAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwoAAAABAQAAcm9i
+					b3RwYWNrMwAACgAAAAEBAAAzXzNfMTgucG5n
+					AAAYAAAAAQYAAAQAAAAUAAAAIAAAADQAAABM
+					AAAAYAAAAAgAAAAEAwAAV7kAAAAAAAAIAAAA
+					BAMAAJPIBQAAAAAACAAAAAQDAAD1yAUAAAAA
+					AAgAAAAEAwAAMNMFAAAAAAAIAAAABAMAAPc2
+					BgAAAAAACAAAAAQDAACGNwYAAAAAABgAAAAB
+					BgAAlAAAAKQAAAC0AAAAxAAAANQAAADkAAAA
+					GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
+					AAAAAAAAAAAAAQUAAAQAAAADAwAAAwAAAAgA
+					AAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAM
+					AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
+					AICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAA
+					AAEBAAA5RUZCNTM0NS1BRDUzLTNCMkUtQTkz
+					RC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAAB
+					AAgA7z8AAAEACAAAAAAAAAAAAAEAAAABAQAA
+					LwAAAAQAAAADAwAAAAEAAMQAAAABAgAAOWYz
+					MWFkZjliN2NjOWY1OTE4ZTkxNjI3NzNlNTBh
+					MzE5ZmZmOTdhMjswMDAwMDAwMDswMDAwMDAw
+					MDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2Fu
+					ZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzBl
+					MDAwMDAyOzAwMDAwMDAwMDAwNjM3ODY7L3Vz
+					ZXJzL2dhbWUvZG93bmxvYWRzL21hZ25ldCBy
+					ZXNvdXJjZXMvcm9ib3RwYWNrMy8zXzNfMTgu
+					cG5nAOQAAAD+////AQAAAAAAAAASAAAABBAA
+					AHQAAAAAAAAABRAAAPQAAAAAAAAAEBAAABQB
+					AAAAAAAAVBAAADwBAAAAAAAAVRAAADwBAAAA
+					AAAAVhAAADQBAAAAAAAAAiAAAOQBAAAAAAAA
+					ECAAAGQBAAAAAAAAESAAAJgBAAAAAAAAEiAA
+					AHgBAAAAAAAAEyAAAIgBAAAAAAAAICAAAMQB
+					AAAAAAAAMCAAADQBAAAAAAAAAcAAAEgBAAAA
+					AAAAEcAAABQAAAAAAAAAEsAAAFgBAAAAAAAA
+					ENAAAPABAAAAAAAAgPAAAPwBAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{2.75, -14.75}</string>
+										<string>{4.75, -19.25}</string>
+										<string>{15.75, -19.75}</string>
+										<string>{17.25, -11.5}</string>
+										<string>{11, -11.75}</string>
+									</array>
+									<array>
+										<string>{-5.5, -11}</string>
+										<string>{2.75, -14.75}</string>
+										<string>{11, -11.75}</string>
+										<string>{6, -8}</string>
+									</array>
+									<array>
+										<string>{-7.5, 19.75}</string>
+										<string>{-17.5, 11.25}</string>
+										<string>{-12.5, 0.75}</string>
+										<string>{-5.5, -11}</string>
+										<string>{6, -8}</string>
+										<string>{-1, 19.75}</string>
+									</array>
+									<array>
+										<string>{-1, 19.75}</string>
+										<string>{-7.25, 20}</string>
+										<string>{-7.5, 19.75}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>0.0</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<false/>
+								<key>IsSensor</key>
+								<true/>
+								<key>LHHeight</key>
+								<real>0.0</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-17.5, -20}</string>
+								<key>LHWidth</key>
+								<real>0.0</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{40, 1}</string>
+									<string>{0, 35}</string>
+									<string>{20, 77}</string>
+									<string>{48, 124}</string>
+									<string>{81, 139}</string>
+									<string>{89, 157}</string>
+									<string>{133, 159}</string>
+									<string>{139, 126}</string>
+									<string>{114, 127}</string>
+									<string>{94, 112}</string>
+									<string>{66, 1}</string>
+									<string>{41, 0}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>UntitledSheet</string>
+					<key>SHSpriteName</key>
+					<string>3_3_18</string>
+					<key>SheetImage</key>
+					<string>robotpack3_UntitledSheet.png</string>
+					<key>SheetImage-HD</key>
+					<string>robotpack3_UntitledSheet-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{0, 38}, {35, 40}}</string>
+						<key>Frame-HD</key>
+						<string>{{0, 152}, {140, 160}}</string>
+						<key>Image</key>
+						<string>robotpack3_UntitledSheet.png</string>
+						<key>Image-HD</key>
+						<string>robotpack3_UntitledSheet-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>3_3_18</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/robotpack3/3_3_18.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/robotpack3/3_3_18.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {140, 160}}</string>
+						<key>OriginalSize</key>
+						<string>{140, 160}</string>
+						<key>Position</key>
+						<string>{0, 152}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{35, 40}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>12</integer>
+						<key>TextureOffset</key>
+						<string>{0, -0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>3_3_19</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+QDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAyAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwoAAAABAQAAcm9i
+					b3RwYWNrMwAACgAAAAEBAAAzXzNfMTkucG5n
+					AAAYAAAAAQYAAAQAAAAUAAAAIAAAADQAAABM
+					AAAAYAAAAAgAAAAEAwAAV7kAAAAAAAAIAAAA
+					BAMAAJPIBQAAAAAACAAAAAQDAAD1yAUAAAAA
+					AAgAAAAEAwAAMNMFAAAAAAAIAAAABAMAAPc2
+					BgAAAAAACAAAAAQDAACHNwYAAAAAABgAAAAB
+					BgAAlAAAAKQAAAC0AAAAxAAAANQAAADkAAAA
+					GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
+					AAAAAAAAAAAAAQUAAAQAAAADAwAAAwAAAAgA
+					AAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAM
+					AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
+					AICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAA
+					AAEBAAA5RUZCNTM0NS1BRDUzLTNCMkUtQTkz
+					RC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAAB
+					AAgA7z8AAAEACAAAAAAAAAAAAAEAAAABAQAA
+					LwAAAAQAAAADAwAAAAEAAMQAAAABAgAAOGU3
+					MDgwNzRlMWVkY2U4Njg4ZDgzYWEzMjJlZTg0
+					Y2QzMmFiNzA2NjswMDAwMDAwMDswMDAwMDAw
+					MDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2Fu
+					ZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzBl
+					MDAwMDAyOzAwMDAwMDAwMDAwNjM3ODc7L3Vz
+					ZXJzL2dhbWUvZG93bmxvYWRzL21hZ25ldCBy
+					ZXNvdXJjZXMvcm9ib3RwYWNrMy8zXzNfMTku
+					cG5nAOQAAAD+////AQAAAAAAAAASAAAABBAA
+					AHQAAAAAAAAABRAAAPQAAAAAAAAAEBAAABQB
+					AAAAAAAAVBAAADwBAAAAAAAAVRAAADwBAAAA
+					AAAAVhAAADQBAAAAAAAAAiAAAOQBAAAAAAAA
+					ECAAAGQBAAAAAAAAESAAAJgBAAAAAAAAEiAA
+					AHgBAAAAAAAAEyAAAIgBAAAAAAAAICAAAMQB
+					AAAAAAAAMCAAADQBAAAAAAAAAcAAAEgBAAAA
+					AAAAEcAAABQAAAAAAAAAEsAAAFgBAAAAAAAA
+					ENAAAPABAAAAAAAAgPAAAPwBAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{1.25, -15.375}</string>
+										<string>{5.75, -18.125}</string>
+										<string>{11.5, -18.125}</string>
+										<string>{12, 1.375}</string>
+										<string>{11.5, 16.875}</string>
+										<string>{0.5, 18.375}</string>
+										<string>{0.5, 18.125}</string>
+										<string>{0.75, 2.125}</string>
+									</array>
+									<array>
+										<string>{-1.5, -0.625}</string>
+										<string>{-17.5, -5.125}</string>
+										<string>{-20, -8.375}</string>
+										<string>{-19.25, -14.625}</string>
+										<string>{-11.5, -14.875}</string>
+									</array>
+									<array>
+										<string>{0.75, 2.125}</string>
+										<string>{-1.5, -0.625}</string>
+										<string>{-11.5, -14.875}</string>
+										<string>{-8.5, -17.375}</string>
+										<string>{1.25, -15.375}</string>
+									</array>
+									<array>
+										<string>{12, 1.375}</string>
+										<string>{11.5, -18.125}</string>
+										<string>{19.75, -13.875}</string>
+										<string>{19.5, -9.625}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>0.0</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<false/>
+								<key>IsSensor</key>
+								<true/>
+								<key>LHHeight</key>
+								<real>0.0</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-20, -18.375}</string>
+								<key>LHWidth</key>
+								<real>0.0</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{82, 1}</string>
+									<string>{83, 65}</string>
+									<string>{74, 76}</string>
+									<string>{10, 94}</string>
+									<string>{0, 107}</string>
+									<string>{3, 132}</string>
+									<string>{34, 133}</string>
+									<string>{46, 143}</string>
+									<string>{85, 135}</string>
+									<string>{103, 146}</string>
+									<string>{126, 146}</string>
+									<string>{159, 129}</string>
+									<string>{158, 112}</string>
+									<string>{128, 68}</string>
+									<string>{126, 6}</string>
+									<string>{82, 0}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>UntitledSheet</string>
+					<key>SHSpriteName</key>
+					<string>3_3_19</string>
+					<key>SheetImage</key>
+					<string>robotpack3_UntitledSheet.png</string>
+					<key>SheetImage-HD</key>
+					<string>robotpack3_UntitledSheet-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{0, 0}, {40, 36.75}}</string>
+						<key>Frame-HD</key>
+						<string>{{0, 0}, {160, 147}}</string>
+						<key>Image</key>
+						<string>robotpack3_UntitledSheet.png</string>
+						<key>Image-HD</key>
+						<string>robotpack3_UntitledSheet-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>3_3_19</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/robotpack3/3_3_19.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/robotpack3/3_3_19.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {160, 147}}</string>
+						<key>OriginalSize</key>
+						<string>{160, 147}</string>
+						<key>Position</key>
+						<string>{0, 0}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{40, 36.75}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>12</integer>
+						<key>TextureOffset</key>
+						<string>{0, -0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>3_3_2</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+QDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAyAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwoAAAABAQAAcm9i
+					b3RwYWNrMwAACQAAAAEBAAAzXzNfMi5wbmcA
+					AAAYAAAAAQYAAAQAAAAUAAAAIAAAADQAAABM
+					AAAAYAAAAAgAAAAEAwAAV7kAAAAAAAAIAAAA
+					BAMAAJPIBQAAAAAACAAAAAQDAAD1yAUAAAAA
+					AAgAAAAEAwAAMNMFAAAAAAAIAAAABAMAAPc2
+					BgAAAAAACAAAAAQDAAB2NwYAAAAAABgAAAAB
+					BgAAlAAAAKQAAAC0AAAAxAAAANQAAADkAAAA
+					GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
+					AAAAAAAAAAAAAQUAAAQAAAADAwAAAwAAAAgA
+					AAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAM
+					AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
+					AICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAA
+					AAEBAAA5RUZCNTM0NS1BRDUzLTNCMkUtQTkz
+					RC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAAB
+					AAgA7z8AAAEACAAAAAAAAAAAAAEAAAABAQAA
+					LwAAAAQAAAADAwAAAAEAAMMAAAABAgAANGE0
+					NjBhMzkxNTRjOWViMzA1N2I5YzI4OTZmMGY5
+					NTVjOWI2OTVmYTswMDAwMDAwMDswMDAwMDAw
+					MDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2Fu
+					ZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzBl
+					MDAwMDAyOzAwMDAwMDAwMDAwNjM3NzY7L3Vz
+					ZXJzL2dhbWUvZG93bmxvYWRzL21hZ25ldCBy
+					ZXNvdXJjZXMvcm9ib3RwYWNrMy8zXzNfMi5w
+					bmcAAOQAAAD+////AQAAAAAAAAASAAAABBAA
+					AHQAAAAAAAAABRAAAPQAAAAAAAAAEBAAABQB
+					AAAAAAAAVBAAADwBAAAAAAAAVRAAADwBAAAA
+					AAAAVhAAADQBAAAAAAAAAiAAAOQBAAAAAAAA
+					ECAAAGQBAAAAAAAAESAAAJgBAAAAAAAAEiAA
+					AHgBAAAAAAAAEyAAAIgBAAAAAAAAICAAAMQB
+					AAAAAAAAMCAAADQBAAAAAAAAAcAAAEgBAAAA
+					AAAAEcAAABQAAAAAAAAAEsAAAFgBAAAAAAAA
+					ENAAAPABAAAAAAAAgPAAAPwBAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{5.125, 14}</string>
+										<string>{-1.875, -9.75}</string>
+										<string>{-0.125, -13.75}</string>
+										<string>{6.625, -18}</string>
+										<string>{6.875, -9}</string>
+									</array>
+									<array>
+										<string>{6.875, -9}</string>
+										<string>{14.375, 7}</string>
+										<string>{14.375, 10.75}</string>
+										<string>{5.125, 14}</string>
+									</array>
+									<array>
+										<string>{-1.875, 15.75}</string>
+										<string>{-14.375, 10.5}</string>
+										<string>{-13.625, -3.75}</string>
+										<string>{-1.875, -9.75}</string>
+										<string>{5.125, 14}</string>
+										<string>{3.875, 16.5}</string>
+									</array>
+									<array>
+										<string>{3.875, 16.5}</string>
+										<string>{-0.875, 17.25}</string>
+										<string>{-1.875, 15.75}</string>
+									</array>
+									<array>
+										<string>{-10.875, 18.25}</string>
+										<string>{-14.375, 10.5}</string>
+										<string>{-1.875, 15.75}</string>
+										<string>{-10.625, 18.5}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>0.0</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<false/>
+								<key>IsSensor</key>
+								<true/>
+								<key>LHHeight</key>
+								<real>0.0</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-14.5, -18.375}</string>
+								<key>LHWidth</key>
+								<real>0.0</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{14, 1}</string>
+									<string>{0, 32}</string>
+									<string>{3, 89}</string>
+									<string>{50, 113}</string>
+									<string>{57, 129}</string>
+									<string>{84, 146}</string>
+									<string>{85, 110}</string>
+									<string>{115, 46}</string>
+									<string>{115, 31}</string>
+									<string>{78, 18}</string>
+									<string>{73, 8}</string>
+									<string>{54, 5}</string>
+									<string>{50, 11}</string>
+									<string>{15, 0}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>UntitledSheet</string>
+					<key>SHSpriteName</key>
+					<string>3_3_2</string>
+					<key>SheetImage</key>
+					<string>robotpack3_UntitledSheet.png</string>
+					<key>SheetImage-HD</key>
+					<string>robotpack3_UntitledSheet-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{123, 0}, {29, 36.75}}</string>
+						<key>Frame-HD</key>
+						<string>{{492, 0}, {116, 147}}</string>
+						<key>Image</key>
+						<string>robotpack3_UntitledSheet.png</string>
+						<key>Image-HD</key>
+						<string>robotpack3_UntitledSheet-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>3_3_2</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/robotpack3/3_3_2.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/robotpack3/3_3_2.png/</string>
+						<key>OriginalRect</key>
+						<string>{{1, 0}, {116, 147}}</string>
+						<key>OriginalSize</key>
+						<string>{117, 148}</string>
+						<key>Position</key>
+						<string>{492, 0}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{29.25, 37}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>12</integer>
+						<key>TextureOffset</key>
+						<string>{0.125, 0.125}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>3_3_20</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+QDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAyAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwoAAAABAQAAcm9i
+					b3RwYWNrMwAACgAAAAEBAAAzXzNfMjAucG5n
+					AAAYAAAAAQYAAAQAAAAUAAAAIAAAADQAAABM
+					AAAAYAAAAAgAAAAEAwAAV7kAAAAAAAAIAAAA
+					BAMAAJPIBQAAAAAACAAAAAQDAAD1yAUAAAAA
+					AAgAAAAEAwAAMNMFAAAAAAAIAAAABAMAAPc2
+					BgAAAAAACAAAAAQDAACINwYAAAAAABgAAAAB
+					BgAAlAAAAKQAAAC0AAAAxAAAANQAAADkAAAA
+					GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
+					AAAAAAAAAAAAAQUAAAQAAAADAwAAAwAAAAgA
+					AAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAM
+					AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
+					AICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAA
+					AAEBAAA5RUZCNTM0NS1BRDUzLTNCMkUtQTkz
+					RC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAAB
+					AAgA7z8AAAEACAAAAAAAAAAAAAEAAAABAQAA
+					LwAAAAQAAAADAwAAAAEAAMQAAAABAgAANjM5
+					YmE1ODQyNDI2ODdhMDk4ZGUwNmQ5MmVkYWY4
+					ZTQ1MDFiZWYyYTswMDAwMDAwMDswMDAwMDAw
+					MDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2Fu
+					ZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzBl
+					MDAwMDAyOzAwMDAwMDAwMDAwNjM3ODg7L3Vz
+					ZXJzL2dhbWUvZG93bmxvYWRzL21hZ25ldCBy
+					ZXNvdXJjZXMvcm9ib3RwYWNrMy8zXzNfMjAu
+					cG5nAOQAAAD+////AQAAAAAAAAASAAAABBAA
+					AHQAAAAAAAAABRAAAPQAAAAAAAAAEBAAABQB
+					AAAAAAAAVBAAADwBAAAAAAAAVRAAADwBAAAA
+					AAAAVhAAADQBAAAAAAAAAiAAAOQBAAAAAAAA
+					ECAAAGQBAAAAAAAAESAAAJgBAAAAAAAAEiAA
+					AHgBAAAAAAAAEyAAAIgBAAAAAAAAICAAAMQB
+					AAAAAAAAMCAAADQBAAAAAAAAAcAAAEgBAAAA
+					AAAAEcAAABQAAAAAAAAAEsAAAFgBAAAAAAAA
+					ENAAAPABAAAAAAAAgPAAAPwBAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{8.25, 4.125}</string>
+										<string>{-5, -1.375}</string>
+										<string>{-8.5, -7.625}</string>
+										<string>{-2, -11.125}</string>
+									</array>
+									<array>
+										<string>{6.5, 10.125}</string>
+										<string>{-1, 11.375}</string>
+										<string>{-7, 7.625}</string>
+										<string>{-5, -1.375}</string>
+										<string>{8.25, 4.125}</string>
+									</array>
+									<array>
+										<string>{6.5, 10.125}</string>
+										<string>{-0.75, 11.625}</string>
+										<string>{-1, 11.375}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>0.0</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<false/>
+								<key>IsSensor</key>
+								<true/>
+								<key>LHHeight</key>
+								<real>0.0</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-8.5, -11.625}</string>
+								<key>LHWidth</key>
+								<real>0.0</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{30, 1}</string>
+									<string>{6, 16}</string>
+									<string>{14, 52}</string>
+									<string>{0, 77}</string>
+									<string>{26, 91}</string>
+									<string>{67, 30}</string>
+									<string>{60, 6}</string>
+									<string>{31, 0}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>UntitledSheet</string>
+					<key>SHSpriteName</key>
+					<string>3_3_20</string>
+					<key>SheetImage</key>
+					<string>robotpack3_UntitledSheet.png</string>
+					<key>SheetImage-HD</key>
+					<string>robotpack3_UntitledSheet-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{122, 132}, {17, 23.75}}</string>
+						<key>Frame-HD</key>
+						<string>{{488, 528}, {68, 93}}</string>
+						<key>Image</key>
+						<string>robotpack3_UntitledSheet.png</string>
+						<key>Image-HD</key>
+						<string>robotpack3_UntitledSheet-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>3_3_20</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/robotpack3/3_3_20.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/robotpack3/3_3_20.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {68, 93}}</string>
+						<key>OriginalSize</key>
+						<string>{68, 93}</string>
+						<key>Position</key>
+						<string>{488, 528}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{17, 23.25}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>12</integer>
+						<key>TextureOffset</key>
+						<string>{0, -0.25}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>3_3_3</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+QDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAyAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwoAAAABAQAAcm9i
+					b3RwYWNrMwAACQAAAAEBAAAzXzNfMy5wbmcA
+					AAAYAAAAAQYAAAQAAAAUAAAAIAAAADQAAABM
+					AAAAYAAAAAgAAAAEAwAAV7kAAAAAAAAIAAAA
+					BAMAAJPIBQAAAAAACAAAAAQDAAD1yAUAAAAA
+					AAgAAAAEAwAAMNMFAAAAAAAIAAAABAMAAPc2
+					BgAAAAAACAAAAAQDAAB3NwYAAAAAABgAAAAB
+					BgAAlAAAAKQAAAC0AAAAxAAAANQAAADkAAAA
+					GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
+					AAAAAAAAAAAAAQUAAAQAAAADAwAAAwAAAAgA
+					AAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAM
+					AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
+					AICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAA
+					AAEBAAA5RUZCNTM0NS1BRDUzLTNCMkUtQTkz
+					RC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAAB
+					AAgA7z8AAAEACAAAAAAAAAAAAAEAAAABAQAA
+					LwAAAAQAAAADAwAAAAEAAMMAAAABAgAAMDM5
+					YjBjMmE2NTg5ZGJhNmJiZWE1ZTE2MWY5YjA4
+					YWM4MjE4NmZmNjswMDAwMDAwMDswMDAwMDAw
+					MDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2Fu
+					ZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzBl
+					MDAwMDAyOzAwMDAwMDAwMDAwNjM3Nzc7L3Vz
+					ZXJzL2dhbWUvZG93bmxvYWRzL21hZ25ldCBy
+					ZXNvdXJjZXMvcm9ib3RwYWNrMy8zXzNfMy5w
+					bmcAAOQAAAD+////AQAAAAAAAAASAAAABBAA
+					AHQAAAAAAAAABRAAAPQAAAAAAAAAEBAAABQB
+					AAAAAAAAVBAAADwBAAAAAAAAVRAAADwBAAAA
+					AAAAVhAAADQBAAAAAAAAAiAAAOQBAAAAAAAA
+					ECAAAGQBAAAAAAAAESAAAJgBAAAAAAAAEiAA
+					AHgBAAAAAAAAEyAAAIgBAAAAAAAAICAAAMQB
+					AAAAAAAAMCAAADQBAAAAAAAAAcAAAEgBAAAA
+					AAAAEcAAABQAAAAAAAAAEsAAAFgBAAAAAAAA
+					ENAAAPABAAAAAAAAgPAAAPwBAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-4, 10.5}</string>
+										<string>{-14.75, 1.75}</string>
+										<string>{-20, -7}</string>
+										<string>{-5, -6.75}</string>
+									</array>
+									<array>
+										<string>{12.75, 6.25}</string>
+										<string>{14.25, -2.75}</string>
+										<string>{19.25, -5}</string>
+										<string>{19.5, -0.75}</string>
+									</array>
+									<array>
+										<string>{-4, 10.5}</string>
+										<string>{-5, -6.75}</string>
+										<string>{11.25, -10.5}</string>
+										<string>{14.25, -2.75}</string>
+										<string>{12.75, 6.25}</string>
+										<string>{-3.75, 10.75}</string>
+									</array>
+									<array>
+										<string>{-15.5, 5.5}</string>
+										<string>{-14.75, 1.75}</string>
+										<string>{-4, 10.5}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>0.0</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<false/>
+								<key>IsSensor</key>
+								<true/>
+								<key>LHHeight</key>
+								<real>0.0</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-20, -10.75}</string>
+								<key>LHWidth</key>
+								<real>0.0</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{64, 1}</string>
+									<string>{18, 21}</string>
+									<string>{21, 36}</string>
+									<string>{0, 71}</string>
+									<string>{60, 70}</string>
+									<string>{125, 85}</string>
+									<string>{137, 54}</string>
+									<string>{157, 63}</string>
+									<string>{158, 46}</string>
+									<string>{131, 18}</string>
+									<string>{65, 0}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>UntitledSheet</string>
+					<key>SHSpriteName</key>
+					<string>3_3_3</string>
+					<key>SheetImage</key>
+					<string>robotpack3_UntitledSheet.png</string>
+					<key>SheetImage-HD</key>
+					<string>robotpack3_UntitledSheet-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{118, 69}, {40, 21.5}}</string>
+						<key>Frame-HD</key>
+						<string>{{472, 276}, {160, 86}}</string>
+						<key>Image</key>
+						<string>robotpack3_UntitledSheet.png</string>
+						<key>Image-HD</key>
+						<string>robotpack3_UntitledSheet-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>3_3_3</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/robotpack3/3_3_3.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/robotpack3/3_3_3.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {160, 86}}</string>
+						<key>OriginalSize</key>
+						<string>{160, 86}</string>
+						<key>Position</key>
+						<string>{472, 276}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{40, 21.5}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>12</integer>
+						<key>TextureOffset</key>
+						<string>{0, -0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>3_3_4</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+QDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAyAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwoAAAABAQAAcm9i
+					b3RwYWNrMwAACQAAAAEBAAAzXzNfNC5wbmcA
+					AAAYAAAAAQYAAAQAAAAUAAAAIAAAADQAAABM
+					AAAAYAAAAAgAAAAEAwAAV7kAAAAAAAAIAAAA
+					BAMAAJPIBQAAAAAACAAAAAQDAAD1yAUAAAAA
+					AAgAAAAEAwAAMNMFAAAAAAAIAAAABAMAAPc2
+					BgAAAAAACAAAAAQDAAB4NwYAAAAAABgAAAAB
+					BgAAlAAAAKQAAAC0AAAAxAAAANQAAADkAAAA
+					GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
+					AAAAAAAAAAAAAQUAAAQAAAADAwAAAwAAAAgA
+					AAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAM
+					AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
+					AICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAA
+					AAEBAAA5RUZCNTM0NS1BRDUzLTNCMkUtQTkz
+					RC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAAB
+					AAgA7z8AAAEACAAAAAAAAAAAAAEAAAABAQAA
+					LwAAAAQAAAADAwAAAAEAAMMAAAABAgAAMzU4
+					Nzc1MDQxODAxNzZiZGI3NWE5NzI0MTBhMDBk
+					MjFkOGI0NjNjNDswMDAwMDAwMDswMDAwMDAw
+					MDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2Fu
+					ZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzBl
+					MDAwMDAyOzAwMDAwMDAwMDAwNjM3Nzg7L3Vz
+					ZXJzL2dhbWUvZG93bmxvYWRzL21hZ25ldCBy
+					ZXNvdXJjZXMvcm9ib3RwYWNrMy8zXzNfNC5w
+					bmcAAOQAAAD+////AQAAAAAAAAASAAAABBAA
+					AHQAAAAAAAAABRAAAPQAAAAAAAAAEBAAABQB
+					AAAAAAAAVBAAADwBAAAAAAAAVRAAADwBAAAA
+					AAAAVhAAADQBAAAAAAAAAiAAAOQBAAAAAAAA
+					ECAAAGQBAAAAAAAAESAAAJgBAAAAAAAAEiAA
+					AHgBAAAAAAAAEyAAAIgBAAAAAAAAICAAAMQB
+					AAAAAAAAMCAAADQBAAAAAAAAAcAAAEgBAAAA
+					AAAAEcAAABQAAAAAAAAAEsAAAFgBAAAAAAAA
+					ENAAAPABAAAAAAAAgPAAAPwBAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{2.25, -14.125}</string>
+										<string>{7.25, 8.375}</string>
+										<string>{5.5, 12.125}</string>
+										<string>{2, 9.375}</string>
+										<string>{-13.25, -9.375}</string>
+									</array>
+									<array>
+										<string>{-13.25, -9.375}</string>
+										<string>{-13.75, 10.625}</string>
+										<string>{-16.5, 14.375}</string>
+										<string>{-16.75, 14.125}</string>
+										<string>{-20, 9.375}</string>
+										<string>{-20, 2.125}</string>
+									</array>
+									<array>
+										<string>{12.75, -8.875}</string>
+										<string>{19.5, 3.625}</string>
+										<string>{18.25, 14.375}</string>
+										<string>{14.25, 13.875}</string>
+										<string>{11.75, 6.625}</string>
+									</array>
+									<array>
+										<string>{7.25, 8.375}</string>
+										<string>{2.25, -14.125}</string>
+										<string>{12.75, -8.875}</string>
+										<string>{11.75, 6.625}</string>
+									</array>
+									<array>
+										<string>{-13.25, -9.375}</string>
+										<string>{2, 9.375}</string>
+										<string>{-13.75, 10.625}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>0.0</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<false/>
+								<key>IsSensor</key>
+								<true/>
+								<key>LHHeight</key>
+								<real>0.0</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-20, -14.375}</string>
+								<key>LHWidth</key>
+								<real>0.0</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{13, 1}</string>
+									<string>{0, 20}</string>
+									<string>{0, 49}</string>
+									<string>{27, 95}</string>
+									<string>{89, 114}</string>
+									<string>{131, 93}</string>
+									<string>{158, 43}</string>
+									<string>{153, 0}</string>
+									<string>{137, 2}</string>
+									<string>{127, 31}</string>
+									<string>{109, 24}</string>
+									<string>{102, 9}</string>
+									<string>{88, 20}</string>
+									<string>{25, 15}</string>
+									<string>{14, 0}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>UntitledSheet</string>
+					<key>SHSpriteName</key>
+					<string>3_3_4</string>
+					<key>SheetImage</key>
+					<string>robotpack3_UntitledSheet.png</string>
+					<key>SheetImage-HD</key>
+					<string>robotpack3_UntitledSheet-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{77, 38}, {40, 28.75}}</string>
+						<key>Frame-HD</key>
+						<string>{{308, 152}, {160, 115}}</string>
+						<key>Image</key>
+						<string>robotpack3_UntitledSheet.png</string>
+						<key>Image-HD</key>
+						<string>robotpack3_UntitledSheet-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>3_3_4</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/robotpack3/3_3_4.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/robotpack3/3_3_4.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {160, 115}}</string>
+						<key>OriginalSize</key>
+						<string>{160, 115}</string>
+						<key>Position</key>
+						<string>{308, 152}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{40, 28.75}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>12</integer>
+						<key>TextureOffset</key>
+						<string>{0, -0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>3_3_5</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+QDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAyAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwoAAAABAQAAcm9i
+					b3RwYWNrMwAACQAAAAEBAAAzXzNfNS5wbmcA
+					AAAYAAAAAQYAAAQAAAAUAAAAIAAAADQAAABM
+					AAAAYAAAAAgAAAAEAwAAV7kAAAAAAAAIAAAA
+					BAMAAJPIBQAAAAAACAAAAAQDAAD1yAUAAAAA
+					AAgAAAAEAwAAMNMFAAAAAAAIAAAABAMAAPc2
+					BgAAAAAACAAAAAQDAAB5NwYAAAAAABgAAAAB
+					BgAAlAAAAKQAAAC0AAAAxAAAANQAAADkAAAA
+					GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
+					AAAAAAAAAAAAAQUAAAQAAAADAwAAAwAAAAgA
+					AAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAM
+					AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
+					AICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAA
+					AAEBAAA5RUZCNTM0NS1BRDUzLTNCMkUtQTkz
+					RC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAAB
+					AAgA7z8AAAEACAAAAAAAAAAAAAEAAAABAQAA
+					LwAAAAQAAAADAwAAAAEAAMMAAAABAgAAZTQ4
+					NTM2Njg5Mjg1NGViODRiOWVlMDRmNDYwNGU0
+					ZWJlYWMyM2JkZDswMDAwMDAwMDswMDAwMDAw
+					MDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2Fu
+					ZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzBl
+					MDAwMDAyOzAwMDAwMDAwMDAwNjM3Nzk7L3Vz
+					ZXJzL2dhbWUvZG93bmxvYWRzL21hZ25ldCBy
+					ZXNvdXJjZXMvcm9ib3RwYWNrMy8zXzNfNS5w
+					bmcAAOQAAAD+////AQAAAAAAAAASAAAABBAA
+					AHQAAAAAAAAABRAAAPQAAAAAAAAAEBAAABQB
+					AAAAAAAAVBAAADwBAAAAAAAAVRAAADwBAAAA
+					AAAAVhAAADQBAAAAAAAAAiAAAOQBAAAAAAAA
+					ECAAAGQBAAAAAAAAESAAAJgBAAAAAAAAEiAA
+					AHgBAAAAAAAAEyAAAIgBAAAAAAAAICAAAMQB
+					AAAAAAAAMCAAADQBAAAAAAAAAcAAAEgBAAAA
+					AAAAEcAAABQAAAAAAAAAEsAAAFgBAAAAAAAA
+					ENAAAPABAAAAAAAAgPAAAPwBAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{18, 13.75}</string>
+										<string>{13.5, 15}</string>
+										<string>{13.75, 14.75}</string>
+									</array>
+									<array>
+										<string>{-10, -14.75}</string>
+										<string>{-5.5, -10.5}</string>
+										<string>{-19.5, -2.75}</string>
+										<string>{-17.25, -10}</string>
+									</array>
+									<array>
+										<string>{16, -8.25}</string>
+										<string>{5.25, -7}</string>
+										<string>{-5.5, -10.5}</string>
+										<string>{-10, -14.75}</string>
+										<string>{3.25, -14.75}</string>
+									</array>
+									<array>
+										<string>{19.75, 5}</string>
+										<string>{11.5, 1.25}</string>
+										<string>{5.25, -7}</string>
+										<string>{16, -8.25}</string>
+									</array>
+									<array>
+										<string>{11.5, 1.25}</string>
+										<string>{16.25, 10.25}</string>
+										<string>{18, 13.75}</string>
+										<string>{13.75, 14.75}</string>
+									</array>
+									<array>
+										<string>{19.75, 5}</string>
+										<string>{16.25, 10.25}</string>
+										<string>{11.5, 1.25}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>0.0</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<false/>
+								<key>IsSensor</key>
+								<true/>
+								<key>LHHeight</key>
+								<real>0.0</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-20, -15}</string>
+								<key>LHWidth</key>
+								<real>0.0</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{135, 1}</string>
+									<string>{126, 55}</string>
+									<string>{101, 88}</string>
+									<string>{58, 102}</string>
+									<string>{2, 71}</string>
+									<string>{11, 100}</string>
+									<string>{40, 119}</string>
+									<string>{93, 119}</string>
+									<string>{144, 93}</string>
+									<string>{159, 40}</string>
+									<string>{145, 19}</string>
+									<string>{152, 5}</string>
+									<string>{134, 0}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>UntitledSheet</string>
+					<key>SHSpriteName</key>
+					<string>3_3_5</string>
+					<key>SheetImage</key>
+					<string>robotpack3_UntitledSheet.png</string>
+					<key>SheetImage-HD</key>
+					<string>robotpack3_UntitledSheet-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{36, 38}, {40, 30}}</string>
+						<key>Frame-HD</key>
+						<string>{{144, 152}, {160, 120}}</string>
+						<key>Image</key>
+						<string>robotpack3_UntitledSheet.png</string>
+						<key>Image-HD</key>
+						<string>robotpack3_UntitledSheet-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>3_3_5</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/robotpack3/3_3_5.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/robotpack3/3_3_5.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {160, 120}}</string>
+						<key>OriginalSize</key>
+						<string>{160, 120}</string>
+						<key>Position</key>
+						<string>{144, 152}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{40, 30}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>12</integer>
+						<key>TextureOffset</key>
+						<string>{0, -0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>3_3_6</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+QDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAyAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwoAAAABAQAAcm9i
+					b3RwYWNrMwAACQAAAAEBAAAzXzNfNi5wbmcA
+					AAAYAAAAAQYAAAQAAAAUAAAAIAAAADQAAABM
+					AAAAYAAAAAgAAAAEAwAAV7kAAAAAAAAIAAAA
+					BAMAAJPIBQAAAAAACAAAAAQDAAD1yAUAAAAA
+					AAgAAAAEAwAAMNMFAAAAAAAIAAAABAMAAPc2
+					BgAAAAAACAAAAAQDAAB6NwYAAAAAABgAAAAB
+					BgAAlAAAAKQAAAC0AAAAxAAAANQAAADkAAAA
+					GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
+					AAAAAAAAAAAAAQUAAAQAAAADAwAAAwAAAAgA
+					AAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAM
+					AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
+					AICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAA
+					AAEBAAA5RUZCNTM0NS1BRDUzLTNCMkUtQTkz
+					RC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAAB
+					AAgA7z8AAAEACAAAAAAAAAAAAAEAAAABAQAA
+					LwAAAAQAAAADAwAAAAEAAMMAAAABAgAAZGJi
+					ZDlhYjgxMDU5ZmIyYWE2YmYxMDU2ODlhZGZm
+					YzI1MGJkYjNiYjswMDAwMDAwMDswMDAwMDAw
+					MDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2Fu
+					ZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzBl
+					MDAwMDAyOzAwMDAwMDAwMDAwNjM3N2E7L3Vz
+					ZXJzL2dhbWUvZG93bmxvYWRzL21hZ25ldCBy
+					ZXNvdXJjZXMvcm9ib3RwYWNrMy8zXzNfNi5w
+					bmcAAOQAAAD+////AQAAAAAAAAASAAAABBAA
+					AHQAAAAAAAAABRAAAPQAAAAAAAAAEBAAABQB
+					AAAAAAAAVBAAADwBAAAAAAAAVRAAADwBAAAA
+					AAAAVhAAADQBAAAAAAAAAiAAAOQBAAAAAAAA
+					ECAAAGQBAAAAAAAAESAAAJgBAAAAAAAAEiAA
+					AHgBAAAAAAAAEyAAAIgBAAAAAAAAICAAAMQB
+					AAAAAAAAMCAAADQBAAAAAAAAAcAAAEgBAAAA
+					AAAAEcAAABQAAAAAAAAAEsAAAFgBAAAAAAAA
+					ENAAAPABAAAAAAAAgPAAAPwBAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{17.25, 12.125}</string>
+										<string>{13.75, 3.375}</string>
+										<string>{16.5, -6.375}</string>
+										<string>{19.75, 5.625}</string>
+									</array>
+									<array>
+										<string>{6, -13.125}</string>
+										<string>{1, -7.125}</string>
+										<string>{-4, -5.125}</string>
+										<string>{-20, -1.625}</string>
+										<string>{-10.5, -12.875}</string>
+									</array>
+									<array>
+										<string>{10.25, 10.875}</string>
+										<string>{17.25, 12.125}</string>
+										<string>{7.5, 14.375}</string>
+										<string>{7.5, 14.125}</string>
+									</array>
+									<array>
+										<string>{-4, -5.125}</string>
+										<string>{1, -7.125}</string>
+										<string>{2.75, -1.625}</string>
+									</array>
+									<array>
+										<string>{6.5, 0.375}</string>
+										<string>{-4, -5.125}</string>
+										<string>{2.75, -1.625}</string>
+									</array>
+									<array>
+										<string>{6.5, 0.375}</string>
+										<string>{2.75, -1.625}</string>
+										<string>{13.75, 3.375}</string>
+									</array>
+									<array>
+										<string>{17.25, 12.125}</string>
+										<string>{10.25, 10.875}</string>
+										<string>{6.5, 0.375}</string>
+										<string>{13.75, 3.375}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>0.0</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<false/>
+								<key>IsSensor</key>
+								<true/>
+								<key>LHHeight</key>
+								<real>0.0</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-20, -14.375}</string>
+								<key>LHWidth</key>
+								<real>0.0</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{110, 1}</string>
+									<string>{121, 14}</string>
+									<string>{106, 56}</string>
+									<string>{64, 78}</string>
+									<string>{0, 64}</string>
+									<string>{38, 109}</string>
+									<string>{104, 110}</string>
+									<string>{84, 86}</string>
+									<string>{91, 64}</string>
+									<string>{135, 44}</string>
+									<string>{146, 83}</string>
+									<string>{159, 35}</string>
+									<string>{149, 9}</string>
+									<string>{110, 0}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>UntitledSheet</string>
+					<key>SHSpriteName</key>
+					<string>3_3_6</string>
+					<key>SheetImage</key>
+					<string>robotpack3_UntitledSheet.png</string>
+					<key>SheetImage-HD</key>
+					<string>robotpack3_UntitledSheet-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{118, 38}, {40, 28.75}}</string>
+						<key>Frame-HD</key>
+						<string>{{472, 152}, {160, 115}}</string>
+						<key>Image</key>
+						<string>robotpack3_UntitledSheet.png</string>
+						<key>Image-HD</key>
+						<string>robotpack3_UntitledSheet-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>3_3_6</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/robotpack3/3_3_6.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/robotpack3/3_3_6.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {160, 115}}</string>
+						<key>OriginalSize</key>
+						<string>{160, 115}</string>
+						<key>Position</key>
+						<string>{472, 152}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{40, 28.75}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>12</integer>
+						<key>TextureOffset</key>
+						<string>{0, -0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>3_3_7</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+QDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAyAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwoAAAABAQAAcm9i
+					b3RwYWNrMwAACQAAAAEBAAAzXzNfNy5wbmcA
+					AAAYAAAAAQYAAAQAAAAUAAAAIAAAADQAAABM
+					AAAAYAAAAAgAAAAEAwAAV7kAAAAAAAAIAAAA
+					BAMAAJPIBQAAAAAACAAAAAQDAAD1yAUAAAAA
+					AAgAAAAEAwAAMNMFAAAAAAAIAAAABAMAAPc2
+					BgAAAAAACAAAAAQDAAB7NwYAAAAAABgAAAAB
+					BgAAlAAAAKQAAAC0AAAAxAAAANQAAADkAAAA
+					GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
+					AAAAAAAAAAAAAQUAAAQAAAADAwAAAwAAAAgA
+					AAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAM
+					AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
+					AICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAA
+					AAEBAAA5RUZCNTM0NS1BRDUzLTNCMkUtQTkz
+					RC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAAB
+					AAgA7z8AAAEACAAAAAAAAAAAAAEAAAABAQAA
+					LwAAAAQAAAADAwAAAAEAAMMAAAABAgAAYjEx
+					YzA5NWQ5MThiZTM1MzRkNDZlYjIyNDk1YTQ3
+					ZTRlNTNkMTZmMzswMDAwMDAwMDswMDAwMDAw
+					MDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2Fu
+					ZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzBl
+					MDAwMDAyOzAwMDAwMDAwMDAwNjM3N2I7L3Vz
+					ZXJzL2dhbWUvZG93bmxvYWRzL21hZ25ldCBy
+					ZXNvdXJjZXMvcm9ib3RwYWNrMy8zXzNfNy5w
+					bmcAAOQAAAD+////AQAAAAAAAAASAAAABBAA
+					AHQAAAAAAAAABRAAAPQAAAAAAAAAEBAAABQB
+					AAAAAAAAVBAAADwBAAAAAAAAVRAAADwBAAAA
+					AAAAVhAAADQBAAAAAAAAAiAAAOQBAAAAAAAA
+					ECAAAGQBAAAAAAAAESAAAJgBAAAAAAAAEiAA
+					AHgBAAAAAAAAEyAAAIgBAAAAAAAAICAAAMQB
+					AAAAAAAAMCAAADQBAAAAAAAAAcAAAEgBAAAA
+					AAAAEcAAABQAAAAAAAAAEsAAAFgBAAAAAAAA
+					ENAAAPABAAAAAAAAgPAAAPwBAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{7.25, -6.75}</string>
+										<string>{-6.75, -5.75}</string>
+										<string>{-12.25, -19.75}</string>
+										<string>{9.5, -15.75}</string>
+									</array>
+									<array>
+										<string>{-4.5, 8.75}</string>
+										<string>{-7, 6}</string>
+										<string>{-6.75, -5.75}</string>
+										<string>{7.25, -6.75}</string>
+										<string>{7.25, 0.25}</string>
+									</array>
+									<array>
+										<string>{-6.5, 19.75}</string>
+										<string>{-4.5, 8.75}</string>
+										<string>{7.25, 0.25}</string>
+										<string>{12, 14}</string>
+										<string>{8.75, 16}</string>
+										<string>{-6.25, 20}</string>
+									</array>
+									<array>
+										<string>{-8.25, 18.5}</string>
+										<string>{-4.5, 8.75}</string>
+										<string>{-6.5, 19.75}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>0.0</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<false/>
+								<key>IsSensor</key>
+								<true/>
+								<key>LHHeight</key>
+								<real>0.0</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-12.25, -20}</string>
+								<key>LHWidth</key>
+								<real>0.0</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{23, 1}</string>
+									<string>{16, 6}</string>
+									<string>{31, 45}</string>
+									<string>{21, 56}</string>
+									<string>{22, 103}</string>
+									<string>{0, 159}</string>
+									<string>{87, 143}</string>
+									<string>{78, 107}</string>
+									<string>{78, 79}</string>
+									<string>{97, 24}</string>
+									<string>{84, 16}</string>
+									<string>{24, 0}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>UntitledSheet</string>
+					<key>SHSpriteName</key>
+					<string>3_3_7</string>
+					<key>SheetImage</key>
+					<string>robotpack3_UntitledSheet.png</string>
+					<key>SheetImage-HD</key>
+					<string>robotpack3_UntitledSheet-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{92, 69}, {24.5, 40}}</string>
+						<key>Frame-HD</key>
+						<string>{{368, 276}, {98, 160}}</string>
+						<key>Image</key>
+						<string>robotpack3_UntitledSheet.png</string>
+						<key>Image-HD</key>
+						<string>robotpack3_UntitledSheet-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>3_3_7</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/robotpack3/3_3_7.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/robotpack3/3_3_7.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {98, 160}}</string>
+						<key>OriginalSize</key>
+						<string>{98, 160}</string>
+						<key>Position</key>
+						<string>{368, 276}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{24.5, 40}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>12</integer>
+						<key>TextureOffset</key>
+						<string>{0, -0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>3_3_8</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+QDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAyAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwoAAAABAQAAcm9i
+					b3RwYWNrMwAACQAAAAEBAAAzXzNfOC5wbmcA
+					AAAYAAAAAQYAAAQAAAAUAAAAIAAAADQAAABM
+					AAAAYAAAAAgAAAAEAwAAV7kAAAAAAAAIAAAA
+					BAMAAJPIBQAAAAAACAAAAAQDAAD1yAUAAAAA
+					AAgAAAAEAwAAMNMFAAAAAAAIAAAABAMAAPc2
+					BgAAAAAACAAAAAQDAAB8NwYAAAAAABgAAAAB
+					BgAAlAAAAKQAAAC0AAAAxAAAANQAAADkAAAA
+					GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
+					AAAAAAAAAAAAAQUAAAQAAAADAwAAAwAAAAgA
+					AAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAM
+					AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
+					AICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAA
+					AAEBAAA5RUZCNTM0NS1BRDUzLTNCMkUtQTkz
+					RC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAAB
+					AAgA7z8AAAEACAAAAAAAAAAAAAEAAAABAQAA
+					LwAAAAQAAAADAwAAAAEAAMMAAAABAgAANWIx
+					MjkyNTEyYTU5NjZiY2E0OGY5ODM0YWU4OWU0
+					NDlkODVkZDdjMjswMDAwMDAwMDswMDAwMDAw
+					MDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2Fu
+					ZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzBl
+					MDAwMDAyOzAwMDAwMDAwMDAwNjM3N2M7L3Vz
+					ZXJzL2dhbWUvZG93bmxvYWRzL21hZ25ldCBy
+					ZXNvdXJjZXMvcm9ib3RwYWNrMy8zXzNfOC5w
+					bmcAAOQAAAD+////AQAAAAAAAAASAAAABBAA
+					AHQAAAAAAAAABRAAAPQAAAAAAAAAEBAAABQB
+					AAAAAAAAVBAAADwBAAAAAAAAVRAAADwBAAAA
+					AAAAVhAAADQBAAAAAAAAAiAAAOQBAAAAAAAA
+					ECAAAGQBAAAAAAAAESAAAJgBAAAAAAAAEiAA
+					AHgBAAAAAAAAEyAAAIgBAAAAAAAAICAAAMQB
+					AAAAAAAAMCAAADQBAAAAAAAAAcAAAEgBAAAA
+					AAAAEcAAABQAAAAAAAAAEsAAAFgBAAAAAAAA
+					ENAAAPABAAAAAAAAgPAAAPwBAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-14.375, 12.75}</string>
+										<string>{-6.875, -8.5}</string>
+										<string>{-0.125, -19.25}</string>
+										<string>{8.625, -19}</string>
+										<string>{10.625, -16.5}</string>
+										<string>{5.875, -6.75}</string>
+									</array>
+									<array>
+										<string>{1.625, 19.75}</string>
+										<string>{5.875, -6.75}</string>
+										<string>{12.375, -1.75}</string>
+										<string>{16.875, 9.25}</string>
+										<string>{10.875, 18}</string>
+										<string>{7.375, 20}</string>
+										<string>{1.875, 20}</string>
+									</array>
+									<array>
+										<string>{5.875, -6.75}</string>
+										<string>{1.625, 19.75}</string>
+										<string>{-14.375, 12.75}</string>
+									</array>
+									<array>
+										<string>{-16.875, 8.75}</string>
+										<string>{-17.125, 2.5}</string>
+										<string>{-11.375, -6}</string>
+										<string>{-6.875, -8.5}</string>
+										<string>{-14.375, 12.75}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>0.0</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<false/>
+								<key>IsSensor</key>
+								<true/>
+								<key>LHHeight</key>
+								<real>0.0</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-17.125, -20}</string>
+								<key>LHWidth</key>
+								<real>0.0</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{75, 1}</string>
+									<string>{11, 29}</string>
+									<string>{1, 45}</string>
+									<string>{0, 70}</string>
+									<string>{23, 104}</string>
+									<string>{41, 114}</string>
+									<string>{68, 157}</string>
+									<string>{103, 156}</string>
+									<string>{111, 146}</string>
+									<string>{92, 107}</string>
+									<string>{118, 87}</string>
+									<string>{136, 43}</string>
+									<string>{112, 8}</string>
+									<string>{98, 0}</string>
+									<string>{76, 0}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>UntitledSheet</string>
+					<key>SHSpriteName</key>
+					<string>3_3_8</string>
+					<key>SheetImage</key>
+					<string>robotpack3_UntitledSheet.png</string>
+					<key>SheetImage-HD</key>
+					<string>robotpack3_UntitledSheet-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{0, 79}, {34.75, 40}}</string>
+						<key>Frame-HD</key>
+						<string>{{0, 316}, {137, 160}}</string>
+						<key>Image</key>
+						<string>robotpack3_UntitledSheet.png</string>
+						<key>Image-HD</key>
+						<string>robotpack3_UntitledSheet-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>3_3_8</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/robotpack3/3_3_8.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/robotpack3/3_3_8.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {137, 160}}</string>
+						<key>OriginalSize</key>
+						<string>{137, 160}</string>
+						<key>Position</key>
+						<string>{0, 316}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{34.25, 40}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>12</integer>
+						<key>TextureOffset</key>
+						<string>{0.25, -0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>3_3_9</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+QDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAyAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwoAAAABAQAAcm9i
+					b3RwYWNrMwAACQAAAAEBAAAzXzNfOS5wbmcA
+					AAAYAAAAAQYAAAQAAAAUAAAAIAAAADQAAABM
+					AAAAYAAAAAgAAAAEAwAAV7kAAAAAAAAIAAAA
+					BAMAAJPIBQAAAAAACAAAAAQDAAD1yAUAAAAA
+					AAgAAAAEAwAAMNMFAAAAAAAIAAAABAMAAPc2
+					BgAAAAAACAAAAAQDAAB9NwYAAAAAABgAAAAB
+					BgAAlAAAAKQAAAC0AAAAxAAAANQAAADkAAAA
+					GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
+					AAAAAAAAAAAAAQUAAAQAAAADAwAAAwAAAAgA
+					AAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAM
+					AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
+					AICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAA
+					AAEBAAA5RUZCNTM0NS1BRDUzLTNCMkUtQTkz
+					RC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAAB
+					AAgA7z8AAAEACAAAAAAAAAAAAAEAAAABAQAA
+					LwAAAAQAAAADAwAAAAEAAMMAAAABAgAAZmYx
+					Yjc3ODRmMTE2M2Q0OTNhZTkxMTYyNGVmYjdi
+					YTA4ZjNkOGJiYjswMDAwMDAwMDswMDAwMDAw
+					MDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2Fu
+					ZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzBl
+					MDAwMDAyOzAwMDAwMDAwMDAwNjM3N2Q7L3Vz
+					ZXJzL2dhbWUvZG93bmxvYWRzL21hZ25ldCBy
+					ZXNvdXJjZXMvcm9ib3RwYWNrMy8zXzNfOS5w
+					bmcAAOQAAAD+////AQAAAAAAAAASAAAABBAA
+					AHQAAAAAAAAABRAAAPQAAAAAAAAAEBAAABQB
+					AAAAAAAAVBAAADwBAAAAAAAAVRAAADwBAAAA
+					AAAAVhAAADQBAAAAAAAAAiAAAOQBAAAAAAAA
+					ECAAAGQBAAAAAAAAESAAAJgBAAAAAAAAEiAA
+					AHgBAAAAAAAAEyAAAIgBAAAAAAAAICAAAMQB
+					AAAAAAAAMCAAADQBAAAAAAAAAcAAAEgBAAAA
+					AAAAEcAAABQAAAAAAAAAEsAAAFgBAAAAAAAA
+					ENAAAPABAAAAAAAAgPAAAPwBAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{0.5, -14.75}</string>
+										<string>{8.75, -7.25}</string>
+										<string>{7.25, 6.25}</string>
+										<string>{-2, 11.25}</string>
+										<string>{-13, 10.5}</string>
+										<string>{-4.75, -8.75}</string>
+									</array>
+									<array>
+										<string>{12.75, 13}</string>
+										<string>{9, 17.5}</string>
+										<string>{-0.5, 20}</string>
+										<string>{-0.5, 19.75}</string>
+										<string>{6, 12}</string>
+									</array>
+									<array>
+										<string>{7.25, 6.25}</string>
+										<string>{12.75, 13}</string>
+										<string>{6, 12}</string>
+									</array>
+									<array>
+										<string>{-4.75, -8.75}</string>
+										<string>{-6.25, -14.75}</string>
+										<string>{0.5, -14.75}</string>
+									</array>
+									<array>
+										<string>{8.75, -7.25}</string>
+										<string>{0.5, -14.75}</string>
+										<string>{3.75, -19.75}</string>
+										<string>{11.25, -16.75}</string>
+										<string>{12.5, -10.75}</string>
+									</array>
+									<array>
+										<string>{1.25, 14}</string>
+										<string>{-2, 11.25}</string>
+										<string>{7.25, 6.25}</string>
+										<string>{6, 12}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>0.0</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<false/>
+								<key>IsSensor</key>
+								<true/>
+								<key>LHHeight</key>
+								<real>0.0</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-13, -20}</string>
+								<key>LHWidth</key>
+								<real>0.0</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{50, 1}</string>
+									<string>{76, 32}</string>
+									<string>{57, 24}</string>
+									<string>{44, 35}</string>
+									<string>{0, 38}</string>
+									<string>{33, 115}</string>
+									<string>{27, 139}</string>
+									<string>{54, 139}</string>
+									<string>{67, 159}</string>
+									<string>{97, 147}</string>
+									<string>{102, 123}</string>
+									<string>{87, 109}</string>
+									<string>{81, 55}</string>
+									<string>{103, 28}</string>
+									<string>{88, 10}</string>
+									<string>{50, 0}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>UntitledSheet</string>
+					<key>SHSpriteName</key>
+					<string>3_3_9</string>
+					<key>SheetImage</key>
+					<string>robotpack3_UntitledSheet.png</string>
+					<key>SheetImage-HD</key>
+					<string>robotpack3_UntitledSheet-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{36, 110}, {26, 40}}</string>
+						<key>Frame-HD</key>
+						<string>{{144, 440}, {104, 160}}</string>
+						<key>Image</key>
+						<string>robotpack3_UntitledSheet.png</string>
+						<key>Image-HD</key>
+						<string>robotpack3_UntitledSheet-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>3_3_9</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/robotpack3/3_3_9.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/robotpack3/3_3_9.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {104, 160}}</string>
+						<key>OriginalSize</key>
+						<string>{104, 160}</string>
+						<key>Position</key>
+						<string>{144, 440}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{26, 40}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>12</integer>
+						<key>TextureOffset</key>
+						<string>{0, -0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+			</dict>
+			<key>Size</key>
+			<string>{1024, 1024}</string>
+			<key>Trim</key>
+			<true/>
+			<key>ZOrder</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>SH_ANIMATIONS_LIST</key>
+	<array/>
+	<key>SaveSettings</key>
+	<dict>
+		<key>Dither</key>
+		<true/>
+		<key>DocumentName</key>
+		<string>robotpack3</string>
+		<key>HD2XSuffix</key>
+		<string>-ipadhd</string>
+		<key>HDSuffix</key>
+		<string>-hd</string>
+		<key>ImageFormatId</key>
+		<integer>0</integer>
+		<key>Npot</key>
+		<true/>
+		<key>PvrBpp</key>
+		<integer>1</integer>
+		<key>PvrRemoveParent</key>
+		<true/>
+		<key>ResamplingAlgorithm</key>
+		<integer>4</integer>
+		<key>ResizingOptions</key>
+		<integer>2</integer>
+	</dict>
+	<key>SceneFolderSandboxBookmark</key>
+	<data>
+	Ym9va2wDAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAdAIA
+	AAUAAAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJAAAAAQEAAERvd25sb2FkcwAAAAkA
+	AAABAQAATWFnbmV0MTQ5AAAABgAAAAEBAABJbWFnZXMAABQAAAABBgAABAAAABQAAAAg
+	AAAANAAAAEgAAAAIAAAABAMAAFe5AAAAAAAACAAAAAQDAACTyAUAAAAAAAgAAAAEAwAA
+	9cgFAAAAAAAIAAAABAMAAARABwAAAAAACAAAAAQDAAArQAcAAAAAABQAAAABBgAAdAAA
+	AIQAAACUAAAApAAAALQAAAAYAAAAAQIAAAIAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAgA
+	AAAEAwAAAwAAAAAAAAAEAAAAAwMAAPUBAAAMAAAAAQEAAE1hY2ludG9zaCBIRAgAAAAE
+	AwAAAICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAAAAEBAAA5RUZCNTM0NS1BRDUzLTNC
+	MkUtQTkzRC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAABAAgA7z8AAAEACAAAAAAAAAAA
+	AAEAAAABAQAALwAAAAAAAAABBQAABAAAAAMDAAAAAQAArgAAAAECAAA1YTZhNGZjMmEz
+	MGZkMzMyNzMzMDNmNzlhY2VmYWYxYmNiNjc4MWY2OzAwMDAwMDAwOzAwMDAwMDAwMDAw
+	MDAwMjA7Y29tLmFwcGxlLmFwcC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAwMDE7MGUw
+	MDAwMDI7MDAwMDAwMDAwMDA3NDAyYjsvdXNlcnMvZ2FtZS9kb3dubG9hZHMvbWFnbmV0
+	MTQ5L2ltYWdlcwAAAMAAAAD+////AQAAAAAAAAAPAAAABBAAAFgAAAAAAAAABRAAAMQA
+	AAAAAAAAEBAAAOAAAAAAAAAAAiAAAJwBAAAAAAAAECAAABwBAAAAAAAAESAAAFABAAAA
+	AAAAEiAAADABAAAAAAAAEyAAAEABAAAAAAAAICAAAHwBAAAAAAAAMCAAAKgBAAAAAAAA
+	AcAAAAABAAAAAAAAEcAAABQAAAAAAAAAEsAAABABAAAAAAAAENAAALABAAAAAAAAgPAA
+	ALwBAAAAAAAA
+	</data>
+	<key>Version</key>
+	<string>1.8.157</string>
+</dict>
+</plist>

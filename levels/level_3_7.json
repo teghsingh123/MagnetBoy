@@ -1,0 +1,794 @@
+{
+  "world": {
+    "x": 0,
+    "y": 0,
+    "w": 960,
+    "h": 320
+  },
+  "gravity": {
+    "x": 0,
+    "y": 0
+  },
+  "background": "{{0.35553699999999999, 0.60869399999999996}, {1, 1.36374e-238}}",
+  "objects": [
+    {
+      "name": "3_3_7",
+      "type": "LHSprite",
+      "tag": "ROBOT_PIECE",
+      "position": {
+        "x": 921,
+        "y": 79
+      },
+      "size": {
+        "x": 24.5,
+        "y": 40
+      },
+      "frame": {
+        "x": 92,
+        "y": 69,
+        "w": 24.5,
+        "h": 40
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "robotpack3_UntitledSheet.png",
+      "sprite": "3_3_7",
+      "animation": null
+    },
+    {
+      "name": "range_magnet_circle_1",
+      "type": "LHSprite",
+      "tag": "MAGNET_RANGE",
+      "position": {
+        "x": 452,
+        "y": 203
+      },
+      "size": {
+        "x": 62,
+        "y": 62
+      },
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 62,
+        "h": 62
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "magnet_magnet_sheets.png",
+      "sprite": "magnet_range_red",
+      "animation": "BR_CIRCLE1"
+    },
+    {
+      "name": "range_magnet_circle_2",
+      "type": "LHSprite",
+      "tag": "MAGNET_RANGE",
+      "position": {
+        "x": 733,
+        "y": 221
+      },
+      "size": {
+        "x": 62,
+        "y": 62
+      },
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 62,
+        "h": 62
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "magnet_magnet_sheets.png",
+      "sprite": "magnet_range_red",
+      "animation": "RR_CIRCLE1"
+    },
+    {
+      "name": "magnet_circle_1",
+      "type": "LHSprite",
+      "tag": "MAGNET",
+      "position": {
+        "x": 452,
+        "y": 203
+      },
+      "size": {
+        "x": 32,
+        "y": 32
+      },
+      "frame": {
+        "x": 168,
+        "y": 194,
+        "w": 32,
+        "h": 32
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 1,
+      "sheet": "magnet_magnet_sheets.png",
+      "sprite": "magnet_circle",
+      "animation": null
+    },
+    {
+      "name": "magnet_circle_2",
+      "type": "LHSprite",
+      "tag": "MAGNET",
+      "position": {
+        "x": 733,
+        "y": 221
+      },
+      "size": {
+        "x": 32,
+        "y": 32
+      },
+      "frame": {
+        "x": 168,
+        "y": 194,
+        "w": 32,
+        "h": 32
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 1,
+      "sheet": "magnet_magnet_sheets.png",
+      "sprite": "magnet_circle",
+      "animation": null
+    },
+    {
+      "name": "range_magnet_circle",
+      "type": "LHSprite",
+      "tag": "MAGNET_RANGE",
+      "position": {
+        "x": 73,
+        "y": 150
+      },
+      "size": {
+        "x": 62,
+        "y": 62
+      },
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 62,
+        "h": 62
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "magnet_magnet_sheets.png",
+      "sprite": "magnet_range_red",
+      "animation": "RR_CIRCLE1"
+    },
+    {
+      "name": "magnet_circle",
+      "type": "LHSprite",
+      "tag": "MAGNET",
+      "position": {
+        "x": 73,
+        "y": 150
+      },
+      "size": {
+        "x": 32,
+        "y": 32
+      },
+      "frame": {
+        "x": 168,
+        "y": 194,
+        "w": 32,
+        "h": 32
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 1,
+      "sheet": "magnet_magnet_sheets.png",
+      "sprite": "magnet_circle",
+      "animation": null
+    },
+    {
+      "name": "star_01_1",
+      "type": "LHSprite",
+      "tag": "STAR",
+      "position": {
+        "x": 282,
+        "y": 183
+      },
+      "size": {
+        "x": 30,
+        "y": 30
+      },
+      "frame": {
+        "x": 98,
+        "y": 111,
+        "w": 30,
+        "h": 30
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "star_sheet.png",
+      "sprite": "star_01",
+      "animation": "star_normal"
+    },
+    {
+      "name": "star_01",
+      "type": "LHSprite",
+      "tag": "STAR",
+      "position": {
+        "x": 551,
+        "y": 135
+      },
+      "size": {
+        "x": 30,
+        "y": 30
+      },
+      "frame": {
+        "x": 98,
+        "y": 111,
+        "w": 30,
+        "h": 30
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "star_sheet.png",
+      "sprite": "star_01",
+      "animation": "star_normal"
+    },
+    {
+      "name": "star_01_2",
+      "type": "LHSprite",
+      "tag": "STAR",
+      "position": {
+        "x": 911,
+        "y": 255
+      },
+      "size": {
+        "x": 30,
+        "y": 30
+      },
+      "frame": {
+        "x": 98,
+        "y": 111,
+        "w": 30,
+        "h": 30
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "star_sheet.png",
+      "sprite": "star_01",
+      "animation": "star_normal"
+    },
+    {
+      "name": "steel_2_1",
+      "type": "LHSprite",
+      "tag": "METAL",
+      "position": {
+        "x": 230,
+        "y": 223
+      },
+      "size": {
+        "x": 49,
+        "y": 24.5
+      },
+      "frame": {
+        "x": 0,
+        "y": 53,
+        "w": 49,
+        "h": 24.5
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "metal_metal.png",
+      "sprite": "steel_2_1",
+      "animation": null
+    },
+    {
+      "name": "steel_2_1_1",
+      "type": "LHSprite",
+      "tag": "METAL",
+      "position": {
+        "x": 279,
+        "y": 223
+      },
+      "size": {
+        "x": 49,
+        "y": 24.5
+      },
+      "frame": {
+        "x": 0,
+        "y": 53,
+        "w": 49,
+        "h": 24.5
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "metal_metal.png",
+      "sprite": "steel_2_1",
+      "animation": null
+    },
+    {
+      "name": "steel_2_1_2",
+      "type": "LHSprite",
+      "tag": "METAL",
+      "position": {
+        "x": 328,
+        "y": 223
+      },
+      "size": {
+        "x": 49,
+        "y": 24.5
+      },
+      "frame": {
+        "x": 0,
+        "y": 53,
+        "w": 49,
+        "h": 24.5
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "metal_metal.png",
+      "sprite": "steel_2_1",
+      "animation": null
+    },
+    {
+      "name": "steel_2_1_3",
+      "type": "LHSprite",
+      "tag": "METAL",
+      "position": {
+        "x": 283,
+        "y": 110
+      },
+      "size": {
+        "x": 49,
+        "y": 24.5
+      },
+      "frame": {
+        "x": 0,
+        "y": 53,
+        "w": 49,
+        "h": 24.5
+      },
+      "angle": 90,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "metal_metal.png",
+      "sprite": "steel_2_1",
+      "animation": null
+    },
+    {
+      "name": "steel_2_1_4",
+      "type": "LHSprite",
+      "tag": "METAL",
+      "position": {
+        "x": 283,
+        "y": 61
+      },
+      "size": {
+        "x": 49,
+        "y": 24.5
+      },
+      "frame": {
+        "x": 0,
+        "y": 53,
+        "w": 49,
+        "h": 24.5
+      },
+      "angle": 90,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "metal_metal.png",
+      "sprite": "steel_2_1",
+      "animation": null
+    },
+    {
+      "name": "steel_2_1_5",
+      "type": "LHSprite",
+      "tag": "METAL",
+      "position": {
+        "x": 283,
+        "y": 12
+      },
+      "size": {
+        "x": 49,
+        "y": 24.5
+      },
+      "frame": {
+        "x": 0,
+        "y": 53,
+        "w": 49,
+        "h": 24.5
+      },
+      "angle": 90,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "metal_metal.png",
+      "sprite": "steel_2_1",
+      "animation": null
+    },
+    {
+      "name": "steel_3_1x2",
+      "type": "LHSprite",
+      "tag": "METAL",
+      "position": {
+        "x": 832,
+        "y": 152
+      },
+      "size": {
+        "x": 77,
+        "y": 24.5
+      },
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 77,
+        "h": 24.5
+      },
+      "angle": 90,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "metal_metal.png",
+      "sprite": "steel_3_1x2",
+      "animation": null
+    },
+    {
+      "name": "steel_3_1x2_1",
+      "type": "LHSprite",
+      "tag": "METAL",
+      "position": {
+        "x": 832,
+        "y": 229
+      },
+      "size": {
+        "x": 77,
+        "y": 24.5
+      },
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 77,
+        "h": 24.5
+      },
+      "angle": 90,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "metal_metal.png",
+      "sprite": "steel_3_1x2",
+      "animation": null
+    },
+    {
+      "name": "steel_3_1x2_2",
+      "type": "LHSprite",
+      "tag": "METAL",
+      "position": {
+        "x": 832,
+        "y": 306
+      },
+      "size": {
+        "x": 77,
+        "y": 24.5
+      },
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 77,
+        "h": 24.5
+      },
+      "angle": 90,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "metal_metal.png",
+      "sprite": "steel_3_1x2",
+      "animation": null
+    },
+    {
+      "name": "inactive",
+      "type": "LHSprite",
+      "tag": "DEFAULT",
+      "position": {
+        "x": 191,
+        "y": 131
+      },
+      "size": {
+        "x": 32,
+        "y": 22.5
+      },
+      "frame": {
+        "x": 0,
+        "y": 223,
+        "w": 32,
+        "h": 22.5
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "dismagnet_dismagnet.png",
+      "sprite": "inactive",
+      "animation": "generator"
+    },
+    {
+      "name": "20",
+      "type": "LHSprite",
+      "tag": "DIS_MAGNETIC",
+      "position": {
+        "x": 191,
+        "y": 176
+      },
+      "size": {
+        "x": 19.25,
+        "y": 82.75
+      },
+      "frame": {
+        "x": 142,
+        "y": 119,
+        "w": 19.75,
+        "h": 82.75
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "dismagnet_dismagnet.png",
+      "sprite": "20",
+      "animation": "dismagnet"
+    },
+    {
+      "name": "inactive_1",
+      "type": "LHSprite",
+      "tag": "DEFAULT",
+      "position": {
+        "x": 191,
+        "y": 221
+      },
+      "size": {
+        "x": 32,
+        "y": 22.5
+      },
+      "frame": {
+        "x": 0,
+        "y": 223,
+        "w": 32,
+        "h": 22.5
+      },
+      "angle": 180,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "dismagnet_dismagnet.png",
+      "sprite": "inactive",
+      "animation": "generator"
+    },
+    {
+      "name": "inactive_2",
+      "type": "LHSprite",
+      "tag": "DEFAULT",
+      "position": {
+        "x": 635,
+        "y": 178
+      },
+      "size": {
+        "x": 32,
+        "y": 22.5
+      },
+      "frame": {
+        "x": 0,
+        "y": 223,
+        "w": 32,
+        "h": 22.5
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "dismagnet_dismagnet.png",
+      "sprite": "inactive",
+      "animation": "generator"
+    },
+    {
+      "name": "20_1",
+      "type": "LHSprite",
+      "tag": "DIS_MAGNETIC",
+      "position": {
+        "x": 635,
+        "y": 223
+      },
+      "size": {
+        "x": 19.25,
+        "y": 82.75
+      },
+      "frame": {
+        "x": 142,
+        "y": 119,
+        "w": 19.75,
+        "h": 82.75
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "dismagnet_dismagnet.png",
+      "sprite": "20",
+      "animation": "dismagnet"
+    },
+    {
+      "name": "inactive_1_1",
+      "type": "LHSprite",
+      "tag": "DEFAULT",
+      "position": {
+        "x": 635,
+        "y": 268
+      },
+      "size": {
+        "x": 32,
+        "y": 22.5
+      },
+      "frame": {
+        "x": 0,
+        "y": 223,
+        "w": 32,
+        "h": 22.5
+      },
+      "angle": 180,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "dismagnet_dismagnet.png",
+      "sprite": "inactive",
+      "animation": "generator"
+    },
+    {
+      "name": "range_hero",
+      "type": "LHSprite",
+      "tag": "MAGNET_RANGE",
+      "position": {
+        "x": 39,
+        "y": 40
+      },
+      "size": {
+        "x": 64,
+        "y": 64
+      },
+      "frame": {
+        "x": 0,
+        "y": 206,
+        "w": 64,
+        "h": 64
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 1,
+      "sheet": "hero_hero_sheet.png",
+      "sprite": "hero_blue",
+      "animation": "BOR"
+    },
+    {
+      "name": "hero",
+      "type": "LHSprite",
+      "tag": "HERO",
+      "position": {
+        "x": 39,
+        "y": 40
+      },
+      "size": {
+        "x": 32,
+        "y": 32
+      },
+      "frame": {
+        "x": 243,
+        "y": 267,
+        "w": 32,
+        "h": 32
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 1,
+      "sheet": "hero_hero_sheet.png",
+      "sprite": "hero",
+      "animation": "normal"
+    }
+  ],
+  "joints": [
+    {
+      "name": "Untitled_Joint_1_2",
+      "objectA": "magnet_circle_1",
+      "objectB": "range_magnet_circle_1",
+      "type": 6
+    },
+    {
+      "name": "Untitled_Joint_1_3",
+      "objectA": "magnet_circle_2",
+      "objectB": "range_magnet_circle_2",
+      "type": 6
+    },
+    {
+      "name": "Untitled_Joint_3_1",
+      "objectA": "inactive",
+      "objectB": "20",
+      "type": 6
+    },
+    {
+      "name": "Untitled_Joint_4_1",
+      "objectA": "inactive_1",
+      "objectB": "20",
+      "type": 6
+    },
+    {
+      "name": "Untitled_Joint_3_2",
+      "objectA": "inactive_2",
+      "objectB": "20_1",
+      "type": 6
+    },
+    {
+      "name": "Untitled_Joint_4_2",
+      "objectA": "inactive_1_1",
+      "objectB": "20_1",
+      "type": 6
+    },
+    {
+      "name": "Untitled_Joint_1_1_1_1_1_1_1",
+      "objectA": "hero",
+      "objectB": "range_hero",
+      "type": 6
+    },
+    {
+      "name": "Untitled_Joint_1_4",
+      "objectA": "magnet_circle",
+      "objectB": "range_magnet_circle",
+      "type": 6
+    }
+  ]
+}

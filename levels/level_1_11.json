@@ -1,0 +1,1235 @@
+{
+  "world": {
+    "x": 0,
+    "y": 0,
+    "w": 810,
+    "h": 320
+  },
+  "gravity": {
+    "x": 0,
+    "y": 0
+  },
+  "background": "{{0.35553699999999999, 0.60869399999999996}, {1, 1.36374e-238}}",
+  "objects": [
+    {
+      "name": "1_3_11",
+      "type": "LHSprite",
+      "tag": "ROBOT_PIECE",
+      "position": {
+        "x": 740,
+        "y": 40
+      },
+      "size": {
+        "x": 40,
+        "y": 16.75
+      },
+      "frame": {
+        "x": 122,
+        "y": 107,
+        "w": 40,
+        "h": 16.75
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "robotpack1_robotpack1.png",
+      "sprite": "1_3_11",
+      "animation": null
+    },
+    {
+      "name": "stone_1_5",
+      "type": "LHSprite",
+      "tag": "DEFAULT",
+      "position": {
+        "x": 191,
+        "y": 298
+      },
+      "size": {
+        "x": 49,
+        "y": 8.25
+      },
+      "frame": {
+        "x": 79,
+        "y": 0,
+        "w": 49,
+        "h": 8.75
+      },
+      "angle": 90,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "rock_rock.png",
+      "sprite": "stone_1_5",
+      "animation": null
+    },
+    {
+      "name": "stone_1_5_1",
+      "type": "LHSprite",
+      "tag": "DEFAULT",
+      "position": {
+        "x": 199,
+        "y": 249
+      },
+      "size": {
+        "x": 49,
+        "y": 8.25
+      },
+      "frame": {
+        "x": 79,
+        "y": 0,
+        "w": 49,
+        "h": 8.75
+      },
+      "angle": 90,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "rock_rock.png",
+      "sprite": "stone_1_5",
+      "animation": null
+    },
+    {
+      "name": "stone_1_5_2",
+      "type": "LHSprite",
+      "tag": "DEFAULT",
+      "position": {
+        "x": 191,
+        "y": 200
+      },
+      "size": {
+        "x": 49,
+        "y": 8.25
+      },
+      "frame": {
+        "x": 79,
+        "y": 0,
+        "w": 49,
+        "h": 8.75
+      },
+      "angle": 90,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "rock_rock.png",
+      "sprite": "stone_1_5",
+      "animation": null
+    },
+    {
+      "name": "stone_1_5_3",
+      "type": "LHSprite",
+      "tag": "DEFAULT",
+      "position": {
+        "x": 199,
+        "y": 151
+      },
+      "size": {
+        "x": 49,
+        "y": 8.25
+      },
+      "frame": {
+        "x": 79,
+        "y": 0,
+        "w": 49,
+        "h": 8.75
+      },
+      "angle": 90,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "rock_rock.png",
+      "sprite": "stone_1_5",
+      "animation": null
+    },
+    {
+      "name": "stone_1_5_4",
+      "type": "LHSprite",
+      "tag": "DEFAULT",
+      "position": {
+        "x": 191,
+        "y": 102
+      },
+      "size": {
+        "x": 49,
+        "y": 8.25
+      },
+      "frame": {
+        "x": 79,
+        "y": 0,
+        "w": 49,
+        "h": 8.75
+      },
+      "angle": 90,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "rock_rock.png",
+      "sprite": "stone_1_5",
+      "animation": null
+    },
+    {
+      "name": "stone_1_5_5",
+      "type": "LHSprite",
+      "tag": "DEFAULT",
+      "position": {
+        "x": 191,
+        "y": 249
+      },
+      "size": {
+        "x": 49,
+        "y": 8.25
+      },
+      "frame": {
+        "x": 79,
+        "y": 0,
+        "w": 49,
+        "h": 8.75
+      },
+      "angle": 90,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "rock_rock.png",
+      "sprite": "stone_1_5",
+      "animation": null
+    },
+    {
+      "name": "stone_1_5_6",
+      "type": "LHSprite",
+      "tag": "DEFAULT",
+      "position": {
+        "x": 199,
+        "y": 200
+      },
+      "size": {
+        "x": 49,
+        "y": 8.25
+      },
+      "frame": {
+        "x": 79,
+        "y": 0,
+        "w": 49,
+        "h": 8.75
+      },
+      "angle": 90,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "rock_rock.png",
+      "sprite": "stone_1_5",
+      "animation": null
+    },
+    {
+      "name": "stone_1_5_7",
+      "type": "LHSprite",
+      "tag": "DEFAULT",
+      "position": {
+        "x": 191,
+        "y": 151
+      },
+      "size": {
+        "x": 49,
+        "y": 8.25
+      },
+      "frame": {
+        "x": 79,
+        "y": 0,
+        "w": 49,
+        "h": 8.75
+      },
+      "angle": 90,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "rock_rock.png",
+      "sprite": "stone_1_5",
+      "animation": null
+    },
+    {
+      "name": "stone_1_5_8",
+      "type": "LHSprite",
+      "tag": "DEFAULT",
+      "position": {
+        "x": 199,
+        "y": 102
+      },
+      "size": {
+        "x": 49,
+        "y": 8.25
+      },
+      "frame": {
+        "x": 79,
+        "y": 0,
+        "w": 49,
+        "h": 8.75
+      },
+      "angle": 90,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "rock_rock.png",
+      "sprite": "stone_1_5",
+      "animation": null
+    },
+    {
+      "name": "stone_1_5_9",
+      "type": "LHSprite",
+      "tag": "DEFAULT",
+      "position": {
+        "x": 199,
+        "y": 298
+      },
+      "size": {
+        "x": 49,
+        "y": 8.25
+      },
+      "frame": {
+        "x": 79,
+        "y": 0,
+        "w": 49,
+        "h": 8.75
+      },
+      "angle": 90,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "rock_rock.png",
+      "sprite": "stone_1_5",
+      "animation": null
+    },
+    {
+      "name": "stone_1_5_10",
+      "type": "LHSprite",
+      "tag": "DEFAULT",
+      "position": {
+        "x": 344,
+        "y": 316
+      },
+      "size": {
+        "x": 49,
+        "y": 8.25
+      },
+      "frame": {
+        "x": 79,
+        "y": 0,
+        "w": 49,
+        "h": 8.75
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "rock_rock.png",
+      "sprite": "stone_1_5",
+      "animation": null
+    },
+    {
+      "name": "stone_1_5_11",
+      "type": "LHSprite",
+      "tag": "DEFAULT",
+      "position": {
+        "x": 393,
+        "y": 316
+      },
+      "size": {
+        "x": 49,
+        "y": 8.25
+      },
+      "frame": {
+        "x": 79,
+        "y": 0,
+        "w": 49,
+        "h": 8.75
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "rock_rock.png",
+      "sprite": "stone_1_5",
+      "animation": null
+    },
+    {
+      "name": "stone_1_5_12",
+      "type": "LHSprite",
+      "tag": "DEFAULT",
+      "position": {
+        "x": 442,
+        "y": 316
+      },
+      "size": {
+        "x": 49,
+        "y": 8.25
+      },
+      "frame": {
+        "x": 79,
+        "y": 0,
+        "w": 49,
+        "h": 8.75
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "rock_rock.png",
+      "sprite": "stone_1_5",
+      "animation": null
+    },
+    {
+      "name": "stone_1_5_13",
+      "type": "LHSprite",
+      "tag": "DEFAULT",
+      "position": {
+        "x": 442,
+        "y": 308
+      },
+      "size": {
+        "x": 49,
+        "y": 8.25
+      },
+      "frame": {
+        "x": 79,
+        "y": 0,
+        "w": 49,
+        "h": 8.75
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "rock_rock.png",
+      "sprite": "stone_1_5",
+      "animation": null
+    },
+    {
+      "name": "stone_1_5_14",
+      "type": "LHSprite",
+      "tag": "DEFAULT",
+      "position": {
+        "x": 393,
+        "y": 308
+      },
+      "size": {
+        "x": 49,
+        "y": 8.25
+      },
+      "frame": {
+        "x": 79,
+        "y": 0,
+        "w": 49,
+        "h": 8.75
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "rock_rock.png",
+      "sprite": "stone_1_5",
+      "animation": null
+    },
+    {
+      "name": "stone_1_5_15",
+      "type": "LHSprite",
+      "tag": "DEFAULT",
+      "position": {
+        "x": 344,
+        "y": 308
+      },
+      "size": {
+        "x": 49,
+        "y": 8.25
+      },
+      "frame": {
+        "x": 79,
+        "y": 0,
+        "w": 49,
+        "h": 8.75
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "rock_rock.png",
+      "sprite": "stone_1_5",
+      "animation": null
+    },
+    {
+      "name": "stone_1_5_17",
+      "type": "LHSprite",
+      "tag": "DEFAULT",
+      "position": {
+        "x": 666,
+        "y": 47
+      },
+      "size": {
+        "x": 49,
+        "y": 8.25
+      },
+      "frame": {
+        "x": 79,
+        "y": 0,
+        "w": 49,
+        "h": 8.75
+      },
+      "angle": 90,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "rock_rock.png",
+      "sprite": "stone_1_5",
+      "animation": null
+    },
+    {
+      "name": "stone_1_5_18",
+      "type": "LHSprite",
+      "tag": "DEFAULT",
+      "position": {
+        "x": 666,
+        "y": -2
+      },
+      "size": {
+        "x": 49,
+        "y": 8.25
+      },
+      "frame": {
+        "x": 79,
+        "y": 0,
+        "w": 49,
+        "h": 8.75
+      },
+      "angle": 90,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "rock_rock.png",
+      "sprite": "stone_1_5",
+      "animation": null
+    },
+    {
+      "name": "stone_1_5_19",
+      "type": "LHSprite",
+      "tag": "DEFAULT",
+      "position": {
+        "x": 674,
+        "y": -2
+      },
+      "size": {
+        "x": 49,
+        "y": 8.25
+      },
+      "frame": {
+        "x": 79,
+        "y": 0,
+        "w": 49,
+        "h": 8.75
+      },
+      "angle": 90,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "rock_rock.png",
+      "sprite": "stone_1_5",
+      "animation": null
+    },
+    {
+      "name": "stone_1_5_20",
+      "type": "LHSprite",
+      "tag": "DEFAULT",
+      "position": {
+        "x": 674,
+        "y": 47
+      },
+      "size": {
+        "x": 49,
+        "y": 8.25
+      },
+      "frame": {
+        "x": 79,
+        "y": 0,
+        "w": 49,
+        "h": 8.75
+      },
+      "angle": 90,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "rock_rock.png",
+      "sprite": "stone_1_5",
+      "animation": null
+    },
+    {
+      "name": "stone_1_5_22",
+      "type": "LHSprite",
+      "tag": "DEFAULT",
+      "position": {
+        "x": 767,
+        "y": 96
+      },
+      "size": {
+        "x": 49,
+        "y": 8.25
+      },
+      "frame": {
+        "x": 79,
+        "y": 0,
+        "w": 49,
+        "h": 8.75
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "rock_rock.png",
+      "sprite": "stone_1_5",
+      "animation": null
+    },
+    {
+      "name": "stone_1_5_23",
+      "type": "LHSprite",
+      "tag": "DEFAULT",
+      "position": {
+        "x": 816,
+        "y": 96
+      },
+      "size": {
+        "x": 49,
+        "y": 8.25
+      },
+      "frame": {
+        "x": 79,
+        "y": 0,
+        "w": 49,
+        "h": 8.75
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "rock_rock.png",
+      "sprite": "stone_1_5",
+      "animation": null
+    },
+    {
+      "name": "stone_1_5_24",
+      "type": "LHSprite",
+      "tag": "DEFAULT",
+      "position": {
+        "x": 816,
+        "y": 88
+      },
+      "size": {
+        "x": 49,
+        "y": 8.25
+      },
+      "frame": {
+        "x": 79,
+        "y": 0,
+        "w": 49,
+        "h": 8.75
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "rock_rock.png",
+      "sprite": "stone_1_5",
+      "animation": null
+    },
+    {
+      "name": "stone_1_5_25",
+      "type": "LHSprite",
+      "tag": "DEFAULT",
+      "position": {
+        "x": 767,
+        "y": 88
+      },
+      "size": {
+        "x": 49,
+        "y": 8.25
+      },
+      "frame": {
+        "x": 79,
+        "y": 0,
+        "w": 49,
+        "h": 8.75
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "rock_rock.png",
+      "sprite": "stone_1_5",
+      "animation": null
+    },
+    {
+      "name": "stone_1_5_16",
+      "type": "LHSprite",
+      "tag": "DEFAULT",
+      "position": {
+        "x": 786,
+        "y": 307
+      },
+      "size": {
+        "x": 49,
+        "y": 8.25
+      },
+      "frame": {
+        "x": 79,
+        "y": 0,
+        "w": 49,
+        "h": 8.75
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "rock_rock.png",
+      "sprite": "stone_1_5",
+      "animation": null
+    },
+    {
+      "name": "stone_1_5_21",
+      "type": "LHSprite",
+      "tag": "DEFAULT",
+      "position": {
+        "x": 737,
+        "y": 307
+      },
+      "size": {
+        "x": 49,
+        "y": 8.25
+      },
+      "frame": {
+        "x": 79,
+        "y": 0,
+        "w": 49,
+        "h": 8.75
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "rock_rock.png",
+      "sprite": "stone_1_5",
+      "animation": null
+    },
+    {
+      "name": "stone_1_5_26",
+      "type": "LHSprite",
+      "tag": "DEFAULT",
+      "position": {
+        "x": 737,
+        "y": 315
+      },
+      "size": {
+        "x": 49,
+        "y": 8.25
+      },
+      "frame": {
+        "x": 79,
+        "y": 0,
+        "w": 49,
+        "h": 8.75
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "rock_rock.png",
+      "sprite": "stone_1_5",
+      "animation": null
+    },
+    {
+      "name": "stone_1_5_27",
+      "type": "LHSprite",
+      "tag": "DEFAULT",
+      "position": {
+        "x": 786,
+        "y": 315
+      },
+      "size": {
+        "x": 49,
+        "y": 8.25
+      },
+      "frame": {
+        "x": 79,
+        "y": 0,
+        "w": 49,
+        "h": 8.75
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "rock_rock.png",
+      "sprite": "stone_1_5",
+      "animation": null
+    },
+    {
+      "name": "stone_1_5_28",
+      "type": "LHSprite",
+      "tag": "DEFAULT",
+      "position": {
+        "x": 689,
+        "y": 315
+      },
+      "size": {
+        "x": 49,
+        "y": 8.25
+      },
+      "frame": {
+        "x": 79,
+        "y": 0,
+        "w": 49,
+        "h": 8.75
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "rock_rock.png",
+      "sprite": "stone_1_5",
+      "animation": null
+    },
+    {
+      "name": "stone_1_5_29",
+      "type": "LHSprite",
+      "tag": "DEFAULT",
+      "position": {
+        "x": 689,
+        "y": 307
+      },
+      "size": {
+        "x": 49,
+        "y": 8.25
+      },
+      "frame": {
+        "x": 79,
+        "y": 0,
+        "w": 49,
+        "h": 8.75
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "rock_rock.png",
+      "sprite": "stone_1_5",
+      "animation": null
+    },
+    {
+      "name": "star_01_1",
+      "type": "LHSprite",
+      "tag": "STAR",
+      "position": {
+        "x": 387,
+        "y": 263
+      },
+      "size": {
+        "x": 30,
+        "y": 30
+      },
+      "frame": {
+        "x": 98,
+        "y": 111,
+        "w": 30,
+        "h": 30
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "star_sheet.png",
+      "sprite": "star_01",
+      "animation": "star_normal"
+    },
+    {
+      "name": "star_01",
+      "type": "LHSprite",
+      "tag": "STAR",
+      "position": {
+        "x": 455,
+        "y": 135
+      },
+      "size": {
+        "x": 30,
+        "y": 30
+      },
+      "frame": {
+        "x": 98,
+        "y": 111,
+        "w": 30,
+        "h": 30
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "star_sheet.png",
+      "sprite": "star_01",
+      "animation": "star_normal"
+    },
+    {
+      "name": "star_01_2",
+      "type": "LHSprite",
+      "tag": "STAR",
+      "position": {
+        "x": 761,
+        "y": 143
+      },
+      "size": {
+        "x": 30,
+        "y": 30
+      },
+      "frame": {
+        "x": 98,
+        "y": 111,
+        "w": 30,
+        "h": 30
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "star_sheet.png",
+      "sprite": "star_01",
+      "animation": "star_normal"
+    },
+    {
+      "name": "range_magnet_circle_1",
+      "type": "LHSprite",
+      "tag": "MAGNET_RANGE",
+      "position": {
+        "x": 88,
+        "y": 226
+      },
+      "size": {
+        "x": 62,
+        "y": 62
+      },
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 62,
+        "h": 62
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "magnet_magnet_sheets.png",
+      "sprite": "magnet_range_red",
+      "animation": "RR_CIRCLE1"
+    },
+    {
+      "name": "range_magnet_circle",
+      "type": "LHSprite",
+      "tag": "MAGNET_RANGE",
+      "position": {
+        "x": 270,
+        "y": 230
+      },
+      "size": {
+        "x": 62,
+        "y": 62
+      },
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 62,
+        "h": 62
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "magnet_magnet_sheets.png",
+      "sprite": "magnet_range_red",
+      "animation": "BB_CIRCLE1"
+    },
+    {
+      "name": "range_magnet_circle_2",
+      "type": "LHSprite",
+      "tag": "MAGNET_RANGE",
+      "position": {
+        "x": 305,
+        "y": 68
+      },
+      "size": {
+        "x": 62,
+        "y": 62
+      },
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 62,
+        "h": 62
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "magnet_magnet_sheets.png",
+      "sprite": "magnet_range_red",
+      "animation": "RR_CIRCLE1"
+    },
+    {
+      "name": "magnet_circle_1",
+      "type": "LHSprite",
+      "tag": "MAGNET",
+      "position": {
+        "x": 88,
+        "y": 226
+      },
+      "size": {
+        "x": 32,
+        "y": 32
+      },
+      "frame": {
+        "x": 168,
+        "y": 194,
+        "w": 32,
+        "h": 32
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 1,
+      "sheet": "magnet_magnet_sheets.png",
+      "sprite": "magnet_circle",
+      "animation": null
+    },
+    {
+      "name": "magnet_circle",
+      "type": "LHSprite",
+      "tag": "MAGNET",
+      "position": {
+        "x": 270,
+        "y": 230
+      },
+      "size": {
+        "x": 32,
+        "y": 32
+      },
+      "frame": {
+        "x": 168,
+        "y": 194,
+        "w": 32,
+        "h": 32
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 1,
+      "sheet": "magnet_magnet_sheets.png",
+      "sprite": "magnet_circle",
+      "animation": null
+    },
+    {
+      "name": "magnet_circle_2",
+      "type": "LHSprite",
+      "tag": "MAGNET",
+      "position": {
+        "x": 305,
+        "y": 68
+      },
+      "size": {
+        "x": 32,
+        "y": 32
+      },
+      "frame": {
+        "x": 168,
+        "y": 194,
+        "w": 32,
+        "h": 32
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 1,
+      "sheet": "magnet_magnet_sheets.png",
+      "sprite": "magnet_circle",
+      "animation": null
+    },
+    {
+      "name": "range_magnet_circle_3",
+      "type": "LHSprite",
+      "tag": "MAGNET_RANGE",
+      "position": {
+        "x": 758,
+        "y": 245
+      },
+      "size": {
+        "x": 62,
+        "y": 62
+      },
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 62,
+        "h": 62
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 0,
+      "sheet": "magnet_magnet_sheets.png",
+      "sprite": "magnet_range_red",
+      "animation": "RR_CIRCLE1"
+    },
+    {
+      "name": "magnet_circle_3",
+      "type": "LHSprite",
+      "tag": "MAGNET",
+      "position": {
+        "x": 758,
+        "y": 245
+      },
+      "size": {
+        "x": 32,
+        "y": 32
+      },
+      "frame": {
+        "x": 168,
+        "y": 194,
+        "w": 32,
+        "h": 32
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 1,
+      "sheet": "magnet_magnet_sheets.png",
+      "sprite": "magnet_circle",
+      "animation": null
+    },
+    {
+      "name": "range_hero",
+      "type": "LHSprite",
+      "tag": "MAGNET_RANGE",
+      "position": {
+        "x": 74,
+        "y": 93
+      },
+      "size": {
+        "x": 64,
+        "y": 64
+      },
+      "frame": {
+        "x": 0,
+        "y": 206,
+        "w": 64,
+        "h": 64
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 1,
+      "sheet": "hero_hero_sheet.png",
+      "sprite": "hero_blue",
+      "animation": "BOR"
+    },
+    {
+      "name": "hero",
+      "type": "LHSprite",
+      "tag": "HERO",
+      "position": {
+        "x": 74,
+        "y": 93
+      },
+      "size": {
+        "x": 32,
+        "y": 32
+      },
+      "frame": {
+        "x": 243,
+        "y": 267,
+        "w": 32,
+        "h": 32
+      },
+      "angle": 0,
+      "opacity": 1,
+      "flipX": false,
+      "flipY": false,
+      "zOrder": 1,
+      "sheet": "hero_hero_sheet.png",
+      "sprite": "hero",
+      "animation": "normal"
+    }
+  ],
+  "joints": [
+    {
+      "name": "Untitled_Joint_1_1_1_1_1_1_1",
+      "objectA": "hero",
+      "objectB": "range_hero",
+      "type": 6
+    },
+    {
+      "name": "Untitled_Joint_1_1",
+      "objectA": "magnet_circle_1",
+      "objectB": "range_magnet_circle_1",
+      "type": 6
+    },
+    {
+      "name": "Untitled_Joint_1_2",
+      "objectA": "magnet_circle",
+      "objectB": "range_magnet_circle",
+      "type": 6
+    },
+    {
+      "name": "Untitled_Joint_1_3",
+      "objectA": "magnet_circle_2",
+      "objectB": "range_magnet_circle_2",
+      "type": 6
+    },
+    {
+      "name": "Untitled_Joint_1_4",
+      "objectA": "magnet_circle_3",
+      "objectB": "range_magnet_circle_3",
+      "type": 6
+    }
+  ]
+}
