@@ -1,7 +1,7 @@
 import Phaser from 'phaser';
 
-import allFrames from '../public/assets/all_frames.json';
-import animations from '../public/assets/animations.json';
+import allFrames from './assets/all_frames.json';
+import animations from './assets/animations.json';
 
 const levels = import.meta.glob('../levels/*.json', { eager: true });
 
