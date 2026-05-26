@@ -1,0 +1,254 @@
+{
+  "star_01": {
+    "sheet": "star_sheet.png",
+    "x": 98,
+    "y": 111,
+    "w": 30,
+    "h": 30
+  },
+  "star_02": {
+    "sheet": "star_sheet.png",
+    "x": 98,
+    "y": 142,
+    "w": 30,
+    "h": 30
+  },
+  "star_03": {
+    "sheet": "star_sheet.png",
+    "x": 98,
+    "y": 174,
+    "w": 30,
+    "h": 30
+  },
+  "star_04": {
+    "sheet": "star_sheet.png",
+    "x": 98,
+    "y": 205,
+    "w": 30,
+    "h": 30
+  },
+  "star_05": {
+    "sheet": "star_sheet.png",
+    "x": 130,
+    "y": 111,
+    "w": 30,
+    "h": 30
+  },
+  "star_06": {
+    "sheet": "star_sheet.png",
+    "x": 161,
+    "y": 111,
+    "w": 30,
+    "h": 30
+  },
+  "star_07": {
+    "sheet": "star_sheet.png",
+    "x": 193,
+    "y": 111,
+    "w": 30,
+    "h": 30
+  },
+  "star_08": {
+    "sheet": "star_sheet.png",
+    "x": 224,
+    "y": 111,
+    "w": 30,
+    "h": 30
+  },
+  "star_09": {
+    "sheet": "star_sheet.png",
+    "x": 130,
+    "y": 142,
+    "w": 30,
+    "h": 30
+  },
+  "star_10": {
+    "sheet": "star_sheet.png",
+    "x": 130,
+    "y": 174,
+    "w": 30,
+    "h": 30
+  },
+  "star_11": {
+    "sheet": "star_sheet.png",
+    "x": 130,
+    "y": 205,
+    "w": 30,
+    "h": 30
+  },
+  "star_12": {
+    "sheet": "star_sheet.png",
+    "x": 161,
+    "y": 142,
+    "w": 30,
+    "h": 30
+  },
+  "star_13": {
+    "sheet": "star_sheet.png",
+    "x": 0,
+    "y": 221,
+    "w": 30,
+    "h": 30
+  },
+  "star_14": {
+    "sheet": "star_sheet.png",
+    "x": 49,
+    "y": 221,
+    "w": 30,
+    "h": 30
+  },
+  "star_15": {
+    "sheet": "star_sheet.png",
+    "x": 147,
+    "y": 56,
+    "w": 30,
+    "h": 30
+  },
+  "star_16": {
+    "sheet": "star_sheet.png",
+    "x": 179,
+    "y": 56,
+    "w": 30,
+    "h": 30
+  },
+  "star_17": {
+    "sheet": "star_sheet.png",
+    "x": 210,
+    "y": 56,
+    "w": 30,
+    "h": 30
+  },
+  "star_pick_01": {
+    "sheet": "star_sheet.png",
+    "x": 98,
+    "y": 56,
+    "w": 47.5,
+    "h": 53.75
+  },
+  "star_pick_02": {
+    "sheet": "star_sheet.png",
+    "x": 49,
+    "y": 166,
+    "w": 47.5,
+    "h": 53.75
+  },
+  "star_pick_03": {
+    "sheet": "star_sheet.png",
+    "x": 49,
+    "y": 111,
+    "w": 47.5,
+    "h": 53.75
+  },
+  "star_pick_04": {
+    "sheet": "star_sheet.png",
+    "x": 49,
+    "y": 56,
+    "w": 47.5,
+    "h": 53.75
+  },
+  "star_pick_05": {
+    "sheet": "star_sheet.png",
+    "x": 196,
+    "y": 0,
+    "w": 47.5,
+    "h": 53.75
+  },
+  "star_pick_06": {
+    "sheet": "star_sheet.png",
+    "x": 147,
+    "y": 0,
+    "w": 47.5,
+    "h": 53.75
+  },
+  "star_pick_07": {
+    "sheet": "star_sheet.png",
+    "x": 98,
+    "y": 0,
+    "w": 47.5,
+    "h": 53.75
+  },
+  "star_pick_08": {
+    "sheet": "star_sheet.png",
+    "x": 49,
+    "y": 0,
+    "w": 47.5,
+    "h": 53.75
+  },
+  "star_pick_09": {
+    "sheet": "star_sheet.png",
+    "x": 0,
+    "y": 166,
+    "w": 47.5,
+    "h": 53.75
+  },
+  "star_pick_10": {
+    "sheet": "star_sheet.png",
+    "x": 0,
+    "y": 111,
+    "w": 47.5,
+    "h": 53.75
+  },
+  "star_pick_11": {
+    "sheet": "star_sheet.png",
+    "x": 0,
+    "y": 56,
+    "w": 47.5,
+    "h": 53.75
+  },
+  "star_pick_12": {
+    "sheet": "star_sheet.png",
+    "x": 0,
+    "y": 0,
+    "w": 47.5,
+    "h": 53.75
+  },
+  "star_rotate_01": {
+    "sheet": "star_sheet.png",
+    "x": 193,
+    "y": 142,
+    "w": 30,
+    "h": 30
+  },
+  "star_rotate_02": {
+    "sheet": "star_sheet.png",
+    "x": 224,
+    "y": 142,
+    "w": 30,
+    "h": 30
+  },
+  "star_rotate_03": {
+    "sheet": "star_sheet.png",
+    "x": 161,
+    "y": 174,
+    "w": 30,
+    "h": 30
+  },
+  "star_rotate_04": {
+    "sheet": "star_sheet.png",
+    "x": 161,
+    "y": 205,
+    "w": 30,
+    "h": 30
+  },
+  "star_rotate_05": {
+    "sheet": "star_sheet.png",
+    "x": 193,
+    "y": 174,
+    "w": 30,
+    "h": 30
+  },
+  "star_rotate_06": {
+    "sheet": "star_sheet.png",
+    "x": 224,
+    "y": 174,
+    "w": 30,
+    "h": 30
+  },
+  "star_rotate_07": {
+    "sheet": "star_sheet.png",
+    "x": 193,
+    "y": 205,
+    "w": 30,
+    "h": 30
+  }
+}

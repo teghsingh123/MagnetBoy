@@ -1,5 +1,8 @@
 import Phaser from 'phaser';
 
+import allFrames from '../public/assets/all_frames.json';
+import animations from '../public/assets/animations.json';
+
 const levels = import.meta.glob('../levels/*.json', { eager: true });
 
 function getLevel(world, level) {
@@ -31,15 +34,32 @@ export default class GameScene extends Phaser.Scene {
         this.stars = [];
         this.starCount = 0;
         this.wonAlready = false;
+        this.robotPieces = [];
+        this.robotPiecesCollected = 0;
     }
 
     preload() {
         this.load.image('dialog_bg', '/assets/ui/dialog_bg.png');
+
+
         for (let col = 1; col <= 5; col++) {
             for (let row = 1; row <= 2; row++) {
                 this.load.image(`bg${col}_${row}`, `/assets/bg/${this.currentWorld}/bg-x25-${col}-${row}.png`);
             }
         }
+
+        const sheets = new Set();
+        for (const obj of getLevel(this.currentWorld, this.currentLevel).objects) {
+            if (obj.sheet) sheets.add(obj.sheet);
+        }
+        for (const sheet of sheets) {
+            this.load.image(sheet, `/assets/${sheet}`);
+        }
+
+        this.load.image('star_sheet', '/assets/star_sheet.png');
+
+        this.load.image('robotpack1_robotpack1.png', '/assets/robotpack1_robotpack1.png');
+
     }
 
     create() {
@@ -61,6 +81,28 @@ export default class GameScene extends Phaser.Scene {
             xPos += colWidths[col] * scale;
         }
 
+
+        // Register animations
+        for (const [animName, animData] of Object.entries(animations)) {
+            const frameConfig = animData.frames.map(frameName => {
+                const f = allFrames[frameName];
+                if (!f) return null;
+                const texture = this.textures.get(animData.sheet);
+                if (!texture.has(frameName)) {
+                    texture.add(frameName, 0, f.x, f.y, f.w, f.h);
+                }
+                return { key: animData.sheet, frame: frameName };
+            }).filter(Boolean);
+
+            this.anims.create({
+                key: animName,
+                frames: frameConfig,
+                frameRate: animData.frameRate,
+                repeat: animData.loop ? -1 : 0
+            });
+        }
+
+
         const levelData = getLevel(this.currentWorld, this.currentLevel);
 
         const magnetColors = {};
@@ -74,37 +116,75 @@ export default class GameScene extends Phaser.Scene {
         }
 
         for (const obj of levelData.objects) {
-            if (!obj.position || obj.tag === 'HERO') continue;
+            if (!obj.position || obj.tag === 'HERO' || obj.name === 'range_hero') continue;
+            if (!obj.sheet || !obj.frame) continue;
+            if (obj.tag === 'STAR') continue; // skip - handled separately
+            if (obj.tag === 'ROBOT_PIECE') continue; // skip - handled separately
 
-            let color = 0xffffff;
-            if (obj.tag === 'STAR') color = 0xffff00;
-            if (obj.tag === 'ROBOT_PIECE') color = 0x00ff00;
-            if (obj.tag === 'MAGNET') color = magnetColors[obj.name] === 'red' ? 0xff0000 : 0x0000ff;
-            if (obj.tag === 'MAGNET_RANGE') {
-                const magnetName = obj.name.replace('range_', '');
-                color = magnetColors[magnetName] === 'red' ? 0xff0000 : 0x0000ff;
+            let frameX = obj.frame.x;
+            let frameY = obj.frame.y;
+            let frameW = obj.frame.w;
+            let frameH = obj.frame.h;
+
+            if (obj.tag === 'MAGNET_RANGE' && obj.name !== 'range_hero') {
+                if (obj.animation?.startsWith('BB')) {
+                    frameX = 128; // blue frame
+                } else {
+                    frameX = 0; // red frame
+                }
+                frameY = 0;
+                frameW = 62;
+                frameH = 62;
+            }
+            
+            const frameName = obj.name + '_frame';
+            const texture = this.textures.get(obj.sheet);
+            if (!texture.has(frameName)) {
+                texture.add(frameName, 0, frameX, frameY, frameW, frameH);
             }
 
-            this.add.rectangle(
+            this.add.image(
                 obj.position.x,
                 320 - obj.position.y,
-                obj.size?.x || 32,
-                obj.size?.y || 32,
-                color
-            ).setAlpha(obj.tag === 'MAGNET_RANGE' ? 0.2 : 1);
+                obj.sheet,
+                frameName
+            )
+            .setScale(obj.size.x / frameW, obj.size.y / frameH)
+            .setAlpha(obj.tag === 'MAGNET_RANGE' ? 0.4 : 1)
+            .setAngle(obj.angle || 0)
+            .setDepth(obj.tag === 'MAGNET_RANGE' ? 5 : 10);
         }
 
         for (const obj of levelData.objects) {
             if (obj.tag !== 'STAR') continue;
-            const star = this.add.rectangle(
+            
+            const texture = this.textures.get(obj.sheet);
+            if (!texture.has(obj.name)) {
+                texture.add(obj.name, 0, obj.frame.x, obj.frame.y, obj.frame.w, obj.frame.h);
+            }
+            
+            const star = this.add.sprite(
                 obj.position.x,
                 320 - obj.position.y,
-                obj.size?.x || 30,
-                obj.size?.y || 30,
-                0xffff00
-            );
+                'star_sheet',
+                'star_01'
+            ).setScale(obj.size.x / obj.frame.w, obj.size.y / obj.frame.h);
+            star.play('star_rotate');
+            
             star.collected = false;
             this.stars.push({ rect: star, x: obj.position.x, y: 320 - obj.position.y, size: obj.size?.x || 30 });
+        }
+
+        for (const obj of levelData.objects) {
+            if (obj.tag !== 'ROBOT_PIECE') continue;
+            const texture = this.textures.get(obj.sheet);
+            const frameName = obj.name + '_frame';
+            if (!texture.has(frameName)) {
+                texture.add(frameName, 0, obj.frame.x, obj.frame.y, obj.frame.w, obj.frame.h);
+            }
+            const piece = this.add.sprite(obj.position.x, 320 - obj.position.y, obj.sheet, frameName)
+                .setScale(obj.size.x / obj.frame.w, obj.size.y / obj.frame.h);
+            this.robotPieces.push({ img: piece, x: obj.position.x, y: 320 - obj.position.y, size: obj.size?.x || 40, collected: false });
         }
 
         for (const obj of levelData.objects) {
@@ -112,12 +192,13 @@ export default class GameScene extends Phaser.Scene {
             const color = magnetColors[obj.name] === 'red' ? 0xff0000 : 0x0000ff;
             const magnet = this.physics.add.image(obj.position.x, 320 - obj.position.y, '__DEFAULT');
             magnet.setDisplaySize(obj.size?.x || 32, obj.size?.y || 32);
-            magnet.setTint(color);
+            //magnet.setTint(color);
             magnet.setImmovable(true);
             magnet.body.setEnable(true);
             magnet.body.setAllowGravity(false);
             magnet.magnetColor = magnetColors[obj.name];
             magnet.rangeRadius = 62;
+            magnet.setDepth(15);
             this.magnets.push(magnet);
         }
 
@@ -125,12 +206,36 @@ export default class GameScene extends Phaser.Scene {
         this.heroStart = { x: heroObj.position.x, y: 320 - heroObj.position.y };
         this.hero = this.physics.add.image(this.heroStart.x, this.heroStart.y, '__DEFAULT');
         this.hero.setDisplaySize(32, 32);
-        this.hero.setTint(0x0000ff);
+        //this.hero.setTint(0x0000ff);
         this.hero.body.setEnable(false);
+        this.hero.setDepth(10);
 
-        this.heroRange = this.add.graphics();
-        this.heroRange.fillStyle(0x0000ff, 0.3);
-        this.heroRange.fillCircle(0, 0, 32);
+
+        const heroObj2 = levelData.objects.find(o => o.tag === 'HERO');
+        console.log('heroObj2:', heroObj2);
+        
+        if (heroObj2?.sheet && heroObj2?.frame) {
+            const texture = this.textures.get(heroObj2.sheet);
+            if (!texture.has(heroObj2.name)) {
+                texture.add(heroObj2.name, 0, heroObj2.frame.x, heroObj2.frame.y, heroObj2.frame.w, heroObj2.frame.h);
+            }
+            this.hero.setTexture(heroObj2.sheet, heroObj2.name);
+            this.hero.setScale(heroObj2.size.x / heroObj2.frame.w, heroObj2.size.y / heroObj2.frame.h);
+}
+
+        const rangeObj = levelData.objects.find(o => o.name === 'range_hero');
+        if (rangeObj?.sheet && rangeObj?.frame) {
+            const texture = this.textures.get(rangeObj.sheet);
+            if (!texture.has(rangeObj.name)) {
+                texture.add(rangeObj.name, 0, rangeObj.frame.x, rangeObj.frame.y, rangeObj.frame.w, rangeObj.frame.h);
+            }
+            this.heroRange = this.add.image(this.heroStart.x, this.heroStart.y, rangeObj.sheet, rangeObj.name);
+            this.heroRange.setScale(rangeObj.size.x / rangeObj.frame.w, rangeObj.size.y / rangeObj.frame.h);
+            this.heroRange.setDepth(5);
+
+            this.heroRangeBlueFrame = { x: 0, y: 206, w: 64, h: 64 };
+            this.heroRangeRedFrame = { x: 0, y: 73, w: 64, h: 64 };
+        }
 
         this.cameras.main.startFollow(this.hero, true, 0.1, 0.1);
         this.trajectoryGraphics = this.add.graphics();
@@ -159,7 +264,7 @@ export default class GameScene extends Phaser.Scene {
 
             if (this.hasLaunched) {
                 this.heroColor = this.heroColor === 'blue' ? 'red' : 'blue';
-                this.hero.setTint(this.heroColor === 'blue' ? 0x0000ff : 0xff0000);
+                //this.hero.setTint(this.heroColor === 'blue' ? 0x0000ff : 0xff0000);
             }
             this.hasLaunched = true;
 
@@ -177,15 +282,32 @@ export default class GameScene extends Phaser.Scene {
     }
 
     update() {
+        const rangeFrame = this.heroColor === 'blue' ? this.heroRangeBlueFrame : this.heroRangeRedFrame;
+        const heroRangeFrameName = `range_hero_${this.heroColor}`;
+        const texture = this.textures.get('hero_hero_sheet.png');
+        if (!texture.has(heroRangeFrameName)) {
+            texture.add(heroRangeFrameName, 0, rangeFrame.x, rangeFrame.y, rangeFrame.w, rangeFrame.h);
+        }
+        this.heroRange.setTexture('hero_hero_sheet.png', heroRangeFrameName);
         this.heroRange.setPosition(this.hero.x, this.hero.y);
-        this.heroRange.clear();
-        this.heroRange.fillStyle(this.heroColor === 'blue' ? 0x0000ff : 0xff0000, 0.3);
-        this.heroRange.fillCircle(0, 0, 32);
 
         if (this.isAttached && this.attachedMagnet) {
             const dx = this.hero.x - this.attachedMagnet.x;
             const dy = this.hero.y - this.attachedMagnet.y;
             const dist = Math.sqrt(dx * dx + dy * dy);
+
+            // Add damping to bleed energy
+            this.hero.body.velocity.x *= 0.95;
+            this.hero.body.velocity.y *= 0.95;
+
+            // Prevent hero from going inside magnet
+            const minDist = 18;
+            if (dist < minDist && dist > 0) {
+                const angle = Math.atan2(dy, dx);
+                this.hero.x = this.attachedMagnet.x + Math.cos(angle) * minDist;
+                this.hero.y = this.attachedMagnet.y + Math.sin(angle) * minDist;
+}
+
             if (dist > this.jointLength) {
                 const angle = Math.atan2(dy, dx);
                 this.hero.x = this.attachedMagnet.x + Math.cos(angle) * this.jointLength;
@@ -218,12 +340,26 @@ export default class GameScene extends Phaser.Scene {
             }
 
             this.trajectoryGraphics.clear();
-            const vx = -dx * 3;
-            const vy = -dy * 3;
+
+            // 1. MATCH THE EXACT VELOCITY MATH FROM pointerup
+            const maxDist = 750 / 2;
+            const dragDist = Math.sqrt(dx * dx + dy * dy);
+            
+            // Prevent division by zero if pointer hasn't moved
+            const safeDragDist = dragDist > 0 ? dragDist : 1; 
+            const powerRatio = Math.min(safeDragDist, maxDist) / maxDist;
+
+            const vx = (-dx / safeDragDist) * powerRatio * 5.72 * maxDist;
+            const vy = (-dy / safeDragDist) * powerRatio * 5.72 * maxDist;
+
             const g = 294;
+
+
             const nextColor = this.heroColor === 'blue' ? 0xff2600 : 0x0050ff;
             const sizes = [1, 2, 3, 4];
             let dotIndex = 0;
+
+
             for (let t = 0; t < 1.5; t += 0.08) {
                 const px = this.hero.x + vx * t;
                 const py = this.hero.y + vy * t + 0.5 * g * t * t;
@@ -265,8 +401,17 @@ export default class GameScene extends Phaser.Scene {
                         if (dist < 20 && !this.isAttached) {
                             this.isAttached = true;
                             this.attachedMagnet = magnet;
-                            this.jointLength = 40;
+                            this.jointLength = Math.max(dist, 40); // minimum 40px so it doesn't go inside
                             this.hero.body.setEnable(true);
+
+                            // Cap velocity on attachment
+                            const speed = Math.sqrt(this.hero.body.velocity.x ** 2 + this.hero.body.velocity.y ** 2);
+                            const maxSpeed = 150;
+                            if (speed > maxSpeed) {
+                                const ratio = maxSpeed / speed;
+                                this.hero.body.velocity.x *= ratio;
+                                this.hero.body.velocity.y *= ratio;
+                            }
                         }
                     }
                 }
@@ -280,13 +425,32 @@ export default class GameScene extends Phaser.Scene {
             const dist = Math.sqrt(dx * dx + dy * dy);
             if (dist < star.size) {
                 star.collected = true;
-                star.rect.setVisible(false);
+                star.rect.play('star_pick');
+                star.rect.once('animationcomplete', () => {
+                    star.rect.setVisible(false);
+                });
                 this.starCount++;
             }
         }
 
-        if (this.starCount >= this.stars.length && this.stars.length > 0) {
-            this.showWin();
+        //Incorrect win condition
+        // if (this.starCount >= this.stars.length && this.stars.length > 0) {
+        //     this.showWin();
+        // }
+
+        for (const piece of this.robotPieces) {
+            if (piece.collected) continue;
+            const dx = this.hero.x - piece.x;
+            const dy = this.hero.y - piece.y;
+            const dist = Math.sqrt(dx * dx + dy * dy);
+            if (dist < piece.size) {
+                piece.collected = true;
+                piece.img.setVisible(false);
+                this.robotPiecesCollected++;
+                if (this.robotPiecesCollected >= this.robotPieces.length) {
+                    this.showWin();
+                }
+            }
         }
 
         if (this.hero.y > 350) {
@@ -297,7 +461,7 @@ export default class GameScene extends Phaser.Scene {
             this.attachedMagnet = null;
             this.hasLaunched = false;
             this.heroColor = 'blue';
-            this.hero.setTint(0x0000ff);
+            // this.hero.setTint(0x0000ff);
             this.starCount = 0;
             for (const star of this.stars) {
                 star.collected = false;

@@ -1,0 +1,26 @@
+{
+    "star_normal": {
+        "sheet": "star_sheet.png",
+        "frames": ["star_01", "star_02", "star_03", "star_04", "star_05", "star_06", "star_07", "star_08", "star_09", "star_10", "star_11", "star_12", "star_13", "star_14", "star_15", "star_16", "star_17"],
+        "frameRate": 10,
+        "loop": true
+    },
+    "star_pick": {
+        "sheet": "star_sheet.png",
+        "frames": ["star_pick_01", "star_pick_02", "star_pick_03", "star_pick_04", "star_pick_05", "star_pick_06", "star_pick_07", "star_pick_08", "star_pick_09", "star_pick_10", "star_pick_11", "star_pick_12"],
+        "frameRate": 10,
+        "loop": false
+    },
+    "star_rotate": {
+    "sheet": "star_sheet.png",
+    "frames": ["star_rotate_01", "star_rotate_02", "star_rotate_03", "star_rotate_04", "star_rotate_05", "star_rotate_06", "star_rotate_07"],
+    "frameRate": 10,
+    "loop": true
+    },
+    "robot_piece_1_3": {
+        "sheet": "robotpack1_robotpack1.png",
+        "frames": ["1_3_1", "1_3_2", "1_3_3", "1_3_4", "1_3_5", "1_3_6", "1_3_7", "1_3_8", "1_3_9", "1_3_10", "1_3_11", "1_3_12", "1_3_13", "1_3_14", "1_3_15", "1_3_16", "1_3_17", "1_3_18", "1_3_19", "1_3_20"],
+        "frameRate": 10,
+        "loop": true
+    }
+}
