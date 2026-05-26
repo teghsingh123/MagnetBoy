@@ -32,7 +32,7 @@ export default class LevelSelectScene extends Phaser.Scene {
         console.log('LevelSelectScene create running');
 
         // Register button frames
-        ['ind_act', 'ind_inact', 'level_btn_orange', 'back'].forEach(name => {
+        ['ind_act', 'ind_inact', 'level_btn_orange', 'back', 'play'].forEach(name => {
             this.registerFrame('buttons_sheet', name);
         });
 
@@ -56,8 +56,14 @@ export default class LevelSelectScene extends Phaser.Scene {
             this.dots.push(dot);
         }
 
+        this.registerFrame('buttons_sheet', 'play');
+        this.playBtn = this.add.image(283, 300, 'buttons_sheet', 'play').setDepth(3).setScale(0.8).setInteractive();
+        this.playBtn.on('pointerdown', () => {
+            this.scene.start('WorldScene', { world: this.selectedWorld });
+        });
+
         // Back button
-        const back = this.add.image(40, 30, 'buttons_sheet', 'back').setInteractive().setDepth(2);
+        const back = this.add.image(730, 20, 'buttons_sheet', 'back').setInteractive().setDepth(2);
         back.on('pointerdown', () => this.scene.start('MenuScene'));
 
 
@@ -97,5 +103,7 @@ export default class LevelSelectScene extends Phaser.Scene {
         this.dots.forEach((dot, i) => {
             dot.setTexture('buttons_sheet', i === world - 1 ? 'ind_act' : 'ind_inact');
         });
+
+        this.playBtn.setPosition(283 + (world - 1) * 60, 300);
     }
 }

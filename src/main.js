@@ -2,6 +2,7 @@ import Phaser from 'phaser';
 import MenuScene from './MenuScene.js';
 import GameScene from './GameScene.js';
 import LevelSelectScene from './LevelSelectScene.js';
+import WorldScene from './WorldScene.js';
 
 const config = {
     type: Phaser.AUTO,
@@ -16,10 +17,10 @@ const config = {
         default: 'arcade',
         arcade: {
             gravity: { y: 294 },
-            debug: false
+            debug: true
         }
     },
-    scene: [MenuScene, LevelSelectScene, GameScene]
+    scene: [MenuScene, LevelSelectScene, WorldScene, GameScene]
 };
 
 new Phaser.Game(config);

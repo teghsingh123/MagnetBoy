@@ -5,6 +5,17 @@ import animations from './assets/animations.json';
 
 const levels = import.meta.glob('../levels/*.json', { eager: true });
 
+const ANIM_STATES = {
+    BB:  [-1, -1],
+    RR:  [1, 1],
+    BR:  [-1, 1, 1, 1, 1, 1, -1, -1, -1, -1],
+    RB:  [1, -1, -1, -1, -1, -1, 1, 1, 1, 1],
+    BZ:  [-1, 0, -1, 0, -1, 0, -1, 0, -1, 0],
+    RZ:  [1, 0, 1, 0, 1, 0, 1, 0, 1, 0],
+    ROB: [1, 0, -1],
+    BOR: [-1, 0, 1],
+};
+
 function getLevel(world, level) {
     const key = `../levels/level_${world}_${level}.json`;
     return levels[key]?.default || levels[key];
@@ -25,12 +36,19 @@ export default class GameScene extends Phaser.Scene {
         this.trajectoryGraphics = null;
         this.heroRange = null;
         this.hasLaunched = false;
+
+        this.heroAnimTag = 'BOR'; // default, will be set from level data
+        this.heroFrame = 0;
+        this.heroState = -1; // starts blue = -1
+
+
         this.magnets = [];
         this.heroColor = 'blue';
         this.isAttached = false;
         this.attachedMagnet = null;
         this.jointLength = 0;
         this.lastAttachedMagnet = null;
+
         this.stars = [];
         this.starCount = 0;
         this.wonAlready = false;
@@ -82,6 +100,8 @@ export default class GameScene extends Phaser.Scene {
         }
 
 
+
+
         // Register animations
         for (const [animName, animData] of Object.entries(animations)) {
             const frameConfig = animData.frames.map(frameName => {
@@ -111,9 +131,15 @@ export default class GameScene extends Phaser.Scene {
                 const anim = obj.animation || '';
                 const color = anim.startsWith('RR') ? 'red' : 'blue';
                 const magnetName = obj.name.replace('range_', '');
+                // Removed the broken lines here
                 magnetColors[magnetName] = color;
             }
         }
+
+        // Keep track of range images to link up later with physics instances
+        const rangeImagesByMagnetName = {};
+
+
 
         for (const obj of levelData.objects) {
             if (!obj.position || obj.tag === 'HERO' || obj.name === 'range_hero') continue;
@@ -143,7 +169,7 @@ export default class GameScene extends Phaser.Scene {
                 texture.add(frameName, 0, frameX, frameY, frameW, frameH);
             }
 
-            this.add.image(
+            const img = this.add.image(
                 obj.position.x,
                 320 - obj.position.y,
                 obj.sheet,
@@ -153,6 +179,11 @@ export default class GameScene extends Phaser.Scene {
             .setAlpha(obj.tag === 'MAGNET_RANGE' ? 0.4 : 1)
             .setAngle(obj.angle || 0)
             .setDepth(obj.tag === 'MAGNET_RANGE' ? 5 : 10);
+
+            if (obj.tag === 'MAGNET_RANGE') {
+                const magnetName = obj.name.replace('range_', '');
+                rangeImagesByMagnetName[magnetName] = img;
+            }
         }
 
         for (const obj of levelData.objects) {
@@ -175,6 +206,9 @@ export default class GameScene extends Phaser.Scene {
             this.stars.push({ rect: star, x: obj.position.x, y: 320 - obj.position.y, size: obj.size?.x || 30 });
         }
 
+
+
+
         for (const obj of levelData.objects) {
             if (obj.tag !== 'ROBOT_PIECE') continue;
             const texture = this.textures.get(obj.sheet);
@@ -194,21 +228,78 @@ export default class GameScene extends Phaser.Scene {
             magnet.setDisplaySize(obj.size?.x || 32, obj.size?.y || 32);
             //magnet.setTint(color);
             magnet.setImmovable(true);
-            magnet.body.setEnable(true);
+            magnet.body.enable = true;
             magnet.body.setAllowGravity(false);
             magnet.magnetColor = magnetColors[obj.name];
             magnet.rangeRadius = 62;
+
+            magnet.magnetName = obj.name;
+
+            // Map the range image reference accurately now that processing data loops exist
+            magnet.rangeImage = rangeImagesByMagnetName[obj.name] || null;
+
+
+            magnet.animTag = magnetColors[obj.name] === 'red' ? 'RR' : 'BB'; // fallback
+            // Get actual animTag from range object
+            const rangeObj2 = levelData.objects.find(o => o.name === 'range_' + obj.name);
+            if (rangeObj2?.animation) {
+                magnet.animTag = rangeObj2.animation.split('_')[0]; // get 'BB', 'RR', 'BR' etc
+            }
+            magnet.animFrame = 0;
+            magnet.state = ANIM_STATES[magnet.animTag]?.[0] ?? 1;
+            console.log(obj.name, 'animTag:', magnet.animTag, 'state:', magnet.state);
+
+
             magnet.setDepth(15);
             this.magnets.push(magnet);
         }
+
+        this.time.addEvent({
+            delay: 250, // advance frame every 250ms
+            loop: true,
+            callback: () => {
+                for (const magnet of this.magnets) {
+                    const states = ANIM_STATES[magnet.animTag];
+                    if (!states) continue;
+                    magnet.animFrame = (magnet.animFrame + 1) % states.length;
+                    magnet.state = states[magnet.animFrame];
+                    
+                    // Update visual
+                    if (magnet.rangeImage) {
+                        const frameName = magnet.state >= 0 ? 
+                            `range_${magnet.magnetName}_red` : 
+                            `range_${magnet.magnetName}_blue`;
+                        // use x=0 for red, x=128 for blue
+                        const frameX = magnet.state >= 0 ? 0 : 128;
+                        const texture = magnet.rangeImage.texture;
+                        if (!texture.has(frameName)) {
+                            texture.add(frameName, 0, frameX, 0, 62, 62);
+                        }
+                        magnet.rangeImage.setTexture(texture.key, frameName);
+                    }
+                }
+            }
+        });
 
         const heroObj = levelData.objects.find(o => o.tag === 'HERO');
         this.heroStart = { x: heroObj.position.x, y: 320 - heroObj.position.y };
         this.hero = this.physics.add.image(this.heroStart.x, this.heroStart.y, '__DEFAULT');
         this.hero.setDisplaySize(32, 32);
         //this.hero.setTint(0x0000ff);
-        this.hero.body.setEnable(false);
+
+
+        // --- ADD THE ROTATION INITIALIZATION HERE ---
+        this.hero.body.setAllowRotation(true);
+        this.hero.body.setAngularDrag(150); // Keeps tumbles smooth and controlled
+
+        // If you want a round physics shape for perfect wheel-like rolling over corners:
+        this.hero.setCircle(this.hero.width / 2);
+
+        this.hero.body.enable = false;
         this.hero.setDepth(10);
+
+        this.hero.body.setBounce(0.1, 0.1);   // Gives the hero a slight bounce on X and Y axes
+        this.hero.body.setFriction(0.2, 0.2); // Allows the hero to experience drag sliding over surfaces
 
 
         const heroObj2 = levelData.objects.find(o => o.tag === 'HERO');
@@ -221,9 +312,15 @@ export default class GameScene extends Phaser.Scene {
             }
             this.hero.setTexture(heroObj2.sheet, heroObj2.name);
             this.hero.setScale(heroObj2.size.x / heroObj2.frame.w, heroObj2.size.y / heroObj2.frame.h);
-}
+        }
 
         const rangeObj = levelData.objects.find(o => o.name === 'range_hero');
+
+        // FIX: Added animation property character splitting to parse values correctly
+        const heroAnimTag = rangeObj?.animation ? rangeObj.animation.split('_')[0] : 'BOR';
+        this.heroState = ANIM_STATES[heroAnimTag]?.[0] ?? -1;
+        this.heroColor = this.heroState === -1 ? 'blue' : 'red';
+
         if (rangeObj?.sheet && rangeObj?.frame) {
             const texture = this.textures.get(rangeObj.sheet);
             if (!texture.has(rangeObj.name)) {
@@ -236,6 +333,43 @@ export default class GameScene extends Phaser.Scene {
             this.heroRangeBlueFrame = { x: 0, y: 206, w: 64, h: 64 };
             this.heroRangeRedFrame = { x: 0, y: 73, w: 64, h: 64 };
         }
+
+        // Create wood physics bodies
+        for (const obj of levelData.objects) {
+            if (obj.tag !== 'WOOD') continue;
+            
+            const w = obj.angle === 90 || obj.angle === -90 ? obj.size?.y || 24.5 : obj.size?.x || 49;
+            const h = obj.angle === 90 || obj.angle === -90 ? obj.size?.x || 49 : obj.size?.y || 24.5;
+
+            // Calculate the true center coordinate from the top-left data position
+            const centerX = obj.position.x;
+            const centerY = 320 - obj.position.y;
+
+            // 1. Create the physics body using the calculated center position
+            const wood = this.physics.add.staticImage(
+                centerX,
+                centerY,
+                '__DEFAULT'
+            );
+            
+            // 2. Map the physical bounding box dimensions explicitly
+            wood.setDisplaySize(w, h);
+            wood.body.setSize(w, h);
+            wood.body.setOffset(0, 0);
+            
+            wood.setAlpha(0); // Keeps the layout collider invisible
+            wood.refreshBody(); // Locks the structural changes into the physics grid
+
+            // 3. Dynamic collision handler
+            this.physics.add.collider(this.hero, wood, () => {
+                if (this.hero.body && Math.abs(this.hero.body.velocity.x) > 5) {
+                    this.hero.setAngularVelocity(this.hero.body.velocity.x * 2);
+                }
+            });
+        }
+
+
+
 
         this.cameras.main.startFollow(this.hero, true, 0.1, 0.1);
         this.trajectoryGraphics = this.add.graphics();
@@ -259,12 +393,12 @@ export default class GameScene extends Phaser.Scene {
             const dx = pointer.x - this.dragStart.x;
             const dy = pointer.y - this.dragStart.y;
 
-            this.hero.body.setEnable(true);
+            this.hero.body.enable = true;
             this.hero.body.setAllowGravity(true);
 
             if (this.hasLaunched) {
-                this.heroColor = this.heroColor === 'blue' ? 'red' : 'blue';
-                //this.hero.setTint(this.heroColor === 'blue' ? 0x0000ff : 0xff0000);
+                this.heroState = this.heroState === -1 ? 1 : -1;
+                this.heroColor = this.heroState === -1 ? 'blue' : 'red';
             }
             this.hasLaunched = true;
 
@@ -379,32 +513,46 @@ export default class GameScene extends Phaser.Scene {
                 const dy = magnet.y - this.hero.y;
                 const dist = Math.sqrt(dx * dx + dy * dy);
 
-                if (magnet.magnetColor === this.heroColor) {
-                    if (dist < 40) {
-                        const force = (40 * 40 + 40 * 40) / (dist * dist);
-                        this.hero.body.velocity.x = this.hero.body.velocity.x / 1.05;
-                        this.hero.body.velocity.y = this.hero.body.velocity.y / 1.05;
+                const interaction = this.heroState * magnet.state;
+                if (interaction === 0) continue;
+
+                // Establish the baseline distance coefficient from GameLogic.lua (L8_2 = 20)
+                const baseCoeff = 20;
+                // L9_2 = L8_2 * L8_2 + L10_2 * L10_2 (which translates to 2 * (20 * 20) = 800)
+                const forceNumerator = 2 * (baseCoeff * baseCoeff); 
+                const forceDenominator = dist * dist;
+                const force = forceNumerator / (forceDenominator > 0 ? forceDenominator : 1);
+
+
+
+                if (interaction > 0) {
+                    // Repel
+                    if (dist < magnet.rangeRadius) { 
+                        this.hero.body.velocity.x /= 1.05;
+                        this.hero.body.velocity.y /= 1.05;
                         this.hero.setVelocity(
                             this.hero.body.velocity.x - dx * force,
                             this.hero.body.velocity.y - dy * force
                         );
                     }
                 } else {
-                    if (dist < 60) {
-                        const force = (60 * 60 + 60 * 60) / (dist * dist);
-                        this.hero.body.velocity.x = this.hero.body.velocity.x / 1.02;
-                        this.hero.body.velocity.y = this.hero.body.velocity.y / 1.02;
+                    // Attract
+                    if (dist < magnet.rangeRadius) { 
+                        this.hero.body.velocity.x /= 1.02;
+                        this.hero.body.velocity.y /= 1.02;
                         this.hero.setVelocity(
                             this.hero.body.velocity.x + dx * force,
                             this.hero.body.velocity.y + dy * force
                         );
+
+
+                        // Snap attraction/joint point zone 
                         if (dist < 20 && !this.isAttached) {
                             this.isAttached = true;
                             this.attachedMagnet = magnet;
-                            this.jointLength = Math.max(dist, 40); // minimum 40px so it doesn't go inside
-                            this.hero.body.setEnable(true);
+                            this.jointLength = Math.max(dist, 40);
+                            this.hero.body.enable = true;
 
-                            // Cap velocity on attachment
                             const speed = Math.sqrt(this.hero.body.velocity.x ** 2 + this.hero.body.velocity.y ** 2);
                             const maxSpeed = 150;
                             if (speed > maxSpeed) {
@@ -455,7 +603,7 @@ export default class GameScene extends Phaser.Scene {
 
         if (this.hero.y > 350) {
             this.hero.setPosition(this.heroStart.x, this.heroStart.y);
-            this.hero.body.setEnable(false);
+            this.hero.body.enable = false;
             this.hero.setVelocity(0, 0);
             this.isAttached = false;
             this.attachedMagnet = null;
@@ -467,6 +615,20 @@ export default class GameScene extends Phaser.Scene {
                 star.collected = false;
                 star.rect.setVisible(true);
             }
+        }
+
+        //failsafe
+        if (this.hero.body.velocity.x === 0 && this.hero.body.velocity.y === 0) {
+            if (!this.inactivityTimer) {
+                this.inactivityTimer = this.time.now;
+            } else if (this.time.now - this.inactivityTimer > 5000) {
+                // Match the Lua file exactly after 5 seconds of total stillness:
+                this.hero.setAngle(0);
+                this.hero.setAngularVelocity(0);
+                // Play the "free" idle animation here if needed!
+            }
+        } else {
+            this.inactivityTimer = null; // Reset timer if he moves
         }
     }
 
