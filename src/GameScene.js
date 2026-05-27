@@ -54,6 +54,9 @@ export default class GameScene extends Phaser.Scene {
         this.wonAlready = false;
         this.robotPieces = [];
         this.robotPiecesCollected = 0;
+
+        this.woodBlocks = []
+        this.isLevelComplete = false;
     }
 
     preload() {
@@ -77,6 +80,13 @@ export default class GameScene extends Phaser.Scene {
         this.load.image('star_sheet', '/assets/star_sheet.png');
 
         this.load.image('robotpack1_robotpack1.png', '/assets/robotpack1_robotpack1.png');
+
+        this.load.spritesheet('magnet_sheets', 'assets/magnet_magnet_sheets.png', {
+            frameWidth: 62,
+            frameHeight: 62
+        });
+
+        this.textures.get('magnet_sheets').add('yellow_glow', 0, 194, 129, 55, 55);
 
     }
 
@@ -114,12 +124,14 @@ export default class GameScene extends Phaser.Scene {
                 return { key: animData.sheet, frame: frameName };
             }).filter(Boolean);
 
-            this.anims.create({
-                key: animName,
-                frames: frameConfig,
-                frameRate: animData.frameRate,
-                repeat: animData.loop ? -1 : 0
-            });
+            if (!this.anims.exists(animName)){    
+                this.anims.create({
+                    key: animName,
+                    frames: frameConfig,
+                    frameRate: animData.frameRate,
+                    repeat: animData.loop ? -1 : 0
+                });
+            }
         }
 
 
@@ -138,7 +150,7 @@ export default class GameScene extends Phaser.Scene {
 
         // Keep track of range images to link up later with physics instances
         const rangeImagesByMagnetName = {};
-
+        const visualImagesByMagnetName = {};
 
 
         for (const obj of levelData.objects) {
@@ -171,7 +183,7 @@ export default class GameScene extends Phaser.Scene {
 
             const img = this.add.image(
                 obj.position.x,
-                320 - obj.position.y,
+                obj.position.y,
                 obj.sheet,
                 frameName
             )
@@ -184,26 +196,30 @@ export default class GameScene extends Phaser.Scene {
                 const magnetName = obj.name.replace('range_', '');
                 rangeImagesByMagnetName[magnetName] = img;
             }
+
+            if (obj.tag === 'MAGNET') {
+                visualImagesByMagnetName[obj.name] = img;
+            }
         }
 
         for (const obj of levelData.objects) {
             if (obj.tag !== 'STAR') continue;
             
             const texture = this.textures.get(obj.sheet);
-            if (!texture.has(obj.name)) {
+            if (texture && !texture.has(obj.name)) {
                 texture.add(obj.name, 0, obj.frame.x, obj.frame.y, obj.frame.w, obj.frame.h);
             }
             
             const star = this.add.sprite(
                 obj.position.x,
-                320 - obj.position.y,
-                'star_sheet',
-                'star_01'
+                obj.position.y,
+                obj.sheet,
+                obj.name
             ).setScale(obj.size.x / obj.frame.w, obj.size.y / obj.frame.h);
             star.play('star_rotate');
             
             star.collected = false;
-            this.stars.push({ rect: star, x: obj.position.x, y: 320 - obj.position.y, size: obj.size?.x || 30 });
+            this.stars.push({ rect: star, x: obj.position.x, y: obj.position.y, size: obj.size?.x || 30 });
         }
 
 
@@ -211,20 +227,58 @@ export default class GameScene extends Phaser.Scene {
 
         for (const obj of levelData.objects) {
             if (obj.tag !== 'ROBOT_PIECE') continue;
+
+            // ========================================================
+            // 1. ADD THE NATIVE UN-SCALED YELLOW GLOW BACKDROP
+            // ========================================================
+            const magnetTextureKey = 'magnet_magnet_sheets.png'; 
+            const glowFrameName = 'yellow_glow_frame';
+
+            if (this.textures.exists(magnetTextureKey)) {
+                const magnetTexture = this.textures.get(magnetTextureKey);
+                
+                // Define the frame block using the exact coordinates from the Lua sheet
+                if (!magnetTexture.has(glowFrameName)) {
+                    magnetTexture.add(glowFrameName, 0, 194, 129, 55, 55);
+                }
+
+                // Spawn the glow at a flat 1:1 pixel scale so it stays a perfect native circle
+                const glow = this.add.sprite(obj.position.x, obj.position.y, magnetTextureKey, glowFrameName);
+                glow.setAlpha(1.0); // Keeps it nice and vibrant without a tween override
+
+                // Attach reference for cleanup
+                obj.glowGraphic = glow;
+            }
+            // ========================================================
+
+            // 2. CREATE THE ROBOT PIECE (Your original code)
             const texture = this.textures.get(obj.sheet);
             const frameName = obj.name + '_frame';
             if (!texture.has(frameName)) {
                 texture.add(frameName, 0, obj.frame.x, obj.frame.y, obj.frame.w, obj.frame.h);
             }
-            const piece = this.add.sprite(obj.position.x, 320 - obj.position.y, obj.sheet, frameName)
+
+            const piece = this.physics.add.sprite(obj.position.x, obj.position.y, obj.sheet, frameName)
                 .setScale(obj.size.x / obj.frame.w, obj.size.y / obj.frame.h);
-            this.robotPieces.push({ img: piece, x: obj.position.x, y: 320 - obj.position.y, size: obj.size?.x || 40, collected: false });
+
+            // CRITICAL: Prevent the piece from falling due to gravity
+            piece.body.setAllowGravity(false);
+
+            // Store the tracking structure
+            this.robotPieces.push({ 
+                img: piece, 
+                glow: obj.glowGraphic || null, 
+                x: obj.position.x, 
+                y: obj.position.y, 
+                size: obj.size?.x || 40, 
+                collected: false 
+            });
         }
 
         for (const obj of levelData.objects) {
             if (obj.tag !== 'MAGNET') continue;
             const color = magnetColors[obj.name] === 'red' ? 0xff0000 : 0x0000ff;
-            const magnet = this.physics.add.image(obj.position.x, 320 - obj.position.y, '__DEFAULT');
+            const magnet = this.physics.add.image(obj.position.x, obj.position.y, '__DEFAULT');
             magnet.setDisplaySize(obj.size?.x || 32, obj.size?.y || 32);
             //magnet.setTint(color);
             magnet.setImmovable(true);
@@ -237,6 +291,7 @@ export default class GameScene extends Phaser.Scene {
 
             // Map the range image reference accurately now that processing data loops exist
             magnet.rangeImage = rangeImagesByMagnetName[obj.name] || null;
+            magnet.visualImage = visualImagesByMagnetName[obj.name] || null;
 
 
             magnet.animTag = magnetColors[obj.name] === 'red' ? 'RR' : 'BB'; // fallback
@@ -282,7 +337,7 @@ export default class GameScene extends Phaser.Scene {
         });
 
         const heroObj = levelData.objects.find(o => o.tag === 'HERO');
-        this.heroStart = { x: heroObj.position.x, y: 320 - heroObj.position.y };
+        this.heroStart = { x: heroObj.position.x, y: heroObj.position.y };
         this.hero = this.physics.add.image(this.heroStart.x, this.heroStart.y, '__DEFAULT');
         this.hero.setDisplaySize(32, 32);
         //this.hero.setTint(0x0000ff);
@@ -300,6 +355,21 @@ export default class GameScene extends Phaser.Scene {
 
         this.hero.body.setBounce(0.1, 0.1);   // Gives the hero a slight bounce on X and Y axes
         this.hero.body.setFriction(0.2, 0.2); // Allows the hero to experience drag sliding over surfaces
+
+        // Safely map only active images
+        // In create(), instead of just map, filter first:
+        this.physics.add.overlap(
+            this.hero, 
+            this.robotPieces.map(p => p.img).filter(img => img.active), 
+            (hero, sprite) => {
+                const pieceData = this.robotPieces.find(p => p.img === sprite);
+                if (pieceData && !pieceData.collected) {
+                    this.collectRobotPiece(hero, pieceData);
+                }
+            }, 
+            null, 
+            this
+        );
 
 
         const heroObj2 = levelData.objects.find(o => o.tag === 'HERO');
@@ -320,6 +390,9 @@ export default class GameScene extends Phaser.Scene {
         const heroAnimTag = rangeObj?.animation ? rangeObj.animation.split('_')[0] : 'BOR';
         this.heroState = ANIM_STATES[heroAnimTag]?.[0] ?? -1;
         this.heroColor = this.heroState === -1 ? 'blue' : 'red';
+
+        this.defaultHeroState = this.heroState;
+        this.defaultHeroColor = this.heroColor;
 
         if (rangeObj?.sheet && rangeObj?.frame) {
             const texture = this.textures.get(rangeObj.sheet);
@@ -343,7 +416,7 @@ export default class GameScene extends Phaser.Scene {
 
             // Calculate the true center coordinate from the top-left data position
             const centerX = obj.position.x;
-            const centerY = 320 - obj.position.y;
+            const centerY = obj.position.y;
 
             // 1. Create the physics body using the calculated center position
             const wood = this.physics.add.staticImage(
@@ -366,6 +439,8 @@ export default class GameScene extends Phaser.Scene {
                     this.hero.setAngularVelocity(this.hero.body.velocity.x * 2);
                 }
             });
+
+            this.woodBlocks.push(wood);
         }
 
 
@@ -375,6 +450,9 @@ export default class GameScene extends Phaser.Scene {
         this.trajectoryGraphics = this.add.graphics();
 
         this.input.on('pointerdown', (pointer) => {
+
+            if (this.isLevelComplete) return;
+
             this.isDragging = true;
             if (this.isAttached && this.attachedMagnet) {
                 this.lastAttachedMagnet = this.attachedMagnet;
@@ -392,6 +470,18 @@ export default class GameScene extends Phaser.Scene {
 
             const dx = pointer.x - this.dragStart.x;
             const dy = pointer.y - this.dragStart.y;
+            const dragDist = Math.sqrt(dx * dx + dy * dy);
+
+            // 1. CLICK GUARD: If the drag distance is tiny, cancel the launch entirely
+            if (dragDist < 5) {
+                this.hero.body.enable = true;
+                if (!this.isAttached) {
+                    this.hero.body.setAllowGravity(true);
+                }
+                this.lastAttachedMagnet = null;
+                this.trajectoryGraphics.clear();
+                return; 
+            }
 
             this.hero.body.enable = true;
             this.hero.body.setAllowGravity(true);
@@ -403,19 +493,62 @@ export default class GameScene extends Phaser.Scene {
             this.hasLaunched = true;
 
             const maxDist = 750 / 2;
+            
+            // ========================================================
+            // SAFE KINEMATICS MULTIPLIER (Matches your update() loop!)
+            // ========================================================
+            const safeDragDist = dragDist > 0 ? dragDist : 1; 
+            const powerRatio = Math.min(safeDragDist, maxDist) / maxDist;
+
+            const vx = (-dx / safeDragDist) * powerRatio * 5.72 * maxDist;
+            const vy = (-dy / safeDragDist) * powerRatio * 5.72 * maxDist;
+
+            this.hero.setVelocity(vx, vy);
+            // ========================================================
+
+            this.isAttached = false;
+            this.attachedMagnet = null;
+            this.lastAttachedMagnet = null;
+            this.trajectoryGraphics.clear();
+                });
+
+        // SAFETY NET: Treat a release outside the window exactly like a normal release
+        this.input.on('pointerupoutside', (pointer) => {
+            if (!this.isDragging) return;
+            this.isDragging = false;
+
+            this.hero.body.enable = true;
+            this.hero.body.setAllowGravity(true);
+
+            if (this.hasLaunched) {
+                this.heroState = this.heroState === -1 ? 1 : -1;
+                this.heroColor = this.heroState === -1 ? 'blue' : 'red';
+            }
+            this.hasLaunched = true;
+
+            // Give it a safe default launch vector since the pointer went out of bounds
+            const dx = pointer.x - this.dragStart.x;
+            const dy = pointer.y - this.dragStart.y;
+            const maxDist = 750 / 2;
             const dragDist = Math.sqrt(dx * dx + dy * dy);
-            const powerRatio = Math.min(dragDist, maxDist) / maxDist;
+            const safeDragDist = dragDist > 0 ? dragDist : 1;
+            const powerRatio = Math.min(safeDragDist, maxDist) / maxDist;
+
             this.hero.setVelocity(
-                -dx / dragDist * powerRatio * 5.72 * maxDist,
-                -dy / dragDist * powerRatio * 5.72 * maxDist
+                -dx / safeDragDist * powerRatio * 5.72 * maxDist,
+                -dy / safeDragDist * powerRatio * 5.72 * maxDist
             );
 
             this.lastAttachedMagnet = null;
-            this.trajectoryGraphics.clear();
+            this.trajectoryGraphics.clear(); // Safely clear graphics layer so nothing stays broken!
         });
     }
 
     update() {
+
+        if (this.isLevelComplete) return;
+
+
         const rangeFrame = this.heroColor === 'blue' ? this.heroRangeBlueFrame : this.heroRangeRedFrame;
         const heroRangeFrameName = `range_hero_${this.heroColor}`;
         const texture = this.textures.get('hero_hero_sheet.png');
@@ -586,21 +719,6 @@ export default class GameScene extends Phaser.Scene {
         //     this.showWin();
         // }
 
-        for (const piece of this.robotPieces) {
-            if (piece.collected) continue;
-            const dx = this.hero.x - piece.x;
-            const dy = this.hero.y - piece.y;
-            const dist = Math.sqrt(dx * dx + dy * dy);
-            if (dist < piece.size) {
-                piece.collected = true;
-                piece.img.setVisible(false);
-                this.robotPiecesCollected++;
-                if (this.robotPiecesCollected >= this.robotPieces.length) {
-                    this.showWin();
-                }
-            }
-        }
-
         if (this.hero.y > 350) {
             this.hero.setPosition(this.heroStart.x, this.heroStart.y);
             this.hero.body.enable = false;
@@ -608,7 +726,9 @@ export default class GameScene extends Phaser.Scene {
             this.isAttached = false;
             this.attachedMagnet = null;
             this.hasLaunched = false;
-            this.heroColor = 'blue';
+            this.heroColor = this.defaultHeroColor
+            this.heroState = this.defaultHeroState;
+
             // this.hero.setTint(0x0000ff);
             this.starCount = 0;
             for (const star of this.stars) {
@@ -658,5 +778,124 @@ export default class GameScene extends Phaser.Scene {
             if (nextLevel > 20) { nextLevel = 1; nextWorld++; }
             this.scene.start('GameScene', { world: nextWorld, level: nextLevel });
         });
+    }
+
+    // Call this when MagnetBoy overlaps a robot piece / star pickup
+    collectRobotPiece(player, pieceData) {
+        // Prevent processing if level is already won or piece is already taken
+        if (this.isLevelComplete || pieceData.collected) return;
+        
+        pieceData.collected = true;
+        this.robotPiecesCollected++;
+
+        // 1. Safely disable physics and hide the sprite simultaneously 
+        if (pieceData.img) {
+            pieceData.img.disableBody(true, true); 
+        }
+
+        // 2. Destroy the static glow asset
+        if (pieceData.glow) {
+            pieceData.glow.destroy();
+        }
+
+        // 3. Play Star Burst Animation (With exact positions, rotations, and 1.5x scale from Lua)
+        const xOffsets = [-10, 10, -20]; 
+        const yOffsets = [-20, 0, 20];   
+        const rotations = [0, 45, -45]; 
+
+        for (let i = 0; i < 3; i++) {
+            const spawnX = pieceData.x + xOffsets[i];
+            const spawnY = pieceData.y + yOffsets[i];
+
+            // Use the sheet associated with the level data object
+            const sheetKey = pieceData.sheet || 'star_sheet';
+            const burstSprite = this.add.sprite(spawnX, spawnY, sheetKey);
+            
+            burstSprite.setScale(1.5);
+            burstSprite.setBlendMode(Phaser.BlendModes.ADD);
+            burstSprite.setAngle(rotations[i]);
+            
+            if (this.anims.exists('star_burst')) {
+                burstSprite.play('star_burst');
+            } else if (this.anims.exists('star_pick')) {
+                burstSprite.play('star_pick');
+            } else {
+                // Safe fallback: use the specific object frame name instead of a hardcoded string
+                if (pieceData.name && this.textures.get(sheetKey).has(pieceData.name)) {
+                    burstSprite.setFrame(pieceData.name);
+                }
+            }
+            
+            burstSprite.once('animationcomplete', () => {
+                burstSprite.destroy();
+            });
+        }
+
+        // 4. Remove from your tracking array
+        const remainingPieces = this.robotPieces.filter(p => !p.collected);
+
+        if (remainingPieces.length === 0) {
+            // Lock down level control state completely
+            this.isLevelComplete = true;
+
+            // Freeze the player (Arcade Physics equivalent to Lua's bodyType = "static")
+            if (player.body) {
+                player.body.setVelocity(0, 0);
+                if (typeof player.body.setAllowGravity === 'function') {
+                    player.body.setAllowGravity(false);
+                }
+                // Optional: completely halt all other physics interactions on the player body
+                // player.body.enable = false;
+            }
+
+            // 5. Delay the Win Screen overlay by exactly 1 second (Matches Lua: performWithDelay 1000)
+            // Wait 1 second for star animations, then clear the field
+            this.time.delayedCall(1000, () => {
+                
+                // 1. Destroy Hero & Hero Range
+                if (this.hero) this.hero.destroy();
+                if (this.heroRange) this.heroRange.destroy(); 
+
+                // 2. Destroy Magnets, Magnet Ranges, and Magnet Artwork
+                if (this.magnets && Array.isArray(this.magnets)) {
+                    this.magnets.forEach(magnet => {
+                        // Destroy the background range graphic circle
+                        if (magnet.rangeImage && magnet.rangeImage.destroy) {
+                            magnet.rangeImage.destroy();
+                        }
+                        // Destroy the actual visible magnet sprite artwork
+                        if (magnet.visualImage && magnet.visualImage.destroy) {
+                            magnet.visualImage.destroy();
+                        }
+                        // Destroy the interactive physics engine body
+                        if (magnet.destroy) {
+                            magnet.destroy();
+                        }
+                    });
+                    this.magnets = [];
+                }
+
+                // 3. Destroy Wood Blocks
+                if (this.woodBlocks && Array.isArray(this.woodBlocks)) {
+                    this.woodBlocks.forEach(block => {
+                        if (block && block.destroy) {
+                            block.destroy();
+                        }
+                    });
+                    this.woodBlocks = [];
+                }
+
+                // 4. Clean up any leftover level stars
+                if (this.stars && Array.isArray(this.stars)) {
+                    this.stars.forEach(s => { 
+                        if (s.rect && s.rect.destroy) s.rect.destroy(); 
+                    });
+                    this.stars = [];
+                }
+
+                // 5. Bring up the crisp Win Menu on a perfectly empty board
+                this.showWin();
+            });
+        }
     }
 }
