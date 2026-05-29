@@ -23,7 +23,7 @@ function getLevel(world, level) {
 
 export default class GameScene extends Phaser.Scene {
     constructor() {
-        super('GameScene');
+        super({ key: 'GameScene', physics: { matter: { debug: true } } });
     }
 
     init(data) {
@@ -36,6 +36,7 @@ export default class GameScene extends Phaser.Scene {
         this.trajectoryGraphics = null;
         this.heroRange = null;
         this.hasLaunched = false;
+        this.heroAnchor = null;
 
         this.heroAnimTag = 'BOR'; // default, will be set from level data
         this.heroFrame = 0;
@@ -55,12 +56,19 @@ export default class GameScene extends Phaser.Scene {
         this.robotPieces = [];
         this.robotPiecesCollected = 0;
 
-        this.woodBlocks = []
+        this.woodBlocks = [];
+        this.rockBlocks = [];
+        this.elasticBlocks = [];
+
+
         this.isLevelComplete = false;
+
     }
 
     preload() {
         this.load.image('dialog_bg', '/assets/ui/dialog_bg.png');
+
+        this.load.image('buttons_sheet', '/assets/buttons_sheet.png');
 
 
         for (let col = 1; col <= 5; col++) {
@@ -158,6 +166,7 @@ export default class GameScene extends Phaser.Scene {
             if (!obj.sheet || !obj.frame) continue;
             if (obj.tag === 'STAR') continue; // skip - handled separately
             if (obj.tag === 'ROBOT_PIECE') continue; // skip - handled separately
+            if (obj.tag === 'ELASTIC') continue; // skip - handled separately
 
             let frameX = obj.frame.x;
             let frameY = obj.frame.y;
@@ -407,6 +416,35 @@ export default class GameScene extends Phaser.Scene {
             this.heroRangeRedFrame = { x: 0, y: 73, w: 64, h: 64 };
         }
 
+        // HUD - fixed to screen
+        this.load.image('buttons_sheet', '/assets/buttons_sheet.png');
+
+        // Register HUD frames
+        ['bigstar0', 'pause', 'back'].forEach(name => {
+            const f = allFrames[name];
+            if (!f) return;
+            const texture = this.textures.get('buttons_sheet');
+            if (!texture.has(name)) texture.add(name, 0, f.x, f.y, f.w, f.h);
+        });
+
+        // Level title
+        this.add.text(5, 5, `${this.currentWorld}-${this.currentLevel} үе`, {
+            fontSize: '18px',
+            color: '#ffffff',
+            fontFamily: 'DomkratMon',
+        }).setScrollFactor(0).setDepth(20);
+
+        // Star image (updates dynamically)
+        this.hudStar = this.add.image(114, 18, 'buttons_sheet', 'bigstar0')
+            .setDisplaySize(54, 20).setScrollFactor(0).setDepth(20);
+
+        // Pause button
+        const pauseBtn = this.add.image(730, 20, 'buttons_sheet', 'pause')
+            .setDisplaySize(40, 40).setScrollFactor(0).setDepth(20).setInteractive();
+        pauseBtn.on('pointerdown', () => {
+            this.scene.pause();
+        });
+
         // Create wood physics bodies
         for (const obj of levelData.objects) {
             if (obj.tag !== 'WOOD') continue;
@@ -444,6 +482,80 @@ export default class GameScene extends Phaser.Scene {
         }
 
 
+        // Create rock/stone physics bodies (lhTag = 16)
+        for (const obj of levelData.objects) {
+            if (obj.tag !== 'STONE' && obj.lhTag !== 16) continue;
+            
+            const w = obj.angle === 90 || obj.angle === -90 ? obj.size?.y || 24.5 : obj.size?.x || 49;
+            const h = obj.angle === 90 || obj.angle === -90 ? obj.size?.x || 49 : obj.size?.y || 24.5;
+
+            const centerX = obj.position.x;
+            const centerY = obj.position.y;
+
+            // 1. Create static physical body
+            const rock = this.physics.add.staticImage(
+                centerX,
+                centerY,
+                '__DEFAULT'
+            );
+            
+            // 2. Map bounding box dimensions explicitly
+            rock.setDisplaySize(w, h);
+            rock.body.setSize(w, h);
+            rock.body.setOffset(0, 0);
+            
+            rock.setAlpha(0); // Keeps layout collider invisible
+            rock.refreshBody(); // Locks changes into the grid
+
+            // 3. Dynamic collision handler
+            this.physics.add.collider(this.hero, rock, () => {
+                // --- AUDIO ENGINE HOOK ---
+                // Original game plays "stone" sound variant here
+                if (this.hero.body && Math.abs(this.hero.body.velocity.x) > 5) {
+                    this.hero.setAngularVelocity(this.hero.body.velocity.x * 2);
+                }
+            });
+
+            this.rockBlocks.push(rock);
+        }
+
+
+
+        // Elastic objects
+        this.elasticBlocks = [];
+        for (const obj of levelData.objects) {
+            if (obj.tag !== 'ELASTIC') continue;
+
+            // Visual sprite
+            const visual = this.add.sprite(
+                obj.position.x,
+                obj.position.y,
+                'rubber_rubber.png',
+                '01'
+            )
+            .setScale(obj.size.x / 64, obj.size.y / 7.5)
+            .setAngle(obj.angle || 0)
+            .setDepth(10);
+
+            // Matter body - supports actual rotation
+            const matterBody = this.matter.add.image(
+                obj.position.x,
+                obj.position.y,
+                '__DEFAULT'
+            );
+            matterBody.setDisplaySize(obj.size.x, obj.size.y);
+            matterBody.setAngle(obj.angle || 0);
+            matterBody.setStatic(true);
+            matterBody.setAlpha(0);
+            matterBody.setFriction(0);
+            matterBody.setBounce(1.5);
+
+            this.elasticBlocks.push({ matterBody, visual, angle: obj.angle || 0 });
+        }
+
+
+
+
 
 
         this.cameras.main.startFollow(this.hero, true, 0.1, 0.1);
@@ -456,97 +568,162 @@ export default class GameScene extends Phaser.Scene {
             this.isDragging = true;
             if (this.isAttached && this.attachedMagnet) {
                 this.lastAttachedMagnet = this.attachedMagnet;
-                this.isAttached = false;
-                this.attachedMagnet = null;
             }
             this.dragStart = { x: pointer.x, y: pointer.y };
+            this.heroAnchor = { x: this.hero.x, y: this.hero.y };
+            
+            // --- FIX: Force the physics body back alive so it accepts updates ---
+            this.hero.body.enable = true;
+            
             this.hero.body.stop();
             this.hero.body.setAllowGravity(false);
+
+            
         });
 
         this.input.on('pointerup', (pointer) => {
-            if (!this.isDragging) return;
-            this.isDragging = false;
+                    if (!this.isDragging) return;
+                    this.isDragging = false;
 
-            const dx = pointer.x - this.dragStart.x;
-            const dy = pointer.y - this.dragStart.y;
-            const dragDist = Math.sqrt(dx * dx + dy * dy);
+                    const dx = pointer.x - this.dragStart.x;
+                    const dy = pointer.y - this.dragStart.y;
+                    const dragDist = Math.sqrt(dx * dx + dy * dy);
 
-            // 1. CLICK GUARD: If the drag distance is tiny, cancel the launch entirely
-            if (dragDist < 5) {
-                this.hero.body.enable = true;
-                if (!this.isAttached) {
+                    // 1. CLICK GUARD: If the drag distance is tiny, cancel the launch entirely
+                    if (dragDist < 5) {
+                        this.hero.body.enable = true;
+                        if (!this.isAttached) {
+                            this.hero.body.setAllowGravity(true);
+                        }
+                        this.lastAttachedMagnet = null;
+                        this.trajectoryGraphics.clear();
+                        return; 
+                    }
+
+                    this.hero.body.enable = true;
                     this.hero.body.setAllowGravity(true);
-                }
-                this.lastAttachedMagnet = null;
-                this.trajectoryGraphics.clear();
-                return; 
-            }
 
-            this.hero.body.enable = true;
-            this.hero.body.setAllowGravity(true);
+                    if (this.hasLaunched) {
+                        this.heroState = this.heroState === -1 ? 1 : -1;
+                        this.heroColor = this.heroState === -1 ? 'blue' : 'red';
+                    }
+                    this.hasLaunched = true;
 
-            if (this.hasLaunched) {
-                this.heroState = this.heroState === -1 ? 1 : -1;
-                this.heroColor = this.heroState === -1 ? 'blue' : 'red';
-            }
-            this.hasLaunched = true;
+                    const maxDist = 750 / 2;
+                    const safeDragDist = dragDist > 0 ? dragDist : 1;
+                    const powerRatio = Math.min(safeDragDist, maxDist) / maxDist;
 
-            const maxDist = 750 / 2;
-            
-            // ========================================================
-            // SAFE KINEMATICS MULTIPLIER (Matches your update() loop!)
-            // ========================================================
-            const safeDragDist = dragDist > 0 ? dragDist : 1; 
-            const powerRatio = Math.min(safeDragDist, maxDist) / maxDist;
+                    // --- FIX: Apply the proper drag-based launch velocity vectors directly ---
+                    const vx = (-dx / safeDragDist) * powerRatio * 5.72 * maxDist;
+                    const vy = (-dy / safeDragDist) * powerRatio * 5.72 * maxDist;
+                    this.hero.setVelocity(vx, vy);
 
-            const vx = (-dx / safeDragDist) * powerRatio * 5.72 * maxDist;
-            const vy = (-dy / safeDragDist) * powerRatio * 5.72 * maxDist;
+                    // --- LUA-ALIGNED 3000MS COOLDOWN INITIATION ---
+                    // Trigger the 3-second lockout state on the magnet we are launching from
+                    if (this.attachedMagnet) {
+                        const launchMagnet = this.attachedMagnet;
+                        launchMagnet.isControlling = true;
+                        
+                        // Re-enable physics forces after exactly 3000ms
+                        this.time.delayedCall(3000, () => {
+                            launchMagnet.isControlling = false;
+                        });
+                    }
 
-            this.hero.setVelocity(vx, vy);
-            // ========================================================
+                    this.isAttached = false;
+                    this.attachedMagnet = null;
+                    this.lastAttachedMagnet = null;
 
-            this.isAttached = false;
-            this.attachedMagnet = null;
-            this.lastAttachedMagnet = null;
-            this.trajectoryGraphics.clear();
+                    this.trajectoryGraphics.clear();
                 });
 
         // SAFETY NET: Treat a release outside the window exactly like a normal release
         this.input.on('pointerupoutside', (pointer) => {
-            if (!this.isDragging) return;
-            this.isDragging = false;
+                    if (!this.isDragging) return;
+                    this.isDragging = false;
 
-            this.hero.body.enable = true;
-            this.hero.body.setAllowGravity(true);
+                    this.hero.body.enable = true;
+                    this.hero.body.setAllowGravity(true);
 
-            if (this.hasLaunched) {
-                this.heroState = this.heroState === -1 ? 1 : -1;
-                this.heroColor = this.heroState === -1 ? 'blue' : 'red';
-            }
-            this.hasLaunched = true;
+                    if (this.hasLaunched) {
+                        this.heroState = this.heroState === -1 ? 1 : -1;
+                        this.heroColor = this.heroState === -1 ? 'blue' : 'red';
+                    }
+                    this.hasLaunched = true;
 
-            // Give it a safe default launch vector since the pointer went out of bounds
-            const dx = pointer.x - this.dragStart.x;
-            const dy = pointer.y - this.dragStart.y;
-            const maxDist = 750 / 2;
-            const dragDist = Math.sqrt(dx * dx + dy * dy);
-            const safeDragDist = dragDist > 0 ? dragDist : 1;
-            const powerRatio = Math.min(safeDragDist, maxDist) / maxDist;
+                    const maxDist = 750 / 2;
+                    const dx = pointer.x - this.dragStart.x;
+                    const dy = pointer.y - this.dragStart.y;
+                    const dragDist = Math.sqrt(dx * dx + dy * dy);
+                    const safeDragDist = dragDist > 0 ? dragDist : 1;
+                    const powerRatio = Math.min(safeDragDist, maxDist) / maxDist;
+                    
+                    if (this.lastAttachedMagnet) {
+                        const heroOffsetX = this.hero.x - this.lastAttachedMagnet.x;
+                        const heroOffsetY = this.hero.y - this.lastAttachedMagnet.y;
+                        
+                        // power_ratio = min(dist pointer to magnet, 80) / (width / 2)
+                        const px = pointer.x + this.cameras.main.scrollX;
+                        const py = pointer.y + this.cameras.main.scrollY;
+                        const distToMagnet = Math.sqrt(
+                            (px - this.lastAttachedMagnet.x) ** 2 + 
+                            (py - this.lastAttachedMagnet.y) ** 2
+                        );
+                        const magnetPowerRatio = Math.min(distToMagnet, 80) / (750 / 2);
 
-            this.hero.setVelocity(
-                -dx / safeDragDist * powerRatio * 5.72 * maxDist,
-                -dy / safeDragDist * powerRatio * 5.72 * maxDist
-            );
+                        this.hero.setVelocity(
+                            heroOffsetX * 5.72 * magnetPowerRatio,
+                            heroOffsetY * 5.72 * magnetPowerRatio
+                        );
+                    } else {
+                        const vx = (-dx / safeDragDist) * powerRatio * 5.72 * maxDist;
+                        const vy = (-dy / safeDragDist) * powerRatio * 5.72 * maxDist;
+                        this.hero.setVelocity(vx, vy);
+                    }
 
-            this.lastAttachedMagnet = null;
-            this.trajectoryGraphics.clear(); // Safely clear graphics layer so nothing stays broken!
-        });
+                    this.lastAttachedMagnet = null;
+                    this.trajectoryGraphics.clear();
+                });
     }
 
     update() {
 
         if (this.isLevelComplete) return;
+
+        for (const elastic of this.elasticBlocks) {
+            const b = elastic.matterBody.body;
+            const cx = (b.bounds.min.x + b.bounds.max.x) / 2;
+            const cy = (b.bounds.min.y + b.bounds.max.y) / 2;
+            const angleRad = Phaser.Math.DegToRad(elastic.angle);
+            
+            // Vector from elastic center to hero
+            const dx = this.hero.x - cx;
+            const dy = this.hero.y - cy;
+            
+            // Distance along the strip (parallel) and across it (perpendicular)
+            const along = dx * Math.cos(angleRad) + dy * Math.sin(angleRad);
+            const perp  = dx * -Math.sin(angleRad) + dy * Math.cos(angleRad);
+            
+            const halfLen = elastic.matterBody.displayWidth / 2;
+            const halfThick = 12; // generous hit threshold in pixels
+            
+            if (Math.abs(along) < halfLen && Math.abs(perp) < halfThick) {
+                if (!elastic.bouncing) {
+                    elastic.bouncing = true;
+                    elastic.visual.play('rubber_bounce');
+
+                    const nx = -Math.sin(angleRad);
+                    const ny = Math.cos(angleRad);
+                    const vx = this.hero.body.velocity.x;
+                    const vy = this.hero.body.velocity.y;
+                    const dot = vx * nx + vy * ny;
+                    this.hero.body.velocity.x = (vx - 2 * dot * nx) * 1.5;
+                    this.hero.body.velocity.y = (vy - 2 * dot * ny) * 1.5;
+
+                    this.time.delayedCall(300, () => { elastic.bouncing = false; });
+                }
+            }
+        }
 
 
         const rangeFrame = this.heroColor === 'blue' ? this.heroRangeBlueFrame : this.heroRangeRedFrame;
@@ -567,44 +744,57 @@ export default class GameScene extends Phaser.Scene {
             this.hero.body.velocity.x *= 0.95;
             this.hero.body.velocity.y *= 0.95;
 
+            // --- SMOOTHING MATH BEGINS HERE ---
+            // Calculate where the hero naturally wants to be based on its current position
+            if (dist > this.jointLength) {
+                const targetAngle = Math.atan2(dy, dx);
+                const currentAngle = Math.atan2(this.hero.y - this.attachedMagnet.y, this.hero.x - this.attachedMagnet.x);
+                
+                // Rotate smoothly toward the target angle over frames instead of snapping
+                const lerpAngle = Phaser.Math.Angle.RotateTo(currentAngle, targetAngle, 0.25); 
+                
+                this.hero.x = this.attachedMagnet.x + Math.cos(lerpAngle) * this.jointLength;
+                this.hero.y = this.attachedMagnet.y + Math.sin(lerpAngle) * this.jointLength;
+            }
+            // --- SMOOTHING MATH ENDS HERE ---
+
             // Prevent hero from going inside magnet
             const minDist = 18;
             if (dist < minDist && dist > 0) {
-                const angle = Math.atan2(dy, dx);
-                this.hero.x = this.attachedMagnet.x + Math.cos(angle) * minDist;
-                this.hero.y = this.attachedMagnet.y + Math.sin(angle) * minDist;
-}
-
-            if (dist > this.jointLength) {
-                const angle = Math.atan2(dy, dx);
-                this.hero.x = this.attachedMagnet.x + Math.cos(angle) * this.jointLength;
-                this.hero.y = this.attachedMagnet.y + Math.sin(angle) * this.jointLength;
-                const nx = dx / dist;
-                const ny = dy / dist;
-                const dot = this.hero.body.velocity.x * nx + this.hero.body.velocity.y * ny;
-                if (dot > 0) {
-                    this.hero.body.velocity.x -= dot * nx;
-                    this.hero.body.velocity.y -= dot * ny;
-                }
+                // --- FIX: Use the smoothed lerpAngle if it exists, otherwise fall back to targetAngle ---
+                const targetAngle = Math.atan2(dy, dx);
+                const finalAngle = (dist > this.jointLength) ? lerpAngle : targetAngle;
+                
+                this.hero.x = this.attachedMagnet.x + Math.cos(finalAngle) * minDist;
+                this.hero.y = this.attachedMagnet.y + Math.sin(finalAngle) * minDist;
             }
         }
 
         if (this.isDragging) {
+            // --- LUA-ALIGNED AIM POSITION MATH ---
+            if (this.isAttached && this.attachedMagnet) {
+                // Get the relative drag distance vector from your drag start point
+                const dragX = this.input.activePointer.x - this.dragStart.x;
+                const dragY = this.input.activePointer.y - this.dragStart.y;
+                
+                // Calculate the angle of your actual drag pull
+                const dragAngle = Math.atan2(dragY, dragX);
+                
+                // --- FIX: Use the negative drag angle to project the hero FORWARD 
+                // in the direction of the launch, keeping it relative to its pivot point
+                const launchAngle = dragAngle + Math.PI;
+                
+                this.hero.x = this.attachedMagnet.x + Math.cos(launchAngle) * this.jointLength;
+                this.hero.y = this.attachedMagnet.y + Math.sin(launchAngle) * this.jointLength;
+                
+                // Keep the physics velocity dead while manually positioning/aiming
+                this.hero.body.setVelocity(0, 0);
+            }
+            // -------------------------------------
+
             const dx = this.input.activePointer.x - this.dragStart.x;
             const dy = this.input.activePointer.y - this.dragStart.y;
             const angle = Math.atan2(dy, dx);
-
-            if (this.lastAttachedMagnet) {
-                const newX = this.lastAttachedMagnet.x - Math.cos(angle) * this.jointLength;
-                const newY = this.lastAttachedMagnet.y - Math.sin(angle) * this.jointLength;
-                const distMoved = Math.sqrt((newX - this.hero.x) ** 2 + (newY - this.hero.y) ** 2);
-                if (distMoved > 20) {
-                    this.hero.setPosition(newX, newY);
-                } else {
-                    this.hero.x += (newX - this.hero.x) * 0.3;
-                    this.hero.y += (newY - this.hero.y) * 0.3;
-                }
-            }
 
             this.trajectoryGraphics.clear();
 
@@ -642,8 +832,14 @@ export default class GameScene extends Phaser.Scene {
 
         if (!this.isAttached && !this.attachedMagnet) {
             for (const magnet of this.magnets) {
+                // --- LUA-ALIGNED COOLDOWN CHECK ---
+                // If this magnet is currently locked out by a launch cooldown, skip its forces completely
+                if (magnet.isControlling) continue;
+
                 const dx = magnet.x - this.hero.x;
+
                 const dy = magnet.y - this.hero.y;
+
                 const dist = Math.sqrt(dx * dx + dy * dy);
 
                 const interaction = this.heroState * magnet.state;
@@ -756,27 +952,65 @@ export default class GameScene extends Phaser.Scene {
         if (this.wonAlready) return;
         this.wonAlready = true;
 
-        this.add.rectangle(375, 160, 750, 320, 0x000000, 0.6).setScrollFactor(0);
-        const dialog = this.add.image(375, 160, 'dialog_bg').setScrollFactor(0);
-        dialog.setDisplaySize(300, 200);
+        // Load buttons_sheet if not already loaded
+        if (!this.textures.exists('buttons_sheet')) {
+            this.load.image('buttons_sheet', '/assets/buttons_sheet.png');
+            this.load.once('complete', () => this.buildWinScreen());
+            this.load.start();
+        } else {
+            this.buildWinScreen();
+        }
+    }
 
-        this.add.text(375, 130, 'LEVEL COMPLETE!', {
-            fontSize: '24px', color: '#ffffff', fontStyle: 'bold'
-        }).setOrigin(0.5).setScrollFactor(0);
+    buildWinScreen() {
+        // Register button frames
+        ['bigstar0', 'bigstar1', 'bigstar2', 'bigstar3', 'next', 'play', 'refresh', 'list'].forEach(name => {
+            const f = allFrames[name];
+            if (!f) return;
+            const texture = this.textures.get('buttons_sheet');
+            if (!texture.has(name)) {
+                texture.add(name, 0, f.x, f.y, f.w, f.h);
+            }
+        });
 
-        this.add.text(375, 165, `Stars: ${this.starCount}/${this.stars.length}`, {
-            fontSize: '18px', color: '#ffff00'
-        }).setOrigin(0.5).setScrollFactor(0);
+        // Dim overlay
+        this.add.rectangle(375, 160, 750, 320, 0x000000, 0.6).setScrollFactor(0).setDepth(10);
 
-        const nextBtn = this.add.text(375, 210, '[ NEXT LEVEL ]', {
-            fontSize: '20px', color: '#00ff00', fontStyle: 'bold'
-        }).setOrigin(0.5).setScrollFactor(0).setInteractive();
+        // Dialog background
+        this.add.image(375, 160, 'dialog_bg').setDisplaySize(300, 180).setScrollFactor(0).setDepth(11);
 
+        // Level text
+        this.add.text(251, 80, `${this.currentWorld}-${this.currentLevel} үе`, {
+            fontSize: '14px',
+            color: '#ffffff',
+            fontFamily: 'DomkratMon',
+        }).setScrollFactor(0).setDepth(12);
+
+        // Star image based on stars collected
+        const starFrame = `bigstar${Math.min(this.starCount, 3)}`;
+        this.add.image(475, 88, 'buttons_sheet', starFrame)
+            .setDisplaySize(54, 20).setScrollFactor(0).setDepth(12);
+
+        // Refresh button
+        const refreshBtn = this.add.image(455, 220, 'buttons_sheet', 'refresh')
+            .setDisplaySize(40, 40).setScrollFactor(0).setDepth(12).setInteractive();
+        refreshBtn.on('pointerdown', () => this.scene.restart());
+
+        // Next button
+        const nextBtn = this.add.image(495, 220, 'buttons_sheet', 'next')
+            .setDisplaySize(40, 40).setScrollFactor(0).setDepth(12).setInteractive();
         nextBtn.on('pointerdown', () => {
             let nextLevel = this.currentLevel + 1;
             let nextWorld = this.currentWorld;
             if (nextLevel > 20) { nextLevel = 1; nextWorld++; }
             this.scene.start('GameScene', { world: nextWorld, level: nextLevel });
+        });
+
+        // Back to levels button
+        const backBtn = this.add.image(415, 220, 'buttons_sheet', 'list')
+            .setDisplaySize(40, 40).setScrollFactor(0).setDepth(12).setInteractive();
+        backBtn.on('pointerdown', () => {
+            this.scene.start('WorldScene', { world: this.currentWorld });
         });
     }
 
@@ -875,7 +1109,7 @@ export default class GameScene extends Phaser.Scene {
                     this.magnets = [];
                 }
 
-                // 3. Destroy Wood Blocks
+                // 3. Destroy Wood Blocks and Rock Blocks
                 if (this.woodBlocks && Array.isArray(this.woodBlocks)) {
                     this.woodBlocks.forEach(block => {
                         if (block && block.destroy) {
@@ -883,6 +1117,16 @@ export default class GameScene extends Phaser.Scene {
                         }
                     });
                     this.woodBlocks = [];
+                }
+
+                // Destroy Rock Blocks
+                if (this.rockBlocks && Array.isArray(this.rockBlocks)) {
+                    this.rockBlocks.forEach(block => {
+                        if (block && block.destroy) {
+                            block.destroy();
+                        }
+                    });
+                    this.rockBlocks = [];
                 }
 
                 // 4. Clean up any leftover level stars

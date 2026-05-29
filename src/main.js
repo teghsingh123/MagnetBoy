@@ -18,6 +18,9 @@ const config = {
         arcade: {
             gravity: { y: 294 },
             debug: true
+        },
+        matter: {
+            debug: true
         }
     },
     scene: [MenuScene, LevelSelectScene, WorldScene, GameScene]
