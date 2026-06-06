@@ -1,32 +1,127 @@
 {
-    "star_normal": {
-        "sheet": "star_sheet.png",
-        "frames": ["star_01", "star_02", "star_03", "star_04", "star_05", "star_06", "star_07", "star_08", "star_09", "star_10", "star_11", "star_12", "star_13", "star_14", "star_15", "star_16", "star_17"],
-        "frameRate": 10,
-        "loop": true
-    },
-    "star_pick": {
-        "sheet": "star_sheet.png",
-        "frames": ["star_pick_01", "star_pick_02", "star_pick_03", "star_pick_04", "star_pick_05", "star_pick_06", "star_pick_07", "star_pick_08", "star_pick_09", "star_pick_10", "star_pick_11", "star_pick_12"],
-        "frameRate": 10,
-        "loop": false
-    },
-    "star_rotate": {
+  "star_normal": {
     "sheet": "star_sheet.png",
-    "frames": ["star_rotate_01", "star_rotate_02", "star_rotate_03", "star_rotate_04", "star_rotate_05", "star_rotate_06", "star_rotate_07"],
-    "frameRate": 10,
-    "loop": true
-    },
-    "robot_piece_1_3": {
-        "sheet": "robotpack1_robotpack1.png",
-        "frames": ["1_3_1", "1_3_2", "1_3_3", "1_3_4", "1_3_5", "1_3_6", "1_3_7", "1_3_8", "1_3_9", "1_3_10", "1_3_11", "1_3_12", "1_3_13", "1_3_14", "1_3_15", "1_3_16", "1_3_17", "1_3_18", "1_3_19", "1_3_20"],
-        "frameRate": 10,
-        "loop": true
-    },
-    "rubber_bounce": {
-        "sheet": "rubber_rubber.png",
-        "frames": ["03", "02", "01", "04", "05", "06", "07", "08"],
-        "frameRate": 12,
-        "loop": false
-    }
+    "frames": ["star_01","star_02","star_03","star_04","star_05","star_06","star_07","star_08","star_09","star_10","star_11","star_12","star_13","star_14","star_15","star_16","star_17"],
+    "frameRate": 10, "loop": true
+  },
+  "star_pick": {
+    "sheet": "star_sheet.png",
+    "frames": ["star_pick_01","star_pick_02","star_pick_03","star_pick_04","star_pick_05","star_pick_06","star_pick_07","star_pick_08","star_pick_09","star_pick_10","star_pick_11","star_pick_12"],
+    "frameRate": 10, "loop": false
+  },
+  "star_rotate": {
+    "sheet": "star_sheet.png",
+    "frames": ["star_rotate_01","star_rotate_02","star_rotate_03","star_rotate_04","star_rotate_05","star_rotate_06","star_rotate_07"],
+    "frameRate": 10, "loop": true
+  },
+  "rubber_bounce": {
+    "sheet": "rubber_rubber.png",
+    "frames": ["03","02","01","04","05","06","07","08"],
+    "frameRate": 12, "loop": false
+  },
+  "robot_piece_1_3": {
+    "sheet": "robotpack1_robotpack1.png",
+    "frames": ["1_3_1","1_3_2","1_3_3","1_3_4","1_3_5","1_3_6","1_3_7","1_3_8","1_3_9","1_3_10","1_3_11","1_3_12","1_3_13","1_3_14","1_3_15","1_3_16","1_3_17","1_3_18","1_3_19","1_3_20"],
+    "frameRate": 10, "loop": true
+  },
+  "robot_piece_2_3": {
+    "sheet": "robotpack2_robotpack2.png",
+    "frames": ["2_3_1","2_3_2","2_3_3","2_3_4","2_3_5","2_3_6","2_3_7","2_3_8","2_3_9","2_3_10","2_3_11","2_3_12","2_3_13","2_3_14","2_3_15","2_3_16","2_3_17","2_3_18","2_3_19","2_3_20"],
+    "frameRate": 10, "loop": true
+  },
+  "robot_piece_3_3": {
+    "sheet": "robotpack3_UntitledSheet.png",
+    "frames": ["3_3_1","3_3_2","3_3_3","3_3_4","3_3_5","3_3_6","3_3_7","3_3_8","3_3_9","3_3_10","3_3_11","3_3_12","3_3_13","3_3_14","3_3_15","3_3_16","3_3_17","3_3_18","3_3_19","3_3_20"],
+    "frameRate": 10, "loop": true
+  },
+  "robot_piece_4_3": {
+    "sheet": "robotpack4_UntitledSheet.png",
+    "frames": ["4_3_1","4_3_2","4_3_3","4_3_4","4_3_5","4_3_6","4_3_7","4_3_8","4_3_9","4_3_10","4_3_11","4_3_12","4_3_13","4_3_14","4_3_15","4_3_16","4_3_17","4_3_18","4_3_19","4_3_20"],
+    "frameRate": 10, "loop": true
+  },
+  "fly": {
+    "sheet": "hero_hero_sheet.png",
+    "frames": ["fly_01","fly_02","fly_03"],
+    "frameRate": 8, "loop": true
+  },
+  "normal": {
+    "sheet": "hero_hero_sheet.png",
+    "frames": ["bore_01","bore_02","bore_03","bore_04","bore_05_Hold","bore_06_Eye_Lid_Hold","bore_07_Hold"],
+    "frameRate": 5, "loop": true
+  },
+  "collide": {
+    "sheet": "hero_hero_sheet.png",
+    "frames": ["oh_no_01","oh_no_02","oh_no_03"],
+    "frameRate": 10, "loop": false
+  },
+  "oh_no": {
+    "sheet": "hero_hero_sheet.png",
+    "frames": ["oh_no_01","oh_no_02","oh_no_03","oh_no_04","oh_no_05","oh_no_06","oh_no_07_hold"],
+    "frameRate": 10, "loop": false
+  },
+  "free": {
+    "sheet": "hero_hero_sheet.png",
+    "frames": ["free_lr_01_Hold","free_lr_02","free_lr_03","free_lr_04","free_lr_05","free_lr_06_Hold"],
+    "frameRate": 8, "loop": true
+  },
+  "prepare_left": {
+    "sheet": "hero_hero_sheet.png",
+    "frames": ["pre_left_01","pre_left_02","pre_left_03","pre_left_04","pre_left_05","pre_left_06_hold"],
+    "frameRate": 10, "loop": false
+  },
+  "prepare_right": {
+    "sheet": "hero_hero_sheet.png",
+    "frames": ["pre_right_01","pre_right_02","pre_right_03","pre_right_04","pre_right_05","pre_right_06_hold"],
+    "frameRate": 10, "loop": false
+  },
+  "win": {
+    "sheet": "hero_hero_sheet.png",
+    "frames": ["win_01","win_02","win_03","win_04","win_05","win_06","win_07","win_08","win_09","win_10","win_11","win_12","win_13","win_14"],
+    "frameRate": 10, "loop": false
+  },
+  "yawn": {
+    "sheet": "hero_hero_sheet.png",
+    "frames": ["yawn_01","yawn_02","yawn_03","yawn_04","yawn_05","yawn_06","yawn_07","yawn_08","yawn_09","yawn_10","yawn_11","yawn_12","yawn_13","yawn_14","yawn_15","yawn_16","yawn_17","yawn_18","yawn_19","yawn_20","yawn_21","yawn_22","yawn_23","yawn_24","yawn_25","yawn_26","yawn_27","yawn_28_Hold"],
+    "frameRate": 10, "loop": false
+  },
+  "lost": {
+    "sheet": "hero_hero_sheet.png",
+    "frames": ["lost_01","lost_02","lost_03","lost_04","lost_05","lost_06","lost_07","lost_08","lost_09","lost_10","lost_11","lost_12","lost_13","lost_14","lost_15","lost_16","lost_17","lost_18","lost_19"],
+    "frameRate": 10, "loop": false
+  },
+  "magnet_effect": {
+    "sheet": "magnet_magnet_sheets.png",
+    "frames": ["magnet_effect_01","magnet_effect_02","magnet_effect_03","magnet_effect_04","magnet_effect_05","magnet_effect_06","magnet_effect_07","magnet_effect_08","magnet_effect_09","magnet_effect_10"],
+    "frameRate": 12, "loop": false
+  },
+  "blackhole": {
+    "sheet": "blackhole_blackholesheet.png",
+    "frames": ["blackhole_01","blackhole_02","blackhole_03","blackhole_04","blackhole_05","blackhole_06","blackhole_07","blackhole_08","blackhole_09","blackhole_10","blackhole_11","blackhole_12"],
+    "frameRate": 10, "loop": true
+  },
+  "blackhole_effect": {
+    "sheet": "blackhole_blackholesheet.png",
+    "frames": ["blackhole_effect_01","blackhole_effect_02","blackhole_effect_03","blackhole_effect_04"],
+    "frameRate": 8, "loop": false
+  },
+  "dismagnet_effect": {
+    "sheet": "dismagnet_dismagnet.png",
+    "frames": ["eff_01","eff_02","eff_03","eff_04","eff_05","eff_06"],
+    "frameRate": 10, "loop": false
+  },
+  "dismagnet": {
+    "sheet": "dismagnet_dismagnet.png",
+    "frames": ["09","10","11","12","13","14","15","16","17","18","19","20"],
+    "frameRate": 10, "loop": true
+  },
+  "portal_gre_effect": {
+    "sheet": "portal_portalgreen.png",
+    "frames": ["green_01","green_02","green_03","green_04","green_05","green_06","green_07"],
+    "frameRate": 10, "loop": false
+  },
+  "portal_gre_normal": {
+    "sheet": "portal_portalgreen.png",
+    "frames": ["green_03"],
+    "frameRate": 1, "loop": true
+  }
 }

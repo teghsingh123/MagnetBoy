@@ -1,0 +1,45 @@
+// Images.buttons_sheet.lua → Images.buttons_sheet.js
+// Sprite-sheet atlas data for buttons_sheet.png (249×251)
+
+export function getSpriteSheetData() {
+    return {
+        sheetContentWidth:  249,
+        sheetContentHeight: 251,
+        frames: [
+            { x:  85, y: 126, width:  40, height:  40 },
+            { x: 123, y:  45, width:  55, height:  20 },
+            { x: 128, y: 191, width:  55, height:  20 },
+            { x: 180, y:  45, width:  55, height:  20 },
+            { x: 128, y: 169, width:  55, height:  20 },
+            { x:   0, y:  45, width: 120, height:  36 },
+            { x:   0, y:   0, width: 129, height:  42 },
+            { x: 128, y: 214, width:  30, height:  30 },
+            { x:   0, y: 211, width:  40, height:  40 },
+            { x: 170, y: 126, width:  40, height:  40 },
+            { x:  43, y: 211, width:  40, height:  40 },
+            { x: 170, y:  84, width:  40, height:  40 },
+            { x: 217, y:   0, width:  32, height:  32 },
+            { x:  85, y:  84, width:  40, height:  40 },
+            { x: 213, y:  84, width:  30, height:  30 },
+            { x: 180, y:  67, width:  27, height:  10 },
+            { x: 185, y: 169, width:  27, height:  10 },
+            { x: 210, y:  67, width:  27, height:  10 },
+            { x: 123, y:  67, width:  27, height:  10 },
+            { x:  43, y:  84, width:  40, height:  40 },
+            { x:  43, y: 126, width:  40, height:  40 },
+            { x:  43, y: 169, width:  40, height:  40 },
+            { x:  85, y: 211, width:  40, height:  40 },
+            { x: 132, y:   0, width:  40, height:  40 },
+            { x:   0, y:  84, width:  40, height:  40 },
+            { x:  85, y: 169, width:  40, height:  40 },
+            { x: 128, y:  84, width:  40, height:  40 },
+            { x: 213, y: 126, width:  30, height:  30 },
+            { x:   0, y: 126, width:  40, height:  40 },
+            { x: 174, y:   0, width:  40, height:  40 },
+            { x: 128, y: 126, width:  40, height:  40 },
+            { x:   0, y: 169, width:  40, height:  40 },
+            { x: 225, y:  35, width:   6, height:   6 },
+            { x: 217, y:  35, width:   6, height:   6 },
+        ],
+    };
+}

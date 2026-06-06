@@ -1,8 +1,8 @@
 import Phaser from 'phaser';
-import MenuScene from './MenuScene.js';
-import GameScene from './GameScene.js';
-import LevelSelectScene from './LevelSelectScene.js';
-import WorldScene from './WorldScene.js';
+import GameMainMenu  from './GameMainMenu.js';
+import GameLevelPack from './GameLevelPack.js';
+import GameMenu      from './GameMenu.js';
+import GameScene     from './GameScene.js';
 
 const config = {
     type: Phaser.AUTO,
@@ -15,15 +15,10 @@ const config = {
     },
     physics: {
         default: 'arcade',
-        arcade: {
-            gravity: { y: 294 },
-            debug: true
-        },
-        matter: {
-            debug: true
-        }
+        arcade: { gravity: { y: 294 }, debug: false },
+        matter:  { debug: false }
     },
-    scene: [MenuScene, LevelSelectScene, WorldScene, GameScene]
+    scene: [GameMainMenu, GameLevelPack, GameMenu, GameScene]
 };
 
 new Phaser.Game(config);
