@@ -13,7 +13,7 @@ export default class GameMenu extends Phaser.Scene {
     }
 
     preload() {
-        this.load.image('buttons_sheet', '/assets/buttons_sheet.png');
+        this.load.image('buttons_sheet', '/assets/sprites/buttons_sheet.png');
         for (let col = 1; col <= 2; col++)
             for (let row = 1; row <= 2; row++)
                 this.load.image(`world_bg_${col}_${row}`, `/assets/pack/${this.currentWorld}/bg-x25-${col}-${row}.png`);

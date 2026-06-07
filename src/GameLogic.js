@@ -16,6 +16,8 @@ export const HERO_RANGE_FRAMES = {
      '1': 'hero_red',
 };
 
+import { playSound } from './GameAudio.js';
+
 export function applyMagnetForces(scene) {
     if (scene.isThrowing || scene.isAttached || scene.heroState === 0) return;
     for (const magnet of scene.magnets) {
@@ -42,10 +44,13 @@ export function applyMagnetForces(scene) {
                 scene.isAttached         = true;
                 scene.attachedMagnet     = magnet;
                 scene.lastAttachedMagnet = magnet;
-                scene.jointLength        = dist;
+                scene.jointLength        = Math.min(dist, 40);
+                playSound(scene, 'magnet_pull');
                 if (scene.anims.exists('normal')) scene.hero.play('normal');
             }
         }
+        // Skip velocity from the specific triangle the hero is stuck to (update() zeroes it anyway)
+        if (scene.stuckTriangle?.magnet === magnet) continue;
         // Lua: setLinearVelocity(vx/1.02) then applyForce (force applied directly, not as acceleration)
         scene.hero.body.velocity.x = scene.hero.body.velocity.x / 1.02 + fx * force;
         scene.hero.body.velocity.y = scene.hero.body.velocity.y / 1.02 + fy * force;

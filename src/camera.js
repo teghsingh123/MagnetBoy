@@ -2,7 +2,8 @@
 // In Phaser, the camera is scene.cameras.main — this module exposes helpers for it.
 
 export function setupCamera(scene, worldWidth = 960, worldHeight = 440) {
-    scene.cameras.main.setBounds(0, -60, worldWidth, worldHeight);
+    // Camera clamped to the background area (960×320); hero can still leave this area to trigger fail
+    scene.cameras.main.setBounds(0, 0, 960, 320);
 }
 
 export function followHero(scene, hero) {

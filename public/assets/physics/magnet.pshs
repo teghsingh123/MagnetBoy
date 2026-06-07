@@ -1,0 +1,5933 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Bogdan Vladu</string>
+	<key>CreatedWith</key>
+	<string>SpriteHelper</string>
+	<key>SHEETS_INFO</key>
+	<array>
+		<dict>
+			<key>2HDSuffix</key>
+			<string>-ipadhd</string>
+			<key>AllowFreeMove</key>
+			<false/>
+			<key>AllowRotation</key>
+			<false/>
+			<key>Crop</key>
+			<false/>
+			<key>DropSprites</key>
+			<false/>
+			<key>HDSuffix</key>
+			<string>-hd</string>
+			<key>IsRendable</key>
+			<true/>
+			<key>MaxSheetSize</key>
+			<integer>2048</integer>
+			<key>NpotSize</key>
+			<string>{1024, 1024}</string>
+			<key>Padding</key>
+			<integer>20</integer>
+			<key>PixelFormat</key>
+			<integer>0</integer>
+			<key>SheetImage</key>
+			<string>magnet_magnet_sheets.png</string>
+			<key>SheetImage-HD</key>
+			<string>magnet_magnet_sheets-ipadhd.png</string>
+			<key>SheetName</key>
+			<string>magnet_sheets</string>
+			<key>SheetSceneImageName</key>
+			<string></string>
+			<key>Sheet_Sprites_Info</key>
+			<dict>
+				<key>light_blue</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vazAEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAFAMAAAUA
+					AAABAQAAVXNlcnMAAAAJAAAAAQEAAGRldmVs
+					b3BlcgAAAAcAAAABAQAARGVza3RvcAAQAAAA
+					AQEAAG1hZ25ldCByZXNvdXJjZXMJAAAAAQEA
+					AEFuaW1hdG9ucwAAAAcAAAABAQAAbWFnbmV0
+					cwAOAAAAAQEAAGxpZ2h0X2JsdWUucG5nAAAc
+					AAAAAQYAAAQAAAAUAAAAKAAAADgAAABQAAAA
+					ZAAAAHQAAAAIAAAABAMAAD+SAAAAAAAACAAA
+					AAQDAADzVAgAAAAAAAgAAAAEAwAA/lQIAAAA
+					AAAIAAAABAMAANNcTgAAAAAACAAAAAQDAAA4
+					AWIAAAAAAAgAAAAEAwAAjiFiAAAAAAAIAAAA
+					BAMAAN0hYgAAAAAAHAAAAAEGAACwAAAAwAAA
+					ANAAAADgAAAA8AAAAAABAAAQAQAAGAAAAAEC
+					AAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAA
+					AAAAAQUAAAQAAAADAwAAAwAAAAQAAAADAwAA
+					BAAAAAgAAAAEAwAABQAAAAAAAAAEAAAAAwMA
+					APYBAAAMAAAAAQEAAE1hY2ludG9zaCBIRAgA
+					AAAEAwAAAICBPXQAAAAIAAAAAAQAAEGxkT0b
+					AAAAJAAAAAEBAAAzQkZCRUExMC1CMTVFLTNB
+					QkEtOTc4RC0xODY5REM2QzY3RDMYAAAAAQIA
+					AIEAAAABAAgA7z8AAAEACAAAAAAAAAAAAAEA
+					AAABAQAALwAAAAQAAAADAwAAAAEAANIAAAAB
+					AgAAMDBjYTYxNTdkZjA1ZTE0MWQ2YTgwNDQx
+					M2FlZTlmMTdjZTQ2MGQzMTswMDAwMDAwMDsw
+					MDAwMDAwMDAwMDAwMDIwO2NvbS5hcHBsZS5h
+					cHAtc2FuZGJveC5yZWFkLXdyaXRlOzAwMDAw
+					MDAxOzBlMDAwMDAyOzAwMDAwMDAwMDA2MjIx
+					ZGQ7L3VzZXJzL2RldmVsb3Blci9kZXNrdG9w
+					L21hZ25ldCByZXNvdXJjZXMvYW5pbWF0b25z
+					L21hZ25ldHMvbGlnaHRfYmx1ZS5wbmcAAADk
+					AAAA/v///wEAAAAAAAAAEgAAAAQQAACMAAAA
+					AAAAAAUQAAAgAQAAAAAAABAQAABEAQAAAAAA
+					AFQQAABsAQAAAAAAAFUQAAB4AQAAAAAAAFYQ
+					AABkAQAAAAAAAAIgAAAgAgAAAAAAABAgAACg
+					AQAAAAAAABEgAADUAQAAAAAAABIgAAC0AQAA
+					AAAAABMgAADEAQAAAAAAACAgAAAAAgAAAAAA
+					ADAgAABkAQAAAAAAAAHAAACEAQAAAAAAABHA
+					AAAUAAAAAAAAABLAAACUAQAAAAAAABDQAAAs
+					AgAAAAAAAIDwAAA4AgAAAAAAAA==
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array/>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>magnet_sheets</string>
+					<key>SHSpriteName</key>
+					<string>light_blue</string>
+					<key>SheetImage</key>
+					<string>magnet_magnet_sheets.png</string>
+					<key>SheetImage-HD</key>
+					<string>magnet_magnet_sheets-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{168, 228}, {20.75, 20.75}}</string>
+						<key>Frame-HD</key>
+						<string>{{672, 912}, {81, 81}}</string>
+						<key>Image</key>
+						<string>magnet_magnet_sheets.png</string>
+						<key>Image-HD</key>
+						<string>magnet_magnet_sheets-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<false/>
+						<key>Name</key>
+						<string>light_blue</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/developer/Desktop/magnet resources/Animatons/magnets/light_blue.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/Animatons/magnets/light_blue.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {81, 81}}</string>
+						<key>OriginalSize</key>
+						<string>{81, 81}</string>
+						<key>Position</key>
+						<string>{672, 912}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{20.25, 20.25}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, 0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>light_red</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vazAEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAFAMAAAUA
+					AAABAQAAVXNlcnMAAAAJAAAAAQEAAGRldmVs
+					b3BlcgAAAAcAAAABAQAARGVza3RvcAAQAAAA
+					AQEAAG1hZ25ldCByZXNvdXJjZXMJAAAAAQEA
+					AEFuaW1hdG9ucwAAAAcAAAABAQAAbWFnbmV0
+					cwANAAAAAQEAAGxpZ2h0X3JlZC5wbmcAAAAc
+					AAAAAQYAAAQAAAAUAAAAKAAAADgAAABQAAAA
+					ZAAAAHQAAAAIAAAABAMAAD+SAAAAAAAACAAA
+					AAQDAADzVAgAAAAAAAgAAAAEAwAA/lQIAAAA
+					AAAIAAAABAMAANNcTgAAAAAACAAAAAQDAAA4
+					AWIAAAAAAAgAAAAEAwAAjiFiAAAAAAAIAAAA
+					BAMAAAciYgAAAAAAHAAAAAEGAACwAAAAwAAA
+					ANAAAADgAAAA8AAAAAABAAAQAQAAGAAAAAEC
+					AAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAA
+					AAAAAQUAAAQAAAADAwAAAwAAAAQAAAADAwAA
+					BAAAAAgAAAAEAwAABQAAAAAAAAAEAAAAAwMA
+					APYBAAAMAAAAAQEAAE1hY2ludG9zaCBIRAgA
+					AAAEAwAAAICBPXQAAAAIAAAAAAQAAEGxkT0b
+					AAAAJAAAAAEBAAAzQkZCRUExMC1CMTVFLTNB
+					QkEtOTc4RC0xODY5REM2QzY3RDMYAAAAAQIA
+					AIEAAAABAAgA7z8AAAEACAAAAAAAAAAAAAEA
+					AAABAQAALwAAAAQAAAADAwAAAAEAANEAAAAB
+					AgAAYzczNTM2MzgyNzhlYjExZjQ5MmI3MTBj
+					ODU3NGVmZTk1NTk2ZTZmMjswMDAwMDAwMDsw
+					MDAwMDAwMDAwMDAwMDIwO2NvbS5hcHBsZS5h
+					cHAtc2FuZGJveC5yZWFkLXdyaXRlOzAwMDAw
+					MDAxOzBlMDAwMDAyOzAwMDAwMDAwMDA2MjIy
+					MDc7L3VzZXJzL2RldmVsb3Blci9kZXNrdG9w
+					L21hZ25ldCByZXNvdXJjZXMvYW5pbWF0b25z
+					L21hZ25ldHMvbGlnaHRfcmVkLnBuZwAAAADk
+					AAAA/v///wEAAAAAAAAAEgAAAAQQAACMAAAA
+					AAAAAAUQAAAgAQAAAAAAABAQAABEAQAAAAAA
+					AFQQAABsAQAAAAAAAFUQAAB4AQAAAAAAAFYQ
+					AABkAQAAAAAAAAIgAAAgAgAAAAAAABAgAACg
+					AQAAAAAAABEgAADUAQAAAAAAABIgAAC0AQAA
+					AAAAABMgAADEAQAAAAAAACAgAAAAAgAAAAAA
+					ADAgAABkAQAAAAAAAAHAAACEAQAAAAAAABHA
+					AAAUAAAAAAAAABLAAACUAQAAAAAAABDQAAAs
+					AgAAAAAAAIDwAAA4AgAAAAAAAA==
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array/>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>magnet_sheets</string>
+					<key>SHSpriteName</key>
+					<string>light_red</string>
+					<key>SheetImage</key>
+					<string>magnet_magnet_sheets.png</string>
+					<key>SheetImage-HD</key>
+					<string>magnet_magnet_sheets-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{129, 231}, {21.75, 21.75}}</string>
+						<key>Frame-HD</key>
+						<string>{{516, 924}, {87, 87}}</string>
+						<key>Image</key>
+						<string>magnet_magnet_sheets.png</string>
+						<key>Image-HD</key>
+						<string>magnet_magnet_sheets-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<false/>
+						<key>Name</key>
+						<string>light_red</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/developer/Desktop/magnet resources/Animatons/magnets/light_red.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/Animatons/magnets/light_red.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {87, 87}}</string>
+						<key>OriginalSize</key>
+						<string>{87, 87}</string>
+						<key>Position</key>
+						<string>{516, 924}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{21.75, 21.75}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, 0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>magnet_circle</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vazgEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAHAMAAAUA
+					AAABAQAAVXNlcnMAAAAJAAAAAQEAAGRldmVs
+					b3BlcgAAAAcAAAABAQAARGVza3RvcAAQAAAA
+					AQEAAG1hZ25ldCByZXNvdXJjZXMJAAAAAQEA
+					AEFuaW1hdG9ucwAAAAcAAAABAQAAbWFnbmV0
+					cwARAAAAAQEAAG1hZ25ldF9jaXJjbGUucG5n
+					AAAAHAAAAAEGAAAEAAAAFAAAACgAAAA4AAAA
+					UAAAAGQAAAB0AAAACAAAAAQDAAA/kgAAAAAA
+					AAgAAAAEAwAA81QIAAAAAAAIAAAABAMAAP5U
+					CAAAAAAACAAAAAQDAADTXE4AAAAAAAgAAAAE
+					AwAAOAFiAAAAAAAIAAAABAMAAI4hYgAAAAAA
+					CAAAAAQDAACQIWIAAAAAABwAAAABBgAAtAAA
+					AMQAAADUAAAA5AAAAPQAAAAEAQAAFAEAABgA
+					AAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAA
+					AAAAAAAAAAEFAAAEAAAAAwMAAAMAAAAEAAAA
+					AwMAAAQAAAAIAAAABAMAAAUAAAAAAAAABAAA
+					AAMDAAD2AQAADAAAAAEBAABNYWNpbnRvc2gg
+					SEQIAAAABAMAAACAgT10AAAACAAAAAAEAABB
+					sZE9GwAAACQAAAABAQAAM0JGQkVBMTAtQjE1
+					RS0zQUJBLTk3OEQtMTg2OURDNkM2N0QzGAAA
+					AAECAACBAAAAAQAIAO8/AAABAAgAAAAAAAAA
+					AAABAAAAAQEAAC8AAAAEAAAAAwMAAAABAADV
+					AAAAAQIAADNmM2IwOGI4YmIyNGE1MjdiOWI1
+					ZTFmOTQ3MDE5NmZmNjU1ODYyZmY7MDAwMDAw
+					MDA7MDAwMDAwMDAwMDAwMDAyMDtjb20uYXBw
+					bGUuYXBwLXNhbmRib3gucmVhZC13cml0ZTsw
+					MDAwMDAwMTswZTAwMDAwMjswMDAwMDAwMDAw
+					NjIyMTkwOy91c2Vycy9kZXZlbG9wZXIvZGVz
+					a3RvcC9tYWduZXQgcmVzb3VyY2VzL2FuaW1h
+					dG9ucy9tYWduZXRzL21hZ25ldF9jaXJjbGUu
+					cG5nAAAAAOQAAAD+////AQAAAAAAAAASAAAA
+					BBAAAJAAAAAAAAAABRAAACQBAAAAAAAAEBAA
+					AEgBAAAAAAAAVBAAAHABAAAAAAAAVRAAAHwB
+					AAAAAAAAVhAAAGgBAAAAAAAAAiAAACQCAAAA
+					AAAAECAAAKQBAAAAAAAAESAAANgBAAAAAAAA
+					EiAAALgBAAAAAAAAEyAAAMgBAAAAAAAAICAA
+					AAQCAAAAAAAAMCAAAGgBAAAAAAAAAcAAAIgB
+					AAAAAAAAEcAAABQAAAAAAAAAEsAAAJgBAAAA
+					AAAAENAAADACAAAAAAAAgPAAADwCAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>1</real>
+								<key>Fixture</key>
+								<array>
+									<array/>
+								</array>
+								<key>Friction</key>
+								<real>0.0</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>128</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<true/>
+								<key>IsRectangle</key>
+								<false/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>32</real>
+								<key>LHShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>LHWidth</key>
+								<real>32</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.0</real>
+								<key>ShapePoints</key>
+								<array/>
+								<key>ShapePositionOffset</key>
+								<string>{64, 64}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>128</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>magnet_sheets</string>
+					<key>SHSpriteName</key>
+					<string>magnet_circle</string>
+					<key>SheetImage</key>
+					<string>magnet_magnet_sheets.png</string>
+					<key>SheetImage-HD</key>
+					<string>magnet_magnet_sheets-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{168, 194}, {32, 32}}</string>
+						<key>Frame-HD</key>
+						<string>{{672, 776}, {128, 128}}</string>
+						<key>Image</key>
+						<string>magnet_magnet_sheets.png</string>
+						<key>Image-HD</key>
+						<string>magnet_magnet_sheets-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<false/>
+						<key>Name</key>
+						<string>magnet_circle</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/developer/Desktop/magnet resources/Animatons/magnets/magnet_circle.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/Animatons/magnets/magnet_circle.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {128, 128}}</string>
+						<key>OriginalSize</key>
+						<string>{128, 128}</string>
+						<key>Position</key>
+						<string>{672, 776}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{32, 32}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>2</integer>
+						<key>TextureOffset</key>
+						<string>{0, 0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>magnet_effect_01</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vazgEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAHAMAAAUA
+					AAABAQAAVXNlcnMAAAAJAAAAAQEAAGRldmVs
+					b3BlcgAAAAcAAAABAQAARGVza3RvcAAQAAAA
+					AQEAAG1hZ25ldCByZXNvdXJjZXMJAAAAAQEA
+					AEFuaW1hdG9ucwAAAAcAAAABAQAAbWFnbmV0
+					cwAUAAAAAQEAAG1hZ25ldF9lZmZlY3RfMDEu
+					cG5nHAAAAAEGAAAEAAAAFAAAACgAAAA4AAAA
+					UAAAAGQAAAB0AAAACAAAAAQDAAA/kgAAAAAA
+					AAgAAAAEAwAA81QIAAAAAAAIAAAABAMAAP5U
+					CAAAAAAACAAAAAQDAADTXE4AAAAAAAgAAAAE
+					AwAAOAFiAAAAAAAIAAAABAMAAI4hYgAAAAAA
+					CAAAAAQDAACZOGIAAAAAABwAAAABBgAAtAAA
+					AMQAAADUAAAA5AAAAPQAAAAEAQAAFAEAABgA
+					AAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAA
+					AAAAAAAAAAEFAAAEAAAAAwMAAAMAAAAEAAAA
+					AwMAAAQAAAAIAAAABAMAAAUAAAAAAAAABAAA
+					AAMDAAD2AQAADAAAAAEBAABNYWNpbnRvc2gg
+					SEQIAAAABAMAAACAgT10AAAACAAAAAAEAABB
+					sZE9GwAAACQAAAABAQAAM0JGQkVBMTAtQjE1
+					RS0zQUJBLTk3OEQtMTg2OURDNkM2N0QzGAAA
+					AAECAACBAAAAAQAIAO8/AAABAAgAAAAAAAAA
+					AAABAAAAAQEAAC8AAAAEAAAAAwMAAAABAADY
+					AAAAAQIAAGVhNjk4MGUyODA0ZTU3NjAzMjQy
+					ODUwMmM1MTk5ODQ2MDY1ZTg2Mzk7MDAwMDAw
+					MDA7MDAwMDAwMDAwMDAwMDAyMDtjb20uYXBw
+					bGUuYXBwLXNhbmRib3gucmVhZC13cml0ZTsw
+					MDAwMDAwMTswZTAwMDAwMjswMDAwMDAwMDAw
+					NjIzODk5Oy91c2Vycy9kZXZlbG9wZXIvZGVz
+					a3RvcC9tYWduZXQgcmVzb3VyY2VzL2FuaW1h
+					dG9ucy9tYWduZXRzL21hZ25ldF9lZmZlY3Rf
+					MDEucG5nAOQAAAD+////AQAAAAAAAAASAAAA
+					BBAAAJAAAAAAAAAABRAAACQBAAAAAAAAEBAA
+					AEgBAAAAAAAAVBAAAHABAAAAAAAAVRAAAHwB
+					AAAAAAAAVhAAAGgBAAAAAAAAAiAAACQCAAAA
+					AAAAECAAAKQBAAAAAAAAESAAANgBAAAAAAAA
+					EiAAALgBAAAAAAAAEyAAAMgBAAAAAAAAICAA
+					AAQCAAAAAAAAMCAAAGgBAAAAAAAAAcAAAIgB
+					AAAAAAAAEcAAABQAAAAAAAAAEsAAAJgBAAAA
+					AAAAENAAADACAAAAAAAAgPAAADwCAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array/>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>magnet_sheets</string>
+					<key>SHSpriteName</key>
+					<string>magnet_effect_01</string>
+					<key>SheetImage</key>
+					<string>magnet_magnet_sheets.png</string>
+					<key>SheetImage-HD</key>
+					<string>magnet_magnet_sheets-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{194, 0}, {62, 62}}</string>
+						<key>Frame-HD</key>
+						<string>{{776, 0}, {248, 248}}</string>
+						<key>Image</key>
+						<string>magnet_magnet_sheets.png</string>
+						<key>Image-HD</key>
+						<string>magnet_magnet_sheets-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<false/>
+						<key>Name</key>
+						<string>magnet_effect_01</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/developer/Desktop/magnet resources/Animatons/magnets/magnet_effect_01.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/Animatons/magnets/magnet_effect_01.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {248, 248}}</string>
+						<key>OriginalSize</key>
+						<string>{248, 248}</string>
+						<key>Position</key>
+						<string>{776, 0}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{62, 62}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, 0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>magnet_effect_02</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vazgEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAHAMAAAUA
+					AAABAQAAVXNlcnMAAAAJAAAAAQEAAGRldmVs
+					b3BlcgAAAAcAAAABAQAARGVza3RvcAAQAAAA
+					AQEAAG1hZ25ldCByZXNvdXJjZXMJAAAAAQEA
+					AEFuaW1hdG9ucwAAAAcAAAABAQAAbWFnbmV0
+					cwAUAAAAAQEAAG1hZ25ldF9lZmZlY3RfMDIu
+					cG5nHAAAAAEGAAAEAAAAFAAAACgAAAA4AAAA
+					UAAAAGQAAAB0AAAACAAAAAQDAAA/kgAAAAAA
+					AAgAAAAEAwAA81QIAAAAAAAIAAAABAMAAP5U
+					CAAAAAAACAAAAAQDAADTXE4AAAAAAAgAAAAE
+					AwAAOAFiAAAAAAAIAAAABAMAAI4hYgAAAAAA
+					CAAAAAQDAACaOGIAAAAAABwAAAABBgAAtAAA
+					AMQAAADUAAAA5AAAAPQAAAAEAQAAFAEAABgA
+					AAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAA
+					AAAAAAAAAAEFAAAEAAAAAwMAAAMAAAAEAAAA
+					AwMAAAQAAAAIAAAABAMAAAUAAAAAAAAABAAA
+					AAMDAAD2AQAADAAAAAEBAABNYWNpbnRvc2gg
+					SEQIAAAABAMAAACAgT10AAAACAAAAAAEAABB
+					sZE9GwAAACQAAAABAQAAM0JGQkVBMTAtQjE1
+					RS0zQUJBLTk3OEQtMTg2OURDNkM2N0QzGAAA
+					AAECAACBAAAAAQAIAO8/AAABAAgAAAAAAAAA
+					AAABAAAAAQEAAC8AAAAEAAAAAwMAAAABAADY
+					AAAAAQIAADRmNzA3M2E1MDJjYzRiMWZjYzE4
+					NTU2ZDM5OGE4MzUyY2ZlNjMxYTU7MDAwMDAw
+					MDA7MDAwMDAwMDAwMDAwMDAyMDtjb20uYXBw
+					bGUuYXBwLXNhbmRib3gucmVhZC13cml0ZTsw
+					MDAwMDAwMTswZTAwMDAwMjswMDAwMDAwMDAw
+					NjIzODlhOy91c2Vycy9kZXZlbG9wZXIvZGVz
+					a3RvcC9tYWduZXQgcmVzb3VyY2VzL2FuaW1h
+					dG9ucy9tYWduZXRzL21hZ25ldF9lZmZlY3Rf
+					MDIucG5nAOQAAAD+////AQAAAAAAAAASAAAA
+					BBAAAJAAAAAAAAAABRAAACQBAAAAAAAAEBAA
+					AEgBAAAAAAAAVBAAAHABAAAAAAAAVRAAAHwB
+					AAAAAAAAVhAAAGgBAAAAAAAAAiAAACQCAAAA
+					AAAAECAAAKQBAAAAAAAAESAAANgBAAAAAAAA
+					EiAAALgBAAAAAAAAEyAAAMgBAAAAAAAAICAA
+					AAQCAAAAAAAAMCAAAGgBAAAAAAAAAcAAAIgB
+					AAAAAAAAEcAAABQAAAAAAAAAEsAAAJgBAAAA
+					AAAAENAAADACAAAAAAAAgPAAADwCAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array/>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>magnet_sheets</string>
+					<key>SHSpriteName</key>
+					<string>magnet_effect_02</string>
+					<key>SheetImage</key>
+					<string>magnet_magnet_sheets.png</string>
+					<key>SheetImage-HD</key>
+					<string>magnet_magnet_sheets-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{0, 65}, {62, 62}}</string>
+						<key>Frame-HD</key>
+						<string>{{0, 260}, {248, 248}}</string>
+						<key>Image</key>
+						<string>magnet_magnet_sheets.png</string>
+						<key>Image-HD</key>
+						<string>magnet_magnet_sheets-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<false/>
+						<key>Name</key>
+						<string>magnet_effect_02</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/developer/Desktop/magnet resources/Animatons/magnets/magnet_effect_02.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/Animatons/magnets/magnet_effect_02.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {248, 248}}</string>
+						<key>OriginalSize</key>
+						<string>{248, 248}</string>
+						<key>Position</key>
+						<string>{0, 260}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{62, 62}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, 0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>magnet_effect_03</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vazgEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAHAMAAAUA
+					AAABAQAAVXNlcnMAAAAJAAAAAQEAAGRldmVs
+					b3BlcgAAAAcAAAABAQAARGVza3RvcAAQAAAA
+					AQEAAG1hZ25ldCByZXNvdXJjZXMJAAAAAQEA
+					AEFuaW1hdG9ucwAAAAcAAAABAQAAbWFnbmV0
+					cwAUAAAAAQEAAG1hZ25ldF9lZmZlY3RfMDMu
+					cG5nHAAAAAEGAAAEAAAAFAAAACgAAAA4AAAA
+					UAAAAGQAAAB0AAAACAAAAAQDAAA/kgAAAAAA
+					AAgAAAAEAwAA81QIAAAAAAAIAAAABAMAAP5U
+					CAAAAAAACAAAAAQDAADTXE4AAAAAAAgAAAAE
+					AwAAOAFiAAAAAAAIAAAABAMAAI4hYgAAAAAA
+					CAAAAAQDAACbOGIAAAAAABwAAAABBgAAtAAA
+					AMQAAADUAAAA5AAAAPQAAAAEAQAAFAEAABgA
+					AAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAA
+					AAAAAAAAAAEFAAAEAAAAAwMAAAMAAAAEAAAA
+					AwMAAAQAAAAIAAAABAMAAAUAAAAAAAAABAAA
+					AAMDAAD2AQAADAAAAAEBAABNYWNpbnRvc2gg
+					SEQIAAAABAMAAACAgT10AAAACAAAAAAEAABB
+					sZE9GwAAACQAAAABAQAAM0JGQkVBMTAtQjE1
+					RS0zQUJBLTk3OEQtMTg2OURDNkM2N0QzGAAA
+					AAECAACBAAAAAQAIAO8/AAABAAgAAAAAAAAA
+					AAABAAAAAQEAAC8AAAAEAAAAAwMAAAABAADY
+					AAAAAQIAADA2ODkyOWYzZDJjM2MwNmU1YWJh
+					NDQwYWE2YWYzMzJlZjI4ZDIyMTg7MDAwMDAw
+					MDA7MDAwMDAwMDAwMDAwMDAyMDtjb20uYXBw
+					bGUuYXBwLXNhbmRib3gucmVhZC13cml0ZTsw
+					MDAwMDAwMTswZTAwMDAwMjswMDAwMDAwMDAw
+					NjIzODliOy91c2Vycy9kZXZlbG9wZXIvZGVz
+					a3RvcC9tYWduZXQgcmVzb3VyY2VzL2FuaW1h
+					dG9ucy9tYWduZXRzL21hZ25ldF9lZmZlY3Rf
+					MDMucG5nAOQAAAD+////AQAAAAAAAAASAAAA
+					BBAAAJAAAAAAAAAABRAAACQBAAAAAAAAEBAA
+					AEgBAAAAAAAAVBAAAHABAAAAAAAAVRAAAHwB
+					AAAAAAAAVhAAAGgBAAAAAAAAAiAAACQCAAAA
+					AAAAECAAAKQBAAAAAAAAESAAANgBAAAAAAAA
+					EiAAALgBAAAAAAAAEyAAAMgBAAAAAAAAICAA
+					AAQCAAAAAAAAMCAAAGgBAAAAAAAAAcAAAIgB
+					AAAAAAAAEcAAABQAAAAAAAAAEsAAAJgBAAAA
+					AAAAENAAADACAAAAAAAAgPAAADwCAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array/>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>magnet_sheets</string>
+					<key>SHSpriteName</key>
+					<string>magnet_effect_03</string>
+					<key>SheetImage</key>
+					<string>magnet_magnet_sheets.png</string>
+					<key>SheetImage-HD</key>
+					<string>magnet_magnet_sheets-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{0, 129}, {62, 62}}</string>
+						<key>Frame-HD</key>
+						<string>{{0, 516}, {248, 248}}</string>
+						<key>Image</key>
+						<string>magnet_magnet_sheets.png</string>
+						<key>Image-HD</key>
+						<string>magnet_magnet_sheets-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<false/>
+						<key>Name</key>
+						<string>magnet_effect_03</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/developer/Desktop/magnet resources/Animatons/magnets/magnet_effect_03.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/Animatons/magnets/magnet_effect_03.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {248, 248}}</string>
+						<key>OriginalSize</key>
+						<string>{248, 248}</string>
+						<key>Position</key>
+						<string>{0, 516}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{62, 62}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, 0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>magnet_effect_04</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vazgEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAHAMAAAUA
+					AAABAQAAVXNlcnMAAAAJAAAAAQEAAGRldmVs
+					b3BlcgAAAAcAAAABAQAARGVza3RvcAAQAAAA
+					AQEAAG1hZ25ldCByZXNvdXJjZXMJAAAAAQEA
+					AEFuaW1hdG9ucwAAAAcAAAABAQAAbWFnbmV0
+					cwAUAAAAAQEAAG1hZ25ldF9lZmZlY3RfMDQu
+					cG5nHAAAAAEGAAAEAAAAFAAAACgAAAA4AAAA
+					UAAAAGQAAAB0AAAACAAAAAQDAAA/kgAAAAAA
+					AAgAAAAEAwAA81QIAAAAAAAIAAAABAMAAP5U
+					CAAAAAAACAAAAAQDAADTXE4AAAAAAAgAAAAE
+					AwAAOAFiAAAAAAAIAAAABAMAAI4hYgAAAAAA
+					CAAAAAQDAACcOGIAAAAAABwAAAABBgAAtAAA
+					AMQAAADUAAAA5AAAAPQAAAAEAQAAFAEAABgA
+					AAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAA
+					AAAAAAAAAAEFAAAEAAAAAwMAAAMAAAAEAAAA
+					AwMAAAQAAAAIAAAABAMAAAUAAAAAAAAABAAA
+					AAMDAAD2AQAADAAAAAEBAABNYWNpbnRvc2gg
+					SEQIAAAABAMAAACAgT10AAAACAAAAAAEAABB
+					sZE9GwAAACQAAAABAQAAM0JGQkVBMTAtQjE1
+					RS0zQUJBLTk3OEQtMTg2OURDNkM2N0QzGAAA
+					AAECAACBAAAAAQAIAO8/AAABAAgAAAAAAAAA
+					AAABAAAAAQEAAC8AAAAEAAAAAwMAAAABAADY
+					AAAAAQIAAGMzMTAyNjdiZGY3Y2NiNjFlOTVm
+					YWJlNjkwMmFmNzgyNDdlYTIyMzk7MDAwMDAw
+					MDA7MDAwMDAwMDAwMDAwMDAyMDtjb20uYXBw
+					bGUuYXBwLXNhbmRib3gucmVhZC13cml0ZTsw
+					MDAwMDAwMTswZTAwMDAwMjswMDAwMDAwMDAw
+					NjIzODljOy91c2Vycy9kZXZlbG9wZXIvZGVz
+					a3RvcC9tYWduZXQgcmVzb3VyY2VzL2FuaW1h
+					dG9ucy9tYWduZXRzL21hZ25ldF9lZmZlY3Rf
+					MDQucG5nAOQAAAD+////AQAAAAAAAAASAAAA
+					BBAAAJAAAAAAAAAABRAAACQBAAAAAAAAEBAA
+					AEgBAAAAAAAAVBAAAHABAAAAAAAAVRAAAHwB
+					AAAAAAAAVhAAAGgBAAAAAAAAAiAAACQCAAAA
+					AAAAECAAAKQBAAAAAAAAESAAANgBAAAAAAAA
+					EiAAALgBAAAAAAAAEyAAAMgBAAAAAAAAICAA
+					AAQCAAAAAAAAMCAAAGgBAAAAAAAAAcAAAIgB
+					AAAAAAAAEcAAABQAAAAAAAAAEsAAAJgBAAAA
+					AAAAENAAADACAAAAAAAAgPAAADwCAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array/>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>magnet_sheets</string>
+					<key>SHSpriteName</key>
+					<string>magnet_effect_04</string>
+					<key>SheetImage</key>
+					<string>magnet_magnet_sheets.png</string>
+					<key>SheetImage-HD</key>
+					<string>magnet_magnet_sheets-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{0, 194}, {62, 62}}</string>
+						<key>Frame-HD</key>
+						<string>{{0, 776}, {248, 248}}</string>
+						<key>Image</key>
+						<string>magnet_magnet_sheets.png</string>
+						<key>Image-HD</key>
+						<string>magnet_magnet_sheets-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<false/>
+						<key>Name</key>
+						<string>magnet_effect_04</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/developer/Desktop/magnet resources/Animatons/magnets/magnet_effect_04.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/Animatons/magnets/magnet_effect_04.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {248, 248}}</string>
+						<key>OriginalSize</key>
+						<string>{248, 248}</string>
+						<key>Position</key>
+						<string>{0, 776}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{62, 62}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, 0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>magnet_effect_05</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vazgEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAHAMAAAUA
+					AAABAQAAVXNlcnMAAAAJAAAAAQEAAGRldmVs
+					b3BlcgAAAAcAAAABAQAARGVza3RvcAAQAAAA
+					AQEAAG1hZ25ldCByZXNvdXJjZXMJAAAAAQEA
+					AEFuaW1hdG9ucwAAAAcAAAABAQAAbWFnbmV0
+					cwAUAAAAAQEAAG1hZ25ldF9lZmZlY3RfMDUu
+					cG5nHAAAAAEGAAAEAAAAFAAAACgAAAA4AAAA
+					UAAAAGQAAAB0AAAACAAAAAQDAAA/kgAAAAAA
+					AAgAAAAEAwAA81QIAAAAAAAIAAAABAMAAP5U
+					CAAAAAAACAAAAAQDAADTXE4AAAAAAAgAAAAE
+					AwAAOAFiAAAAAAAIAAAABAMAAI4hYgAAAAAA
+					CAAAAAQDAACdOGIAAAAAABwAAAABBgAAtAAA
+					AMQAAADUAAAA5AAAAPQAAAAEAQAAFAEAABgA
+					AAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAA
+					AAAAAAAAAAEFAAAEAAAAAwMAAAMAAAAEAAAA
+					AwMAAAQAAAAIAAAABAMAAAUAAAAAAAAABAAA
+					AAMDAAD2AQAADAAAAAEBAABNYWNpbnRvc2gg
+					SEQIAAAABAMAAACAgT10AAAACAAAAAAEAABB
+					sZE9GwAAACQAAAABAQAAM0JGQkVBMTAtQjE1
+					RS0zQUJBLTk3OEQtMTg2OURDNkM2N0QzGAAA
+					AAECAACBAAAAAQAIAO8/AAABAAgAAAAAAAAA
+					AAABAAAAAQEAAC8AAAAEAAAAAwMAAAABAADY
+					AAAAAQIAADg3ZWI5ZjMwMjE4NGU5OTBhZmY5
+					YWNlODVjNDlkMjhlZDFiMzk0NzA7MDAwMDAw
+					MDA7MDAwMDAwMDAwMDAwMDAyMDtjb20uYXBw
+					bGUuYXBwLXNhbmRib3gucmVhZC13cml0ZTsw
+					MDAwMDAwMTswZTAwMDAwMjswMDAwMDAwMDAw
+					NjIzODlkOy91c2Vycy9kZXZlbG9wZXIvZGVz
+					a3RvcC9tYWduZXQgcmVzb3VyY2VzL2FuaW1h
+					dG9ucy9tYWduZXRzL21hZ25ldF9lZmZlY3Rf
+					MDUucG5nAOQAAAD+////AQAAAAAAAAASAAAA
+					BBAAAJAAAAAAAAAABRAAACQBAAAAAAAAEBAA
+					AEgBAAAAAAAAVBAAAHABAAAAAAAAVRAAAHwB
+					AAAAAAAAVhAAAGgBAAAAAAAAAiAAACQCAAAA
+					AAAAECAAAKQBAAAAAAAAESAAANgBAAAAAAAA
+					EiAAALgBAAAAAAAAEyAAAMgBAAAAAAAAICAA
+					AAQCAAAAAAAAMCAAAGgBAAAAAAAAAcAAAIgB
+					AAAAAAAAEcAAABQAAAAAAAAAEsAAAJgBAAAA
+					AAAAENAAADACAAAAAAAAgPAAADwCAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array/>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>magnet_sheets</string>
+					<key>SHSpriteName</key>
+					<string>magnet_effect_05</string>
+					<key>SheetImage</key>
+					<string>magnet_magnet_sheets.png</string>
+					<key>SheetImage-HD</key>
+					<string>magnet_magnet_sheets-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{194, 65}, {62, 62}}</string>
+						<key>Frame-HD</key>
+						<string>{{776, 260}, {248, 248}}</string>
+						<key>Image</key>
+						<string>magnet_magnet_sheets.png</string>
+						<key>Image-HD</key>
+						<string>magnet_magnet_sheets-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<false/>
+						<key>Name</key>
+						<string>magnet_effect_05</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/developer/Desktop/magnet resources/Animatons/magnets/magnet_effect_05.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/Animatons/magnets/magnet_effect_05.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {248, 248}}</string>
+						<key>OriginalSize</key>
+						<string>{248, 248}</string>
+						<key>Position</key>
+						<string>{776, 260}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{62, 62}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, 0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>magnet_effect_06</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vazgEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAHAMAAAUA
+					AAABAQAAVXNlcnMAAAAJAAAAAQEAAGRldmVs
+					b3BlcgAAAAcAAAABAQAARGVza3RvcAAQAAAA
+					AQEAAG1hZ25ldCByZXNvdXJjZXMJAAAAAQEA
+					AEFuaW1hdG9ucwAAAAcAAAABAQAAbWFnbmV0
+					cwAUAAAAAQEAAG1hZ25ldF9lZmZlY3RfMDYu
+					cG5nHAAAAAEGAAAEAAAAFAAAACgAAAA4AAAA
+					UAAAAGQAAAB0AAAACAAAAAQDAAA/kgAAAAAA
+					AAgAAAAEAwAA81QIAAAAAAAIAAAABAMAAP5U
+					CAAAAAAACAAAAAQDAADTXE4AAAAAAAgAAAAE
+					AwAAOAFiAAAAAAAIAAAABAMAAI4hYgAAAAAA
+					CAAAAAQDAACeOGIAAAAAABwAAAABBgAAtAAA
+					AMQAAADUAAAA5AAAAPQAAAAEAQAAFAEAABgA
+					AAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAA
+					AAAAAAAAAAEFAAAEAAAAAwMAAAMAAAAEAAAA
+					AwMAAAQAAAAIAAAABAMAAAUAAAAAAAAABAAA
+					AAMDAAD2AQAADAAAAAEBAABNYWNpbnRvc2gg
+					SEQIAAAABAMAAACAgT10AAAACAAAAAAEAABB
+					sZE9GwAAACQAAAABAQAAM0JGQkVBMTAtQjE1
+					RS0zQUJBLTk3OEQtMTg2OURDNkM2N0QzGAAA
+					AAECAACBAAAAAQAIAO8/AAABAAgAAAAAAAAA
+					AAABAAAAAQEAAC8AAAAEAAAAAwMAAAABAADY
+					AAAAAQIAADU1Nzg2MTFjYmY0Y2YxMmQwZjkx
+					NzNmNTlhODM5ZjUyYzNkNGJkYmI7MDAwMDAw
+					MDA7MDAwMDAwMDAwMDAwMDAyMDtjb20uYXBw
+					bGUuYXBwLXNhbmRib3gucmVhZC13cml0ZTsw
+					MDAwMDAwMTswZTAwMDAwMjswMDAwMDAwMDAw
+					NjIzODllOy91c2Vycy9kZXZlbG9wZXIvZGVz
+					a3RvcC9tYWduZXQgcmVzb3VyY2VzL2FuaW1h
+					dG9ucy9tYWduZXRzL21hZ25ldF9lZmZlY3Rf
+					MDYucG5nAOQAAAD+////AQAAAAAAAAASAAAA
+					BBAAAJAAAAAAAAAABRAAACQBAAAAAAAAEBAA
+					AEgBAAAAAAAAVBAAAHABAAAAAAAAVRAAAHwB
+					AAAAAAAAVhAAAGgBAAAAAAAAAiAAACQCAAAA
+					AAAAECAAAKQBAAAAAAAAESAAANgBAAAAAAAA
+					EiAAALgBAAAAAAAAEyAAAMgBAAAAAAAAICAA
+					AAQCAAAAAAAAMCAAAGgBAAAAAAAAAcAAAIgB
+					AAAAAAAAEcAAABQAAAAAAAAAEsAAAJgBAAAA
+					AAAAENAAADACAAAAAAAAgPAAADwCAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array/>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>magnet_sheets</string>
+					<key>SHSpriteName</key>
+					<string>magnet_effect_06</string>
+					<key>SheetImage</key>
+					<string>magnet_magnet_sheets.png</string>
+					<key>SheetImage-HD</key>
+					<string>magnet_magnet_sheets-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{65, 65}, {62, 62}}</string>
+						<key>Frame-HD</key>
+						<string>{{260, 260}, {248, 248}}</string>
+						<key>Image</key>
+						<string>magnet_magnet_sheets.png</string>
+						<key>Image-HD</key>
+						<string>magnet_magnet_sheets-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<false/>
+						<key>Name</key>
+						<string>magnet_effect_06</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/developer/Desktop/magnet resources/Animatons/magnets/magnet_effect_06.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/Animatons/magnets/magnet_effect_06.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {248, 248}}</string>
+						<key>OriginalSize</key>
+						<string>{248, 248}</string>
+						<key>Position</key>
+						<string>{260, 260}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{62, 62}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, 0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>magnet_effect_07</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vazgEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAHAMAAAUA
+					AAABAQAAVXNlcnMAAAAJAAAAAQEAAGRldmVs
+					b3BlcgAAAAcAAAABAQAARGVza3RvcAAQAAAA
+					AQEAAG1hZ25ldCByZXNvdXJjZXMJAAAAAQEA
+					AEFuaW1hdG9ucwAAAAcAAAABAQAAbWFnbmV0
+					cwAUAAAAAQEAAG1hZ25ldF9lZmZlY3RfMDcu
+					cG5nHAAAAAEGAAAEAAAAFAAAACgAAAA4AAAA
+					UAAAAGQAAAB0AAAACAAAAAQDAAA/kgAAAAAA
+					AAgAAAAEAwAA81QIAAAAAAAIAAAABAMAAP5U
+					CAAAAAAACAAAAAQDAADTXE4AAAAAAAgAAAAE
+					AwAAOAFiAAAAAAAIAAAABAMAAI4hYgAAAAAA
+					CAAAAAQDAACfOGIAAAAAABwAAAABBgAAtAAA
+					AMQAAADUAAAA5AAAAPQAAAAEAQAAFAEAABgA
+					AAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAA
+					AAAAAAAAAAEFAAAEAAAAAwMAAAMAAAAEAAAA
+					AwMAAAQAAAAIAAAABAMAAAUAAAAAAAAABAAA
+					AAMDAAD2AQAADAAAAAEBAABNYWNpbnRvc2gg
+					SEQIAAAABAMAAACAgT10AAAACAAAAAAEAABB
+					sZE9GwAAACQAAAABAQAAM0JGQkVBMTAtQjE1
+					RS0zQUJBLTk3OEQtMTg2OURDNkM2N0QzGAAA
+					AAECAACBAAAAAQAIAO8/AAABAAgAAAAAAAAA
+					AAABAAAAAQEAAC8AAAAEAAAAAwMAAAABAADY
+					AAAAAQIAADI3YjRmN2ZhNzQxMmNjNDUxYmE5
+					ZmE3MDZmZjVlZTNiZDI4NWM3MjE7MDAwMDAw
+					MDA7MDAwMDAwMDAwMDAwMDAyMDtjb20uYXBw
+					bGUuYXBwLXNhbmRib3gucmVhZC13cml0ZTsw
+					MDAwMDAwMTswZTAwMDAwMjswMDAwMDAwMDAw
+					NjIzODlmOy91c2Vycy9kZXZlbG9wZXIvZGVz
+					a3RvcC9tYWduZXQgcmVzb3VyY2VzL2FuaW1h
+					dG9ucy9tYWduZXRzL21hZ25ldF9lZmZlY3Rf
+					MDcucG5nAOQAAAD+////AQAAAAAAAAASAAAA
+					BBAAAJAAAAAAAAAABRAAACQBAAAAAAAAEBAA
+					AEgBAAAAAAAAVBAAAHABAAAAAAAAVRAAAHwB
+					AAAAAAAAVhAAAGgBAAAAAAAAAiAAACQCAAAA
+					AAAAECAAAKQBAAAAAAAAESAAANgBAAAAAAAA
+					EiAAALgBAAAAAAAAEyAAAMgBAAAAAAAAICAA
+					AAQCAAAAAAAAMCAAAGgBAAAAAAAAAcAAAIgB
+					AAAAAAAAEcAAABQAAAAAAAAAEsAAAJgBAAAA
+					AAAAENAAADACAAAAAAAAgPAAADwCAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array/>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>magnet_sheets</string>
+					<key>SHSpriteName</key>
+					<string>magnet_effect_07</string>
+					<key>SheetImage</key>
+					<string>magnet_magnet_sheets.png</string>
+					<key>SheetImage-HD</key>
+					<string>magnet_magnet_sheets-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{65, 129}, {62, 62}}</string>
+						<key>Frame-HD</key>
+						<string>{{260, 516}, {248, 248}}</string>
+						<key>Image</key>
+						<string>magnet_magnet_sheets.png</string>
+						<key>Image-HD</key>
+						<string>magnet_magnet_sheets-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<false/>
+						<key>Name</key>
+						<string>magnet_effect_07</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/developer/Desktop/magnet resources/Animatons/magnets/magnet_effect_07.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/Animatons/magnets/magnet_effect_07.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {248, 248}}</string>
+						<key>OriginalSize</key>
+						<string>{248, 248}</string>
+						<key>Position</key>
+						<string>{260, 516}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{62, 62}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, 0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>magnet_effect_08</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vazgEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAHAMAAAUA
+					AAABAQAAVXNlcnMAAAAJAAAAAQEAAGRldmVs
+					b3BlcgAAAAcAAAABAQAARGVza3RvcAAQAAAA
+					AQEAAG1hZ25ldCByZXNvdXJjZXMJAAAAAQEA
+					AEFuaW1hdG9ucwAAAAcAAAABAQAAbWFnbmV0
+					cwAUAAAAAQEAAG1hZ25ldF9lZmZlY3RfMDgu
+					cG5nHAAAAAEGAAAEAAAAFAAAACgAAAA4AAAA
+					UAAAAGQAAAB0AAAACAAAAAQDAAA/kgAAAAAA
+					AAgAAAAEAwAA81QIAAAAAAAIAAAABAMAAP5U
+					CAAAAAAACAAAAAQDAADTXE4AAAAAAAgAAAAE
+					AwAAOAFiAAAAAAAIAAAABAMAAI4hYgAAAAAA
+					CAAAAAQDAACgOGIAAAAAABwAAAABBgAAtAAA
+					AMQAAADUAAAA5AAAAPQAAAAEAQAAFAEAABgA
+					AAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAA
+					AAAAAAAAAAEFAAAEAAAAAwMAAAMAAAAEAAAA
+					AwMAAAQAAAAIAAAABAMAAAUAAAAAAAAABAAA
+					AAMDAAD2AQAADAAAAAEBAABNYWNpbnRvc2gg
+					SEQIAAAABAMAAACAgT10AAAACAAAAAAEAABB
+					sZE9GwAAACQAAAABAQAAM0JGQkVBMTAtQjE1
+					RS0zQUJBLTk3OEQtMTg2OURDNkM2N0QzGAAA
+					AAECAACBAAAAAQAIAO8/AAABAAgAAAAAAAAA
+					AAABAAAAAQEAAC8AAAAEAAAAAwMAAAABAADY
+					AAAAAQIAAGJmOTIxNTM0NGJlNTJmNjhiOWE3
+					NzZjMTkxMTRiZmYwNGUxYjFhYmM7MDAwMDAw
+					MDA7MDAwMDAwMDAwMDAwMDAyMDtjb20uYXBw
+					bGUuYXBwLXNhbmRib3gucmVhZC13cml0ZTsw
+					MDAwMDAwMTswZTAwMDAwMjswMDAwMDAwMDAw
+					NjIzOGEwOy91c2Vycy9kZXZlbG9wZXIvZGVz
+					a3RvcC9tYWduZXQgcmVzb3VyY2VzL2FuaW1h
+					dG9ucy9tYWduZXRzL21hZ25ldF9lZmZlY3Rf
+					MDgucG5nAOQAAAD+////AQAAAAAAAAASAAAA
+					BBAAAJAAAAAAAAAABRAAACQBAAAAAAAAEBAA
+					AEgBAAAAAAAAVBAAAHABAAAAAAAAVRAAAHwB
+					AAAAAAAAVhAAAGgBAAAAAAAAAiAAACQCAAAA
+					AAAAECAAAKQBAAAAAAAAESAAANgBAAAAAAAA
+					EiAAALgBAAAAAAAAEyAAAMgBAAAAAAAAICAA
+					AAQCAAAAAAAAMCAAAGgBAAAAAAAAAcAAAIgB
+					AAAAAAAAEcAAABQAAAAAAAAAEsAAAJgBAAAA
+					AAAAENAAADACAAAAAAAAgPAAADwCAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array/>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>magnet_sheets</string>
+					<key>SHSpriteName</key>
+					<string>magnet_effect_08</string>
+					<key>SheetImage</key>
+					<string>magnet_magnet_sheets.png</string>
+					<key>SheetImage-HD</key>
+					<string>magnet_magnet_sheets-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{129, 65}, {62, 62}}</string>
+						<key>Frame-HD</key>
+						<string>{{516, 260}, {248, 248}}</string>
+						<key>Image</key>
+						<string>magnet_magnet_sheets.png</string>
+						<key>Image-HD</key>
+						<string>magnet_magnet_sheets-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<false/>
+						<key>Name</key>
+						<string>magnet_effect_08</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/developer/Desktop/magnet resources/Animatons/magnets/magnet_effect_08.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/Animatons/magnets/magnet_effect_08.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {248, 248}}</string>
+						<key>OriginalSize</key>
+						<string>{248, 248}</string>
+						<key>Position</key>
+						<string>{516, 260}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{62, 62}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, 0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>magnet_effect_09</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vazgEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAHAMAAAUA
+					AAABAQAAVXNlcnMAAAAJAAAAAQEAAGRldmVs
+					b3BlcgAAAAcAAAABAQAARGVza3RvcAAQAAAA
+					AQEAAG1hZ25ldCByZXNvdXJjZXMJAAAAAQEA
+					AEFuaW1hdG9ucwAAAAcAAAABAQAAbWFnbmV0
+					cwAUAAAAAQEAAG1hZ25ldF9lZmZlY3RfMDku
+					cG5nHAAAAAEGAAAEAAAAFAAAACgAAAA4AAAA
+					UAAAAGQAAAB0AAAACAAAAAQDAAA/kgAAAAAA
+					AAgAAAAEAwAA81QIAAAAAAAIAAAABAMAAP5U
+					CAAAAAAACAAAAAQDAADTXE4AAAAAAAgAAAAE
+					AwAAOAFiAAAAAAAIAAAABAMAAI4hYgAAAAAA
+					CAAAAAQDAAChOGIAAAAAABwAAAABBgAAtAAA
+					AMQAAADUAAAA5AAAAPQAAAAEAQAAFAEAABgA
+					AAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAA
+					AAAAAAAAAAEFAAAEAAAAAwMAAAMAAAAEAAAA
+					AwMAAAQAAAAIAAAABAMAAAUAAAAAAAAABAAA
+					AAMDAAD2AQAADAAAAAEBAABNYWNpbnRvc2gg
+					SEQIAAAABAMAAACAgT10AAAACAAAAAAEAABB
+					sZE9GwAAACQAAAABAQAAM0JGQkVBMTAtQjE1
+					RS0zQUJBLTk3OEQtMTg2OURDNkM2N0QzGAAA
+					AAECAACBAAAAAQAIAO8/AAABAAgAAAAAAAAA
+					AAABAAAAAQEAAC8AAAAEAAAAAwMAAAABAADY
+					AAAAAQIAAGNhNjQzMWM4ODMwMmE2Mjg3NzFh
+					NzFmZDkyN2I4ZWMxZGNjMTAxOGQ7MDAwMDAw
+					MDA7MDAwMDAwMDAwMDAwMDAyMDtjb20uYXBw
+					bGUuYXBwLXNhbmRib3gucmVhZC13cml0ZTsw
+					MDAwMDAwMTswZTAwMDAwMjswMDAwMDAwMDAw
+					NjIzOGExOy91c2Vycy9kZXZlbG9wZXIvZGVz
+					a3RvcC9tYWduZXQgcmVzb3VyY2VzL2FuaW1h
+					dG9ucy9tYWduZXRzL21hZ25ldF9lZmZlY3Rf
+					MDkucG5nAOQAAAD+////AQAAAAAAAAASAAAA
+					BBAAAJAAAAAAAAAABRAAACQBAAAAAAAAEBAA
+					AEgBAAAAAAAAVBAAAHABAAAAAAAAVRAAAHwB
+					AAAAAAAAVhAAAGgBAAAAAAAAAiAAACQCAAAA
+					AAAAECAAAKQBAAAAAAAAESAAANgBAAAAAAAA
+					EiAAALgBAAAAAAAAEyAAAMgBAAAAAAAAICAA
+					AAQCAAAAAAAAMCAAAGgBAAAAAAAAAcAAAIgB
+					AAAAAAAAEcAAABQAAAAAAAAAEsAAAJgBAAAA
+					AAAAENAAADACAAAAAAAAgPAAADwCAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array/>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>magnet_sheets</string>
+					<key>SHSpriteName</key>
+					<string>magnet_effect_09</string>
+					<key>SheetImage</key>
+					<string>magnet_magnet_sheets.png</string>
+					<key>SheetImage-HD</key>
+					<string>magnet_magnet_sheets-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{129, 129}, {62, 62}}</string>
+						<key>Frame-HD</key>
+						<string>{{516, 516}, {248, 248}}</string>
+						<key>Image</key>
+						<string>magnet_magnet_sheets.png</string>
+						<key>Image-HD</key>
+						<string>magnet_magnet_sheets-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<false/>
+						<key>Name</key>
+						<string>magnet_effect_09</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/developer/Desktop/magnet resources/Animatons/magnets/magnet_effect_09.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/Animatons/magnets/magnet_effect_09.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {248, 248}}</string>
+						<key>OriginalSize</key>
+						<string>{248, 248}</string>
+						<key>Position</key>
+						<string>{516, 516}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{62, 62}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, 0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>magnet_effect_10</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vazgEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAHAMAAAUA
+					AAABAQAAVXNlcnMAAAAJAAAAAQEAAGRldmVs
+					b3BlcgAAAAcAAAABAQAARGVza3RvcAAQAAAA
+					AQEAAG1hZ25ldCByZXNvdXJjZXMJAAAAAQEA
+					AEFuaW1hdG9ucwAAAAcAAAABAQAAbWFnbmV0
+					cwAUAAAAAQEAAG1hZ25ldF9lZmZlY3RfMTAu
+					cG5nHAAAAAEGAAAEAAAAFAAAACgAAAA4AAAA
+					UAAAAGQAAAB0AAAACAAAAAQDAAA/kgAAAAAA
+					AAgAAAAEAwAA81QIAAAAAAAIAAAABAMAAP5U
+					CAAAAAAACAAAAAQDAADTXE4AAAAAAAgAAAAE
+					AwAAOAFiAAAAAAAIAAAABAMAAI4hYgAAAAAA
+					CAAAAAQDAACiOGIAAAAAABwAAAABBgAAtAAA
+					AMQAAADUAAAA5AAAAPQAAAAEAQAAFAEAABgA
+					AAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAA
+					AAAAAAAAAAEFAAAEAAAAAwMAAAMAAAAEAAAA
+					AwMAAAQAAAAIAAAABAMAAAUAAAAAAAAABAAA
+					AAMDAAD2AQAADAAAAAEBAABNYWNpbnRvc2gg
+					SEQIAAAABAMAAACAgT10AAAACAAAAAAEAABB
+					sZE9GwAAACQAAAABAQAAM0JGQkVBMTAtQjE1
+					RS0zQUJBLTk3OEQtMTg2OURDNkM2N0QzGAAA
+					AAECAACBAAAAAQAIAO8/AAABAAgAAAAAAAAA
+					AAABAAAAAQEAAC8AAAAEAAAAAwMAAAABAADY
+					AAAAAQIAAGVkYmI4MWJkMDhmYTkxMTc4ODk4
+					OTZhOGRmNmEyYjUwNDE1MDdhMmQ7MDAwMDAw
+					MDA7MDAwMDAwMDAwMDAwMDAyMDtjb20uYXBw
+					bGUuYXBwLXNhbmRib3gucmVhZC13cml0ZTsw
+					MDAwMDAwMTswZTAwMDAwMjswMDAwMDAwMDAw
+					NjIzOGEyOy91c2Vycy9kZXZlbG9wZXIvZGVz
+					a3RvcC9tYWduZXQgcmVzb3VyY2VzL2FuaW1h
+					dG9ucy9tYWduZXRzL21hZ25ldF9lZmZlY3Rf
+					MTAucG5nAOQAAAD+////AQAAAAAAAAASAAAA
+					BBAAAJAAAAAAAAAABRAAACQBAAAAAAAAEBAA
+					AEgBAAAAAAAAVBAAAHABAAAAAAAAVRAAAHwB
+					AAAAAAAAVhAAAGgBAAAAAAAAAiAAACQCAAAA
+					AAAAECAAAKQBAAAAAAAAESAAANgBAAAAAAAA
+					EiAAALgBAAAAAAAAEyAAAMgBAAAAAAAAICAA
+					AAQCAAAAAAAAMCAAAGgBAAAAAAAAAcAAAIgB
+					AAAAAAAAEcAAABQAAAAAAAAAEsAAAJgBAAAA
+					AAAAENAAADACAAAAAAAAgPAAADwCAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array/>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>magnet_sheets</string>
+					<key>SHSpriteName</key>
+					<string>magnet_effect_10</string>
+					<key>SheetImage</key>
+					<string>magnet_magnet_sheets.png</string>
+					<key>SheetImage-HD</key>
+					<string>magnet_magnet_sheets-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{65, 194}, {62, 62}}</string>
+						<key>Frame-HD</key>
+						<string>{{260, 776}, {248, 248}}</string>
+						<key>Image</key>
+						<string>magnet_magnet_sheets.png</string>
+						<key>Image-HD</key>
+						<string>magnet_magnet_sheets-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<false/>
+						<key>Name</key>
+						<string>magnet_effect_10</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/developer/Desktop/magnet resources/Animatons/magnets/magnet_effect_10.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/Animatons/magnets/magnet_effect_10.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {248, 248}}</string>
+						<key>OriginalSize</key>
+						<string>{248, 248}</string>
+						<key>Position</key>
+						<string>{260, 776}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{62, 62}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, 0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>magnet_five</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vazAEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAFAMAAAUA
+					AAABAQAAVXNlcnMAAAAJAAAAAQEAAGRldmVs
+					b3BlcgAAAAcAAAABAQAARGVza3RvcAAQAAAA
+					AQEAAG1hZ25ldCByZXNvdXJjZXMJAAAAAQEA
+					AEFuaW1hdG9ucwAAAAcAAAABAQAAbWFnbmV0
+					cwAPAAAAAQEAAG1hZ25ldF9maXZlLnBuZwAc
+					AAAAAQYAAAQAAAAUAAAAKAAAADgAAABQAAAA
+					ZAAAAHQAAAAIAAAABAMAAD+SAAAAAAAACAAA
+					AAQDAADzVAgAAAAAAAgAAAAEAwAA/lQIAAAA
+					AAAIAAAABAMAANNcTgAAAAAACAAAAAQDAAA4
+					AWIAAAAAAAgAAAAEAwAAjiFiAAAAAAAIAAAA
+					BAMAAJshYgAAAAAAHAAAAAEGAACwAAAAwAAA
+					ANAAAADgAAAA8AAAAAABAAAQAQAAGAAAAAEC
+					AAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAA
+					AAAAAQUAAAQAAAADAwAAAwAAAAQAAAADAwAA
+					BAAAAAgAAAAEAwAABQAAAAAAAAAEAAAAAwMA
+					APYBAAAMAAAAAQEAAE1hY2ludG9zaCBIRAgA
+					AAAEAwAAAICBPXQAAAAIAAAAAAQAAEGxkT0b
+					AAAAJAAAAAEBAAAzQkZCRUExMC1CMTVFLTNB
+					QkEtOTc4RC0xODY5REM2QzY3RDMYAAAAAQIA
+					AIEAAAABAAgA7z8AAAEACAAAAAAAAAAAAAEA
+					AAABAQAALwAAAAQAAAADAwAAAAEAANMAAAAB
+					AgAAMDlkNDc5MzNjMTI4NzU5YmRhNjlmMmFl
+					M2QwNTE4OGY0MjlkYjc5OTswMDAwMDAwMDsw
+					MDAwMDAwMDAwMDAwMDIwO2NvbS5hcHBsZS5h
+					cHAtc2FuZGJveC5yZWFkLXdyaXRlOzAwMDAw
+					MDAxOzBlMDAwMDAyOzAwMDAwMDAwMDA2MjIx
+					OWI7L3VzZXJzL2RldmVsb3Blci9kZXNrdG9w
+					L21hZ25ldCByZXNvdXJjZXMvYW5pbWF0b25z
+					L21hZ25ldHMvbWFnbmV0X2ZpdmUucG5nAADk
+					AAAA/v///wEAAAAAAAAAEgAAAAQQAACMAAAA
+					AAAAAAUQAAAgAQAAAAAAABAQAABEAQAAAAAA
+					AFQQAABsAQAAAAAAAFUQAAB4AQAAAAAAAFYQ
+					AABkAQAAAAAAAAIgAAAgAgAAAAAAABAgAACg
+					AQAAAAAAABEgAADUAQAAAAAAABIgAAC0AQAA
+					AAAAABMgAADEAQAAAAAAACAgAAAAAgAAAAAA
+					ADAgAABkAQAAAAAAAAHAAACEAQAAAAAAABHA
+					AAAUAAAAAAAAABLAAACUAQAAAAAAABDQAAAs
+					AgAAAAAAAIDwAAA4AgAAAAAAAA==
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>1</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-11.25, -16.875}</string>
+										<string>{-10.75, -17.149999999999999}</string>
+										<string>{10.5, -17.125}</string>
+									</array>
+									<array>
+										<string>{-12.25, -15.875}</string>
+										<string>{-11.25, -16.875}</string>
+										<string>{10.5, -17.125}</string>
+									</array>
+									<array>
+										<string>{-12.5, -15.375}</string>
+										<string>{-12.25, -15.875}</string>
+										<string>{10.5, -17.125}</string>
+									</array>
+									<array>
+										<string>{-18.25, 2.375}</string>
+										<string>{-12.5, -15.375}</string>
+										<string>{10.5, -17.125}</string>
+									</array>
+									<array>
+										<string>{-18.25, 2.375}</string>
+										<string>{10.5, -17.125}</string>
+										<string>{11, -16.875}</string>
+									</array>
+									<array>
+										<string>{-18.25, 2.375}</string>
+										<string>{11, -16.875}</string>
+										<string>{12, -15.875}</string>
+									</array>
+									<array>
+										<string>{-18.25, 2.375}</string>
+										<string>{12, -15.875}</string>
+										<string>{12.25, -15.375}</string>
+									</array>
+									<array>
+										<string>{-18.25, 2.375}</string>
+										<string>{12.25, -15.375}</string>
+										<string>{18.024999999999999, 2.375}</string>
+									</array>
+									<array>
+										<string>{-18.25, 2.375}</string>
+										<string>{18.024999999999999, 2.375}</string>
+										<string>{18, 4.625}</string>
+									</array>
+									<array>
+										<string>{-18.25, 2.375}</string>
+										<string>{18, 4.625}</string>
+										<string>{17.5, 5.625}</string>
+									</array>
+									<array>
+										<string>{-18.25, 2.375}</string>
+										<string>{17.5, 5.625}</string>
+										<string>{17.25, 5.875}</string>
+									</array>
+									<array>
+										<string>{-18.25, 2.375}</string>
+										<string>{17.25, 5.875}</string>
+										<string>{2.75, 16.375}</string>
+									</array>
+									<array>
+										<string>{-18.225000000000001, 4.625}</string>
+										<string>{-18.25, 2.375}</string>
+										<string>{2.75, 16.375}</string>
+									</array>
+									<array>
+										<string>{-17.75, 5.625}</string>
+										<string>{-18.225000000000001, 4.625}</string>
+										<string>{2.75, 16.375}</string>
+									</array>
+									<array>
+										<string>{-17.5, 5.875}</string>
+										<string>{-17.75, 5.625}</string>
+										<string>{2.75, 16.375}</string>
+									</array>
+									<array>
+										<string>{-3, 16.375}</string>
+										<string>{-17.5, 5.875}</string>
+										<string>{2.75, 16.375}</string>
+									</array>
+									<array>
+										<string>{-2.25, 16.875}</string>
+										<string>{-3, 16.375}</string>
+										<string>{2.75, 16.375}</string>
+									</array>
+									<array>
+										<string>{-2.25, 16.875}</string>
+										<string>{2.75, 16.375}</string>
+										<string>{2, 16.875}</string>
+									</array>
+									<array>
+										<string>{-2.25, 16.875}</string>
+										<string>{2, 16.875}</string>
+										<string>{1, 17.350000000000001}</string>
+									</array>
+									<array>
+										<string>{-1.25, 17.375}</string>
+										<string>{-2.25, 16.875}</string>
+										<string>{1, 17.350000000000001}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.0</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>0.0</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<false/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>0.0</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-18.25, -17.375}</string>
+								<key>LHWidth</key>
+								<real>0.0</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.0</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{0.099999999999994316, 51}</string>
+									<string>{2, 47}</string>
+									<string>{3, 46}</string>
+									<string>{61, 4}</string>
+									<string>{64, 2}</string>
+									<string>{68, 0}</string>
+									<string>{77, 0.099999999999994316}</string>
+									<string>{81, 2}</string>
+									<string>{84, 4}</string>
+									<string>{142, 46}</string>
+									<string>{143, 47}</string>
+									<string>{145, 51}</string>
+									<string>{145.09999999999999, 60}</string>
+									<string>{122, 131}</string>
+									<string>{121, 133}</string>
+									<string>{117, 137}</string>
+									<string>{115, 138}</string>
+									<string>{30, 138.09999999999999}</string>
+									<string>{28, 137}</string>
+									<string>{24, 133}</string>
+									<string>{23, 131}</string>
+									<string>{0, 60}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>magnet_sheets</string>
+					<key>SHSpriteName</key>
+					<string>magnet_five</string>
+					<key>SheetImage</key>
+					<string>magnet_magnet_sheets.png</string>
+					<key>SheetImage-HD</key>
+					<string>magnet_magnet_sheets-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{129, 194}, {36.5, 34.75}}</string>
+						<key>Frame-HD</key>
+						<string>{{516, 776}, {146, 139}}</string>
+						<key>Image</key>
+						<string>magnet_magnet_sheets.png</string>
+						<key>Image-HD</key>
+						<string>magnet_magnet_sheets-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<false/>
+						<key>Name</key>
+						<string>magnet_five</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/developer/Desktop/magnet resources/Animatons/magnets/magnet_five.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/Animatons/magnets/magnet_five.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {146, 139}}</string>
+						<key>OriginalSize</key>
+						<string>{146, 139}</string>
+						<key>Position</key>
+						<string>{516, 776}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{36.5, 34.75}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>2</integer>
+						<key>TextureOffset</key>
+						<string>{0, 0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>magnet_range_blue</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va0AEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAJAMAAAUA
+					AAABAQAAVXNlcnMAAAAJAAAAAQEAAGRldmVs
+					b3BlcgAAAAcAAAABAQAARGVza3RvcAAQAAAA
+					AQEAAG1hZ25ldCByZXNvdXJjZXMJAAAAAQEA
+					AEFuaW1hdG9ucwAAAAcAAAABAQAAbWFnbmV0
+					cwAVAAAAAQEAAG1hZ25ldF9yYW5nZV9ibHVl
+					LnBuZwAAABwAAAABBgAABAAAABQAAAAoAAAA
+					OAAAAFAAAABkAAAAdAAAAAgAAAAEAwAAP5IA
+					AAAAAAAIAAAABAMAAPNUCAAAAAAACAAAAAQD
+					AAD+VAgAAAAAAAgAAAAEAwAA01xOAAAAAAAI
+					AAAABAMAADgBYgAAAAAACAAAAAQDAACOIWIA
+					AAAAAAgAAAAEAwAAnCFiAAAAAAAcAAAAAQYA
+					ALgAAADIAAAA2AAAAOgAAAD4AAAACAEAABgB
+					AAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAA
+					AAAAAAAAAAAAAAABBQAABAAAAAMDAAADAAAA
+					BAAAAAMDAAAEAAAACAAAAAQDAAAFAAAAAAAA
+					AAQAAAADAwAA9gEAAAwAAAABAQAATWFjaW50
+					b3NoIEhECAAAAAQDAAAAgIE9dAAAAAgAAAAA
+					BAAAQbGRPRsAAAAkAAAAAQEAADNCRkJFQTEw
+					LUIxNUUtM0FCQS05NzhELTE4NjlEQzZDNjdE
+					MxgAAAABAgAAgQAAAAEACADvPwAAAQAIAAAA
+					AAAAAAAAAQAAAAEBAAAvAAAABAAAAAMDAAAA
+					AQAA2QAAAAECAAA2MmY4MGIzYTQ5OGVmNDYx
+					NTY0MDRhNTljOWQyYTczMzQ4Nzk4YjhiOzAw
+					MDAwMDAwOzAwMDAwMDAwMDAwMDAwMjA7Y29t
+					LmFwcGxlLmFwcC1zYW5kYm94LnJlYWQtd3Jp
+					dGU7MDAwMDAwMDE7MGUwMDAwMDI7MDAwMDAw
+					MDAwMDYyMjE5YzsvdXNlcnMvZGV2ZWxvcGVy
+					L2Rlc2t0b3AvbWFnbmV0IHJlc291cmNlcy9h
+					bmltYXRvbnMvbWFnbmV0cy9tYWduZXRfcmFu
+					Z2VfYmx1ZS5wbmcAAAAA5AAAAP7///8BAAAA
+					AAAAABIAAAAEEAAAlAAAAAAAAAAFEAAAKAEA
+					AAAAAAAQEAAATAEAAAAAAABUEAAAdAEAAAAA
+					AABVEAAAgAEAAAAAAABWEAAAbAEAAAAAAAAC
+					IAAAKAIAAAAAAAAQIAAAqAEAAAAAAAARIAAA
+					3AEAAAAAAAASIAAAvAEAAAAAAAATIAAAzAEA
+					AAAAAAAgIAAACAIAAAAAAAAwIAAAbAEAAAAA
+					AAABwAAAjAEAAAAAAAARwAAAFAAAAAAAAAAS
+					wAAAnAEAAAAAAAAQ0AAANAIAAAAAAACA8AAA
+					QAIAAAAAAAA=
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.0</real>
+								<key>Fixture</key>
+								<array>
+									<array/>
+								</array>
+								<key>Friction</key>
+								<real>0.0</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>248</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<true/>
+								<key>IsRectangle</key>
+								<false/>
+								<key>IsSensor</key>
+								<true/>
+								<key>LHHeight</key>
+								<real>62</real>
+								<key>LHShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>LHWidth</key>
+								<real>62</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.0</real>
+								<key>ShapePoints</key>
+								<array/>
+								<key>ShapePositionOffset</key>
+								<string>{124, 124}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>248</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>2</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>magnet_sheets</string>
+					<key>SHSpriteName</key>
+					<string>magnet_range_blue</string>
+					<key>SheetImage</key>
+					<string>magnet_magnet_sheets.png</string>
+					<key>SheetImage-HD</key>
+					<string>magnet_magnet_sheets-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{129, 0}, {62, 62}}</string>
+						<key>Frame-HD</key>
+						<string>{{516, 0}, {248, 248}}</string>
+						<key>Image</key>
+						<string>magnet_magnet_sheets.png</string>
+						<key>Image-HD</key>
+						<string>magnet_magnet_sheets-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<false/>
+						<key>Name</key>
+						<string>magnet_range_blue</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/developer/Desktop/magnet resources/Animatons/magnets/magnet_range_blue.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/Animatons/magnets/magnet_range_blue.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {248, 248}}</string>
+						<key>OriginalSize</key>
+						<string>{248, 248}</string>
+						<key>Position</key>
+						<string>{516, 0}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{62, 62}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>3</integer>
+						<key>TextureOffset</key>
+						<string>{0, 0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>magnet_range_gray</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va0AEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAJAMAAAUA
+					AAABAQAAVXNlcnMAAAAJAAAAAQEAAGRldmVs
+					b3BlcgAAAAcAAAABAQAARGVza3RvcAAQAAAA
+					AQEAAG1hZ25ldCByZXNvdXJjZXMJAAAAAQEA
+					AEFuaW1hdG9ucwAAAAcAAAABAQAAbWFnbmV0
+					cwAVAAAAAQEAAG1hZ25ldF9yYW5nZV9ncmF5
+					LnBuZwAAABwAAAABBgAABAAAABQAAAAoAAAA
+					OAAAAFAAAABkAAAAdAAAAAgAAAAEAwAAP5IA
+					AAAAAAAIAAAABAMAAPNUCAAAAAAACAAAAAQD
+					AAD+VAgAAAAAAAgAAAAEAwAA01xOAAAAAAAI
+					AAAABAMAADgBYgAAAAAACAAAAAQDAACOIWIA
+					AAAAAAgAAAAEAwAAnSFiAAAAAAAcAAAAAQYA
+					ALgAAADIAAAA2AAAAOgAAAD4AAAACAEAABgB
+					AAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAA
+					AAAAAAAAAAAAAAABBQAABAAAAAMDAAADAAAA
+					BAAAAAMDAAAEAAAACAAAAAQDAAAFAAAAAAAA
+					AAQAAAADAwAA9gEAAAwAAAABAQAATWFjaW50
+					b3NoIEhECAAAAAQDAAAAgIE9dAAAAAgAAAAA
+					BAAAQbGRPRsAAAAkAAAAAQEAADNCRkJFQTEw
+					LUIxNUUtM0FCQS05NzhELTE4NjlEQzZDNjdE
+					MxgAAAABAgAAgQAAAAEACADvPwAAAQAIAAAA
+					AAAAAAAAAQAAAAEBAAAvAAAABAAAAAMDAAAA
+					AQAA2QAAAAECAAA2ZmUyMTZiNzlhNDBkYTBj
+					M2FkMjk2YzdjNTRhOWFiYmY5NjgzNGNlOzAw
+					MDAwMDAwOzAwMDAwMDAwMDAwMDAwMjA7Y29t
+					LmFwcGxlLmFwcC1zYW5kYm94LnJlYWQtd3Jp
+					dGU7MDAwMDAwMDE7MGUwMDAwMDI7MDAwMDAw
+					MDAwMDYyMjE5ZDsvdXNlcnMvZGV2ZWxvcGVy
+					L2Rlc2t0b3AvbWFnbmV0IHJlc291cmNlcy9h
+					bmltYXRvbnMvbWFnbmV0cy9tYWduZXRfcmFu
+					Z2VfZ3JheS5wbmcAAAAA5AAAAP7///8BAAAA
+					AAAAABIAAAAEEAAAlAAAAAAAAAAFEAAAKAEA
+					AAAAAAAQEAAATAEAAAAAAABUEAAAdAEAAAAA
+					AABVEAAAgAEAAAAAAABWEAAAbAEAAAAAAAAC
+					IAAAKAIAAAAAAAAQIAAAqAEAAAAAAAARIAAA
+					3AEAAAAAAAASIAAAvAEAAAAAAAATIAAAzAEA
+					AAAAAAAgIAAACAIAAAAAAAAwIAAAbAEAAAAA
+					AAABwAAAjAEAAAAAAAARwAAAFAAAAAAAAAAS
+					wAAAnAEAAAAAAAAQ0AAANAIAAAAAAACA8AAA
+					QAIAAAAAAAA=
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.0</real>
+								<key>Fixture</key>
+								<array>
+									<array/>
+								</array>
+								<key>Friction</key>
+								<real>0.0</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>248</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<true/>
+								<key>IsRectangle</key>
+								<false/>
+								<key>IsSensor</key>
+								<true/>
+								<key>LHHeight</key>
+								<real>62</real>
+								<key>LHShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>LHWidth</key>
+								<real>62</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.0</real>
+								<key>ShapePoints</key>
+								<array/>
+								<key>ShapePositionOffset</key>
+								<string>{124, 124}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>248</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>2</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>magnet_sheets</string>
+					<key>SHSpriteName</key>
+					<string>magnet_range_gray</string>
+					<key>SheetImage</key>
+					<string>magnet_magnet_sheets.png</string>
+					<key>SheetImage-HD</key>
+					<string>magnet_magnet_sheets-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{65, 0}, {62, 62}}</string>
+						<key>Frame-HD</key>
+						<string>{{260, 0}, {248, 248}}</string>
+						<key>Image</key>
+						<string>magnet_magnet_sheets.png</string>
+						<key>Image-HD</key>
+						<string>magnet_magnet_sheets-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<false/>
+						<key>Name</key>
+						<string>magnet_range_gray</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/developer/Desktop/magnet resources/Animatons/magnets/magnet_range_gray.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/Animatons/magnets/magnet_range_gray.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {248, 248}}</string>
+						<key>OriginalSize</key>
+						<string>{248, 248}</string>
+						<key>Position</key>
+						<string>{260, 0}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{62, 62}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>3</integer>
+						<key>TextureOffset</key>
+						<string>{0, 0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>magnet_range_red</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vazgEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAHAMAAAUA
+					AAABAQAAVXNlcnMAAAAJAAAAAQEAAGRldmVs
+					b3BlcgAAAAcAAAABAQAARGVza3RvcAAQAAAA
+					AQEAAG1hZ25ldCByZXNvdXJjZXMJAAAAAQEA
+					AEFuaW1hdG9ucwAAAAcAAAABAQAAbWFnbmV0
+					cwAUAAAAAQEAAG1hZ25ldF9yYW5nZV9yZWQu
+					cG5nHAAAAAEGAAAEAAAAFAAAACgAAAA4AAAA
+					UAAAAGQAAAB0AAAACAAAAAQDAAA/kgAAAAAA
+					AAgAAAAEAwAA81QIAAAAAAAIAAAABAMAAP5U
+					CAAAAAAACAAAAAQDAADTXE4AAAAAAAgAAAAE
+					AwAAOAFiAAAAAAAIAAAABAMAAI4hYgAAAAAA
+					CAAAAAQDAACeIWIAAAAAABwAAAABBgAAtAAA
+					AMQAAADUAAAA5AAAAPQAAAAEAQAAFAEAABgA
+					AAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAA
+					AAAAAAAAAAEFAAAEAAAAAwMAAAMAAAAEAAAA
+					AwMAAAQAAAAIAAAABAMAAAUAAAAAAAAABAAA
+					AAMDAAD2AQAADAAAAAEBAABNYWNpbnRvc2gg
+					SEQIAAAABAMAAACAgT10AAAACAAAAAAEAABB
+					sZE9GwAAACQAAAABAQAAM0JGQkVBMTAtQjE1
+					RS0zQUJBLTk3OEQtMTg2OURDNkM2N0QzGAAA
+					AAECAACBAAAAAQAIAO8/AAABAAgAAAAAAAAA
+					AAABAAAAAQEAAC8AAAAEAAAAAwMAAAABAADY
+					AAAAAQIAADhhNDk0NTMwZjEyODA0ODY0ZjQ4
+					NGUzNjU4MjBlYmMyNjY5MTE0NzI7MDAwMDAw
+					MDA7MDAwMDAwMDAwMDAwMDAyMDtjb20uYXBw
+					bGUuYXBwLXNhbmRib3gucmVhZC13cml0ZTsw
+					MDAwMDAwMTswZTAwMDAwMjswMDAwMDAwMDAw
+					NjIyMTllOy91c2Vycy9kZXZlbG9wZXIvZGVz
+					a3RvcC9tYWduZXQgcmVzb3VyY2VzL2FuaW1h
+					dG9ucy9tYWduZXRzL21hZ25ldF9yYW5nZV9y
+					ZWQucG5nAOQAAAD+////AQAAAAAAAAASAAAA
+					BBAAAJAAAAAAAAAABRAAACQBAAAAAAAAEBAA
+					AEgBAAAAAAAAVBAAAHABAAAAAAAAVRAAAHwB
+					AAAAAAAAVhAAAGgBAAAAAAAAAiAAACQCAAAA
+					AAAAECAAAKQBAAAAAAAAESAAANgBAAAAAAAA
+					EiAAALgBAAAAAAAAEyAAAMgBAAAAAAAAICAA
+					AAQCAAAAAAAAMCAAAGgBAAAAAAAAAcAAAIgB
+					AAAAAAAAEcAAABQAAAAAAAAAEsAAAJgBAAAA
+					AAAAENAAADACAAAAAAAAgPAAADwCAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.0</real>
+								<key>Fixture</key>
+								<array>
+									<array/>
+								</array>
+								<key>Friction</key>
+								<real>0.0</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>248</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<true/>
+								<key>IsRectangle</key>
+								<false/>
+								<key>IsSensor</key>
+								<true/>
+								<key>LHHeight</key>
+								<real>62</real>
+								<key>LHShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>LHWidth</key>
+								<real>62</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.0</real>
+								<key>ShapePoints</key>
+								<array/>
+								<key>ShapePositionOffset</key>
+								<string>{124, 124}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>248</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>2</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>magnet_sheets</string>
+					<key>SHSpriteName</key>
+					<string>magnet_range_red</string>
+					<key>SheetImage</key>
+					<string>magnet_magnet_sheets.png</string>
+					<key>SheetImage-HD</key>
+					<string>magnet_magnet_sheets-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{0, 0}, {62, 62}}</string>
+						<key>Frame-HD</key>
+						<string>{{0, 0}, {248, 248}}</string>
+						<key>Image</key>
+						<string>magnet_magnet_sheets.png</string>
+						<key>Image-HD</key>
+						<string>magnet_magnet_sheets-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<false/>
+						<key>Name</key>
+						<string>magnet_range_red</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/developer/Desktop/magnet resources/Animatons/magnets/magnet_range_red.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/Animatons/magnets/magnet_range_red.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {248, 248}}</string>
+						<key>OriginalSize</key>
+						<string>{248, 248}</string>
+						<key>Position</key>
+						<string>{0, 0}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{62, 62}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>3</integer>
+						<key>TextureOffset</key>
+						<string>{0, 0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>magnet_three</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vazAEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAFAMAAAUA
+					AAABAQAAVXNlcnMAAAAJAAAAAQEAAGRldmVs
+					b3BlcgAAAAcAAAABAQAARGVza3RvcAAQAAAA
+					AQEAAG1hZ25ldCByZXNvdXJjZXMJAAAAAQEA
+					AEFuaW1hdG9ucwAAAAcAAAABAQAAbWFnbmV0
+					cwAQAAAAAQEAAG1hZ25ldF90aHJlZS5wbmcc
+					AAAAAQYAAAQAAAAUAAAAKAAAADgAAABQAAAA
+					ZAAAAHQAAAAIAAAABAMAAD+SAAAAAAAACAAA
+					AAQDAADzVAgAAAAAAAgAAAAEAwAA/lQIAAAA
+					AAAIAAAABAMAANNcTgAAAAAACAAAAAQDAAA4
+					AWIAAAAAAAgAAAAEAwAAjiFiAAAAAAAIAAAA
+					BAMAAJ8hYgAAAAAAHAAAAAEGAACwAAAAwAAA
+					ANAAAADgAAAA8AAAAAABAAAQAQAAGAAAAAEC
+					AAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAA
+					AAAAAQUAAAQAAAADAwAAAwAAAAQAAAADAwAA
+					BAAAAAgAAAAEAwAABQAAAAAAAAAEAAAAAwMA
+					APYBAAAMAAAAAQEAAE1hY2ludG9zaCBIRAgA
+					AAAEAwAAAICBPXQAAAAIAAAAAAQAAEGxkT0b
+					AAAAJAAAAAEBAAAzQkZCRUExMC1CMTVFLTNB
+					QkEtOTc4RC0xODY5REM2QzY3RDMYAAAAAQIA
+					AIEAAAABAAgA7z8AAAEACAAAAAAAAAAAAAEA
+					AAABAQAALwAAAAQAAAADAwAAAAEAANQAAAAB
+					AgAAMWM0MmY0MTg4Y2Y2ZDExMGFjNGVjM2M1
+					M2E0YzNjYzEwNGJkNTlkNTswMDAwMDAwMDsw
+					MDAwMDAwMDAwMDAwMDIwO2NvbS5hcHBsZS5h
+					cHAtc2FuZGJveC5yZWFkLXdyaXRlOzAwMDAw
+					MDAxOzBlMDAwMDAyOzAwMDAwMDAwMDA2MjIx
+					OWY7L3VzZXJzL2RldmVsb3Blci9kZXNrdG9w
+					L21hZ25ldCByZXNvdXJjZXMvYW5pbWF0b25z
+					L21hZ25ldHMvbWFnbmV0X3RocmVlLnBuZwDk
+					AAAA/v///wEAAAAAAAAAEgAAAAQQAACMAAAA
+					AAAAAAUQAAAgAQAAAAAAABAQAABEAQAAAAAA
+					AFQQAABsAQAAAAAAAFUQAAB4AQAAAAAAAFYQ
+					AABkAQAAAAAAAAIgAAAgAgAAAAAAABAgAACg
+					AQAAAAAAABEgAADUAQAAAAAAABIgAAC0AQAA
+					AAAAABMgAADEAQAAAAAAACAgAAAAAgAAAAAA
+					ADAgAABkAQAAAAAAAAHAAACEAQAAAAAAABHA
+					AAAUAAAAAAAAABLAAACUAQAAAAAAABDQAAAs
+					AgAAAAAAAIDwAAA4AgAAAAAAAA==
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>1</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{14.25, -14.125}</string>
+										<string>{16.024999999999999, -12.375}</string>
+										<string>{16, -10.125}</string>
+									</array>
+									<array>
+										<string>{-14.5, -14.149999999999999}</string>
+										<string>{14.25, -14.125}</string>
+										<string>{16, -10.125}</string>
+									</array>
+									<array>
+										<string>{-14.5, -14.149999999999999}</string>
+										<string>{16, -10.125}</string>
+										<string>{15, -8.125}</string>
+									</array>
+									<array>
+										<string>{-14.5, -14.149999999999999}</string>
+										<string>{15, -8.125}</string>
+										<string>{2.75, 12.875}</string>
+									</array>
+									<array>
+										<string>{-16.25, -12.375}</string>
+										<string>{-14.5, -14.149999999999999}</string>
+										<string>{2.75, 12.875}</string>
+									</array>
+									<array>
+										<string>{-16.225000000000001, -9.875}</string>
+										<string>{-16.25, -12.375}</string>
+										<string>{2.75, 12.875}</string>
+									</array>
+									<array>
+										<string>{-2.5, 13.625}</string>
+										<string>{-16.225000000000001, -9.875}</string>
+										<string>{2.75, 12.875}</string>
+									</array>
+									<array>
+										<string>{-1.25, 14.375}</string>
+										<string>{-2.5, 13.625}</string>
+										<string>{2.75, 12.875}</string>
+									</array>
+									<array>
+										<string>{1, 14.35}</string>
+										<string>{-1.25, 14.375}</string>
+										<string>{2.75, 12.875}</string>
+									</array>
+									<array>
+										<string>{2, 13.875}</string>
+										<string>{1, 14.35}</string>
+										<string>{2.75, 12.875}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.0</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>0.0</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<false/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>0.0</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-16.25, -14.375}</string>
+								<key>LHWidth</key>
+								<real>0.0</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.0</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{0.099999999999994316, 97}</string>
+									<string>{55, 3}</string>
+									<string>{60, 0}</string>
+									<string>{69, 0.10000000000000142}</string>
+									<string>{73, 2}</string>
+									<string>{76, 6}</string>
+									<string>{125, 90}</string>
+									<string>{129, 98}</string>
+									<string>{129.09999999999999, 107}</string>
+									<string>{122, 114}</string>
+									<string>{7, 114.09999999999999}</string>
+									<string>{0, 107}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>magnet_sheets</string>
+					<key>SHSpriteName</key>
+					<string>magnet_three</string>
+					<key>SheetImage</key>
+					<string>magnet_magnet_sheets.png</string>
+					<key>SheetImage-HD</key>
+					<string>magnet_magnet_sheets-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{203, 194}, {32.5, 28.75}}</string>
+						<key>Frame-HD</key>
+						<string>{{812, 776}, {130, 115}}</string>
+						<key>Image</key>
+						<string>magnet_magnet_sheets.png</string>
+						<key>Image-HD</key>
+						<string>magnet_magnet_sheets-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<false/>
+						<key>Name</key>
+						<string>magnet_three</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/developer/Desktop/magnet resources/Animatons/magnets/magnet_three.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/Animatons/magnets/magnet_three.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {130, 115}}</string>
+						<key>OriginalSize</key>
+						<string>{130, 115}</string>
+						<key>Position</key>
+						<string>{812, 776}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{32.5, 28.75}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>2</integer>
+						<key>TextureOffset</key>
+						<string>{0, 0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>star_pick</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9vazAEAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAFAMAAAUA
+					AAABAQAAVXNlcnMAAAAJAAAAAQEAAGRldmVs
+					b3BlcgAAAAcAAAABAQAARGVza3RvcAAQAAAA
+					AQEAAG1hZ25ldCByZXNvdXJjZXMJAAAAAQEA
+					AEFuaW1hdG9ucwAAAAcAAAABAQAAbWFnbmV0
+					cwANAAAAAQEAAHN0YXJfcGljay5wbmcAAAAc
+					AAAAAQYAAAQAAAAUAAAAKAAAADgAAABQAAAA
+					ZAAAAHQAAAAIAAAABAMAAD+SAAAAAAAACAAA
+					AAQDAADzVAgAAAAAAAgAAAAEAwAA/lQIAAAA
+					AAAIAAAABAMAANNcTgAAAAAACAAAAAQDAAA4
+					AWIAAAAAAAgAAAAEAwAAjiFiAAAAAAAIAAAA
+					BAMAAL4hYgAAAAAAHAAAAAEGAACwAAAAwAAA
+					ANAAAADgAAAA8AAAAAABAAAQAQAAGAAAAAEC
+					AAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAA
+					AAAAAQUAAAQAAAADAwAAAwAAAAQAAAADAwAA
+					BAAAAAgAAAAEAwAABQAAAAAAAAAEAAAAAwMA
+					APYBAAAMAAAAAQEAAE1hY2ludG9zaCBIRAgA
+					AAAEAwAAAICBPXQAAAAIAAAAAAQAAEGxkT0b
+					AAAAJAAAAAEBAAAzQkZCRUExMC1CMTVFLTNB
+					QkEtOTc4RC0xODY5REM2QzY3RDMYAAAAAQIA
+					AIEAAAABAAgA7z8AAAEACAAAAAAAAAAAAAEA
+					AAABAQAALwAAAAQAAAADAwAAAAEAANEAAAAB
+					AgAAN2IzNDZmZWE0NjEwYTdlYzU5Nzc0ODE1
+					MGQ2NGFiN2RkYTUyYWU5MjswMDAwMDAwMDsw
+					MDAwMDAwMDAwMDAwMDIwO2NvbS5hcHBsZS5h
+					cHAtc2FuZGJveC5yZWFkLXdyaXRlOzAwMDAw
+					MDAxOzBlMDAwMDAyOzAwMDAwMDAwMDA2MjIx
+					YmU7L3VzZXJzL2RldmVsb3Blci9kZXNrdG9w
+					L21hZ25ldCByZXNvdXJjZXMvYW5pbWF0b25z
+					L21hZ25ldHMvc3Rhcl9waWNrLnBuZwAAAADk
+					AAAA/v///wEAAAAAAAAAEgAAAAQQAACMAAAA
+					AAAAAAUQAAAgAQAAAAAAABAQAABEAQAAAAAA
+					AFQQAABsAQAAAAAAAFUQAAB4AQAAAAAAAFYQ
+					AABkAQAAAAAAAAIgAAAgAgAAAAAAABAgAACg
+					AQAAAAAAABEgAADUAQAAAAAAABIgAAC0AQAA
+					AAAAABMgAADEAQAAAAAAACAgAAAAAgAAAAAA
+					ADAgAABkAQAAAAAAAAHAAACEAQAAAAAAABHA
+					AAAUAAAAAAAAABLAAACUAQAAAAAAABDQAAAs
+					AgAAAAAAAIDwAAA4AgAAAAAAAA==
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.0</real>
+								<key>Fixture</key>
+								<array>
+									<array/>
+								</array>
+								<key>Friction</key>
+								<real>0.0</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>220</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<true/>
+								<key>IsRectangle</key>
+								<false/>
+								<key>IsSensor</key>
+								<true/>
+								<key>LHHeight</key>
+								<real>55</real>
+								<key>LHShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>LHWidth</key>
+								<real>55</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.0</real>
+								<key>ShapePoints</key>
+								<array/>
+								<key>ShapePositionOffset</key>
+								<string>{110, 110}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>220</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>magnet_sheets</string>
+					<key>SHSpriteName</key>
+					<string>star_pick</string>
+					<key>SheetImage</key>
+					<string>magnet_magnet_sheets.png</string>
+					<key>SheetImage-HD</key>
+					<string>magnet_magnet_sheets-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{194, 129}, {55, 55}}</string>
+						<key>Frame-HD</key>
+						<string>{{776, 516}, {220, 220}}</string>
+						<key>Image</key>
+						<string>magnet_magnet_sheets.png</string>
+						<key>Image-HD</key>
+						<string>magnet_magnet_sheets-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<false/>
+						<key>Name</key>
+						<string>star_pick</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/developer/Desktop/magnet resources/Animatons/magnets/star_pick.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/Animatons/magnets/star_pick.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {220, 220}}</string>
+						<key>OriginalSize</key>
+						<string>{220, 220}</string>
+						<key>Position</key>
+						<string>{776, 516}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{55, 55}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, 0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+			</dict>
+			<key>Size</key>
+			<string>{1024, 1024}</string>
+			<key>Trim</key>
+			<false/>
+			<key>ZOrder</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>SH_ANIMATIONS_LIST</key>
+	<array>
+		<dict>
+			<key>DelayPerUnit</key>
+			<real>0.10000000149011612</real>
+			<key>Frames</key>
+			<array>
+				<dict>
+					<key>Frame</key>
+					<string>{{0, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{0, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_red</string>
+				</dict>
+			</array>
+			<key>Loop</key>
+			<false/>
+			<key>Repetitions</key>
+			<integer>1</integer>
+			<key>RestoreOriginalFrame</key>
+			<false/>
+			<key>SheetImage</key>
+			<string>magnet_magnet_sheets.png</string>
+			<key>SheetName</key>
+			<string>magnet_sheets</string>
+			<key>StartAtLaunch</key>
+			<true/>
+			<key>UniqueName</key>
+			<string>RR_CIRCLE1</string>
+		</dict>
+		<dict>
+			<key>DelayPerUnit</key>
+			<real>0.10000000149011612</real>
+			<key>Frames</key>
+			<array>
+				<dict>
+					<key>Frame</key>
+					<string>{{129, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{516, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_blue</string>
+				</dict>
+			</array>
+			<key>Loop</key>
+			<false/>
+			<key>Repetitions</key>
+			<integer>1</integer>
+			<key>RestoreOriginalFrame</key>
+			<false/>
+			<key>SheetImage</key>
+			<string>magnet_magnet_sheets.png</string>
+			<key>SheetName</key>
+			<string>magnet_sheets</string>
+			<key>StartAtLaunch</key>
+			<true/>
+			<key>UniqueName</key>
+			<string>BB_CIRCLE1</string>
+		</dict>
+		<dict>
+			<key>DelayPerUnit</key>
+			<real>3</real>
+			<key>Frames</key>
+			<array>
+				<dict>
+					<key>Frame</key>
+					<string>{{129, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{516, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_blue</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{0, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{0, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_red</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{129, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{516, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_blue</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{0, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{0, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_red</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{129, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{516, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_blue</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{0, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{0, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_red</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{129, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{516, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_blue</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{0, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{0, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_red</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{129, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{516, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_blue</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{0, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{0, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_red</string>
+				</dict>
+			</array>
+			<key>Loop</key>
+			<true/>
+			<key>Repetitions</key>
+			<integer>1</integer>
+			<key>RestoreOriginalFrame</key>
+			<false/>
+			<key>SheetImage</key>
+			<string>magnet_magnet_sheets.png</string>
+			<key>SheetName</key>
+			<string>magnet_sheets</string>
+			<key>StartAtLaunch</key>
+			<true/>
+			<key>UniqueName</key>
+			<string>BR_CIRCLE1</string>
+		</dict>
+		<dict>
+			<key>DelayPerUnit</key>
+			<real>3</real>
+			<key>Frames</key>
+			<array>
+				<dict>
+					<key>Frame</key>
+					<string>{{129, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{516, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_blue</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{65, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{260, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_gray</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{129, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{516, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_blue</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{65, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{260, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_gray</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{129, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{516, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_blue</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{65, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{260, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_gray</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{129, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{516, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_blue</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{65, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{260, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_gray</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{129, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{516, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_blue</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{65, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{260, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_gray</string>
+				</dict>
+			</array>
+			<key>Loop</key>
+			<true/>
+			<key>Repetitions</key>
+			<integer>1</integer>
+			<key>RestoreOriginalFrame</key>
+			<false/>
+			<key>SheetImage</key>
+			<string>magnet_magnet_sheets.png</string>
+			<key>SheetName</key>
+			<string>magnet_sheets</string>
+			<key>StartAtLaunch</key>
+			<true/>
+			<key>UniqueName</key>
+			<string>BZ_CIRCLE1</string>
+		</dict>
+		<dict>
+			<key>DelayPerUnit</key>
+			<real>3</real>
+			<key>Frames</key>
+			<array>
+				<dict>
+					<key>Frame</key>
+					<string>{{0, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{0, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_red</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{65, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{260, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_gray</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{0, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{0, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_red</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{65, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{260, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_gray</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{0, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{0, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_red</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{65, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{260, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_gray</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{0, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{0, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_red</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{65, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{260, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_gray</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{0, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{0, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_red</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{65, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{260, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_gray</string>
+				</dict>
+			</array>
+			<key>Loop</key>
+			<true/>
+			<key>Repetitions</key>
+			<integer>1</integer>
+			<key>RestoreOriginalFrame</key>
+			<false/>
+			<key>SheetImage</key>
+			<string>magnet_magnet_sheets.png</string>
+			<key>SheetName</key>
+			<string>magnet_sheets</string>
+			<key>StartAtLaunch</key>
+			<true/>
+			<key>UniqueName</key>
+			<string>RZ_CIRCLE1</string>
+		</dict>
+		<dict>
+			<key>DelayPerUnit</key>
+			<real>0.05000000074505806</real>
+			<key>Frames</key>
+			<array>
+				<dict>
+					<key>Frame</key>
+					<string>{{194, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{776, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_effect_01</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{0, 65}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{0, 260}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_effect_02</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{0, 129}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{0, 516}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_effect_03</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{0, 194}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{0, 776}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_effect_04</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{65, 65}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{260, 260}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_effect_06</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{129, 65}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{516, 260}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_effect_08</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{194, 65}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{776, 260}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_effect_05</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{65, 129}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{260, 516}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_effect_07</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{65, 194}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{260, 776}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_effect_10</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{129, 129}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{516, 516}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_effect_09</string>
+				</dict>
+			</array>
+			<key>Loop</key>
+			<false/>
+			<key>Repetitions</key>
+			<integer>1</integer>
+			<key>RestoreOriginalFrame</key>
+			<false/>
+			<key>SheetImage</key>
+			<string>magnet_magnet_sheets.png</string>
+			<key>SheetName</key>
+			<string>magnet_sheets</string>
+			<key>StartAtLaunch</key>
+			<true/>
+			<key>UniqueName</key>
+			<string>MAGNET_EFFECT</string>
+		</dict>
+		<dict>
+			<key>DelayPerUnit</key>
+			<real>0.40000000596046448</real>
+			<key>Frames</key>
+			<array>
+				<dict>
+					<key>Frame</key>
+					<string>{{168, 194}, {32, 32}}</string>
+					<key>Frame-HD</key>
+					<string>{{672, 776}, {128, 128}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{32, 32}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_circle</string>
+				</dict>
+			</array>
+			<key>Loop</key>
+			<false/>
+			<key>Repetitions</key>
+			<integer>1</integer>
+			<key>RestoreOriginalFrame</key>
+			<false/>
+			<key>SheetImage</key>
+			<string>magnet_magnet_sheets.png</string>
+			<key>SheetName</key>
+			<string>magnet_sheets</string>
+			<key>StartAtLaunch</key>
+			<true/>
+			<key>UniqueName</key>
+			<string>MAGNET_CIRCLE</string>
+		</dict>
+		<dict>
+			<key>DelayPerUnit</key>
+			<real>0.40000000596046448</real>
+			<key>Frames</key>
+			<array>
+				<dict>
+					<key>Frame</key>
+					<string>{{203, 194}, {32.5, 28.75}}</string>
+					<key>Frame-HD</key>
+					<string>{{812, 776}, {130, 115}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{32.5, 28.75}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_three</string>
+				</dict>
+			</array>
+			<key>Loop</key>
+			<false/>
+			<key>Repetitions</key>
+			<integer>1</integer>
+			<key>RestoreOriginalFrame</key>
+			<false/>
+			<key>SheetImage</key>
+			<string>magnet_magnet_sheets.png</string>
+			<key>SheetName</key>
+			<string>magnet_sheets</string>
+			<key>StartAtLaunch</key>
+			<true/>
+			<key>UniqueName</key>
+			<string>MAGNET_TRA</string>
+		</dict>
+		<dict>
+			<key>DelayPerUnit</key>
+			<real>0.40000000596046448</real>
+			<key>Frames</key>
+			<array>
+				<dict>
+					<key>Frame</key>
+					<string>{{129, 194}, {36.5, 34.75}}</string>
+					<key>Frame-HD</key>
+					<string>{{516, 776}, {146, 139}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{36.5, 34.75}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_five</string>
+				</dict>
+			</array>
+			<key>Loop</key>
+			<false/>
+			<key>Repetitions</key>
+			<integer>1</integer>
+			<key>RestoreOriginalFrame</key>
+			<false/>
+			<key>SheetImage</key>
+			<string>magnet_magnet_sheets.png</string>
+			<key>SheetName</key>
+			<string>magnet_sheets</string>
+			<key>StartAtLaunch</key>
+			<true/>
+			<key>UniqueName</key>
+			<string>MAGNET_FIVE</string>
+		</dict>
+		<dict>
+			<key>DelayPerUnit</key>
+			<real>0.40000000596046448</real>
+			<key>Frames</key>
+			<array>
+				<dict>
+					<key>Frame</key>
+					<string>{{0, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{0, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_red</string>
+				</dict>
+			</array>
+			<key>Loop</key>
+			<false/>
+			<key>Repetitions</key>
+			<integer>1</integer>
+			<key>RestoreOriginalFrame</key>
+			<false/>
+			<key>SheetImage</key>
+			<string>magnet_magnet_sheets.png</string>
+			<key>SheetName</key>
+			<string>magnet_sheets</string>
+			<key>StartAtLaunch</key>
+			<true/>
+			<key>UniqueName</key>
+			<string>RR_FIVE1</string>
+		</dict>
+		<dict>
+			<key>DelayPerUnit</key>
+			<real>0.40000000596046448</real>
+			<key>Frames</key>
+			<array>
+				<dict>
+					<key>Frame</key>
+					<string>{{129, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{516, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_blue</string>
+				</dict>
+			</array>
+			<key>Loop</key>
+			<false/>
+			<key>Repetitions</key>
+			<integer>1</integer>
+			<key>RestoreOriginalFrame</key>
+			<false/>
+			<key>SheetImage</key>
+			<string>magnet_magnet_sheets.png</string>
+			<key>SheetName</key>
+			<string>magnet_sheets</string>
+			<key>StartAtLaunch</key>
+			<true/>
+			<key>UniqueName</key>
+			<string>BB_FIVE1</string>
+		</dict>
+		<dict>
+			<key>DelayPerUnit</key>
+			<real>3</real>
+			<key>Frames</key>
+			<array>
+				<dict>
+					<key>Frame</key>
+					<string>{{129, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{516, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_blue</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{0, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{0, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_red</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{129, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{516, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_blue</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{0, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{0, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_red</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{129, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{516, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_blue</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{0, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{0, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_red</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{129, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{516, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_blue</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{0, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{0, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_red</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{129, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{516, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_blue</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{0, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{0, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_red</string>
+				</dict>
+			</array>
+			<key>Loop</key>
+			<true/>
+			<key>Repetitions</key>
+			<integer>1</integer>
+			<key>RestoreOriginalFrame</key>
+			<false/>
+			<key>SheetImage</key>
+			<string>magnet_magnet_sheets.png</string>
+			<key>SheetName</key>
+			<string>magnet_sheets</string>
+			<key>StartAtLaunch</key>
+			<true/>
+			<key>UniqueName</key>
+			<string>BR_FIVE1</string>
+		</dict>
+		<dict>
+			<key>DelayPerUnit</key>
+			<real>3</real>
+			<key>Frames</key>
+			<array>
+				<dict>
+					<key>Frame</key>
+					<string>{{129, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{516, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_blue</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{65, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{260, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_gray</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{129, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{516, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_blue</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{65, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{260, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_gray</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{129, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{516, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_blue</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{65, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{260, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_gray</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{129, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{516, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_blue</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{65, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{260, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_gray</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{129, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{516, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_blue</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{65, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{260, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_gray</string>
+				</dict>
+			</array>
+			<key>Loop</key>
+			<true/>
+			<key>Repetitions</key>
+			<integer>1</integer>
+			<key>RestoreOriginalFrame</key>
+			<false/>
+			<key>SheetImage</key>
+			<string>magnet_magnet_sheets.png</string>
+			<key>SheetName</key>
+			<string>magnet_sheets</string>
+			<key>StartAtLaunch</key>
+			<true/>
+			<key>UniqueName</key>
+			<string>BZ_FIVE1</string>
+		</dict>
+		<dict>
+			<key>DelayPerUnit</key>
+			<real>3</real>
+			<key>Frames</key>
+			<array>
+				<dict>
+					<key>Frame</key>
+					<string>{{0, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{0, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_red</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{65, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{260, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_gray</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{0, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{0, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_red</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{65, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{260, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_gray</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{0, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{0, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_red</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{65, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{260, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_gray</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{0, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{0, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_red</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{65, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{260, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_gray</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{0, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{0, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_red</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{65, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{260, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_gray</string>
+				</dict>
+			</array>
+			<key>Loop</key>
+			<true/>
+			<key>Repetitions</key>
+			<integer>1</integer>
+			<key>RestoreOriginalFrame</key>
+			<false/>
+			<key>SheetImage</key>
+			<string>magnet_magnet_sheets.png</string>
+			<key>SheetName</key>
+			<string>magnet_sheets</string>
+			<key>StartAtLaunch</key>
+			<true/>
+			<key>UniqueName</key>
+			<string>RZ_FIVE1</string>
+		</dict>
+		<dict>
+			<key>DelayPerUnit</key>
+			<real>0.40000000596046448</real>
+			<key>Frames</key>
+			<array>
+				<dict>
+					<key>Frame</key>
+					<string>{{0, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{0, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_red</string>
+				</dict>
+			</array>
+			<key>Loop</key>
+			<false/>
+			<key>Repetitions</key>
+			<integer>1</integer>
+			<key>RestoreOriginalFrame</key>
+			<false/>
+			<key>SheetImage</key>
+			<string>magnet_magnet_sheets.png</string>
+			<key>SheetName</key>
+			<string>magnet_sheets</string>
+			<key>StartAtLaunch</key>
+			<true/>
+			<key>UniqueName</key>
+			<string>RR_TRA1</string>
+		</dict>
+		<dict>
+			<key>DelayPerUnit</key>
+			<real>0.40000000596046448</real>
+			<key>Frames</key>
+			<array>
+				<dict>
+					<key>Frame</key>
+					<string>{{129, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{516, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_blue</string>
+				</dict>
+			</array>
+			<key>Loop</key>
+			<false/>
+			<key>Repetitions</key>
+			<integer>1</integer>
+			<key>RestoreOriginalFrame</key>
+			<false/>
+			<key>SheetImage</key>
+			<string>magnet_magnet_sheets.png</string>
+			<key>SheetName</key>
+			<string>magnet_sheets</string>
+			<key>StartAtLaunch</key>
+			<true/>
+			<key>UniqueName</key>
+			<string>BB_TRA1</string>
+		</dict>
+		<dict>
+			<key>DelayPerUnit</key>
+			<real>3</real>
+			<key>Frames</key>
+			<array>
+				<dict>
+					<key>Frame</key>
+					<string>{{0, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{0, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_red</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{129, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{516, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_blue</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{0, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{0, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_red</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{129, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{516, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_blue</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{0, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{0, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_red</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{129, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{516, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_blue</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{0, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{0, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_red</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{129, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{516, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_blue</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{0, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{0, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_red</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{129, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{516, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_blue</string>
+				</dict>
+			</array>
+			<key>Loop</key>
+			<true/>
+			<key>Repetitions</key>
+			<integer>1</integer>
+			<key>RestoreOriginalFrame</key>
+			<false/>
+			<key>SheetImage</key>
+			<string>magnet_magnet_sheets.png</string>
+			<key>SheetName</key>
+			<string>magnet_sheets</string>
+			<key>StartAtLaunch</key>
+			<true/>
+			<key>UniqueName</key>
+			<string>RB_TRA1</string>
+		</dict>
+		<dict>
+			<key>DelayPerUnit</key>
+			<real>3</real>
+			<key>Frames</key>
+			<array>
+				<dict>
+					<key>Frame</key>
+					<string>{{129, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{516, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_blue</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{65, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{260, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_gray</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{129, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{516, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_blue</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{65, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{260, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_gray</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{129, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{516, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_blue</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{65, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{260, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_gray</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{129, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{516, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_blue</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{65, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{260, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_gray</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{129, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{516, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_blue</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{65, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{260, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_gray</string>
+				</dict>
+			</array>
+			<key>Loop</key>
+			<true/>
+			<key>Repetitions</key>
+			<integer>1</integer>
+			<key>RestoreOriginalFrame</key>
+			<false/>
+			<key>SheetImage</key>
+			<string>magnet_magnet_sheets.png</string>
+			<key>SheetName</key>
+			<string>magnet_sheets</string>
+			<key>StartAtLaunch</key>
+			<true/>
+			<key>UniqueName</key>
+			<string>BZ_TRA1</string>
+		</dict>
+		<dict>
+			<key>DelayPerUnit</key>
+			<real>3</real>
+			<key>Frames</key>
+			<array>
+				<dict>
+					<key>Frame</key>
+					<string>{{0, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{0, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_red</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{65, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{260, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_gray</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{0, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{0, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_red</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{65, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{260, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_gray</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{0, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{0, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_red</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{65, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{260, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_gray</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{0, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{0, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_red</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{65, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{260, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_gray</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{0, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{0, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_red</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{65, 0}, {62, 62}}</string>
+					<key>Frame-HD</key>
+					<string>{{260, 0}, {248, 248}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{62, 62}</string>
+					<key>TextureOffset</key>
+					<string>{0, 0}</string>
+					<key>delayPerUnit</key>
+					<real>0.019999999552965164</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>magnet_range_gray</string>
+				</dict>
+			</array>
+			<key>Loop</key>
+			<true/>
+			<key>Repetitions</key>
+			<integer>1</integer>
+			<key>RestoreOriginalFrame</key>
+			<false/>
+			<key>SheetImage</key>
+			<string>magnet_magnet_sheets.png</string>
+			<key>SheetName</key>
+			<string>magnet_sheets</string>
+			<key>StartAtLaunch</key>
+			<true/>
+			<key>UniqueName</key>
+			<string>RZ_TRA1</string>
+		</dict>
+	</array>
+	<key>SaveSettings</key>
+	<dict>
+		<key>Dither</key>
+		<true/>
+		<key>DocumentName</key>
+		<string>magnet</string>
+		<key>HD2XSuffix</key>
+		<string>-ipadhd</string>
+		<key>HDSuffix</key>
+		<string>-hd</string>
+		<key>ImageFormatId</key>
+		<integer>0</integer>
+		<key>Npot</key>
+		<true/>
+		<key>PvrBpp</key>
+		<integer>1</integer>
+		<key>PvrRemoveParent</key>
+		<true/>
+		<key>ResamplingAlgorithm</key>
+		<integer>4</integer>
+		<key>ResizingOptions</key>
+		<integer>2</integer>
+	</dict>
+	<key>SceneFolderSandboxBookmark</key>
+	<data>
+	Ym9va3QDAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfAIA
+	AAUAAAABAQAAVXNlcnMAAAAJAAAAAQEAAGRldmVsb3BlcgAAAAcAAAABAQAARGVza3Rv
+	cAAJAAAAAQEAAE1hZ25ldDE0OQAAAAYAAAABAQAASW1hZ2VzAAAUAAAAAQYAAAQAAAAU
+	AAAAKAAAADgAAABMAAAACAAAAAQDAAA/kgAAAAAAAAgAAAAEAwAA81QIAAAAAAAIAAAA
+	BAMAAP5UCAAAAAAACAAAAAQDAADnDkoAAAAAAAgAAAAEAwAAOw9KAAAAAAAUAAAAAQYA
+	AHgAAACIAAAAmAAAAKgAAAC4AAAAGAAAAAECAAACAAAAAAAAAA8AAAAAAAAAAAAAAAAA
+	AAAIAAAABAMAAAMAAAAAAAAABAAAAAMDAAD2AQAADAAAAAEBAABNYWNpbnRvc2ggSEQI
+	AAAABAMAAACAgT10AAAACAAAAAAEAABBsZE9GwAAACQAAAABAQAAM0JGQkVBMTAtQjE1
+	RS0zQUJBLTk3OEQtMTg2OURDNkM2N0QzGAAAAAECAACBAAAAAQAIAO8/AAABAAgAAAAA
+	AAAAAAABAAAAAQEAAC8AAAAAAAAAAQUAAAQAAAADAwAAAAEAALEAAAABAgAAOWJlNjE4
+	YmU1NTBhY2VjMTNlOWVhYzc4NDg1MGIxYjczNDVjODJlYTswMDAwMDAwMDswMDAwMDAw
+	MDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2FuZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAx
+	OzBlMDAwMDAyOzAwMDAwMDAwMDA0YTBmM2I7L3VzZXJzL2RldmVsb3Blci9kZXNrdG9w
+	L21hZ25ldDE0OS9pbWFnZXMAAAAAwAAAAP7///8BAAAAAAAAAA8AAAAEEAAAXAAAAAAA
+	AAAFEAAAyAAAAAAAAAAQEAAA5AAAAAAAAAACIAAAoAEAAAAAAAAQIAAAIAEAAAAAAAAR
+	IAAAVAEAAAAAAAASIAAANAEAAAAAAAATIAAARAEAAAAAAAAgIAAAgAEAAAAAAAAwIAAA
+	rAEAAAAAAAABwAAABAEAAAAAAAARwAAAFAAAAAAAAAASwAAAFAEAAAAAAAAQ0AAAtAEA
+	AAAAAACA8AAAwAEAAAAAAAA=
+	</data>
+	<key>Version</key>
+	<string>1.8.157</string>
+</dict>
+</plist>

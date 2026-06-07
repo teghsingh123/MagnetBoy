@@ -14,11 +14,11 @@ export default class GameMainMenu extends Phaser.Scene {
 
     preload() {
         this.load.image('mainmenu_bg',   '/assets/ui/mainmenu_bg.png');
-        this.load.image('buttons_sheet', '/assets/buttons_sheet.png');
+        this.load.image('buttons_sheet', '/assets/sprites/buttons_sheet.png');
         for (let col = 1; col <= 2; col++)
             for (let row = 1; row <= 2; row++)
                 this.load.image(`menu_bg_${col}_${row}`, `/assets/pack/0/bg-x25-${col}-${row}.png`);
-        this.load.font('DomkratMon', '/assets/DomkratMon.ttf');
+        this.load.font('DomkratMon', '/assets/fonts/DomkratMon.ttf');
     }
 
     create() {

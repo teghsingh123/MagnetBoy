@@ -8,10 +8,11 @@ const SFX_KEYS = [
 ];
 
 export function preloadAudio(scene) {
-    scene.load.audio('intro',    'assets/Audio/intro.wav');
-    scene.load.audio('gameplay', 'assets/Audio/gameplay.wav');
+    scene.load.audio('intro',    'assets/audio/intro.wav');
+    scene.load.audio('gameplay', 'assets/audio/gameplay.wav');
+    scene.load.audio('button',   'assets/audio/button.wav');
     for (const key of SFX_KEYS) {
-        scene.load.audio(key, `assets/Audio/${key}.wav`);
+        scene.load.audio(key, `assets/audio/${key}.wav`);
     }
 }
 

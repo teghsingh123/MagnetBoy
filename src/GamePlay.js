@@ -1,5 +1,6 @@
 import { ANIM_STATES } from './GameLogic.js';
 import { changePole }  from './GameLogic.js';
+import { playSound }   from './GameAudio.js';
 
 // ── First launch: direct aim-and-shoot from hero's spawn position ─────────────
 
@@ -15,6 +16,7 @@ function launchDirect(scene, pointer) {
     scene.hero.body.setVelocity(dx * 5.72 * pr, dy * 5.72 * pr);
     scene.hero.body.setAllowGravity(true);
     scene.hasLaunched = true;
+    playSound(scene, 'projectile');
     scene.isThrowing  = true;
     scene.time.delayedCall(500, () => { scene.isThrowing = false; });
 }
@@ -32,6 +34,7 @@ function launchFromMagnet(scene, pointer) {
     scene.hero.body.setVelocity(heroDx * 5.72 * pr, heroDy * 5.72 * pr);
     scene.hero.body.setAllowGravity(true);
     scene.hasLaunched = true;
+    playSound(scene, 'projectile');
 
     // isThrowing cooldown — matches Lua: timer.performWithDelay(300/power_ratio, ...)
     scene.isThrowing = true;
@@ -53,12 +56,25 @@ function handleRelease(scene, pointer) {
         (pointer.x - scene.dragStart.x)**2 + (pointer.y - scene.dragStart.y)**2
     );
 
-    // Short tap = polarity change only when attached to a magnet (not mid-air, not first launch)
+    // Short tap
     if (dragDist < 5) {
-        const wasAttached    = scene.isAttached;
-        scene.isAttached     = false;
-        scene.attachedMagnet = null;
-        if (scene.hasLaunched && wasAttached) changePole(scene);
+        scene.isAttached      = false;
+        scene.attachedMagnet  = null;
+        scene.manuallyGrabbed = false;
+        // Stuck to triangle magnet: tap launches perpendicular to the contact face
+        if (scene.stuckTriangle) {
+            const { nx, ny } = scene.stuckTriangle;
+            scene.stuckTriangle = null;
+            scene.hero.collided = false;
+            scene.hero.body.setAllowGravity(true);
+            scene.hero.body.setVelocity(nx * 320, ny * 320);
+            scene.hasLaunched = true;
+            playSound(scene, 'projectile');
+            scene.isThrowing = true;
+            scene.time.delayedCall(400, () => { scene.isThrowing = false; });
+            return;
+        }
+        if (scene.hasLaunched) changePole(scene);
         return;
     }
 
@@ -74,6 +90,7 @@ function handleRelease(scene, pointer) {
     scene.isAttached         = false;
     scene.attachedMagnet     = null;
     scene.lastAttachedMagnet = null;
+    scene.manuallyGrabbed    = false;
     if (!wasFirstLaunch) changePole(scene);
 }
 
@@ -94,6 +111,7 @@ export function setupInput(scene) {
         // If already attached (auto-attached by magnetic force), freeze and hold
         if (scene.isAttached && scene.attachedMagnet) {
             scene.lastAttachedMagnet = scene.attachedMagnet;
+            scene.manuallyGrabbed    = true;
             scene.hero.body.setVelocity(0, 0);
             scene.hero.body.setAllowGravity(false);
             return;
@@ -117,6 +135,7 @@ export function setupInput(scene) {
             scene.attachedMagnet     = bestMagnet;
             scene.lastAttachedMagnet = bestMagnet;
             scene.jointLength        = Math.max(Math.sqrt(hx*hx + hy*hy), 5);
+            scene.manuallyGrabbed    = true;
             scene.hero.collided      = true;
             scene.hero.body.setVelocity(0, 0);
             scene.hero.body.setAllowGravity(false);

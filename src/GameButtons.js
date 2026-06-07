@@ -1,4 +1,5 @@
 import { allFrames } from './GameUtil.js';
+import { playSound, pauseGameBG } from './GameAudio.js';
 
 // Button name → frame index (matches GameButtons.lua's index table, 1-based)
 export const BUTTON_INDEX = {
@@ -75,5 +76,10 @@ export function createHUD(scene) {
 
     const pauseBtn = scene.add.image(730, 20, 'buttons_sheet', 'pause')
         .setDisplaySize(40, 40).setScrollFactor(0).setDepth(20).setInteractive();
-    pauseBtn.on('pointerdown', () => scene.scene.pause());
+    pauseBtn.on('pointerdown', () => {
+        playSound(scene, 'pause');
+        pauseGameBG(scene);
+        scene.scene.pause('GameScene');
+        scene.scene.launch('PauseScene');
+    });
 }

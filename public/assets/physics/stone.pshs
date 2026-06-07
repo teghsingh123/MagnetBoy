@@ -1,0 +1,6341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Bogdan Vladu</string>
+	<key>CreatedWith</key>
+	<string>SpriteHelper</string>
+	<key>SHEETS_INFO</key>
+	<array>
+		<dict>
+			<key>2HDSuffix</key>
+			<string>-ipadhd</string>
+			<key>AllowFreeMove</key>
+			<true/>
+			<key>AllowRotation</key>
+			<false/>
+			<key>Crop</key>
+			<false/>
+			<key>DropSprites</key>
+			<false/>
+			<key>HDSuffix</key>
+			<string>-hd</string>
+			<key>IsRendable</key>
+			<true/>
+			<key>MaxSheetSize</key>
+			<integer>4096</integer>
+			<key>NpotSize</key>
+			<string>{1104, 1108}</string>
+			<key>Padding</key>
+			<integer>8</integer>
+			<key>PixelFormat</key>
+			<integer>0</integer>
+			<key>SheetImage</key>
+			<string>stone_stone_1.png</string>
+			<key>SheetImage-HD</key>
+			<string>stone_stone_1-ipadhd.png</string>
+			<key>SheetName</key>
+			<string>stone_1</string>
+			<key>SheetSceneImageName</key>
+			<string></string>
+			<key>Sheet_Sprites_Info</key>
+			<dict>
+				<key>brick_1x2</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+QDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAyAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwcAAAABAQAAc3Rv
+					bmVfMQANAAAAAQEAAGJyaWNrXzF4Mi5wbmcA
+					AAAYAAAAAQYAAAQAAAAUAAAAIAAAADQAAABM
+					AAAAXAAAAAgAAAAEAwAAV7kAAAAAAAAIAAAA
+					BAMAAJPIBQAAAAAACAAAAAQDAAD1yAUAAAAA
+					AAgAAAAEAwAAMNMFAAAAAAAIAAAABAMAAKFf
+					BgAAAAAACAAAAAQDAADNbQYAAAAAABgAAAAB
+					BgAAlAAAAKQAAAC0AAAAxAAAANQAAADkAAAA
+					GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
+					AAAAAAAAAAAAAQUAAAQAAAADAwAAAwAAAAgA
+					AAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAM
+					AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
+					AICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAA
+					AAEBAAA5RUZCNTM0NS1BRDUzLTNCMkUtQTkz
+					RC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAAB
+					AAgA7z8AAAEACAAAAAAAAAAAAAEAAAABAQAA
+					LwAAAAQAAAADAwAAAAEAAMQAAAABAgAANWI4
+					ZTIyMjBhNmJkZDJjMDlmMDRjM2FlYTE5YWJk
+					ZWNhN2VhNWM4YTswMDAwMDAwMDswMDAwMDAw
+					MDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2Fu
+					ZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzBl
+					MDAwMDAyOzAwMDAwMDAwMDAwNjZkY2Q7L3Vz
+					ZXJzL2dhbWUvZG93bmxvYWRzL21hZ25ldCBy
+					ZXNvdXJjZXMvc3RvbmVfMS9icmlja18xeDIu
+					cG5nAOQAAAD+////AQAAAAAAAAASAAAABBAA
+					AHQAAAAAAAAABRAAAPQAAAAAAAAAEBAAABQB
+					AAAAAAAAVBAAADwBAAAAAAAAVRAAADwBAAAA
+					AAAAVhAAADQBAAAAAAAAAiAAAOQBAAAAAAAA
+					ECAAAGQBAAAAAAAAESAAAJgBAAAAAAAAEiAA
+					AHgBAAAAAAAAEyAAAIgBAAAAAAAAICAAAMQB
+					AAAAAAAAMCAAADQBAAAAAAAAAcAAAEgBAAAA
+					AAAAEcAAABQAAAAAAAAAEsAAAFgBAAAAAAAA
+					ENAAAPABAAAAAAAAgPAAAPwBAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-36, -12.125}</string>
+										<string>{36, -12.125}</string>
+										<string>{36, 12.125}</string>
+										<string>{-36, 12.125}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>97</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<true/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>24.25</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-36, -12.125}</string>
+								<key>LHWidth</key>
+								<real>72</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{0, 0}</string>
+									<string>{288, 0}</string>
+									<string>{288, 97}</string>
+									<string>{0, 97}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>288</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>stone_1</string>
+					<key>SHSpriteName</key>
+					<string>brick_1x2</string>
+					<key>SheetImage</key>
+					<string>stone_stone_1.png</string>
+					<key>SheetImage-HD</key>
+					<string>stone_stone_1-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<false/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{197, 99}, {72, 24.75}}</string>
+						<key>Frame-HD</key>
+						<string>{{788, 396}, {288, 97}}</string>
+						<key>Image</key>
+						<string>stone_stone_1.png</string>
+						<key>Image-HD</key>
+						<string>stone_stone_1-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>brick_1x2</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/stone_1/brick_1x2.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/stone_1/brick_1x2.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {288, 97}}</string>
+						<key>OriginalSize</key>
+						<string>{288, 97}</string>
+						<key>Position</key>
+						<string>{788, 396}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{72, 24.25}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, -0.25}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>brick_1x3</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+QDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAyAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwcAAAABAQAAc3Rv
+					bmVfMQANAAAAAQEAAGJyaWNrXzF4My5wbmcA
+					AAAYAAAAAQYAAAQAAAAUAAAAIAAAADQAAABM
+					AAAAXAAAAAgAAAAEAwAAV7kAAAAAAAAIAAAA
+					BAMAAJPIBQAAAAAACAAAAAQDAAD1yAUAAAAA
+					AAgAAAAEAwAAMNMFAAAAAAAIAAAABAMAAKFf
+					BgAAAAAACAAAAAQDAADObQYAAAAAABgAAAAB
+					BgAAlAAAAKQAAAC0AAAAxAAAANQAAADkAAAA
+					GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
+					AAAAAAAAAAAAAQUAAAQAAAADAwAAAwAAAAgA
+					AAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAM
+					AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
+					AICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAA
+					AAEBAAA5RUZCNTM0NS1BRDUzLTNCMkUtQTkz
+					RC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAAB
+					AAgA7z8AAAEACAAAAAAAAAAAAAEAAAABAQAA
+					LwAAAAQAAAADAwAAAAEAAMQAAAABAgAAYzFj
+					MjFiNmQzYmQ4ZGFjMTZjZGU0OTA2Y2M3ZDFi
+					MjllOTNmNzAxNDswMDAwMDAwMDswMDAwMDAw
+					MDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2Fu
+					ZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzBl
+					MDAwMDAyOzAwMDAwMDAwMDAwNjZkY2U7L3Vz
+					ZXJzL2dhbWUvZG93bmxvYWRzL21hZ25ldCBy
+					ZXNvdXJjZXMvc3RvbmVfMS9icmlja18xeDMu
+					cG5nAOQAAAD+////AQAAAAAAAAASAAAABBAA
+					AHQAAAAAAAAABRAAAPQAAAAAAAAAEBAAABQB
+					AAAAAAAAVBAAADwBAAAAAAAAVRAAADwBAAAA
+					AAAAVhAAADQBAAAAAAAAAiAAAOQBAAAAAAAA
+					ECAAAGQBAAAAAAAAESAAAJgBAAAAAAAAEiAA
+					AHgBAAAAAAAAEyAAAIgBAAAAAAAAICAAAMQB
+					AAAAAAAAMCAAADQBAAAAAAAAAcAAAEgBAAAA
+					AAAAEcAAABQAAAAAAAAAEsAAAFgBAAAAAAAA
+					ENAAAPABAAAAAAAAgPAAAPwBAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-47.75, -12.125}</string>
+										<string>{47.75, -12.125}</string>
+										<string>{47.75, 12.125}</string>
+										<string>{-47.75, 12.125}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>97</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<true/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>24.25</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-47.75, -12.125}</string>
+								<key>LHWidth</key>
+								<real>95.5</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{0, 0}</string>
+									<string>{382, 0}</string>
+									<string>{382, 97}</string>
+									<string>{0, 97}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>382</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>stone_1</string>
+					<key>SHSpriteName</key>
+					<string>brick_1x3</string>
+					<key>SheetImage</key>
+					<string>stone_stone_1.png</string>
+					<key>SheetImage-HD</key>
+					<string>stone_stone_1-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<false/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{101, 202}, {95.5, 24.75}}</string>
+						<key>Frame-HD</key>
+						<string>{{404, 808}, {382, 97}}</string>
+						<key>Image</key>
+						<string>stone_stone_1.png</string>
+						<key>Image-HD</key>
+						<string>stone_stone_1-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>brick_1x3</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/stone_1/brick_1x3.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/stone_1/brick_1x3.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {382, 97}}</string>
+						<key>OriginalSize</key>
+						<string>{382, 97}</string>
+						<key>Position</key>
+						<string>{404, 808}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{95.5, 24.25}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, -0.25}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>brick_1x4</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+QDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAyAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwcAAAABAQAAc3Rv
+					bmVfMQANAAAAAQEAAGJyaWNrXzF4NC5wbmcA
+					AAAYAAAAAQYAAAQAAAAUAAAAIAAAADQAAABM
+					AAAAXAAAAAgAAAAEAwAAV7kAAAAAAAAIAAAA
+					BAMAAJPIBQAAAAAACAAAAAQDAAD1yAUAAAAA
+					AAgAAAAEAwAAMNMFAAAAAAAIAAAABAMAAKFf
+					BgAAAAAACAAAAAQDAADPbQYAAAAAABgAAAAB
+					BgAAlAAAAKQAAAC0AAAAxAAAANQAAADkAAAA
+					GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
+					AAAAAAAAAAAAAQUAAAQAAAADAwAAAwAAAAgA
+					AAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAM
+					AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
+					AICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAA
+					AAEBAAA5RUZCNTM0NS1BRDUzLTNCMkUtQTkz
+					RC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAAB
+					AAgA7z8AAAEACAAAAAAAAAAAAAEAAAABAQAA
+					LwAAAAQAAAADAwAAAAEAAMQAAAABAgAANzAz
+					ZTc0N2VjYWM5MDFjYWIzZjc0N2Y0MWViZWNh
+					YWJlYmE1ZmU1NDswMDAwMDAwMDswMDAwMDAw
+					MDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2Fu
+					ZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzBl
+					MDAwMDAyOzAwMDAwMDAwMDAwNjZkY2Y7L3Vz
+					ZXJzL2dhbWUvZG93bmxvYWRzL21hZ25ldCBy
+					ZXNvdXJjZXMvc3RvbmVfMS9icmlja18xeDQu
+					cG5nAOQAAAD+////AQAAAAAAAAASAAAABBAA
+					AHQAAAAAAAAABRAAAPQAAAAAAAAAEBAAABQB
+					AAAAAAAAVBAAADwBAAAAAAAAVRAAADwBAAAA
+					AAAAVhAAADQBAAAAAAAAAiAAAOQBAAAAAAAA
+					ECAAAGQBAAAAAAAAESAAAJgBAAAAAAAAEiAA
+					AHgBAAAAAAAAEyAAAIgBAAAAAAAAICAAAMQB
+					AAAAAAAAMCAAADQBAAAAAAAAAcAAAEgBAAAA
+					AAAAEcAAABQAAAAAAAAAEsAAAFgBAAAAAAAA
+					ENAAAPABAAAAAAAAgPAAAPwBAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-59.5, -12.125}</string>
+										<string>{59.5, -12.125}</string>
+										<string>{59.5, 12.125}</string>
+										<string>{-59.5, 12.125}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>97</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<true/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>24.25</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-59.5, -12.125}</string>
+								<key>LHWidth</key>
+								<real>119</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{0, 0}</string>
+									<string>{476, 0}</string>
+									<string>{476, 97}</string>
+									<string>{0, 97}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>476</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>stone_1</string>
+					<key>SHSpriteName</key>
+					<string>brick_1x4</string>
+					<key>SheetImage</key>
+					<string>stone_stone_1.png</string>
+					<key>SheetImage-HD</key>
+					<string>stone_stone_1-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<false/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{101, 151}, {119, 24.75}}</string>
+						<key>Frame-HD</key>
+						<string>{{404, 604}, {476, 97}}</string>
+						<key>Image</key>
+						<string>stone_stone_1.png</string>
+						<key>Image-HD</key>
+						<string>stone_stone_1-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>brick_1x4</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/stone_1/brick_1x4.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/stone_1/brick_1x4.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {476, 97}}</string>
+						<key>OriginalSize</key>
+						<string>{476, 97}</string>
+						<key>Position</key>
+						<string>{404, 604}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{119, 24.25}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, -0.25}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>stone_1_1</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+QDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAyAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwcAAAABAQAAc3Rv
+					bmVfMQANAAAAAQEAAHN0b25lXzFfMS5wbmcA
+					AAAYAAAAAQYAAAQAAAAUAAAAIAAAADQAAABM
+					AAAAXAAAAAgAAAAEAwAAV7kAAAAAAAAIAAAA
+					BAMAAJPIBQAAAAAACAAAAAQDAAD1yAUAAAAA
+					AAgAAAAEAwAAMNMFAAAAAAAIAAAABAMAAKFf
+					BgAAAAAACAAAAAQDAAC4XwYAAAAAABgAAAAB
+					BgAAlAAAAKQAAAC0AAAAxAAAANQAAADkAAAA
+					GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
+					AAAAAAAAAAAAAQUAAAQAAAADAwAAAwAAAAgA
+					AAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAM
+					AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
+					AICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAA
+					AAEBAAA5RUZCNTM0NS1BRDUzLTNCMkUtQTkz
+					RC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAAB
+					AAgA7z8AAAEACAAAAAAAAAAAAAEAAAABAQAA
+					LwAAAAQAAAADAwAAAAEAAMQAAAABAgAANmI5
+					MmJkNmI3YmFjMzkwOGQ5ODNjYjA3ZGJkNzZm
+					NWM3MDgxNjU3MDswMDAwMDAwMDswMDAwMDAw
+					MDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2Fu
+					ZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzBl
+					MDAwMDAyOzAwMDAwMDAwMDAwNjVmYjg7L3Vz
+					ZXJzL2dhbWUvZG93bmxvYWRzL21hZ25ldCBy
+					ZXNvdXJjZXMvc3RvbmVfMS9zdG9uZV8xXzEu
+					cG5nAOQAAAD+////AQAAAAAAAAASAAAABBAA
+					AHQAAAAAAAAABRAAAPQAAAAAAAAAEBAAABQB
+					AAAAAAAAVBAAADwBAAAAAAAAVRAAADwBAAAA
+					AAAAVhAAADQBAAAAAAAAAiAAAOQBAAAAAAAA
+					ECAAAGQBAAAAAAAAESAAAJgBAAAAAAAAEiAA
+					AHgBAAAAAAAAEyAAAIgBAAAAAAAAICAAAMQB
+					AAAAAAAAMCAAADQBAAAAAAAAAcAAAEgBAAAA
+					AAAAEcAAABQAAAAAAAAAEsAAAFgBAAAAAAAA
+					ENAAAPABAAAAAAAAgPAAAPwBAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-18.375, -12.375}</string>
+										<string>{18.375, -12.375}</string>
+										<string>{18.375, 12.375}</string>
+										<string>{-18.375, 12.375}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>99</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<true/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>24.75</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-18.375, -12.375}</string>
+								<key>LHWidth</key>
+								<real>36.75</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{0, 0}</string>
+									<string>{147, 0}</string>
+									<string>{147, 99}</string>
+									<string>{0, 99}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>147</real>
+							</dict>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-18.375, -12.375}</string>
+										<string>{18.375, -12.375}</string>
+										<string>{18.375, 12.375}</string>
+										<string>{-18.375, 12.375}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>99</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<true/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>24.75</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-18.375, -12.375}</string>
+								<key>LHWidth</key>
+								<real>36.75</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture_1</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{0, 0}</string>
+									<string>{147, 0}</string>
+									<string>{147, 99}</string>
+									<string>{0, 99}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>147</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>stone_1</string>
+					<key>SHSpriteName</key>
+					<string>stone_1_1</string>
+					<key>SheetImage</key>
+					<string>stone_stone_1.png</string>
+					<key>SheetImage-HD</key>
+					<string>stone_stone_1-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{101, 227}, {36.75, 24.75}}</string>
+						<key>Frame-HD</key>
+						<string>{{404, 908}, {147, 99}}</string>
+						<key>Image</key>
+						<string>stone_stone_1.png</string>
+						<key>Image-HD</key>
+						<string>stone_stone_1-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>stone_1_1</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/stone_1/stone_1_1.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/stone_1/stone_1_1.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {147, 99}}</string>
+						<key>OriginalSize</key>
+						<string>{147, 99}</string>
+						<key>Position</key>
+						<string>{404, 908}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{36.75, 24.75}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, -0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>stone_1_2</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+QDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAyAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwcAAAABAQAAc3Rv
+					bmVfMQANAAAAAQEAAHN0b25lXzFfMi5wbmcA
+					AAAYAAAAAQYAAAQAAAAUAAAAIAAAADQAAABM
+					AAAAXAAAAAgAAAAEAwAAV7kAAAAAAAAIAAAA
+					BAMAAJPIBQAAAAAACAAAAAQDAAD1yAUAAAAA
+					AAgAAAAEAwAAMNMFAAAAAAAIAAAABAMAAKFf
+					BgAAAAAACAAAAAQDAAC5XwYAAAAAABgAAAAB
+					BgAAlAAAAKQAAAC0AAAAxAAAANQAAADkAAAA
+					GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
+					AAAAAAAAAAAAAQUAAAQAAAADAwAAAwAAAAgA
+					AAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAM
+					AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
+					AICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAA
+					AAEBAAA5RUZCNTM0NS1BRDUzLTNCMkUtQTkz
+					RC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAAB
+					AAgA7z8AAAEACAAAAAAAAAAAAAEAAAABAQAA
+					LwAAAAQAAAADAwAAAAEAAMQAAAABAgAANzU4
+					ZDg1NDQ2MGM0Yjc3NzljMjExN2IyZGU2NmVm
+					Y2EzMWUwZjgxZDswMDAwMDAwMDswMDAwMDAw
+					MDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2Fu
+					ZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzBl
+					MDAwMDAyOzAwMDAwMDAwMDAwNjVmYjk7L3Vz
+					ZXJzL2dhbWUvZG93bmxvYWRzL21hZ25ldCBy
+					ZXNvdXJjZXMvc3RvbmVfMS9zdG9uZV8xXzIu
+					cG5nAOQAAAD+////AQAAAAAAAAASAAAABBAA
+					AHQAAAAAAAAABRAAAPQAAAAAAAAAEBAAABQB
+					AAAAAAAAVBAAADwBAAAAAAAAVRAAADwBAAAA
+					AAAAVhAAADQBAAAAAAAAAiAAAOQBAAAAAAAA
+					ECAAAGQBAAAAAAAAESAAAJgBAAAAAAAAEiAA
+					AHgBAAAAAAAAEyAAAIgBAAAAAAAAICAAAMQB
+					AAAAAAAAMCAAADQBAAAAAAAAAcAAAEgBAAAA
+					AAAAEcAAABQAAAAAAAAAEsAAAFgBAAAAAAAA
+					ENAAAPABAAAAAAAAgPAAAPwBAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-24.25, -12.125}</string>
+										<string>{24.25, -12.125}</string>
+										<string>{24.25, 12.125}</string>
+										<string>{-24.25, 12.125}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>97</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<true/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>24.25</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-24.25, -12.125}</string>
+								<key>LHWidth</key>
+								<real>48.5</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{0, 0}</string>
+									<string>{194, 0}</string>
+									<string>{194, 97}</string>
+									<string>{0, 97}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>194</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>stone_1</string>
+					<key>SHSpriteName</key>
+					<string>stone_1_2</string>
+					<key>SheetImage</key>
+					<string>stone_stone_1.png</string>
+					<key>SheetImage-HD</key>
+					<string>stone_stone_1-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{221, 151}, {48.5, 24.75}}</string>
+						<key>Frame-HD</key>
+						<string>{{884, 604}, {194, 97}}</string>
+						<key>Image</key>
+						<string>stone_stone_1.png</string>
+						<key>Image-HD</key>
+						<string>stone_stone_1-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>stone_1_2</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/stone_1/stone_1_2.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/stone_1/stone_1_2.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {194, 97}}</string>
+						<key>OriginalSize</key>
+						<string>{194, 97}</string>
+						<key>Position</key>
+						<string>{884, 604}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{48.5, 24.25}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, -0.25}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>stone_1_3</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+QDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAyAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwcAAAABAQAAc3Rv
+					bmVfMQANAAAAAQEAAHN0b25lXzFfMy5wbmcA
+					AAAYAAAAAQYAAAQAAAAUAAAAIAAAADQAAABM
+					AAAAXAAAAAgAAAAEAwAAV7kAAAAAAAAIAAAA
+					BAMAAJPIBQAAAAAACAAAAAQDAAD1yAUAAAAA
+					AAgAAAAEAwAAMNMFAAAAAAAIAAAABAMAAKFf
+					BgAAAAAACAAAAAQDAAC6XwYAAAAAABgAAAAB
+					BgAAlAAAAKQAAAC0AAAAxAAAANQAAADkAAAA
+					GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
+					AAAAAAAAAAAAAQUAAAQAAAADAwAAAwAAAAgA
+					AAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAM
+					AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
+					AICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAA
+					AAEBAAA5RUZCNTM0NS1BRDUzLTNCMkUtQTkz
+					RC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAAB
+					AAgA7z8AAAEACAAAAAAAAAAAAAEAAAABAQAA
+					LwAAAAQAAAADAwAAAAEAAMQAAAABAgAAMGRk
+					NTg5NGNlNzgxMzM4ZDg2M2E1ZDk1YWVjN2Q5
+					ZmY3OTg0NjMxZjswMDAwMDAwMDswMDAwMDAw
+					MDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2Fu
+					ZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzBl
+					MDAwMDAyOzAwMDAwMDAwMDAwNjVmYmE7L3Vz
+					ZXJzL2dhbWUvZG93bmxvYWRzL21hZ25ldCBy
+					ZXNvdXJjZXMvc3RvbmVfMS9zdG9uZV8xXzMu
+					cG5nAOQAAAD+////AQAAAAAAAAASAAAABBAA
+					AHQAAAAAAAAABRAAAPQAAAAAAAAAEBAAABQB
+					AAAAAAAAVBAAADwBAAAAAAAAVRAAADwBAAAA
+					AAAAVhAAADQBAAAAAAAAAiAAAOQBAAAAAAAA
+					ECAAAGQBAAAAAAAAESAAAJgBAAAAAAAAEiAA
+					AHgBAAAAAAAAEyAAAIgBAAAAAAAAICAAAMQB
+					AAAAAAAAMCAAADQBAAAAAAAAAcAAAEgBAAAA
+					AAAAEcAAABQAAAAAAAAAEsAAAFgBAAAAAAAA
+					ENAAAPABAAAAAAAAgPAAAPwBAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-12.25, -12.25}</string>
+										<string>{12.25, -12.25}</string>
+										<string>{12.25, 12.25}</string>
+										<string>{-12.25, 12.25}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>98</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<true/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>24.5</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-12.25, -12.25}</string>
+								<key>LHWidth</key>
+								<real>24.5</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{0, 0}</string>
+									<string>{98, 0}</string>
+									<string>{98, 98}</string>
+									<string>{0, 98}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>98</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>stone_1</string>
+					<key>SHSpriteName</key>
+					<string>stone_1_3</string>
+					<key>SheetImage</key>
+					<string>stone_stone_1.png</string>
+					<key>SheetImage-HD</key>
+					<string>stone_stone_1-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{226, 176}, {24.5, 24.5}}</string>
+						<key>Frame-HD</key>
+						<string>{{904, 704}, {98, 98}}</string>
+						<key>Image</key>
+						<string>stone_stone_1.png</string>
+						<key>Image-HD</key>
+						<string>stone_stone_1-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>stone_1_3</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/stone_1/stone_1_3.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/stone_1/stone_1_3.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {98, 98}}</string>
+						<key>OriginalSize</key>
+						<string>{98, 98}</string>
+						<key>Position</key>
+						<string>{904, 704}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{24.5, 24.5}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, -0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>stone_1_5</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+QDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAyAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwcAAAABAQAAc3Rv
+					bmVfMQANAAAAAQEAAHN0b25lXzFfNS5wbmcA
+					AAAYAAAAAQYAAAQAAAAUAAAAIAAAADQAAABM
+					AAAAXAAAAAgAAAAEAwAAV7kAAAAAAAAIAAAA
+					BAMAAJPIBQAAAAAACAAAAAQDAAD1yAUAAAAA
+					AAgAAAAEAwAAMNMFAAAAAAAIAAAABAMAAKFf
+					BgAAAAAACAAAAAQDAAC8XwYAAAAAABgAAAAB
+					BgAAlAAAAKQAAAC0AAAAxAAAANQAAADkAAAA
+					GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
+					AAAAAAAAAAAAAQUAAAQAAAADAwAAAwAAAAgA
+					AAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAM
+					AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
+					AICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAA
+					AAEBAAA5RUZCNTM0NS1BRDUzLTNCMkUtQTkz
+					RC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAAB
+					AAgA7z8AAAEACAAAAAAAAAAAAAEAAAABAQAA
+					LwAAAAQAAAADAwAAAAEAAMQAAAABAgAAOGMx
+					ZmJlOWRjYzQzN2U0ODkyZThiOTk3ZGQ1MTU0
+					YjBmZmFiMThiNjswMDAwMDAwMDswMDAwMDAw
+					MDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2Fu
+					ZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzBl
+					MDAwMDAyOzAwMDAwMDAwMDAwNjVmYmM7L3Vz
+					ZXJzL2dhbWUvZG93bmxvYWRzL21hZ25ldCBy
+					ZXNvdXJjZXMvc3RvbmVfMS9zdG9uZV8xXzUu
+					cG5nAOQAAAD+////AQAAAAAAAAASAAAABBAA
+					AHQAAAAAAAAABRAAAPQAAAAAAAAAEBAAABQB
+					AAAAAAAAVBAAADwBAAAAAAAAVRAAADwBAAAA
+					AAAAVhAAADQBAAAAAAAAAiAAAOQBAAAAAAAA
+					ECAAAGQBAAAAAAAAESAAAJgBAAAAAAAAEiAA
+					AHgBAAAAAAAAEyAAAIgBAAAAAAAAICAAAMQB
+					AAAAAAAAMCAAADQBAAAAAAAAAcAAAEgBAAAA
+					AAAAEcAAABQAAAAAAAAAEsAAAFgBAAAAAAAA
+					ENAAAPABAAAAAAAAgPAAAPwBAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-24.5, -4.125}</string>
+										<string>{24.5, -4.125}</string>
+										<string>{24.5, 4.125}</string>
+										<string>{-24.5, 4.125}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>33</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<true/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>8.25</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-24.5, -4.125}</string>
+								<key>LHWidth</key>
+								<real>49</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{0, 0}</string>
+									<string>{196, 1.3433975952425591e-15}</string>
+									<string>{196, 33}</string>
+									<string>{-2.0206672185931327e-15, 33}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>196</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>stone_1</string>
+					<key>SHSpriteName</key>
+					<string>stone_1_5</string>
+					<key>SheetImage</key>
+					<string>stone_stone_1.png</string>
+					<key>SheetImage-HD</key>
+					<string>stone_stone_1-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{174, 76}, {49, 8.75}}</string>
+						<key>Frame-HD</key>
+						<string>{{696, 304}, {196, 33}}</string>
+						<key>Image</key>
+						<string>stone_stone_1.png</string>
+						<key>Image-HD</key>
+						<string>stone_stone_1-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>stone_1_5</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/stone_1/stone_1_5.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/stone_1/stone_1_5.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {196, 33}}</string>
+						<key>OriginalSize</key>
+						<string>{196, 33}</string>
+						<key>Position</key>
+						<string>{696, 304}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{49, 8.25}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, -0.25}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>stone_1_6</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+QDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAyAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwcAAAABAQAAc3Rv
+					bmVfMQANAAAAAQEAAHN0b25lXzFfNi5wbmcA
+					AAAYAAAAAQYAAAQAAAAUAAAAIAAAADQAAABM
+					AAAAXAAAAAgAAAAEAwAAV7kAAAAAAAAIAAAA
+					BAMAAJPIBQAAAAAACAAAAAQDAAD1yAUAAAAA
+					AAgAAAAEAwAAMNMFAAAAAAAIAAAABAMAAKFf
+					BgAAAAAACAAAAAQDAAC9XwYAAAAAABgAAAAB
+					BgAAlAAAAKQAAAC0AAAAxAAAANQAAADkAAAA
+					GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
+					AAAAAAAAAAAAAQUAAAQAAAADAwAAAwAAAAgA
+					AAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAM
+					AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
+					AICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAA
+					AAEBAAA5RUZCNTM0NS1BRDUzLTNCMkUtQTkz
+					RC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAAB
+					AAgA7z8AAAEACAAAAAAAAAAAAAEAAAABAQAA
+					LwAAAAQAAAADAwAAAAEAAMQAAAABAgAANDhi
+					NTQwMDUwZGE0ZDE4MjMxNTU3ZmE4ZDRmMDY2
+					NmQ4OGJkZjJhYjswMDAwMDAwMDswMDAwMDAw
+					MDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2Fu
+					ZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzBl
+					MDAwMDAyOzAwMDAwMDAwMDAwNjVmYmQ7L3Vz
+					ZXJzL2dhbWUvZG93bmxvYWRzL21hZ25ldCBy
+					ZXNvdXJjZXMvc3RvbmVfMS9zdG9uZV8xXzYu
+					cG5nAOQAAAD+////AQAAAAAAAAASAAAABBAA
+					AHQAAAAAAAAABRAAAPQAAAAAAAAAEBAAABQB
+					AAAAAAAAVBAAADwBAAAAAAAAVRAAADwBAAAA
+					AAAAVhAAADQBAAAAAAAAAiAAAOQBAAAAAAAA
+					ECAAAGQBAAAAAAAAESAAAJgBAAAAAAAAEiAA
+					AHgBAAAAAAAAEyAAAIgBAAAAAAAAICAAAMQB
+					AAAAAAAAMCAAADQBAAAAAAAAAcAAAEgBAAAA
+					AAAAEcAAABQAAAAAAAAAEsAAAFgBAAAAAAAA
+					ENAAAPABAAAAAAAAgPAAAPwBAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-11.875, 11.625}</string>
+										<string>{-11.875, -11.625}</string>
+										<string>{11.625, -11.625}</string>
+										<string>{-11.625, 11.625}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>0.0</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<false/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>0.0</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-11.875, -11.875}</string>
+								<key>LHWidth</key>
+								<real>0.0</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{0, 1}</string>
+									<string>{0, 94}</string>
+									<string>{94, 94}</string>
+									<string>{1, 1}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>stone_1</string>
+					<key>SHSpriteName</key>
+					<string>stone_1_6</string>
+					<key>SheetImage</key>
+					<string>stone_stone_1.png</string>
+					<key>SheetImage-HD</key>
+					<string>stone_stone_1-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{101, 253}, {23.75, 23.75}}</string>
+						<key>Frame-HD</key>
+						<string>{{404, 1012}, {95, 95}}</string>
+						<key>Image</key>
+						<string>stone_stone_1.png</string>
+						<key>Image-HD</key>
+						<string>stone_stone_1-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>stone_1_6</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/stone_1/stone_1_6.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/stone_1/stone_1_6.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {95, 95}}</string>
+						<key>OriginalSize</key>
+						<string>{95, 95}</string>
+						<key>Position</key>
+						<string>{404, 1012}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{23.75, 23.75}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, -0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>stone_1_7</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+QDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAyAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwcAAAABAQAAc3Rv
+					bmVfMQANAAAAAQEAAHN0b25lXzFfNy5wbmcA
+					AAAYAAAAAQYAAAQAAAAUAAAAIAAAADQAAABM
+					AAAAXAAAAAgAAAAEAwAAV7kAAAAAAAAIAAAA
+					BAMAAJPIBQAAAAAACAAAAAQDAAD1yAUAAAAA
+					AAgAAAAEAwAAMNMFAAAAAAAIAAAABAMAAKFf
+					BgAAAAAACAAAAAQDAAC+XwYAAAAAABgAAAAB
+					BgAAlAAAAKQAAAC0AAAAxAAAANQAAADkAAAA
+					GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
+					AAAAAAAAAAAAAQUAAAQAAAADAwAAAwAAAAgA
+					AAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAM
+					AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
+					AICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAA
+					AAEBAAA5RUZCNTM0NS1BRDUzLTNCMkUtQTkz
+					RC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAAB
+					AAgA7z8AAAEACAAAAAAAAAAAAAEAAAABAQAA
+					LwAAAAQAAAADAwAAAAEAAMQAAAABAgAANTRh
+					OGVlZTM3ZDNjZTdiYmQxNDFiODg4ZDExNDMz
+					NTQzNWI5MjFhZTswMDAwMDAwMDswMDAwMDAw
+					MDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2Fu
+					ZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzBl
+					MDAwMDAyOzAwMDAwMDAwMDAwNjVmYmU7L3Vz
+					ZXJzL2dhbWUvZG93bmxvYWRzL21hZ25ldCBy
+					ZXNvdXJjZXMvc3RvbmVfMS9zdG9uZV8xXzcu
+					cG5nAOQAAAD+////AQAAAAAAAAASAAAABBAA
+					AHQAAAAAAAAABRAAAPQAAAAAAAAAEBAAABQB
+					AAAAAAAAVBAAADwBAAAAAAAAVRAAADwBAAAA
+					AAAAVhAAADQBAAAAAAAAAiAAAOQBAAAAAAAA
+					ECAAAGQBAAAAAAAAESAAAJgBAAAAAAAAEiAA
+					AHgBAAAAAAAAEyAAAIgBAAAAAAAAICAAAMQB
+					AAAAAAAAMCAAADQBAAAAAAAAAcAAAEgBAAAA
+					AAAAEcAAABQAAAAAAAAAEsAAAFgBAAAAAAAA
+					ENAAAPABAAAAAAAAgPAAAPwBAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-0.5, 11.75}</string>
+										<string>{-12.75, -11.75}</string>
+										<string>{12.5, -11.75}</string>
+										<string>{0.25, 11.75}</string>
+										<string>{-0.25, 12}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>0.0</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<false/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>0.0</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-12.75, -12}</string>
+								<key>LHWidth</key>
+								<real>0.0</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{49, 1}</string>
+									<string>{0, 95}</string>
+									<string>{101, 95}</string>
+									<string>{52, 1}</string>
+									<string>{50, 0}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>stone_1</string>
+					<key>SHSpriteName</key>
+					<string>stone_1_7</string>
+					<key>SheetImage</key>
+					<string>stone_stone_1.png</string>
+					<key>SheetImage-HD</key>
+					<string>stone_stone_1-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{249, 125}, {25.5, 24}}</string>
+						<key>Frame-HD</key>
+						<string>{{996, 500}, {102, 96}}</string>
+						<key>Image</key>
+						<string>stone_stone_1.png</string>
+						<key>Image-HD</key>
+						<string>stone_stone_1-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>stone_1_7</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/stone_1/stone_1_7.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/stone_1/stone_1_7.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {102, 96}}</string>
+						<key>OriginalSize</key>
+						<string>{102, 96}</string>
+						<key>Position</key>
+						<string>{996, 500}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{25.5, 24}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, -0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>stone_2_1</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+QDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAyAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwcAAAABAQAAc3Rv
+					bmVfMQANAAAAAQEAAHN0b25lXzJfMS5wbmcA
+					AAAYAAAAAQYAAAQAAAAUAAAAIAAAADQAAABM
+					AAAAXAAAAAgAAAAEAwAAV7kAAAAAAAAIAAAA
+					BAMAAJPIBQAAAAAACAAAAAQDAAD1yAUAAAAA
+					AAgAAAAEAwAAMNMFAAAAAAAIAAAABAMAAKFf
+					BgAAAAAACAAAAAQDAAApYQYAAAAAABgAAAAB
+					BgAAlAAAAKQAAAC0AAAAxAAAANQAAADkAAAA
+					GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
+					AAAAAAAAAAAAAQUAAAQAAAADAwAAAwAAAAgA
+					AAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAM
+					AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
+					AICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAA
+					AAEBAAA5RUZCNTM0NS1BRDUzLTNCMkUtQTkz
+					RC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAAB
+					AAgA7z8AAAEACAAAAAAAAAAAAAEAAAABAQAA
+					LwAAAAQAAAADAwAAAAEAAMQAAAABAgAAMDY3
+					MThmZjRhNTdhMTE5NTZhNDViMjEyNDdjMzU1
+					ZmVmMmUwZjhjZTswMDAwMDAwMDswMDAwMDAw
+					MDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2Fu
+					ZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzBl
+					MDAwMDAyOzAwMDAwMDAwMDAwNjYxMjk7L3Vz
+					ZXJzL2dhbWUvZG93bmxvYWRzL21hZ25ldCBy
+					ZXNvdXJjZXMvc3RvbmVfMS9zdG9uZV8yXzEu
+					cG5nAOQAAAD+////AQAAAAAAAAASAAAABBAA
+					AHQAAAAAAAAABRAAAPQAAAAAAAAAEBAAABQB
+					AAAAAAAAVBAAADwBAAAAAAAAVRAAADwBAAAA
+					AAAAVhAAADQBAAAAAAAAAiAAAOQBAAAAAAAA
+					ECAAAGQBAAAAAAAAESAAAJgBAAAAAAAAEiAA
+					AHgBAAAAAAAAEyAAAIgBAAAAAAAAICAAAMQB
+					AAAAAAAAMCAAADQBAAAAAAAAAcAAAEgBAAAA
+					AAAAEcAAABQAAAAAAAAAEsAAAFgBAAAAAAAA
+					ENAAAPABAAAAAAAAgPAAAPwBAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-6, -12.25}</string>
+										<string>{6, -12.25}</string>
+										<string>{6, 12.25}</string>
+										<string>{-6, 12.25}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>98</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<true/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>24.5</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-6, -12.25}</string>
+								<key>LHWidth</key>
+								<real>12</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{0, 0}</string>
+									<string>{48, 0}</string>
+									<string>{48, 98}</string>
+									<string>{0, 98}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>48</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>stone_1</string>
+					<key>SHSpriteName</key>
+					<string>stone_2_1</string>
+					<key>SheetImage</key>
+					<string>stone_stone_1.png</string>
+					<key>SheetImage-HD</key>
+					<string>stone_stone_1-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{251, 176}, {12, 24.5}}</string>
+						<key>Frame-HD</key>
+						<string>{{1004, 704}, {48, 98}}</string>
+						<key>Image</key>
+						<string>stone_stone_1.png</string>
+						<key>Image-HD</key>
+						<string>stone_stone_1-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>stone_2_1</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/stone_1/stone_2_1.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/stone_1/stone_2_1.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {48, 98}}</string>
+						<key>OriginalSize</key>
+						<string>{48, 98}</string>
+						<key>Position</key>
+						<string>{1004, 704}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{12, 24.5}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, -0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>stone_2_2</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+QDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAyAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwcAAAABAQAAc3Rv
+					bmVfMQANAAAAAQEAAHN0b25lXzJfMi5wbmcA
+					AAAYAAAAAQYAAAQAAAAUAAAAIAAAADQAAABM
+					AAAAXAAAAAgAAAAEAwAAV7kAAAAAAAAIAAAA
+					BAMAAJPIBQAAAAAACAAAAAQDAAD1yAUAAAAA
+					AAgAAAAEAwAAMNMFAAAAAAAIAAAABAMAAKFf
+					BgAAAAAACAAAAAQDAAA9YQYAAAAAABgAAAAB
+					BgAAlAAAAKQAAAC0AAAAxAAAANQAAADkAAAA
+					GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
+					AAAAAAAAAAAAAQUAAAQAAAADAwAAAwAAAAgA
+					AAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAM
+					AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
+					AICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAA
+					AAEBAAA5RUZCNTM0NS1BRDUzLTNCMkUtQTkz
+					RC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAAB
+					AAgA7z8AAAEACAAAAAAAAAAAAAEAAAABAQAA
+					LwAAAAQAAAADAwAAAAEAAMQAAAABAgAANTEw
+					Y2FmNjVlZWI1ODNkZTk5MGUzNjY3YTZmYTNh
+					MDNiY2VmYmI5ODswMDAwMDAwMDswMDAwMDAw
+					MDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2Fu
+					ZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzBl
+					MDAwMDAyOzAwMDAwMDAwMDAwNjYxM2Q7L3Vz
+					ZXJzL2dhbWUvZG93bmxvYWRzL21hZ25ldCBy
+					ZXNvdXJjZXMvc3RvbmVfMS9zdG9uZV8yXzIu
+					cG5nAOQAAAD+////AQAAAAAAAAASAAAABBAA
+					AHQAAAAAAAAABRAAAPQAAAAAAAAAEBAAABQB
+					AAAAAAAAVBAAADwBAAAAAAAAVRAAADwBAAAA
+					AAAAVhAAADQBAAAAAAAAAiAAAOQBAAAAAAAA
+					ECAAAGQBAAAAAAAAESAAAJgBAAAAAAAAEiAA
+					AHgBAAAAAAAAEyAAAIgBAAAAAAAAICAAAMQB
+					AAAAAAAAMCAAADQBAAAAAAAAAcAAAEgBAAAA
+					AAAAEcAAABQAAAAAAAAAEsAAAFgBAAAAAAAA
+					ENAAAPABAAAAAAAAgPAAAPwBAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-5.875, -12.25}</string>
+										<string>{5.875, -12.25}</string>
+										<string>{5.875, 12.25}</string>
+										<string>{-5.875, 12.25}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>98</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<true/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>24.5</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-5.875, -12.25}</string>
+								<key>LHWidth</key>
+								<real>11.75</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{0, 0}</string>
+									<string>{47, 0}</string>
+									<string>{47, 98}</string>
+									<string>{0, 98}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>47</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>stone_1</string>
+					<key>SHSpriteName</key>
+					<string>stone_2_2</string>
+					<key>SheetImage</key>
+					<string>stone_stone_1.png</string>
+					<key>SheetImage-HD</key>
+					<string>stone_stone_1-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{264, 176}, {11.75, 24.5}}</string>
+						<key>Frame-HD</key>
+						<string>{{1056, 704}, {47, 98}}</string>
+						<key>Image</key>
+						<string>stone_stone_1.png</string>
+						<key>Image-HD</key>
+						<string>stone_stone_1-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>stone_2_2</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/stone_1/stone_2_2.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/stone_1/stone_2_2.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {47, 98}}</string>
+						<key>OriginalSize</key>
+						<string>{47, 98}</string>
+						<key>Position</key>
+						<string>{1056, 704}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{11.75, 24.5}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, -0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>stone_3_3</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+QDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAyAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwcAAAABAQAAc3Rv
+					bmVfMQANAAAAAQEAAHN0b25lXzNfMy5wbmcA
+					AAAYAAAAAQYAAAQAAAAUAAAAIAAAADQAAABM
+					AAAAXAAAAAgAAAAEAwAAV7kAAAAAAAAIAAAA
+					BAMAAJPIBQAAAAAACAAAAAQDAAD1yAUAAAAA
+					AAgAAAAEAwAAMNMFAAAAAAAIAAAABAMAAKFf
+					BgAAAAAACAAAAAQDAADCXwYAAAAAABgAAAAB
+					BgAAlAAAAKQAAAC0AAAAxAAAANQAAADkAAAA
+					GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
+					AAAAAAAAAAAAAQUAAAQAAAADAwAAAwAAAAgA
+					AAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAM
+					AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
+					AICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAA
+					AAEBAAA5RUZCNTM0NS1BRDUzLTNCMkUtQTkz
+					RC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAAB
+					AAgA7z8AAAEACAAAAAAAAAAAAAEAAAABAQAA
+					LwAAAAQAAAADAwAAAAEAAMQAAAABAgAAMzcw
+					ODMyZjYwMDMyYmU5MTVhZGY3ZDRkOWU4MzM4
+					M2I2MTMxMTgxMTswMDAwMDAwMDswMDAwMDAw
+					MDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2Fu
+					ZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzBl
+					MDAwMDAyOzAwMDAwMDAwMDAwNjVmYzI7L3Vz
+					ZXJzL2dhbWUvZG93bmxvYWRzL21hZ25ldCBy
+					ZXNvdXJjZXMvc3RvbmVfMS9zdG9uZV8zXzMu
+					cG5nAOQAAAD+////AQAAAAAAAAASAAAABBAA
+					AHQAAAAAAAAABRAAAPQAAAAAAAAAEBAAABQB
+					AAAAAAAAVBAAADwBAAAAAAAAVRAAADwBAAAA
+					AAAAVhAAADQBAAAAAAAAAiAAAOQBAAAAAAAA
+					ECAAAGQBAAAAAAAAESAAAJgBAAAAAAAAEiAA
+					AHgBAAAAAAAAEyAAAIgBAAAAAAAAICAAAMQB
+					AAAAAAAAMCAAADQBAAAAAAAAAcAAAEgBAAAA
+					AAAAEcAAABQAAAAAAAAAEsAAAFgBAAAAAAAA
+					ENAAAPABAAAAAAAAgPAAAPwBAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-6.25, -12.25}</string>
+										<string>{6.25, -12.25}</string>
+										<string>{6.25, 12.25}</string>
+										<string>{-6.25, 12.25}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>98</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<true/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>24.5</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-6.25, -12.25}</string>
+								<key>LHWidth</key>
+								<real>12.5</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{0, 0}</string>
+									<string>{50, 0}</string>
+									<string>{50, 98}</string>
+									<string>{0, 98}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>50</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>stone_1</string>
+					<key>SHSpriteName</key>
+					<string>stone_3_3</string>
+					<key>SheetImage</key>
+					<string>stone_stone_1.png</string>
+					<key>SheetImage-HD</key>
+					<string>stone_stone_1-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{76, 251}, {12.5, 24.5}}</string>
+						<key>Frame-HD</key>
+						<string>{{304, 1004}, {50, 98}}</string>
+						<key>Image</key>
+						<string>stone_stone_1.png</string>
+						<key>Image-HD</key>
+						<string>stone_stone_1-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>stone_3_3</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/stone_1/stone_3_3.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/stone_1/stone_3_3.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {50, 98}}</string>
+						<key>OriginalSize</key>
+						<string>{50, 98}</string>
+						<key>Position</key>
+						<string>{304, 1004}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{12.5, 24.5}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, -0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>stone_3_4</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+QDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAyAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwcAAAABAQAAc3Rv
+					bmVfMQANAAAAAQEAAHN0b25lXzNfNC5wbmcA
+					AAAYAAAAAQYAAAQAAAAUAAAAIAAAADQAAABM
+					AAAAXAAAAAgAAAAEAwAAV7kAAAAAAAAIAAAA
+					BAMAAJPIBQAAAAAACAAAAAQDAAD1yAUAAAAA
+					AAgAAAAEAwAAMNMFAAAAAAAIAAAABAMAAKFf
+					BgAAAAAACAAAAAQDAADDXwYAAAAAABgAAAAB
+					BgAAlAAAAKQAAAC0AAAAxAAAANQAAADkAAAA
+					GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
+					AAAAAAAAAAAAAQUAAAQAAAADAwAAAwAAAAgA
+					AAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAM
+					AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
+					AICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAA
+					AAEBAAA5RUZCNTM0NS1BRDUzLTNCMkUtQTkz
+					RC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAAB
+					AAgA7z8AAAEACAAAAAAAAAAAAAEAAAABAQAA
+					LwAAAAQAAAADAwAAAAEAAMQAAAABAgAAZjRi
+					MWU1ZjJmOThhMTYxODZlNDY4ODIxNmQxYmEz
+					NDZhMGYwMzBkMzswMDAwMDAwMDswMDAwMDAw
+					MDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2Fu
+					ZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzBl
+					MDAwMDAyOzAwMDAwMDAwMDAwNjVmYzM7L3Vz
+					ZXJzL2dhbWUvZG93bmxvYWRzL21hZ25ldCBy
+					ZXNvdXJjZXMvc3RvbmVfMS9zdG9uZV8zXzQu
+					cG5nAOQAAAD+////AQAAAAAAAAASAAAABBAA
+					AHQAAAAAAAAABRAAAPQAAAAAAAAAEBAAABQB
+					AAAAAAAAVBAAADwBAAAAAAAAVRAAADwBAAAA
+					AAAAVhAAADQBAAAAAAAAAiAAAOQBAAAAAAAA
+					ECAAAGQBAAAAAAAAESAAAJgBAAAAAAAAEiAA
+					AHgBAAAAAAAAEyAAAIgBAAAAAAAAICAAAMQB
+					AAAAAAAAMCAAADQBAAAAAAAAAcAAAEgBAAAA
+					AAAAEcAAABQAAAAAAAAAEsAAAFgBAAAAAAAA
+					ENAAAPABAAAAAAAAgPAAAPwBAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-11.75, -12.25}</string>
+										<string>{11.75, -12.25}</string>
+										<string>{11.75, 12.25}</string>
+										<string>{-11.75, 12.25}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>98</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<true/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>24.5</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-11.75, -12.25}</string>
+								<key>LHWidth</key>
+								<real>23.5</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{0, 0}</string>
+									<string>{94, 0}</string>
+									<string>{94, 98}</string>
+									<string>{0, 98}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>94</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>stone_1</string>
+					<key>SHSpriteName</key>
+					<string>stone_3_4</string>
+					<key>SheetImage</key>
+					<string>stone_stone_1.png</string>
+					<key>SheetImage-HD</key>
+					<string>stone_stone_1-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{76, 225}, {23.5, 24.5}}</string>
+						<key>Frame-HD</key>
+						<string>{{304, 900}, {94, 98}}</string>
+						<key>Image</key>
+						<string>stone_stone_1.png</string>
+						<key>Image-HD</key>
+						<string>stone_stone_1-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>stone_3_4</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/stone_1/stone_3_4.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/stone_1/stone_3_4.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {94, 98}}</string>
+						<key>OriginalSize</key>
+						<string>{94, 98}</string>
+						<key>Position</key>
+						<string>{304, 900}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{23.5, 24.5}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, -0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>stone_3_5</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+QDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAyAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwcAAAABAQAAc3Rv
+					bmVfMQANAAAAAQEAAHN0b25lXzNfNS5wbmcA
+					AAAYAAAAAQYAAAQAAAAUAAAAIAAAADQAAABM
+					AAAAXAAAAAgAAAAEAwAAV7kAAAAAAAAIAAAA
+					BAMAAJPIBQAAAAAACAAAAAQDAAD1yAUAAAAA
+					AAgAAAAEAwAAMNMFAAAAAAAIAAAABAMAAKFf
+					BgAAAAAACAAAAAQDAADEXwYAAAAAABgAAAAB
+					BgAAlAAAAKQAAAC0AAAAxAAAANQAAADkAAAA
+					GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
+					AAAAAAAAAAAAAQUAAAQAAAADAwAAAwAAAAgA
+					AAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAM
+					AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
+					AICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAA
+					AAEBAAA5RUZCNTM0NS1BRDUzLTNCMkUtQTkz
+					RC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAAB
+					AAgA7z8AAAEACAAAAAAAAAAAAAEAAAABAQAA
+					LwAAAAQAAAADAwAAAAEAAMQAAAABAgAAYjMx
+					MDliMmMzNGM4YzI1YjZkODllYzI0YjE5YjJk
+					NGZjMzg4OWMxNjswMDAwMDAwMDswMDAwMDAw
+					MDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2Fu
+					ZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzBl
+					MDAwMDAyOzAwMDAwMDAwMDAwNjVmYzQ7L3Vz
+					ZXJzL2dhbWUvZG93bmxvYWRzL21hZ25ldCBy
+					ZXNvdXJjZXMvc3RvbmVfMS9zdG9uZV8zXzUu
+					cG5nAOQAAAD+////AQAAAAAAAAASAAAABBAA
+					AHQAAAAAAAAABRAAAPQAAAAAAAAAEBAAABQB
+					AAAAAAAAVBAAADwBAAAAAAAAVRAAADwBAAAA
+					AAAAVhAAADQBAAAAAAAAAiAAAOQBAAAAAAAA
+					ECAAAGQBAAAAAAAAESAAAJgBAAAAAAAAEiAA
+					AHgBAAAAAAAAEyAAAIgBAAAAAAAAICAAAMQB
+					AAAAAAAAMCAAADQBAAAAAAAAAcAAAEgBAAAA
+					AAAAEcAAABQAAAAAAAAAEsAAAFgBAAAAAAAA
+					ENAAAPABAAAAAAAAgPAAAPwBAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{12, -12}</string>
+										<string>{12, 12.25}</string>
+										<string>{3.75, 12.25}</string>
+										<string>{3.75, 12}</string>
+									</array>
+									<array>
+										<string>{12, -12}</string>
+										<string>{3.75, 12}</string>
+										<string>{3.5, 8.5}</string>
+									</array>
+									<array>
+										<string>{12, -12}</string>
+										<string>{3.5, 8.5}</string>
+										<string>{1.75, 4.25}</string>
+									</array>
+									<array>
+										<string>{-2.75, -0.75}</string>
+										<string>{-12.25, -12}</string>
+										<string>{12, -12}</string>
+										<string>{1.75, 4.25}</string>
+									</array>
+									<array>
+										<string>{-12.25, -12}</string>
+										<string>{-2.75, -0.75}</string>
+										<string>{-8.5, -3.5}</string>
+									</array>
+									<array>
+										<string>{-12.25, -3.75}</string>
+										<string>{-12.25, -12}</string>
+										<string>{-8.5, -3.5}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>0.0</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<false/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>0.0</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-12.25, -12.25}</string>
+								<key>LHWidth</key>
+								<real>0.0</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{64, 1}</string>
+									<string>{63, 15}</string>
+									<string>{56, 32}</string>
+									<string>{38, 52}</string>
+									<string>{15, 63}</string>
+									<string>{0, 64}</string>
+									<string>{0, 97}</string>
+									<string>{97, 97}</string>
+									<string>{97, 0}</string>
+									<string>{64, 0}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>stone_1</string>
+					<key>SHSpriteName</key>
+					<string>stone_3_5</string>
+					<key>SheetImage</key>
+					<string>stone_stone_1.png</string>
+					<key>SheetImage-HD</key>
+					<string>stone_stone_1-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{200, 250}, {24.5, 24.5}}</string>
+						<key>Frame-HD</key>
+						<string>{{800, 1000}, {98, 98}}</string>
+						<key>Image</key>
+						<string>stone_stone_1.png</string>
+						<key>Image-HD</key>
+						<string>stone_stone_1-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>stone_3_5</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/stone_1/stone_3_5.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/stone_1/stone_3_5.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {98, 98}}</string>
+						<key>OriginalSize</key>
+						<string>{98, 98}</string>
+						<key>Position</key>
+						<string>{800, 1000}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{24.5, 24.5}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, -0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>stone_3_6</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+QDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAyAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwcAAAABAQAAc3Rv
+					bmVfMQANAAAAAQEAAHN0b25lXzNfNi5wbmcA
+					AAAYAAAAAQYAAAQAAAAUAAAAIAAAADQAAABM
+					AAAAXAAAAAgAAAAEAwAAV7kAAAAAAAAIAAAA
+					BAMAAJPIBQAAAAAACAAAAAQDAAD1yAUAAAAA
+					AAgAAAAEAwAAMNMFAAAAAAAIAAAABAMAAKFf
+					BgAAAAAACAAAAAQDAADFXwYAAAAAABgAAAAB
+					BgAAlAAAAKQAAAC0AAAAxAAAANQAAADkAAAA
+					GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
+					AAAAAAAAAAAAAQUAAAQAAAADAwAAAwAAAAgA
+					AAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAM
+					AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
+					AICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAA
+					AAEBAAA5RUZCNTM0NS1BRDUzLTNCMkUtQTkz
+					RC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAAB
+					AAgA7z8AAAEACAAAAAAAAAAAAAEAAAABAQAA
+					LwAAAAQAAAADAwAAAAEAAMQAAAABAgAANzky
+					OWQ5NzRiZDBhM2U4M2VmZTE1NDgyY2RiNTdk
+					NjQ0Y2UyMjc2ZjswMDAwMDAwMDswMDAwMDAw
+					MDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2Fu
+					ZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzBl
+					MDAwMDAyOzAwMDAwMDAwMDAwNjVmYzU7L3Vz
+					ZXJzL2dhbWUvZG93bmxvYWRzL21hZ25ldCBy
+					ZXNvdXJjZXMvc3RvbmVfMS9zdG9uZV8zXzYu
+					cG5nAOQAAAD+////AQAAAAAAAAASAAAABBAA
+					AHQAAAAAAAAABRAAAPQAAAAAAAAAEBAAABQB
+					AAAAAAAAVBAAADwBAAAAAAAAVRAAADwBAAAA
+					AAAAVhAAADQBAAAAAAAAAiAAAOQBAAAAAAAA
+					ECAAAGQBAAAAAAAAESAAAJgBAAAAAAAAEiAA
+					AHgBAAAAAAAAEyAAAIgBAAAAAAAAICAAAMQB
+					AAAAAAAAMCAAADQBAAAAAAAAAcAAAEgBAAAA
+					AAAAEcAAABQAAAAAAAAAEsAAAFgBAAAAAAAA
+					ENAAAPABAAAAAAAAgPAAAPwBAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-12.25, -12.25}</string>
+										<string>{12.25, -12.25}</string>
+										<string>{12.25, 12.25}</string>
+										<string>{-12.25, 12.25}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>98</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<true/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>24.5</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-12.25, -12.25}</string>
+								<key>LHWidth</key>
+								<real>24.5</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{0, 0}</string>
+									<string>{98, 0}</string>
+									<string>{98, 98}</string>
+									<string>{0, 98}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>98</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>stone_1</string>
+					<key>SHSpriteName</key>
+					<string>stone_3_6</string>
+					<key>SheetImage</key>
+					<string>stone_stone_1.png</string>
+					<key>SheetImage-HD</key>
+					<string>stone_stone_1-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{164, 227}, {24.5, 24.5}}</string>
+						<key>Frame-HD</key>
+						<string>{{656, 908}, {98, 98}}</string>
+						<key>Image</key>
+						<string>stone_stone_1.png</string>
+						<key>Image-HD</key>
+						<string>stone_stone_1-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>stone_3_6</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/stone_1/stone_3_6.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/stone_1/stone_3_6.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {98, 98}}</string>
+						<key>OriginalSize</key>
+						<string>{98, 98}</string>
+						<key>Position</key>
+						<string>{656, 908}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{24.5, 24.5}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, -0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>stone_box1x2</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+gDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAzAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwcAAAABAQAAc3Rv
+					bmVfMQAQAAAAAQEAAHN0b25lX2JveDF4Mi5w
+					bmcYAAAAAQYAAAQAAAAUAAAAIAAAADQAAABM
+					AAAAXAAAAAgAAAAEAwAAV7kAAAAAAAAIAAAA
+					BAMAAJPIBQAAAAAACAAAAAQDAAD1yAUAAAAA
+					AAgAAAAEAwAAMNMFAAAAAAAIAAAABAMAAKFf
+					BgAAAAAACAAAAAQDAABEbQYAAAAAABgAAAAB
+					BgAAlAAAAKQAAAC0AAAAxAAAANQAAADkAAAA
+					GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
+					AAAAAAAAAAAAAQUAAAQAAAADAwAAAwAAAAgA
+					AAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAM
+					AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
+					AICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAA
+					AAEBAAA5RUZCNTM0NS1BRDUzLTNCMkUtQTkz
+					RC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAAB
+					AAgA7z8AAAEACAAAAAAAAAAAAAEAAAABAQAA
+					LwAAAAQAAAADAwAAAAEAAMcAAAABAgAAYzBk
+					NGE5N2RjNTZhMDFlYzVjY2VlZWM0Njg0NGVj
+					NmQzMjg1ZDg2YjswMDAwMDAwMDswMDAwMDAw
+					MDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2Fu
+					ZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzBl
+					MDAwMDAyOzAwMDAwMDAwMDAwNjZkNDQ7L3Vz
+					ZXJzL2dhbWUvZG93bmxvYWRzL21hZ25ldCBy
+					ZXNvdXJjZXMvc3RvbmVfMS9zdG9uZV9ib3gx
+					eDIucG5nAADkAAAA/v///wEAAAAAAAAAEgAA
+					AAQQAAB0AAAAAAAAAAUQAAD0AAAAAAAAABAQ
+					AAAUAQAAAAAAAFQQAAA8AQAAAAAAAFUQAAA8
+					AQAAAAAAAFYQAAA0AQAAAAAAAAIgAADkAQAA
+					AAAAABAgAABkAQAAAAAAABEgAACYAQAAAAAA
+					ABIgAAB4AQAAAAAAABMgAACIAQAAAAAAACAg
+					AADEAQAAAAAAADAgAAA0AQAAAAAAAAHAAABI
+					AQAAAAAAABHAAAAUAAAAAAAAABLAAABYAQAA
+					AAAAABDQAADwAQAAAAAAAIDwAAD8AQAAAAAA
+					AA==
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-12.375, -24.5}</string>
+										<string>{12.375, -24.5}</string>
+										<string>{12.375, 24.5}</string>
+										<string>{-12.375, 24.5}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>196</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<true/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>49</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-12.375, -24.5}</string>
+								<key>LHWidth</key>
+								<real>24.75</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{0, 0}</string>
+									<string>{99, 0}</string>
+									<string>{99, 196}</string>
+									<string>{0, 196}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>99</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>stone_1</string>
+					<key>SHSpriteName</key>
+					<string>stone_box1x2</string>
+					<key>SheetImage</key>
+					<string>stone_stone_1.png</string>
+					<key>SheetImage-HD</key>
+					<string>stone_stone_1-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{51, 225}, {24.75, 49}}</string>
+						<key>Frame-HD</key>
+						<string>{{204, 900}, {99, 196}}</string>
+						<key>Image</key>
+						<string>stone_stone_1.png</string>
+						<key>Image-HD</key>
+						<string>stone_stone_1-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>stone_box1x2</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/stone_1/stone_box1x2.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/stone_1/stone_box1x2.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {99, 196}}</string>
+						<key>OriginalSize</key>
+						<string>{99, 196}</string>
+						<key>Position</key>
+						<string>{204, 900}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{24.75, 49}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, -0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>stone_box1x3</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+gDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAzAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwcAAAABAQAAc3Rv
+					bmVfMQAQAAAAAQEAAHN0b25lX2JveDF4My5w
+					bmcYAAAAAQYAAAQAAAAUAAAAIAAAADQAAABM
+					AAAAXAAAAAgAAAAEAwAAV7kAAAAAAAAIAAAA
+					BAMAAJPIBQAAAAAACAAAAAQDAAD1yAUAAAAA
+					AAgAAAAEAwAAMNMFAAAAAAAIAAAABAMAAKFf
+					BgAAAAAACAAAAAQDAABFbQYAAAAAABgAAAAB
+					BgAAlAAAAKQAAAC0AAAAxAAAANQAAADkAAAA
+					GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
+					AAAAAAAAAAAAAQUAAAQAAAADAwAAAwAAAAgA
+					AAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAM
+					AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
+					AICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAA
+					AAEBAAA5RUZCNTM0NS1BRDUzLTNCMkUtQTkz
+					RC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAAB
+					AAgA7z8AAAEACAAAAAAAAAAAAAEAAAABAQAA
+					LwAAAAQAAAADAwAAAAEAAMcAAAABAgAANTRl
+					MmIyODI5ZTk4ZDAxMzhiNTMwMWE3YjMxNzQ1
+					NTY5NTM2OTIzYzswMDAwMDAwMDswMDAwMDAw
+					MDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2Fu
+					ZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzBl
+					MDAwMDAyOzAwMDAwMDAwMDAwNjZkNDU7L3Vz
+					ZXJzL2dhbWUvZG93bmxvYWRzL21hZ25ldCBy
+					ZXNvdXJjZXMvc3RvbmVfMS9zdG9uZV9ib3gx
+					eDMucG5nAADkAAAA/v///wEAAAAAAAAAEgAA
+					AAQQAAB0AAAAAAAAAAUQAAD0AAAAAAAAABAQ
+					AAAUAQAAAAAAAFQQAAA8AQAAAAAAAFUQAAA8
+					AQAAAAAAAFYQAAA0AQAAAAAAAAIgAADkAQAA
+					AAAAABAgAABkAQAAAAAAABEgAACYAQAAAAAA
+					ABIgAAB4AQAAAAAAABMgAACIAQAAAAAAACAg
+					AADEAQAAAAAAADAgAAA0AQAAAAAAAAHAAABI
+					AQAAAAAAABHAAAAUAAAAAAAAABLAAABYAQAA
+					AAAAABDQAADwAQAAAAAAAIDwAAD8AQAAAAAA
+					AA==
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-12.375, -36.875}</string>
+										<string>{12.375, -36.875}</string>
+										<string>{12.375, 36.875}</string>
+										<string>{-12.375, 36.875}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>295</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<true/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>73.75</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-12.375, -36.875}</string>
+								<key>LHWidth</key>
+								<real>24.75</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{0, 0}</string>
+									<string>{99, 0}</string>
+									<string>{99, 295}</string>
+									<string>{0, 295}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>99</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>stone_1</string>
+					<key>SHSpriteName</key>
+					<string>stone_box1x3</string>
+					<key>SheetImage</key>
+					<string>stone_stone_1.png</string>
+					<key>SheetImage-HD</key>
+					<string>stone_stone_1-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{200, 176}, {24.75, 73.75}}</string>
+						<key>Frame-HD</key>
+						<string>{{800, 704}, {99, 295}}</string>
+						<key>Image</key>
+						<string>stone_stone_1.png</string>
+						<key>Image-HD</key>
+						<string>stone_stone_1-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>stone_box1x3</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/stone_1/stone_box1x3.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/stone_1/stone_box1x3.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {99, 295}}</string>
+						<key>OriginalSize</key>
+						<string>{99, 295}</string>
+						<key>Position</key>
+						<string>{800, 704}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{24.75, 73.75}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, -0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>stone_box1x4</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+gDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAzAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwcAAAABAQAAc3Rv
+					bmVfMQAQAAAAAQEAAHN0b25lX2JveDF4NC5w
+					bmcYAAAAAQYAAAQAAAAUAAAAIAAAADQAAABM
+					AAAAXAAAAAgAAAAEAwAAV7kAAAAAAAAIAAAA
+					BAMAAJPIBQAAAAAACAAAAAQDAAD1yAUAAAAA
+					AAgAAAAEAwAAMNMFAAAAAAAIAAAABAMAAKFf
+					BgAAAAAACAAAAAQDAABGbQYAAAAAABgAAAAB
+					BgAAlAAAAKQAAAC0AAAAxAAAANQAAADkAAAA
+					GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
+					AAAAAAAAAAAAAQUAAAQAAAADAwAAAwAAAAgA
+					AAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAM
+					AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
+					AICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAA
+					AAEBAAA5RUZCNTM0NS1BRDUzLTNCMkUtQTkz
+					RC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAAB
+					AAgA7z8AAAEACAAAAAAAAAAAAAEAAAABAQAA
+					LwAAAAQAAAADAwAAAAEAAMcAAAABAgAAZjdm
+					NTljMTk4MWIzNmZlNjg2YzRhZWMyNjcxZTk2
+					OGZlMmQ3NWU4NzswMDAwMDAwMDswMDAwMDAw
+					MDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2Fu
+					ZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzBl
+					MDAwMDAyOzAwMDAwMDAwMDAwNjZkNDY7L3Vz
+					ZXJzL2dhbWUvZG93bmxvYWRzL21hZ25ldCBy
+					ZXNvdXJjZXMvc3RvbmVfMS9zdG9uZV9ib3gx
+					eDQucG5nAADkAAAA/v///wEAAAAAAAAAEgAA
+					AAQQAAB0AAAAAAAAAAUQAAD0AAAAAAAAABAQ
+					AAAUAQAAAAAAAFQQAAA8AQAAAAAAAFUQAAA8
+					AQAAAAAAAFYQAAA0AQAAAAAAAAIgAADkAQAA
+					AAAAABAgAABkAQAAAAAAABEgAACYAQAAAAAA
+					ABIgAAB4AQAAAAAAABMgAACIAQAAAAAAACAg
+					AADEAQAAAAAAADAgAAA0AQAAAAAAAAHAAABI
+					AQAAAAAAABHAAAAUAAAAAAAAABLAAABYAQAA
+					AAAAABDQAADwAQAAAAAAAIDwAAD8AQAAAAAA
+					AA==
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-12.375, -49}</string>
+										<string>{12.375, -49}</string>
+										<string>{12.375, 49}</string>
+										<string>{-12.375, 49}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>392</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<true/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>98</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-12.375, -49}</string>
+								<key>LHWidth</key>
+								<real>24.75</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{0, 0}</string>
+									<string>{99, 0}</string>
+									<string>{99, 392}</string>
+									<string>{0, 392}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>99</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>stone_1</string>
+					<key>SHSpriteName</key>
+					<string>stone_box1x4</string>
+					<key>SheetImage</key>
+					<string>stone_stone_1.png</string>
+					<key>SheetImage-HD</key>
+					<string>stone_stone_1-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{249, 0}, {24.75, 98}}</string>
+						<key>Frame-HD</key>
+						<string>{{996, 0}, {99, 392}}</string>
+						<key>Image</key>
+						<string>stone_stone_1.png</string>
+						<key>Image-HD</key>
+						<string>stone_stone_1-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>stone_box1x4</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/stone_1/stone_box1x4.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/stone_1/stone_box1x4.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {99, 392}}</string>
+						<key>OriginalSize</key>
+						<string>{99, 392}</string>
+						<key>Position</key>
+						<string>{996, 0}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{24.75, 98}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, -0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>stone_box2x2</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+gDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAzAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwcAAAABAQAAc3Rv
+					bmVfMQAQAAAAAQEAAHN0b25lX2JveDJ4Mi5w
+					bmcYAAAAAQYAAAQAAAAUAAAAIAAAADQAAABM
+					AAAAXAAAAAgAAAAEAwAAV7kAAAAAAAAIAAAA
+					BAMAAJPIBQAAAAAACAAAAAQDAAD1yAUAAAAA
+					AAgAAAAEAwAAMNMFAAAAAAAIAAAABAMAAKFf
+					BgAAAAAACAAAAAQDAABHbQYAAAAAABgAAAAB
+					BgAAlAAAAKQAAAC0AAAAxAAAANQAAADkAAAA
+					GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
+					AAAAAAAAAAAAAQUAAAQAAAADAwAAAwAAAAgA
+					AAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAM
+					AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
+					AICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAA
+					AAEBAAA5RUZCNTM0NS1BRDUzLTNCMkUtQTkz
+					RC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAAB
+					AAgA7z8AAAEACAAAAAAAAAAAAAEAAAABAQAA
+					LwAAAAQAAAADAwAAAAEAAMcAAAABAgAANDMz
+					NWM5NTk1Y2RlZWFmNjhjZjI2MDNlMjgyMDdm
+					MTViNjg2Y2MyOTswMDAwMDAwMDswMDAwMDAw
+					MDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2Fu
+					ZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzBl
+					MDAwMDAyOzAwMDAwMDAwMDAwNjZkNDc7L3Vz
+					ZXJzL2dhbWUvZG93bmxvYWRzL21hZ25ldCBy
+					ZXNvdXJjZXMvc3RvbmVfMS9zdG9uZV9ib3gy
+					eDIucG5nAADkAAAA/v///wEAAAAAAAAAEgAA
+					AAQQAAB0AAAAAAAAAAUQAAD0AAAAAAAAABAQ
+					AAAUAQAAAAAAAFQQAAA8AQAAAAAAAFUQAAA8
+					AQAAAAAAAFYQAAA0AQAAAAAAAAIgAADkAQAA
+					AAAAABAgAABkAQAAAAAAABEgAACYAQAAAAAA
+					ABIgAAB4AQAAAAAAABMgAACIAQAAAAAAACAg
+					AADEAQAAAAAAADAgAAA0AQAAAAAAAAHAAABI
+					AQAAAAAAABHAAAAUAAAAAAAAABLAAABYAQAA
+					AAAAABDQAADwAQAAAAAAAIDwAAD8AQAAAAAA
+					AA==
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-24.625, -24.75}</string>
+										<string>{24.625, -24.75}</string>
+										<string>{24.625, 24.75}</string>
+										<string>{-24.625, 24.75}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>198</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<true/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>49.5</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-24.625, -24.75}</string>
+								<key>LHWidth</key>
+								<real>49.25</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{0, 0}</string>
+									<string>{197, 0}</string>
+									<string>{197, 198}</string>
+									<string>{0, 198}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>197</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>stone_1</string>
+					<key>SHSpriteName</key>
+					<string>stone_box2x2</string>
+					<key>SheetImage</key>
+					<string>stone_stone_1.png</string>
+					<key>SheetImage-HD</key>
+					<string>stone_stone_1-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{0, 224}, {49.75, 49.5}}</string>
+						<key>Frame-HD</key>
+						<string>{{0, 896}, {197, 198}}</string>
+						<key>Image</key>
+						<string>stone_stone_1.png</string>
+						<key>Image-HD</key>
+						<string>stone_stone_1-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>stone_box2x2</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/stone_1/stone_box2x2.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/stone_1/stone_box2x2.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {197, 198}}</string>
+						<key>OriginalSize</key>
+						<string>{197, 198}</string>
+						<key>Position</key>
+						<string>{0, 896}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{49.25, 49.5}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0.25, -0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>stone_box2x3</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+gDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAzAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwcAAAABAQAAc3Rv
+					bmVfMQAQAAAAAQEAAHN0b25lX2JveDJ4My5w
+					bmcYAAAAAQYAAAQAAAAUAAAAIAAAADQAAABM
+					AAAAXAAAAAgAAAAEAwAAV7kAAAAAAAAIAAAA
+					BAMAAJPIBQAAAAAACAAAAAQDAAD1yAUAAAAA
+					AAgAAAAEAwAAMNMFAAAAAAAIAAAABAMAAKFf
+					BgAAAAAACAAAAAQDAABIbQYAAAAAABgAAAAB
+					BgAAlAAAAKQAAAC0AAAAxAAAANQAAADkAAAA
+					GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
+					AAAAAAAAAAAAAQUAAAQAAAADAwAAAwAAAAgA
+					AAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAM
+					AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
+					AICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAA
+					AAEBAAA5RUZCNTM0NS1BRDUzLTNCMkUtQTkz
+					RC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAAB
+					AAgA7z8AAAEACAAAAAAAAAAAAAEAAAABAQAA
+					LwAAAAQAAAADAwAAAAEAAMcAAAABAgAAZWMz
+					NWZmMzc4OGUzYzIxOTc5NzMxNjEyM2U5MDU3
+					MGEyMDZlMzJjMzswMDAwMDAwMDswMDAwMDAw
+					MDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2Fu
+					ZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzBl
+					MDAwMDAyOzAwMDAwMDAwMDAwNjZkNDg7L3Vz
+					ZXJzL2dhbWUvZG93bmxvYWRzL21hZ25ldCBy
+					ZXNvdXJjZXMvc3RvbmVfMS9zdG9uZV9ib3gy
+					eDMucG5nAADkAAAA/v///wEAAAAAAAAAEgAA
+					AAQQAAB0AAAAAAAAAAUQAAD0AAAAAAAAABAQ
+					AAAUAQAAAAAAAFQQAAA8AQAAAAAAAFUQAAA8
+					AQAAAAAAAFYQAAA0AQAAAAAAAAIgAADkAQAA
+					AAAAABAgAABkAQAAAAAAABEgAACYAQAAAAAA
+					ABIgAAB4AQAAAAAAABMgAACIAQAAAAAAACAg
+					AADEAQAAAAAAADAgAAA0AQAAAAAAAAHAAABI
+					AQAAAAAAABHAAAAUAAAAAAAAABLAAABYAQAA
+					AAAAABDQAADwAQAAAAAAAIDwAAD8AQAAAAAA
+					AA==
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-24.625, -36.75}</string>
+										<string>{24.625, -36.75}</string>
+										<string>{24.625, 36.75}</string>
+										<string>{-24.625, 36.75}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>294</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<true/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>73.5</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-24.625, -36.75}</string>
+								<key>LHWidth</key>
+								<real>49.25</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{0, 0}</string>
+									<string>{197, 0}</string>
+									<string>{197, 294}</string>
+									<string>{0, 294}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>197</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>stone_1</string>
+					<key>SHSpriteName</key>
+					<string>stone_box2x3</string>
+					<key>SheetImage</key>
+					<string>stone_stone_1.png</string>
+					<key>SheetImage-HD</key>
+					<string>stone_stone_1-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{51, 151}, {49.75, 73.5}}</string>
+						<key>Frame-HD</key>
+						<string>{{204, 604}, {197, 294}}</string>
+						<key>Image</key>
+						<string>stone_stone_1.png</string>
+						<key>Image-HD</key>
+						<string>stone_stone_1-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>stone_box2x3</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/stone_1/stone_box2x3.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/stone_1/stone_box2x3.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {197, 294}}</string>
+						<key>OriginalSize</key>
+						<string>{197, 294}</string>
+						<key>Position</key>
+						<string>{204, 604}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{49.25, 73.5}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0.25, -0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>stone_box2x4</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+gDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAzAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwcAAAABAQAAc3Rv
+					bmVfMQAQAAAAAQEAAHN0b25lX2JveDJ4NC5w
+					bmcYAAAAAQYAAAQAAAAUAAAAIAAAADQAAABM
+					AAAAXAAAAAgAAAAEAwAAV7kAAAAAAAAIAAAA
+					BAMAAJPIBQAAAAAACAAAAAQDAAD1yAUAAAAA
+					AAgAAAAEAwAAMNMFAAAAAAAIAAAABAMAAKFf
+					BgAAAAAACAAAAAQDAABJbQYAAAAAABgAAAAB
+					BgAAlAAAAKQAAAC0AAAAxAAAANQAAADkAAAA
+					GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
+					AAAAAAAAAAAAAQUAAAQAAAADAwAAAwAAAAgA
+					AAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAM
+					AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
+					AICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAA
+					AAEBAAA5RUZCNTM0NS1BRDUzLTNCMkUtQTkz
+					RC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAAB
+					AAgA7z8AAAEACAAAAAAAAAAAAAEAAAABAQAA
+					LwAAAAQAAAADAwAAAAEAAMcAAAABAgAAZTI0
+					ODM1MmFkZDExZmNmYjQ4ZjAwMDY4MWI3NThl
+					MzQzNzJiZTFhNzswMDAwMDAwMDswMDAwMDAw
+					MDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2Fu
+					ZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzBl
+					MDAwMDAyOzAwMDAwMDAwMDAwNjZkNDk7L3Vz
+					ZXJzL2dhbWUvZG93bmxvYWRzL21hZ25ldCBy
+					ZXNvdXJjZXMvc3RvbmVfMS9zdG9uZV9ib3gy
+					eDQucG5nAADkAAAA/v///wEAAAAAAAAAEgAA
+					AAQQAAB0AAAAAAAAAAUQAAD0AAAAAAAAABAQ
+					AAAUAQAAAAAAAFQQAAA8AQAAAAAAAFUQAAA8
+					AQAAAAAAAFYQAAA0AQAAAAAAAAIgAADkAQAA
+					AAAAABAgAABkAQAAAAAAABEgAACYAQAAAAAA
+					ABIgAAB4AQAAAAAAABMgAACIAQAAAAAAACAg
+					AADEAQAAAAAAADAgAAA0AQAAAAAAAAHAAABI
+					AQAAAAAAABHAAAAUAAAAAAAAABLAAABYAQAA
+					AAAAABDQAADwAQAAAAAAAIDwAAD8AQAAAAAA
+					AA==
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-24.625, -49}</string>
+										<string>{24.625, -49}</string>
+										<string>{24.625, 49}</string>
+										<string>{-24.625, 49}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>392</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<true/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>98</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-24.625, -49}</string>
+								<key>LHWidth</key>
+								<real>49.25</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{0, 0}</string>
+									<string>{197, 0}</string>
+									<string>{197, 392}</string>
+									<string>{0, 392}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>197</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>stone_1</string>
+					<key>SHSpriteName</key>
+					<string>stone_box2x4</string>
+					<key>SheetImage</key>
+					<string>stone_stone_1.png</string>
+					<key>SheetImage-HD</key>
+					<string>stone_stone_1-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{0, 125}, {49.75, 98}}</string>
+						<key>Frame-HD</key>
+						<string>{{0, 500}, {197, 392}}</string>
+						<key>Image</key>
+						<string>stone_stone_1.png</string>
+						<key>Image-HD</key>
+						<string>stone_stone_1-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>stone_box2x4</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/stone_1/stone_box2x4.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/stone_1/stone_box2x4.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {197, 392}}</string>
+						<key>OriginalSize</key>
+						<string>{197, 392}</string>
+						<key>Position</key>
+						<string>{0, 500}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{49.25, 98}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0.25, -0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>stone_box3x3</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+gDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAzAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwcAAAABAQAAc3Rv
+					bmVfMQAQAAAAAQEAAHN0b25lX2JveDN4My5w
+					bmcYAAAAAQYAAAQAAAAUAAAAIAAAADQAAABM
+					AAAAXAAAAAgAAAAEAwAAV7kAAAAAAAAIAAAA
+					BAMAAJPIBQAAAAAACAAAAAQDAAD1yAUAAAAA
+					AAgAAAAEAwAAMNMFAAAAAAAIAAAABAMAAKFf
+					BgAAAAAACAAAAAQDAABKbQYAAAAAABgAAAAB
+					BgAAlAAAAKQAAAC0AAAAxAAAANQAAADkAAAA
+					GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
+					AAAAAAAAAAAAAQUAAAQAAAADAwAAAwAAAAgA
+					AAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAM
+					AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
+					AICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAA
+					AAEBAAA5RUZCNTM0NS1BRDUzLTNCMkUtQTkz
+					RC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAAB
+					AAgA7z8AAAEACAAAAAAAAAAAAAEAAAABAQAA
+					LwAAAAQAAAADAwAAAAEAAMcAAAABAgAAYzVl
+					MzdkNGJmMzQ1YmZkMTZjZmY3MWRhNjExMTc0
+					N2E4NDQ2NDViZTswMDAwMDAwMDswMDAwMDAw
+					MDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2Fu
+					ZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzBl
+					MDAwMDAyOzAwMDAwMDAwMDAwNjZkNGE7L3Vz
+					ZXJzL2dhbWUvZG93bmxvYWRzL21hZ25ldCBy
+					ZXNvdXJjZXMvc3RvbmVfMS9zdG9uZV9ib3gz
+					eDMucG5nAADkAAAA/v///wEAAAAAAAAAEgAA
+					AAQQAAB0AAAAAAAAAAUQAAD0AAAAAAAAABAQ
+					AAAUAQAAAAAAAFQQAAA8AQAAAAAAAFUQAAA8
+					AQAAAAAAAFYQAAA0AQAAAAAAAAIgAADkAQAA
+					AAAAABAgAABkAQAAAAAAABEgAACYAQAAAAAA
+					ABIgAAB4AQAAAAAAABMgAACIAQAAAAAAACAg
+					AADEAQAAAAAAADAgAAA0AQAAAAAAAAHAAABI
+					AQAAAAAAABHAAAAUAAAAAAAAABLAAABYAQAA
+					AAAAABDQAADwAQAAAAAAAIDwAAD8AQAAAAAA
+					AA==
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-36.875, -37.125}</string>
+										<string>{36.875, -37.125}</string>
+										<string>{36.875, 37.125}</string>
+										<string>{-36.875, 37.125}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>297</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<true/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>74.25</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-36.875, -37.125}</string>
+								<key>LHWidth</key>
+								<real>73.75</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{0, 0}</string>
+									<string>{295, 0}</string>
+									<string>{295, 297}</string>
+									<string>{0, 297}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>295</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>stone_1</string>
+					<key>SHSpriteName</key>
+					<string>stone_box3x3</string>
+					<key>SheetImage</key>
+					<string>stone_stone_1.png</string>
+					<key>SheetImage-HD</key>
+					<string>stone_stone_1-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{174, 0}, {73.75, 74.75}}</string>
+						<key>Frame-HD</key>
+						<string>{{696, 0}, {295, 297}}</string>
+						<key>Image</key>
+						<string>stone_stone_1.png</string>
+						<key>Image-HD</key>
+						<string>stone_stone_1-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>stone_box3x3</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/stone_1/stone_box3x3.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/stone_1/stone_box3x3.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {295, 297}}</string>
+						<key>OriginalSize</key>
+						<string>{295, 297}</string>
+						<key>Position</key>
+						<string>{696, 0}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{73.75, 74.25}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, -0.25}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>stone_box3x4</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+gDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAzAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwcAAAABAQAAc3Rv
+					bmVfMQAQAAAAAQEAAHN0b25lX2JveDN4NC5w
+					bmcYAAAAAQYAAAQAAAAUAAAAIAAAADQAAABM
+					AAAAXAAAAAgAAAAEAwAAV7kAAAAAAAAIAAAA
+					BAMAAJPIBQAAAAAACAAAAAQDAAD1yAUAAAAA
+					AAgAAAAEAwAAMNMFAAAAAAAIAAAABAMAAKFf
+					BgAAAAAACAAAAAQDAABLbQYAAAAAABgAAAAB
+					BgAAlAAAAKQAAAC0AAAAxAAAANQAAADkAAAA
+					GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
+					AAAAAAAAAAAAAQUAAAQAAAADAwAAAwAAAAgA
+					AAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAM
+					AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
+					AICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAA
+					AAEBAAA5RUZCNTM0NS1BRDUzLTNCMkUtQTkz
+					RC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAAB
+					AAgA7z8AAAEACAAAAAAAAAAAAAEAAAABAQAA
+					LwAAAAQAAAADAwAAAAEAAMcAAAABAgAANmZh
+					MDAyOTJiZDM3M2M5NzM3OTMwMDkxMzA4N2I3
+					NTVmNjI1MmRlNjswMDAwMDAwMDswMDAwMDAw
+					MDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2Fu
+					ZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzBl
+					MDAwMDAyOzAwMDAwMDAwMDAwNjZkNGI7L3Vz
+					ZXJzL2dhbWUvZG93bmxvYWRzL21hZ25ldCBy
+					ZXNvdXJjZXMvc3RvbmVfMS9zdG9uZV9ib3gz
+					eDQucG5nAADkAAAA/v///wEAAAAAAAAAEgAA
+					AAQQAAB0AAAAAAAAAAUQAAD0AAAAAAAAABAQ
+					AAAUAQAAAAAAAFQQAAA8AQAAAAAAAFUQAAA8
+					AQAAAAAAAFYQAAA0AQAAAAAAAAIgAADkAQAA
+					AAAAABAgAABkAQAAAAAAABEgAACYAQAAAAAA
+					ABIgAAB4AQAAAAAAABMgAACIAQAAAAAAACAg
+					AADEAQAAAAAAADAgAAA0AQAAAAAAAAHAAABI
+					AQAAAAAAABHAAAAUAAAAAAAAABLAAABYAQAA
+					AAAAABDQAADwAQAAAAAAAIDwAAD8AQAAAAAA
+					AA==
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-36.875, -49}</string>
+										<string>{36.875, -49}</string>
+										<string>{36.875, 49}</string>
+										<string>{-36.875, 49}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>392</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<true/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>98</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-36.875, -49}</string>
+								<key>LHWidth</key>
+								<real>73.75</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{0, 0}</string>
+									<string>{295, 0}</string>
+									<string>{295, 392}</string>
+									<string>{0, 392}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>295</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>stone_1</string>
+					<key>SHSpriteName</key>
+					<string>stone_box3x4</string>
+					<key>SheetImage</key>
+					<string>stone_stone_1.png</string>
+					<key>SheetImage-HD</key>
+					<string>stone_stone_1-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{99, 0}, {73.75, 98}}</string>
+						<key>Frame-HD</key>
+						<string>{{396, 0}, {295, 392}}</string>
+						<key>Image</key>
+						<string>stone_stone_1.png</string>
+						<key>Image-HD</key>
+						<string>stone_stone_1-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>stone_box3x4</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/stone_1/stone_box3x4.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/stone_1/stone_box3x4.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {295, 392}}</string>
+						<key>OriginalSize</key>
+						<string>{295, 392}</string>
+						<key>Position</key>
+						<string>{396, 0}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{73.75, 98}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, -0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>stone_box4x4</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+gDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAzAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwcAAAABAQAAc3Rv
+					bmVfMQAQAAAAAQEAAHN0b25lX2JveDR4NC5w
+					bmcYAAAAAQYAAAQAAAAUAAAAIAAAADQAAABM
+					AAAAXAAAAAgAAAAEAwAAV7kAAAAAAAAIAAAA
+					BAMAAJPIBQAAAAAACAAAAAQDAAD1yAUAAAAA
+					AAgAAAAEAwAAMNMFAAAAAAAIAAAABAMAAKFf
+					BgAAAAAACAAAAAQDAABMbQYAAAAAABgAAAAB
+					BgAAlAAAAKQAAAC0AAAAxAAAANQAAADkAAAA
+					GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
+					AAAAAAAAAAAAAQUAAAQAAAADAwAAAwAAAAgA
+					AAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAM
+					AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
+					AICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAA
+					AAEBAAA5RUZCNTM0NS1BRDUzLTNCMkUtQTkz
+					RC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAAB
+					AAgA7z8AAAEACAAAAAAAAAAAAAEAAAABAQAA
+					LwAAAAQAAAADAwAAAAEAAMcAAAABAgAAOGE1
+					MzkyODZjMDYzMTIyOTIyYWU2MTQ2Y2YyYTc1
+					NDMxNWMzMzFjZjswMDAwMDAwMDswMDAwMDAw
+					MDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2Fu
+					ZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzBl
+					MDAwMDAyOzAwMDAwMDAwMDAwNjZkNGM7L3Vz
+					ZXJzL2dhbWUvZG93bmxvYWRzL21hZ25ldCBy
+					ZXNvdXJjZXMvc3RvbmVfMS9zdG9uZV9ib3g0
+					eDQucG5nAADkAAAA/v///wEAAAAAAAAAEgAA
+					AAQQAAB0AAAAAAAAAAUQAAD0AAAAAAAAABAQ
+					AAAUAQAAAAAAAFQQAAA8AQAAAAAAAFUQAAA8
+					AQAAAAAAAFYQAAA0AQAAAAAAAAIgAADkAQAA
+					AAAAABAgAABkAQAAAAAAABEgAACYAQAAAAAA
+					ABIgAAB4AQAAAAAAABMgAACIAQAAAAAAACAg
+					AADEAQAAAAAAADAgAAA0AQAAAAAAAAHAAABI
+					AQAAAAAAABHAAAAUAAAAAAAAABLAAABYAQAA
+					AAAAABDQAADwAQAAAAAAAIDwAAD8AQAAAAAA
+					AA==
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-49, -49}</string>
+										<string>{49, -49}</string>
+										<string>{49, 49}</string>
+										<string>{-49, 49}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>392</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<true/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>98</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-49, -49}</string>
+								<key>LHWidth</key>
+								<real>98</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{0, 0}</string>
+									<string>{392, 0}</string>
+									<string>{392, 392}</string>
+									<string>{0, 392}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>392</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>stone_1</string>
+					<key>SHSpriteName</key>
+					<string>stone_box4x4</string>
+					<key>SheetImage</key>
+					<string>stone_stone_1.png</string>
+					<key>SheetImage-HD</key>
+					<string>stone_stone_1-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{0, 0}, {98, 98}}</string>
+						<key>Frame-HD</key>
+						<string>{{0, 0}, {392, 392}}</string>
+						<key>Image</key>
+						<string>stone_stone_1.png</string>
+						<key>Image-HD</key>
+						<string>stone_stone_1-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>stone_box4x4</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/stone_1/stone_box4x4.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/stone_1/stone_box4x4.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {392, 392}}</string>
+						<key>OriginalSize</key>
+						<string>{392, 392}</string>
+						<key>Position</key>
+						<string>{0, 0}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{98, 98}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, -0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>wall_1x1</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+ADAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAxAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwcAAAABAQAAc3Rv
+					bmVfMQAMAAAAAQEAAHdhbGxfMXgxLnBuZxgA
+					AAABBgAABAAAABQAAAAgAAAANAAAAEwAAABc
+					AAAACAAAAAQDAABXuQAAAAAAAAgAAAAEAwAA
+					k8gFAAAAAAAIAAAABAMAAPXIBQAAAAAACAAA
+					AAQDAAAw0wUAAAAAAAgAAAAEAwAAoV8GAAAA
+					AAAIAAAABAMAANBtBgAAAAAAGAAAAAEGAACQ
+					AAAAoAAAALAAAADAAAAA0AAAAOAAAAAYAAAA
+					AQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAA
+					AAAAAAABBQAABAAAAAMDAAADAAAACAAAAAQD
+					AAAEAAAAAAAAAAQAAAADAwAA9QEAAAwAAAAB
+					AQAATWFjaW50b3NoIEhECAAAAAQDAAAAgIE9
+					dAAAAAgAAAAABAAAQbT0dG8AAAAkAAAAAQEA
+					ADlFRkI1MzQ1LUFENTMtM0IyRS1BOTNELTNC
+					OTlENUFBMDFGOBgAAAABAgAAgQAAAAEACADv
+					PwAAAQAIAAAAAAAAAAAAAQAAAAEBAAAvAAAA
+					BAAAAAMDAAAAAQAAwwAAAAECAAA5NTdiMjlk
+					NzIxY2IzZTkwOTFhMTFhODE2MjhiMGY0Yjg2
+					NWIyNTc5OzAwMDAwMDAwOzAwMDAwMDAwMDAw
+					MDAwMjA7Y29tLmFwcGxlLmFwcC1zYW5kYm94
+					LnJlYWQtd3JpdGU7MDAwMDAwMDE7MGUwMDAw
+					MDI7MDAwMDAwMDAwMDA2NmRkMDsvdXNlcnMv
+					Z2FtZS9kb3dubG9hZHMvbWFnbmV0IHJlc291
+					cmNlcy9zdG9uZV8xL3dhbGxfMXgxLnBuZwAA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAAcAAA
+					AAAAAAAFEAAA8AAAAAAAAAAQEAAAEAEAAAAA
+					AABUEAAAOAEAAAAAAABVEAAAOAEAAAAAAABW
+					EAAAMAEAAAAAAAACIAAA4AEAAAAAAAAQIAAA
+					YAEAAAAAAAARIAAAlAEAAAAAAAASIAAAdAEA
+					AAAAAAATIAAAhAEAAAAAAAAgIAAAwAEAAAAA
+					AAAwIAAAMAEAAAAAAAABwAAARAEAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAVAEAAAAAAAAQ0AAA
+					7AEAAAAAAACA8AAA+AEAAAAAAAA=
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-24.5, -12.375}</string>
+										<string>{24.5, -12.375}</string>
+										<string>{24.5, 12.375}</string>
+										<string>{-24.5, 12.375}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>99</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<true/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>24.75</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-24.5, -12.375}</string>
+								<key>LHWidth</key>
+								<real>49</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{0, 0}</string>
+									<string>{196, 0}</string>
+									<string>{196, 99}</string>
+									<string>{0, 99}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>196</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>stone_1</string>
+					<key>SHSpriteName</key>
+					<string>wall_1x1</string>
+					<key>SheetImage</key>
+					<string>stone_stone_1.png</string>
+					<key>SheetImage-HD</key>
+					<string>stone_stone_1-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<false/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{199, 125}, {49, 24.75}}</string>
+						<key>Frame-HD</key>
+						<string>{{796, 500}, {196, 99}}</string>
+						<key>Image</key>
+						<string>stone_stone_1.png</string>
+						<key>Image-HD</key>
+						<string>stone_stone_1-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>wall_1x1</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/stone_1/wall_1x1.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/stone_1/wall_1x1.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {196, 99}}</string>
+						<key>OriginalSize</key>
+						<string>{196, 99}</string>
+						<key>Position</key>
+						<string>{796, 500}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{49, 24.75}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, -0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>wall_1x2</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+ADAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAxAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwcAAAABAQAAc3Rv
+					bmVfMQAMAAAAAQEAAHdhbGxfMXgyLnBuZxgA
+					AAABBgAABAAAABQAAAAgAAAANAAAAEwAAABc
+					AAAACAAAAAQDAABXuQAAAAAAAAgAAAAEAwAA
+					k8gFAAAAAAAIAAAABAMAAPXIBQAAAAAACAAA
+					AAQDAAAw0wUAAAAAAAgAAAAEAwAAoV8GAAAA
+					AAAIAAAABAMAANFtBgAAAAAAGAAAAAEGAACQ
+					AAAAoAAAALAAAADAAAAA0AAAAOAAAAAYAAAA
+					AQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAA
+					AAAAAAABBQAABAAAAAMDAAADAAAACAAAAAQD
+					AAAEAAAAAAAAAAQAAAADAwAA9QEAAAwAAAAB
+					AQAATWFjaW50b3NoIEhECAAAAAQDAAAAgIE9
+					dAAAAAgAAAAABAAAQbT0dG8AAAAkAAAAAQEA
+					ADlFRkI1MzQ1LUFENTMtM0IyRS1BOTNELTNC
+					OTlENUFBMDFGOBgAAAABAgAAgQAAAAEACADv
+					PwAAAQAIAAAAAAAAAAAAAQAAAAEBAAAvAAAA
+					BAAAAAMDAAAAAQAAwwAAAAECAAAwOGJhNjgx
+					YTUzZjIwZWNkMmE5MDRjMTNjZjlmYzc1ODZl
+					Yzk0YzVhOzAwMDAwMDAwOzAwMDAwMDAwMDAw
+					MDAwMjA7Y29tLmFwcGxlLmFwcC1zYW5kYm94
+					LnJlYWQtd3JpdGU7MDAwMDAwMDE7MGUwMDAw
+					MDI7MDAwMDAwMDAwMDA2NmRkMTsvdXNlcnMv
+					Z2FtZS9kb3dubG9hZHMvbWFnbmV0IHJlc291
+					cmNlcy9zdG9uZV8xL3dhbGxfMXgyLnBuZwAA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAAcAAA
+					AAAAAAAFEAAA8AAAAAAAAAAQEAAAEAEAAAAA
+					AABUEAAAOAEAAAAAAABVEAAAOAEAAAAAAABW
+					EAAAMAEAAAAAAAACIAAA4AEAAAAAAAAQIAAA
+					YAEAAAAAAAARIAAAlAEAAAAAAAASIAAAdAEA
+					AAAAAAATIAAAhAEAAAAAAAAgIAAAwAEAAAAA
+					AAAwIAAAMAEAAAAAAAABwAAARAEAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAVAEAAAAAAAAQ0AAA
+					7AEAAAAAAACA8AAA+AEAAAAAAAA=
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-49, -12.375}</string>
+										<string>{49, -12.375}</string>
+										<string>{49, 12.375}</string>
+										<string>{-49, 12.375}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>99</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<true/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>24.75</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-49, -12.375}</string>
+								<key>LHWidth</key>
+								<real>98</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{0, 0}</string>
+									<string>{392, 0}</string>
+									<string>{392, 99}</string>
+									<string>{0, 99}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>392</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>stone_1</string>
+					<key>SHSpriteName</key>
+					<string>wall_1x2</string>
+					<key>SheetImage</key>
+					<string>stone_stone_1.png</string>
+					<key>SheetImage-HD</key>
+					<string>stone_stone_1-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<false/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{101, 176}, {98, 24.75}}</string>
+						<key>Frame-HD</key>
+						<string>{{404, 704}, {392, 99}}</string>
+						<key>Image</key>
+						<string>stone_stone_1.png</string>
+						<key>Image-HD</key>
+						<string>stone_stone_1-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>wall_1x2</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/stone_1/wall_1x2.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/stone_1/wall_1x2.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {392, 99}}</string>
+						<key>OriginalSize</key>
+						<string>{392, 99}</string>
+						<key>Position</key>
+						<string>{404, 704}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{98, 24.75}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, -0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>wall_1x3</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+ADAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAxAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwcAAAABAQAAc3Rv
+					bmVfMQAMAAAAAQEAAHdhbGxfMXgzLnBuZxgA
+					AAABBgAABAAAABQAAAAgAAAANAAAAEwAAABc
+					AAAACAAAAAQDAABXuQAAAAAAAAgAAAAEAwAA
+					k8gFAAAAAAAIAAAABAMAAPXIBQAAAAAACAAA
+					AAQDAAAw0wUAAAAAAAgAAAAEAwAAoV8GAAAA
+					AAAIAAAABAMAANJtBgAAAAAAGAAAAAEGAACQ
+					AAAAoAAAALAAAADAAAAA0AAAAOAAAAAYAAAA
+					AQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAA
+					AAAAAAABBQAABAAAAAMDAAADAAAACAAAAAQD
+					AAAEAAAAAAAAAAQAAAADAwAA9QEAAAwAAAAB
+					AQAATWFjaW50b3NoIEhECAAAAAQDAAAAgIE9
+					dAAAAAgAAAAABAAAQbT0dG8AAAAkAAAAAQEA
+					ADlFRkI1MzQ1LUFENTMtM0IyRS1BOTNELTNC
+					OTlENUFBMDFGOBgAAAABAgAAgQAAAAEACADv
+					PwAAAQAIAAAAAAAAAAAAAQAAAAEBAAAvAAAA
+					BAAAAAMDAAAAAQAAwwAAAAECAAA4MzhlY2M5
+					YzhkZDc1Mzg5YjQxMDUyNmU2Y2IxYzhjNjM3
+					YjQ4M2NkOzAwMDAwMDAwOzAwMDAwMDAwMDAw
+					MDAwMjA7Y29tLmFwcGxlLmFwcC1zYW5kYm94
+					LnJlYWQtd3JpdGU7MDAwMDAwMDE7MGUwMDAw
+					MDI7MDAwMDAwMDAwMDA2NmRkMjsvdXNlcnMv
+					Z2FtZS9kb3dubG9hZHMvbWFnbmV0IHJlc291
+					cmNlcy9zdG9uZV8xL3dhbGxfMXgzLnBuZwAA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAAcAAA
+					AAAAAAAFEAAA8AAAAAAAAAAQEAAAEAEAAAAA
+					AABUEAAAOAEAAAAAAABVEAAAOAEAAAAAAABW
+					EAAAMAEAAAAAAAACIAAA4AEAAAAAAAAQIAAA
+					YAEAAAAAAAARIAAAlAEAAAAAAAASIAAAdAEA
+					AAAAAAATIAAAhAEAAAAAAAAgIAAAwAEAAAAA
+					AAAwIAAAMAEAAAAAAAABwAAARAEAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAVAEAAAAAAAAQ0AAA
+					7AEAAAAAAACA8AAA+AEAAAAAAAA=
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-73.5, -12.375}</string>
+										<string>{73.5, -12.375}</string>
+										<string>{73.5, 12.375}</string>
+										<string>{-73.5, 12.375}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>99</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<true/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>24.75</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-73.5, -12.375}</string>
+								<key>LHWidth</key>
+								<real>147</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{0, 0}</string>
+									<string>{588, 0}</string>
+									<string>{588, 99}</string>
+									<string>{0, 99}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>588</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>stone_1</string>
+					<key>SHSpriteName</key>
+					<string>wall_1x3</string>
+					<key>SheetImage</key>
+					<string>stone_stone_1.png</string>
+					<key>SheetImage-HD</key>
+					<string>stone_stone_1-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<false/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{51, 125}, {147, 24.75}}</string>
+						<key>Frame-HD</key>
+						<string>{{204, 500}, {588, 99}}</string>
+						<key>Image</key>
+						<string>stone_stone_1.png</string>
+						<key>Image-HD</key>
+						<string>stone_stone_1-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>wall_1x3</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/stone_1/wall_1x3.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/stone_1/wall_1x3.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {588, 99}}</string>
+						<key>OriginalSize</key>
+						<string>{588, 99}</string>
+						<key>Position</key>
+						<string>{204, 500}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{147, 24.75}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, -0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>wall_1x4</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+ADAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAxAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwcAAAABAQAAc3Rv
+					bmVfMQAMAAAAAQEAAHdhbGxfMXg0LnBuZxgA
+					AAABBgAABAAAABQAAAAgAAAANAAAAEwAAABc
+					AAAACAAAAAQDAABXuQAAAAAAAAgAAAAEAwAA
+					k8gFAAAAAAAIAAAABAMAAPXIBQAAAAAACAAA
+					AAQDAAAw0wUAAAAAAAgAAAAEAwAAoV8GAAAA
+					AAAIAAAABAMAANNtBgAAAAAAGAAAAAEGAACQ
+					AAAAoAAAALAAAADAAAAA0AAAAOAAAAAYAAAA
+					AQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAA
+					AAAAAAABBQAABAAAAAMDAAADAAAACAAAAAQD
+					AAAEAAAAAAAAAAQAAAADAwAA9QEAAAwAAAAB
+					AQAATWFjaW50b3NoIEhECAAAAAQDAAAAgIE9
+					dAAAAAgAAAAABAAAQbT0dG8AAAAkAAAAAQEA
+					ADlFRkI1MzQ1LUFENTMtM0IyRS1BOTNELTNC
+					OTlENUFBMDFGOBgAAAABAgAAgQAAAAEACADv
+					PwAAAQAIAAAAAAAAAAAAAQAAAAEBAAAvAAAA
+					BAAAAAMDAAAAAQAAwwAAAAECAABjMjgyZjQw
+					NDQzY2U2OWM5ZjQ3MzAxYmVmOGQ2YThlNDk1
+					YzJhNTg4OzAwMDAwMDAwOzAwMDAwMDAwMDAw
+					MDAwMjA7Y29tLmFwcGxlLmFwcC1zYW5kYm94
+					LnJlYWQtd3JpdGU7MDAwMDAwMDE7MGUwMDAw
+					MDI7MDAwMDAwMDAwMDA2NmRkMzsvdXNlcnMv
+					Z2FtZS9kb3dubG9hZHMvbWFnbmV0IHJlc291
+					cmNlcy9zdG9uZV8xL3dhbGxfMXg0LnBuZwAA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAAcAAA
+					AAAAAAAFEAAA8AAAAAAAAAAQEAAAEAEAAAAA
+					AABUEAAAOAEAAAAAAABVEAAAOAEAAAAAAABW
+					EAAAMAEAAAAAAAACIAAA4AEAAAAAAAAQIAAA
+					YAEAAAAAAAARIAAAlAEAAAAAAAASIAAAdAEA
+					AAAAAAATIAAAhAEAAAAAAAAgIAAAwAEAAAAA
+					AAAwIAAAMAEAAAAAAAABwAAARAEAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAVAEAAAAAAAAQ0AAA
+					7AEAAAAAAACA8AAA+AEAAAAAAAA=
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-98, -12.375}</string>
+										<string>{98, -12.375}</string>
+										<string>{98, 12.375}</string>
+										<string>{-98, 12.375}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>99</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<true/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>24.75</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-98, -12.375}</string>
+								<key>LHWidth</key>
+								<real>196</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{0, 0}</string>
+									<string>{784, 0}</string>
+									<string>{784, 99}</string>
+									<string>{0, 99}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>784</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>stone_1</string>
+					<key>SHSpriteName</key>
+					<string>wall_1x4</string>
+					<key>SheetImage</key>
+					<string>stone_stone_1.png</string>
+					<key>SheetImage-HD</key>
+					<string>stone_stone_1-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<false/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{0, 99}, {196, 24.75}}</string>
+						<key>Frame-HD</key>
+						<string>{{0, 396}, {784, 99}}</string>
+						<key>Image</key>
+						<string>stone_stone_1.png</string>
+						<key>Image-HD</key>
+						<string>stone_stone_1-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>wall_1x4</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/stone_1/wall_1x4.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/stone_1/wall_1x4.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {784, 99}}</string>
+						<key>OriginalSize</key>
+						<string>{784, 99}</string>
+						<key>Position</key>
+						<string>{0, 396}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{196, 24.75}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, -0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>wall_left</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+QDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAyAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwcAAAABAQAAc3Rv
+					bmVfMQANAAAAAQEAAHdhbGxfbGVmdC5wbmcA
+					AAAYAAAAAQYAAAQAAAAUAAAAIAAAADQAAABM
+					AAAAXAAAAAgAAAAEAwAAV7kAAAAAAAAIAAAA
+					BAMAAJPIBQAAAAAACAAAAAQDAAD1yAUAAAAA
+					AAgAAAAEAwAAMNMFAAAAAAAIAAAABAMAAKFf
+					BgAAAAAACAAAAAQDAADUbQYAAAAAABgAAAAB
+					BgAAlAAAAKQAAAC0AAAAxAAAANQAAADkAAAA
+					GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
+					AAAAAAAAAAAAAQUAAAQAAAADAwAAAwAAAAgA
+					AAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAM
+					AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
+					AICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAA
+					AAEBAAA5RUZCNTM0NS1BRDUzLTNCMkUtQTkz
+					RC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAAB
+					AAgA7z8AAAEACAAAAAAAAAAAAAEAAAABAQAA
+					LwAAAAQAAAADAwAAAAEAAMQAAAABAgAAZDlh
+					YzllMmI0OWE4ODMwMjFhZDQ1YTRiNWVlNTg0
+					YTg1MDkxNjM0YTswMDAwMDAwMDswMDAwMDAw
+					MDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2Fu
+					ZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzBl
+					MDAwMDAyOzAwMDAwMDAwMDAwNjZkZDQ7L3Vz
+					ZXJzL2dhbWUvZG93bmxvYWRzL21hZ25ldCBy
+					ZXNvdXJjZXMvc3RvbmVfMS93YWxsX2xlZnQu
+					cG5nAOQAAAD+////AQAAAAAAAAASAAAABBAA
+					AHQAAAAAAAAABRAAAPQAAAAAAAAAEBAAABQB
+					AAAAAAAAVBAAADwBAAAAAAAAVRAAADwBAAAA
+					AAAAVhAAADQBAAAAAAAAAiAAAOQBAAAAAAAA
+					ECAAAGQBAAAAAAAAESAAAJgBAAAAAAAAEiAA
+					AHgBAAAAAAAAEyAAAIgBAAAAAAAAICAAAMQB
+					AAAAAAAAMCAAADQBAAAAAAAAAcAAAEgBAAAA
+					AAAAEcAAABQAAAAAAAAAEsAAAFgBAAAAAAAA
+					ENAAAPABAAAAAAAAgPAAAPwBAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-6.125, -12.375}</string>
+										<string>{6.125, -12.375}</string>
+										<string>{6.125, 12.375}</string>
+										<string>{-6.125, 12.375}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>99</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<true/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>24.75</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-6.125, -12.375}</string>
+								<key>LHWidth</key>
+								<real>12.25</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{0, 0}</string>
+									<string>{49, 0}</string>
+									<string>{49, 99}</string>
+									<string>{0, 99}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>49</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>stone_1</string>
+					<key>SHSpriteName</key>
+					<string>wall_left</string>
+					<key>SheetImage</key>
+					<string>stone_stone_1.png</string>
+					<key>SheetImage-HD</key>
+					<string>stone_stone_1-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<false/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{239, 202}, {12.75, 24.75}}</string>
+						<key>Frame-HD</key>
+						<string>{{956, 808}, {49, 99}}</string>
+						<key>Image</key>
+						<string>stone_stone_1.png</string>
+						<key>Image-HD</key>
+						<string>stone_stone_1-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>wall_left</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/stone_1/wall_left.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/stone_1/wall_left.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {49, 99}}</string>
+						<key>OriginalSize</key>
+						<string>{49, 99}</string>
+						<key>Position</key>
+						<string>{956, 808}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{12.25, 24.75}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0.25, -0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>wall_middle</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+gDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAzAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwcAAAABAQAAc3Rv
+					bmVfMQAPAAAAAQEAAHdhbGxfbWlkZGxlLnBu
+					ZwAYAAAAAQYAAAQAAAAUAAAAIAAAADQAAABM
+					AAAAXAAAAAgAAAAEAwAAV7kAAAAAAAAIAAAA
+					BAMAAJPIBQAAAAAACAAAAAQDAAD1yAUAAAAA
+					AAgAAAAEAwAAMNMFAAAAAAAIAAAABAMAAKFf
+					BgAAAAAACAAAAAQDAADVbQYAAAAAABgAAAAB
+					BgAAlAAAAKQAAAC0AAAAxAAAANQAAADkAAAA
+					GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
+					AAAAAAAAAAAAAQUAAAQAAAADAwAAAwAAAAgA
+					AAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAM
+					AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
+					AICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAA
+					AAEBAAA5RUZCNTM0NS1BRDUzLTNCMkUtQTkz
+					RC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAAB
+					AAgA7z8AAAEACAAAAAAAAAAAAAEAAAABAQAA
+					LwAAAAQAAAADAwAAAAEAAMYAAAABAgAAMDFh
+					NDdhYTU0NjllY2Y4M2Y4NWRmODJjMDZjNTE4
+					Y2NkYzk3NTEzZDswMDAwMDAwMDswMDAwMDAw
+					MDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2Fu
+					ZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzBl
+					MDAwMDAyOzAwMDAwMDAwMDAwNjZkZDU7L3Vz
+					ZXJzL2dhbWUvZG93bmxvYWRzL21hZ25ldCBy
+					ZXNvdXJjZXMvc3RvbmVfMS93YWxsX21pZGRs
+					ZS5wbmcAAADkAAAA/v///wEAAAAAAAAAEgAA
+					AAQQAAB0AAAAAAAAAAUQAAD0AAAAAAAAABAQ
+					AAAUAQAAAAAAAFQQAAA8AQAAAAAAAFUQAAA8
+					AQAAAAAAAFYQAAA0AQAAAAAAAAIgAADkAQAA
+					AAAAABAgAABkAQAAAAAAABEgAACYAQAAAAAA
+					ABIgAAB4AQAAAAAAABMgAACIAQAAAAAAACAg
+					AADEAQAAAAAAADAgAAA0AQAAAAAAAAHAAABI
+					AQAAAAAAABHAAAAUAAAAAAAAABLAAABYAQAA
+					AAAAABDQAADwAQAAAAAAAIDwAAD8AQAAAAAA
+					AA==
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-12.25, -12.375}</string>
+										<string>{12.25, -12.375}</string>
+										<string>{12.25, 12.375}</string>
+										<string>{-12.25, 12.375}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>99</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<true/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>24.75</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-12.25, -12.375}</string>
+								<key>LHWidth</key>
+								<real>24.5</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{0, 0}</string>
+									<string>{98, 0}</string>
+									<string>{98, 99}</string>
+									<string>{0, 99}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>98</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>stone_1</string>
+					<key>SHSpriteName</key>
+					<string>wall_middle</string>
+					<key>SheetImage</key>
+					<string>stone_stone_1.png</string>
+					<key>SheetImage-HD</key>
+					<string>stone_stone_1-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<false/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{139, 227}, {24.5, 24.75}}</string>
+						<key>Frame-HD</key>
+						<string>{{556, 908}, {98, 99}}</string>
+						<key>Image</key>
+						<string>stone_stone_1.png</string>
+						<key>Image-HD</key>
+						<string>stone_stone_1-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>wall_middle</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/stone_1/wall_middle.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/stone_1/wall_middle.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {98, 99}}</string>
+						<key>OriginalSize</key>
+						<string>{98, 99}</string>
+						<key>Position</key>
+						<string>{556, 908}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{24.5, 24.75}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, -0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>wall_right</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+gDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAzAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwcAAAABAQAAc3Rv
+					bmVfMQAOAAAAAQEAAHdhbGxfcmlnaHQucG5n
+					AAAYAAAAAQYAAAQAAAAUAAAAIAAAADQAAABM
+					AAAAXAAAAAgAAAAEAwAAV7kAAAAAAAAIAAAA
+					BAMAAJPIBQAAAAAACAAAAAQDAAD1yAUAAAAA
+					AAgAAAAEAwAAMNMFAAAAAAAIAAAABAMAAKFf
+					BgAAAAAACAAAAAQDAADWbQYAAAAAABgAAAAB
+					BgAAlAAAAKQAAAC0AAAAxAAAANQAAADkAAAA
+					GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
+					AAAAAAAAAAAAAQUAAAQAAAADAwAAAwAAAAgA
+					AAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAM
+					AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
+					AICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAA
+					AAEBAAA5RUZCNTM0NS1BRDUzLTNCMkUtQTkz
+					RC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAAB
+					AAgA7z8AAAEACAAAAAAAAAAAAAEAAAABAQAA
+					LwAAAAQAAAADAwAAAAEAAMUAAAABAgAAMDMw
+					OTQyNWZkYThiN2IzYzEyMzc5YmYxYzYyMTRm
+					MWFlMGI3MGEwMDswMDAwMDAwMDswMDAwMDAw
+					MDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2Fu
+					ZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzBl
+					MDAwMDAyOzAwMDAwMDAwMDAwNjZkZDY7L3Vz
+					ZXJzL2dhbWUvZG93bmxvYWRzL21hZ25ldCBy
+					ZXNvdXJjZXMvc3RvbmVfMS93YWxsX3JpZ2h0
+					LnBuZwAAAADkAAAA/v///wEAAAAAAAAAEgAA
+					AAQQAAB0AAAAAAAAAAUQAAD0AAAAAAAAABAQ
+					AAAUAQAAAAAAAFQQAAA8AQAAAAAAAFUQAAA8
+					AQAAAAAAAFYQAAA0AQAAAAAAAAIgAADkAQAA
+					AAAAABAgAABkAQAAAAAAABEgAACYAQAAAAAA
+					ABIgAAB4AQAAAAAAABMgAACIAQAAAAAAACAg
+					AADEAQAAAAAAADAgAAA0AQAAAAAAAAHAAABI
+					AQAAAAAAABHAAAAUAAAAAAAAABLAAABYAQAA
+					AAAAABDQAADwAQAAAAAAAIDwAAD8AQAAAAAA
+					AA==
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-6.125, -12.375}</string>
+										<string>{6.125, -12.375}</string>
+										<string>{6.125, 12.375}</string>
+										<string>{-6.125, 12.375}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>99</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<true/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>24.75</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-6.125, -12.375}</string>
+								<key>LHWidth</key>
+								<real>12.25</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{0, 0}</string>
+									<string>{49, 0}</string>
+									<string>{49, 99}</string>
+									<string>{0, 99}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>49</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>stone_1</string>
+					<key>SHSpriteName</key>
+					<string>wall_right</string>
+					<key>SheetImage</key>
+					<string>stone_stone_1.png</string>
+					<key>SheetImage-HD</key>
+					<string>stone_stone_1-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<false/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{226, 202}, {12.75, 24.75}}</string>
+						<key>Frame-HD</key>
+						<string>{{904, 808}, {49, 99}}</string>
+						<key>Image</key>
+						<string>stone_stone_1.png</string>
+						<key>Image-HD</key>
+						<string>stone_stone_1-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>wall_right</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/stone_1/wall_right.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/stone_1/wall_right.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {49, 99}}</string>
+						<key>OriginalSize</key>
+						<string>{49, 99}</string>
+						<key>Position</key>
+						<string>{904, 808}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{12.25, 24.75}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0.25, -0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+			</dict>
+			<key>Size</key>
+			<string>{2048, 2048}</string>
+			<key>Trim</key>
+			<true/>
+			<key>ZOrder</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>SH_ANIMATIONS_LIST</key>
+	<array/>
+	<key>SaveSettings</key>
+	<dict>
+		<key>Dither</key>
+		<true/>
+		<key>DocumentName</key>
+		<string>stone</string>
+		<key>HD2XSuffix</key>
+		<string>-ipadhd</string>
+		<key>HDSuffix</key>
+		<string>-hd</string>
+		<key>ImageFormatId</key>
+		<integer>0</integer>
+		<key>Npot</key>
+		<true/>
+		<key>PvrBpp</key>
+		<integer>1</integer>
+		<key>PvrRemoveParent</key>
+		<true/>
+		<key>ResamplingAlgorithm</key>
+		<integer>4</integer>
+		<key>ResizingOptions</key>
+		<integer>2</integer>
+	</dict>
+	<key>SceneFolderSandboxBookmark</key>
+	<data>
+	Ym9va2wDAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAdAIA
+	AAUAAAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJAAAAAQEAAERvd25sb2FkcwAAAAkA
+	AAABAQAATWFnbmV0MTQ5AAAABgAAAAEBAABJbWFnZXMAABQAAAABBgAABAAAABQAAAAg
+	AAAANAAAAEgAAAAIAAAABAMAAFe5AAAAAAAACAAAAAQDAACTyAUAAAAAAAgAAAAEAwAA
+	9cgFAAAAAAAIAAAABAMAACg5BgAAAAAACAAAAAQDAABROQYAAAAAABQAAAABBgAAdAAA
+	AIQAAACUAAAApAAAALQAAAAYAAAAAQIAAAIAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAgA
+	AAAEAwAAAwAAAAAAAAAEAAAAAwMAAPUBAAAMAAAAAQEAAE1hY2ludG9zaCBIRAgAAAAE
+	AwAAAICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAAAAEBAAA5RUZCNTM0NS1BRDUzLTNC
+	MkUtQTkzRC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAABAAgA7z8AAAEACAAAAAAAAAAA
+	AAEAAAABAQAALwAAAAAAAAABBQAABAAAAAMDAAAAAQAArgAAAAECAAA1ODBlNzkxYmM0
+	ODdiM2QyMjRlYmNkNjE0YTZlZjBhODllYmZjMjM5OzAwMDAwMDAwOzAwMDAwMDAwMDAw
+	MDAwMjA7Y29tLmFwcGxlLmFwcC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAwMDE7MGUw
+	MDAwMDI7MDAwMDAwMDAwMDA2Mzk1MTsvdXNlcnMvZ2FtZS9kb3dubG9hZHMvbWFnbmV0
+	MTQ5L2ltYWdlcwAAAMAAAAD+////AQAAAAAAAAAPAAAABBAAAFgAAAAAAAAABRAAAMQA
+	AAAAAAAAEBAAAOAAAAAAAAAAAiAAAJwBAAAAAAAAECAAABwBAAAAAAAAESAAAFABAAAA
+	AAAAEiAAADABAAAAAAAAEyAAAEABAAAAAAAAICAAAHwBAAAAAAAAMCAAAKgBAAAAAAAA
+	AcAAAAABAAAAAAAAEcAAABQAAAAAAAAAEsAAABABAAAAAAAAENAAALABAAAAAAAAgPAA
+	ALwBAAAAAAAA
+	</data>
+	<key>Version</key>
+	<string>1.8.157</string>
+</dict>
+</plist>

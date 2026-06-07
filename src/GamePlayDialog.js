@@ -1,4 +1,5 @@
 // Matches GamePlayDialog.lua: fail and win overlay dialogs
+import { playSound } from './GameAudio.js';
 
 export function showFail(scene) {
     if (scene.failShown) return;
@@ -17,11 +18,11 @@ export function showFail(scene) {
 
     scene.add.image(375, 200, 'buttons_sheet', 'refresh')
         .setDisplaySize(40, 40).setScrollFactor(0).setDepth(102).setInteractive()
-        .on('pointerdown', () => scene.scene.restart());
+        .on('pointerdown', () => { playSound(scene, 'button'); scene.scene.restart(); });
 
     scene.add.image(415, 200, 'buttons_sheet', 'list')
         .setDisplaySize(40, 40).setScrollFactor(0).setDepth(102).setInteractive()
-        .on('pointerdown', () => scene.scene.start('WorldScene', { world: scene.currentWorld }));
+        .on('pointerdown', () => { playSound(scene, 'button'); scene.scene.start('WorldScene', { world: scene.currentWorld }); });
 }
 
 export function showWin(scene) {
@@ -40,17 +41,18 @@ export function showWin(scene) {
 
     scene.add.image(455, 220, 'buttons_sheet', 'refresh')
         .setDisplaySize(40, 40).setScrollFactor(0).setDepth(102).setInteractive()
-        .on('pointerdown', () => scene.scene.restart());
+        .on('pointerdown', () => { playSound(scene, 'button'); scene.scene.restart(); });
 
     scene.add.image(495, 220, 'buttons_sheet', 'next')
         .setDisplaySize(40, 40).setScrollFactor(0).setDepth(102).setInteractive()
         .on('pointerdown', () => {
             let nl = scene.currentLevel + 1, nw = scene.currentWorld;
             if (nl > 20) { nl = 1; nw++; }
+            playSound(scene, 'button');
             scene.scene.start('GameScene', { world: nw, level: nl });
         });
 
     scene.add.image(415, 220, 'buttons_sheet', 'list')
         .setDisplaySize(40, 40).setScrollFactor(0).setDepth(102).setInteractive()
-        .on('pointerdown', () => scene.scene.start('WorldScene', { world: scene.currentWorld }));
+        .on('pointerdown', () => { playSound(scene, 'button'); scene.scene.start('WorldScene', { world: scene.currentWorld }); });
 }

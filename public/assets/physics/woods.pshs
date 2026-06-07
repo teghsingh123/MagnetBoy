@@ -1,0 +1,1292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Bogdan Vladu</string>
+	<key>CreatedWith</key>
+	<string>SpriteHelper</string>
+	<key>SHEETS_INFO</key>
+	<array>
+		<dict>
+			<key>2HDSuffix</key>
+			<string>-ipadhd</string>
+			<key>AllowFreeMove</key>
+			<true/>
+			<key>AllowRotation</key>
+			<false/>
+			<key>Crop</key>
+			<false/>
+			<key>DropSprites</key>
+			<false/>
+			<key>HDSuffix</key>
+			<string>-hd</string>
+			<key>IsRendable</key>
+			<true/>
+			<key>MaxSheetSize</key>
+			<integer>4096</integer>
+			<key>NpotSize</key>
+			<string>{308, 308}</string>
+			<key>Padding</key>
+			<integer>12</integer>
+			<key>PixelFormat</key>
+			<integer>0</integer>
+			<key>SheetImage</key>
+			<string>woods_wood.png</string>
+			<key>SheetImage-HD</key>
+			<string>woods_wood-ipadhd.png</string>
+			<key>SheetName</key>
+			<string>wood</string>
+			<key>SheetSceneImageName</key>
+			<string></string>
+			<key>Sheet_Sprites_Info</key>
+			<dict>
+				<key>wood_1_1</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+ADAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAxAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwYAAAABAQAAd29v
+					ZF8xAAAMAAAAAQEAAHdvb2RfMV8xLnBuZxgA
+					AAABBgAABAAAABQAAAAgAAAANAAAAEwAAABc
+					AAAACAAAAAQDAABXuQAAAAAAAAgAAAAEAwAA
+					k8gFAAAAAAAIAAAABAMAAPXIBQAAAAAACAAA
+					AAQDAAAw0wUAAAAAAAgAAAAEAwAAol8GAAAA
+					AAAIAAAABAMAAAdnBgAAAAAAGAAAAAEGAACQ
+					AAAAoAAAALAAAADAAAAA0AAAAOAAAAAYAAAA
+					AQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAA
+					AAAAAAABBQAABAAAAAMDAAADAAAACAAAAAQD
+					AAAEAAAAAAAAAAQAAAADAwAA9QEAAAwAAAAB
+					AQAATWFjaW50b3NoIEhECAAAAAQDAAAAgIE9
+					dAAAAAgAAAAABAAAQbT0dG8AAAAkAAAAAQEA
+					ADlFRkI1MzQ1LUFENTMtM0IyRS1BOTNELTNC
+					OTlENUFBMDFGOBgAAAABAgAAgQAAAAEACADv
+					PwAAAQAIAAAAAAAAAAAAAQAAAAEBAAAvAAAA
+					BAAAAAMDAAAAAQAAwgAAAAECAABlMTQxNWM1
+					NTBjMTFiOTgyYWJmNjI0YzczMjAzNWE2MDcw
+					MTUxN2UyOzAwMDAwMDAwOzAwMDAwMDAwMDAw
+					MDAwMjA7Y29tLmFwcGxlLmFwcC1zYW5kYm94
+					LnJlYWQtd3JpdGU7MDAwMDAwMDE7MGUwMDAw
+					MDI7MDAwMDAwMDAwMDA2NjcwNzsvdXNlcnMv
+					Z2FtZS9kb3dubG9hZHMvbWFnbmV0IHJlc291
+					cmNlcy93b29kXzEvd29vZF8xXzEucG5nAAAA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAAcAAA
+					AAAAAAAFEAAA8AAAAAAAAAAQEAAAEAEAAAAA
+					AABUEAAAOAEAAAAAAABVEAAAOAEAAAAAAABW
+					EAAAMAEAAAAAAAACIAAA4AEAAAAAAAAQIAAA
+					YAEAAAAAAAARIAAAlAEAAAAAAAASIAAAdAEA
+					AAAAAAATIAAAhAEAAAAAAAAgIAAAwAEAAAAA
+					AAAwIAAAMAEAAAAAAAABwAAARAEAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAVAEAAAAAAAAQ0AAA
+					7AEAAAAAAACA8AAA+AEAAAAAAAA=
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-0.5, 11.75}</string>
+										<string>{-12.75, -11.75}</string>
+										<string>{12.5, -11.75}</string>
+										<string>{0.25, 11.75}</string>
+										<string>{-0.25, 12}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>0.0</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<false/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>0.0</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-12.75, -12}</string>
+								<key>LHWidth</key>
+								<real>0.0</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{49, 1}</string>
+									<string>{0, 95}</string>
+									<string>{101, 95}</string>
+									<string>{52, 1}</string>
+									<string>{50, 0}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>wood</string>
+					<key>SHSpriteName</key>
+					<string>wood_1_1</string>
+					<key>SheetImage</key>
+					<string>woods_wood.png</string>
+					<key>SheetImage-HD</key>
+					<string>woods_wood-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{51, 0}, {25.5, 24}}</string>
+						<key>Frame-HD</key>
+						<string>{{204, 0}, {102, 96}}</string>
+						<key>Image</key>
+						<string>woods_wood.png</string>
+						<key>Image-HD</key>
+						<string>woods_wood-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<false/>
+						<key>Name</key>
+						<string>wood_1_1</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/wood_1/wood_1_1.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/wood_1/wood_1_1.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {102, 96}}</string>
+						<key>OriginalSize</key>
+						<string>{102, 96}</string>
+						<key>Position</key>
+						<string>{204, 0}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{25.5, 24}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>15</integer>
+						<key>TextureOffset</key>
+						<string>{0, 0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>wood_1_2</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+ADAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAxAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwYAAAABAQAAd29v
+					ZF8xAAAMAAAAAQEAAHdvb2RfMV8yLnBuZxgA
+					AAABBgAABAAAABQAAAAgAAAANAAAAEwAAABc
+					AAAACAAAAAQDAABXuQAAAAAAAAgAAAAEAwAA
+					k8gFAAAAAAAIAAAABAMAAPXIBQAAAAAACAAA
+					AAQDAAAw0wUAAAAAAAgAAAAEAwAAol8GAAAA
+					AAAIAAAABAMAAAhnBgAAAAAAGAAAAAEGAACQ
+					AAAAoAAAALAAAADAAAAA0AAAAOAAAAAYAAAA
+					AQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAA
+					AAAAAAABBQAABAAAAAMDAAADAAAACAAAAAQD
+					AAAEAAAAAAAAAAQAAAADAwAA9QEAAAwAAAAB
+					AQAATWFjaW50b3NoIEhECAAAAAQDAAAAgIE9
+					dAAAAAgAAAAABAAAQbT0dG8AAAAkAAAAAQEA
+					ADlFRkI1MzQ1LUFENTMtM0IyRS1BOTNELTNC
+					OTlENUFBMDFGOBgAAAABAgAAgQAAAAEACADv
+					PwAAAQAIAAAAAAAAAAAAAQAAAAEBAAAvAAAA
+					BAAAAAMDAAAAAQAAwgAAAAECAABiOWM3MDVl
+					YWExZmYzNWU1OGI3MTYwZTc5YTIwYzVjYmUz
+					MzhhNjc5OzAwMDAwMDAwOzAwMDAwMDAwMDAw
+					MDAwMjA7Y29tLmFwcGxlLmFwcC1zYW5kYm94
+					LnJlYWQtd3JpdGU7MDAwMDAwMDE7MGUwMDAw
+					MDI7MDAwMDAwMDAwMDA2NjcwODsvdXNlcnMv
+					Z2FtZS9kb3dubG9hZHMvbWFnbmV0IHJlc291
+					cmNlcy93b29kXzEvd29vZF8xXzIucG5nAAAA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAAcAAA
+					AAAAAAAFEAAA8AAAAAAAAAAQEAAAEAEAAAAA
+					AABUEAAAOAEAAAAAAABVEAAAOAEAAAAAAABW
+					EAAAMAEAAAAAAAACIAAA4AEAAAAAAAAQIAAA
+					YAEAAAAAAAARIAAAlAEAAAAAAAASIAAAdAEA
+					AAAAAAATIAAAhAEAAAAAAAAgIAAAwAEAAAAA
+					AAAwIAAAMAEAAAAAAAABwAAARAEAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAVAEAAAAAAAAQ0AAA
+					7AEAAAAAAACA8AAA+AEAAAAAAAA=
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-24.5, -12.25}</string>
+										<string>{24.5, -12.25}</string>
+										<string>{24.5, 12.25}</string>
+										<string>{-24.5, 12.25}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>98</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<true/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>24.5</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-24.5, -12.25}</string>
+								<key>LHWidth</key>
+								<real>49</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{0, 0}</string>
+									<string>{196, 0}</string>
+									<string>{196, 98}</string>
+									<string>{0, 98}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>196</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>wood</string>
+					<key>SHSpriteName</key>
+					<string>wood_1_2</string>
+					<key>SheetImage</key>
+					<string>woods_wood.png</string>
+					<key>SheetImage-HD</key>
+					<string>woods_wood-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{0, 0}, {49, 24.5}}</string>
+						<key>Frame-HD</key>
+						<string>{{0, 0}, {196, 98}}</string>
+						<key>Image</key>
+						<string>woods_wood.png</string>
+						<key>Image-HD</key>
+						<string>woods_wood-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<false/>
+						<key>Name</key>
+						<string>wood_1_2</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/wood_1/wood_1_2.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/wood_1/wood_1_2.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {196, 98}}</string>
+						<key>OriginalSize</key>
+						<string>{196, 98}</string>
+						<key>Position</key>
+						<string>{0, 0}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{49, 24.5}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>15</integer>
+						<key>TextureOffset</key>
+						<string>{0, 0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>wood_1_3</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+ADAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAxAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwYAAAABAQAAd29v
+					ZF8xAAAMAAAAAQEAAHdvb2RfMV8zLnBuZxgA
+					AAABBgAABAAAABQAAAAgAAAANAAAAEwAAABc
+					AAAACAAAAAQDAABXuQAAAAAAAAgAAAAEAwAA
+					k8gFAAAAAAAIAAAABAMAAPXIBQAAAAAACAAA
+					AAQDAAAw0wUAAAAAAAgAAAAEAwAAol8GAAAA
+					AAAIAAAABAMAAAlnBgAAAAAAGAAAAAEGAACQ
+					AAAAoAAAALAAAADAAAAA0AAAAOAAAAAYAAAA
+					AQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAA
+					AAAAAAABBQAABAAAAAMDAAADAAAACAAAAAQD
+					AAAEAAAAAAAAAAQAAAADAwAA9QEAAAwAAAAB
+					AQAATWFjaW50b3NoIEhECAAAAAQDAAAAgIE9
+					dAAAAAgAAAAABAAAQbT0dG8AAAAkAAAAAQEA
+					ADlFRkI1MzQ1LUFENTMtM0IyRS1BOTNELTNC
+					OTlENUFBMDFGOBgAAAABAgAAgQAAAAEACADv
+					PwAAAQAIAAAAAAAAAAAAAQAAAAEBAAAvAAAA
+					BAAAAAMDAAAAAQAAwgAAAAECAAAxZTI5MGRj
+					NzNmNjExMzdlMTQ0MTM4YWE3NjllOWZmMDc1
+					ODE0ZTBiOzAwMDAwMDAwOzAwMDAwMDAwMDAw
+					MDAwMjA7Y29tLmFwcGxlLmFwcC1zYW5kYm94
+					LnJlYWQtd3JpdGU7MDAwMDAwMDE7MGUwMDAw
+					MDI7MDAwMDAwMDAwMDA2NjcwOTsvdXNlcnMv
+					Z2FtZS9kb3dubG9hZHMvbWFnbmV0IHJlc291
+					cmNlcy93b29kXzEvd29vZF8xXzMucG5nAAAA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAAcAAA
+					AAAAAAAFEAAA8AAAAAAAAAAQEAAAEAEAAAAA
+					AABUEAAAOAEAAAAAAABVEAAAOAEAAAAAAABW
+					EAAAMAEAAAAAAAACIAAA4AEAAAAAAAAQIAAA
+					YAEAAAAAAAARIAAAlAEAAAAAAAASIAAAdAEA
+					AAAAAAATIAAAhAEAAAAAAAAgIAAAwAEAAAAA
+					AAAwIAAAMAEAAAAAAAABwAAARAEAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAVAEAAAAAAAAQ0AAA
+					7AEAAAAAAACA8AAA+AEAAAAAAAA=
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-12.25, -12.25}</string>
+										<string>{12.25, -12.25}</string>
+										<string>{12.25, 12.25}</string>
+										<string>{-12.25, 12.25}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>98</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<true/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>24.5</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-12.25, -12.25}</string>
+								<key>LHWidth</key>
+								<real>24.5</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{0, 0}</string>
+									<string>{98, 0}</string>
+									<string>{98, 98}</string>
+									<string>{0, 98}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>98</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>wood</string>
+					<key>SHSpriteName</key>
+					<string>wood_1_3</string>
+					<key>SheetImage</key>
+					<string>woods_wood.png</string>
+					<key>SheetImage-HD</key>
+					<string>woods_wood-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{0, 52}, {24.5, 24.5}}</string>
+						<key>Frame-HD</key>
+						<string>{{0, 208}, {98, 98}}</string>
+						<key>Image</key>
+						<string>woods_wood.png</string>
+						<key>Image-HD</key>
+						<string>woods_wood-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<false/>
+						<key>Name</key>
+						<string>wood_1_3</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/wood_1/wood_1_3.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/wood_1/wood_1_3.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {98, 98}}</string>
+						<key>OriginalSize</key>
+						<string>{98, 98}</string>
+						<key>Position</key>
+						<string>{0, 208}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{24.5, 24.5}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>15</integer>
+						<key>TextureOffset</key>
+						<string>{0, 0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>wood_1_5</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+ADAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAxAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwYAAAABAQAAd29v
+					ZF8xAAAMAAAAAQEAAHdvb2RfMV81LnBuZxgA
+					AAABBgAABAAAABQAAAAgAAAANAAAAEwAAABc
+					AAAACAAAAAQDAABXuQAAAAAAAAgAAAAEAwAA
+					k8gFAAAAAAAIAAAABAMAAPXIBQAAAAAACAAA
+					AAQDAAAw0wUAAAAAAAgAAAAEAwAAol8GAAAA
+					AAAIAAAABAMAAAtnBgAAAAAAGAAAAAEGAACQ
+					AAAAoAAAALAAAADAAAAA0AAAAOAAAAAYAAAA
+					AQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAA
+					AAAAAAABBQAABAAAAAMDAAADAAAACAAAAAQD
+					AAAEAAAAAAAAAAQAAAADAwAA9QEAAAwAAAAB
+					AQAATWFjaW50b3NoIEhECAAAAAQDAAAAgIE9
+					dAAAAAgAAAAABAAAQbT0dG8AAAAkAAAAAQEA
+					ADlFRkI1MzQ1LUFENTMtM0IyRS1BOTNELTNC
+					OTlENUFBMDFGOBgAAAABAgAAgQAAAAEACADv
+					PwAAAQAIAAAAAAAAAAAAAQAAAAEBAAAvAAAA
+					BAAAAAMDAAAAAQAAwgAAAAECAAA4Y2RhNzBm
+					ODgwYjU1YzE3NzdkYmFhZmM4Y2VhNmZhMGEz
+					ZmI3NWM0OzAwMDAwMDAwOzAwMDAwMDAwMDAw
+					MDAwMjA7Y29tLmFwcGxlLmFwcC1zYW5kYm94
+					LnJlYWQtd3JpdGU7MDAwMDAwMDE7MGUwMDAw
+					MDI7MDAwMDAwMDAwMDA2NjcwYjsvdXNlcnMv
+					Z2FtZS9kb3dubG9hZHMvbWFnbmV0IHJlc291
+					cmNlcy93b29kXzEvd29vZF8xXzUucG5nAAAA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAAcAAA
+					AAAAAAAFEAAA8AAAAAAAAAAQEAAAEAEAAAAA
+					AABUEAAAOAEAAAAAAABVEAAAOAEAAAAAAABW
+					EAAAMAEAAAAAAAACIAAA4AEAAAAAAAAQIAAA
+					YAEAAAAAAAARIAAAlAEAAAAAAAASIAAAdAEA
+					AAAAAAATIAAAhAEAAAAAAAAgIAAAwAEAAAAA
+					AAAwIAAAMAEAAAAAAAABwAAARAEAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAVAEAAAAAAAAQ0AAA
+					7AEAAAAAAACA8AAA+AEAAAAAAAA=
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-24.5, -4.125}</string>
+										<string>{24.5, -4.125}</string>
+										<string>{24.5, 4.125}</string>
+										<string>{-24.5, 4.125}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>33</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<true/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>8.25</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-24.5, -4.125}</string>
+								<key>LHWidth</key>
+								<real>49</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{0, 0}</string>
+									<string>{196, 0}</string>
+									<string>{196, 33}</string>
+									<string>{0, 33}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>196</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>wood</string>
+					<key>SHSpriteName</key>
+					<string>wood_1_5</string>
+					<key>SheetImage</key>
+					<string>woods_wood.png</string>
+					<key>SheetImage-HD</key>
+					<string>woods_wood-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{26, 26}, {49, 8.75}}</string>
+						<key>Frame-HD</key>
+						<string>{{104, 104}, {196, 33}}</string>
+						<key>Image</key>
+						<string>woods_wood.png</string>
+						<key>Image-HD</key>
+						<string>woods_wood-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<false/>
+						<key>Name</key>
+						<string>wood_1_5</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/wood_1/wood_1_5.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/wood_1/wood_1_5.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {196, 33}}</string>
+						<key>OriginalSize</key>
+						<string>{196, 33}</string>
+						<key>Position</key>
+						<string>{104, 104}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{49, 8.25}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>15</integer>
+						<key>TextureOffset</key>
+						<string>{0, 0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>wood_1_6</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+ADAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAxAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwYAAAABAQAAd29v
+					ZF8xAAAMAAAAAQEAAHdvb2RfMV82LnBuZxgA
+					AAABBgAABAAAABQAAAAgAAAANAAAAEwAAABc
+					AAAACAAAAAQDAABXuQAAAAAAAAgAAAAEAwAA
+					k8gFAAAAAAAIAAAABAMAAPXIBQAAAAAACAAA
+					AAQDAAAw0wUAAAAAAAgAAAAEAwAAol8GAAAA
+					AAAIAAAABAMAABNcBwAAAAAAGAAAAAEGAACQ
+					AAAAoAAAALAAAADAAAAA0AAAAOAAAAAYAAAA
+					AQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAA
+					AAAAAAABBQAABAAAAAMDAAADAAAACAAAAAQD
+					AAAEAAAAAAAAAAQAAAADAwAA9QEAAAwAAAAB
+					AQAATWFjaW50b3NoIEhECAAAAAQDAAAAgIE9
+					dAAAAAgAAAAABAAAQbT0dG8AAAAkAAAAAQEA
+					ADlFRkI1MzQ1LUFENTMtM0IyRS1BOTNELTNC
+					OTlENUFBMDFGOBgAAAABAgAAgQAAAAEACADv
+					PwAAAQAIAAAAAAAAAAAAAQAAAAEBAAAvAAAA
+					BAAAAAMDAAAAAQAAwgAAAAECAAAzOGY3MmE4
+					MzhmOWFhZmNiMWU0ZWE2MzQzYzk1OGU3ZjVm
+					OTA0ZjZjOzAwMDAwMDAwOzAwMDAwMDAwMDAw
+					MDAwMjA7Y29tLmFwcGxlLmFwcC1zYW5kYm94
+					LnJlYWQtd3JpdGU7MDAwMDAwMDE7MGUwMDAw
+					MDI7MDAwMDAwMDAwMDA3NWMxMzsvdXNlcnMv
+					Z2FtZS9kb3dubG9hZHMvbWFnbmV0IHJlc291
+					cmNlcy93b29kXzEvd29vZF8xXzYucG5nAAAA
+					5AAAAP7///8BAAAAAAAAABIAAAAEEAAAcAAA
+					AAAAAAAFEAAA8AAAAAAAAAAQEAAAEAEAAAAA
+					AABUEAAAOAEAAAAAAABVEAAAOAEAAAAAAABW
+					EAAAMAEAAAAAAAACIAAA4AEAAAAAAAAQIAAA
+					YAEAAAAAAAARIAAAlAEAAAAAAAASIAAAdAEA
+					AAAAAAATIAAAhAEAAAAAAAAgIAAAwAEAAAAA
+					AAAwIAAAMAEAAAAAAAABwAAARAEAAAAAAAAR
+					wAAAFAAAAAAAAAASwAAAVAEAAAAAAAAQ0AAA
+					7AEAAAAAAACA8AAA+AEAAAAAAAA=
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-24.5, -1.5}</string>
+										<string>{24.5, -1.5}</string>
+										<string>{24.5, 1.5}</string>
+										<string>{-24.5, 1.5}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>12</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<true/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>3</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-24.5, -1.5}</string>
+								<key>LHWidth</key>
+								<real>49</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{0, 0}</string>
+									<string>{196, 0}</string>
+									<string>{196, 12}</string>
+									<string>{0, 12}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>196</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>wood</string>
+					<key>SHSpriteName</key>
+					<string>wood_1_6</string>
+					<key>SheetImage</key>
+					<string>woods_wood.png</string>
+					<key>SheetImage-HD</key>
+					<string>woods_wood-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{26, 36}, {49, 3}}</string>
+						<key>Frame-HD</key>
+						<string>{{104, 144}, {196, 12}}</string>
+						<key>Image</key>
+						<string>woods_wood.png</string>
+						<key>Image-HD</key>
+						<string>woods_wood-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<false/>
+						<key>Name</key>
+						<string>wood_1_6</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/wood_1/wood_1_6.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/wood_1/wood_1_6.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {196, 12}}</string>
+						<key>OriginalSize</key>
+						<string>{196, 12}</string>
+						<key>Position</key>
+						<string>{104, 144}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{49, 3}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>15</integer>
+						<key>TextureOffset</key>
+						<string>{0, 0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>wooden_1_4</key>
+				<dict>
+					<key>DocumentSecurityImageBookmark</key>
+					<data>
+					Ym9va+QDAAAAAAQQMAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAyAIAAAUA
+					AAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJ
+					AAAAAQEAAERvd25sb2FkcwAAABAAAAABAQAA
+					bWFnbmV0IHJlc291cmNlcwYAAAABAQAAd29v
+					ZF8xAAAOAAAAAQEAAHdvb2Rlbl8xXzQucG5n
+					AAAYAAAAAQYAAAQAAAAUAAAAIAAAADQAAABM
+					AAAAXAAAAAgAAAAEAwAAV7kAAAAAAAAIAAAA
+					BAMAAJPIBQAAAAAACAAAAAQDAAD1yAUAAAAA
+					AAgAAAAEAwAAMNMFAAAAAAAIAAAABAMAAKJf
+					BgAAAAAACAAAAAQDAADLXwYAAAAAABgAAAAB
+					BgAAlAAAAKQAAAC0AAAAxAAAANQAAADkAAAA
+					GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAA
+					AAAAAAAAAAAAAQUAAAQAAAADAwAAAwAAAAgA
+					AAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAM
+					AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
+					AICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAA
+					AAEBAAA5RUZCNTM0NS1BRDUzLTNCMkUtQTkz
+					RC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAAB
+					AAgA7z8AAAEACAAAAAAAAAAAAAEAAAABAQAA
+					LwAAAAQAAAADAwAAAAEAAMQAAAABAgAANDQy
+					MGMzM2U0NDMxNTVmNGEzYzc2ZmM1YmEyNzg3
+					ZGQ2NWJhYWI3ODswMDAwMDAwMDswMDAwMDAw
+					MDAwMDAwMDIwO2NvbS5hcHBsZS5hcHAtc2Fu
+					ZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzBl
+					MDAwMDAyOzAwMDAwMDAwMDAwNjVmY2I7L3Vz
+					ZXJzL2dhbWUvZG93bmxvYWRzL21hZ25ldCBy
+					ZXNvdXJjZXMvd29vZF8xL3dvb2Rlbl8xXzQu
+					cG5nAOQAAAD+////AQAAAAAAAAASAAAABBAA
+					AHQAAAAAAAAABRAAAPQAAAAAAAAAEBAAABQB
+					AAAAAAAAVBAAADwBAAAAAAAAVRAAADwBAAAA
+					AAAAVhAAADQBAAAAAAAAAiAAAOQBAAAAAAAA
+					ECAAAGQBAAAAAAAAESAAAJgBAAAAAAAAEiAA
+					AHgBAAAAAAAAEyAAAIgBAAAAAAAAICAAAMQB
+					AAAAAAAAMCAAADQBAAAAAAAAAcAAAEgBAAAA
+					AAAAEcAAABQAAAAAAAAAEsAAAFgBAAAAAAAA
+					ENAAAPABAAAAAAAAgPAAAPwBAAAAAAAA
+					</data>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<array>
+										<string>{-12.25, -12.25}</string>
+										<string>{12.25, -12.25}</string>
+										<string>{12.25, 12.25}</string>
+										<string>{-12.25, 12.25}</string>
+									</array>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>98</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<true/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>24.5</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-12.25, -12.25}</string>
+								<key>LHWidth</key>
+								<real>24.5</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{0, 0}</string>
+									<string>{98, 0}</string>
+									<string>{98, 98}</string>
+									<string>{0, 98}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>98</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>wood</string>
+					<key>SHSpriteName</key>
+					<string>wooden_1_4</string>
+					<key>SheetImage</key>
+					<string>woods_wood.png</string>
+					<key>SheetImage-HD</key>
+					<string>woods_wood-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>ConvertedFromOldFormat</key>
+						<true/>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{0, 26}, {24.5, 24.5}}</string>
+						<key>Frame-HD</key>
+						<string>{{0, 104}, {98, 98}}</string>
+						<key>Image</key>
+						<string>woods_wood.png</string>
+						<key>Image-HD</key>
+						<string>woods_wood-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<false/>
+						<key>Name</key>
+						<string>wooden_1_4</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/game/Downloads/magnet resources/wood_1/wooden_1_4.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../magnet%20resources/wood_1/wooden_1_4.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {98, 98}}</string>
+						<key>OriginalSize</key>
+						<string>{98, 98}</string>
+						<key>Position</key>
+						<string>{0, 104}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{24.5, 24.5}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>15</integer>
+						<key>TextureOffset</key>
+						<string>{0, 0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+			</dict>
+			<key>Size</key>
+			<string>{512, 512}</string>
+			<key>Trim</key>
+			<false/>
+			<key>ZOrder</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>SH_ANIMATIONS_LIST</key>
+	<array/>
+	<key>SaveSettings</key>
+	<dict>
+		<key>Dither</key>
+		<true/>
+		<key>DocumentName</key>
+		<string>woods</string>
+		<key>HD2XSuffix</key>
+		<string>-ipadhd</string>
+		<key>HDSuffix</key>
+		<string>-hd</string>
+		<key>ImageFormatId</key>
+		<integer>0</integer>
+		<key>Npot</key>
+		<true/>
+		<key>PvrBpp</key>
+		<integer>1</integer>
+		<key>PvrRemoveParent</key>
+		<true/>
+		<key>ResamplingAlgorithm</key>
+		<integer>4</integer>
+		<key>ResizingOptions</key>
+		<integer>2</integer>
+	</dict>
+	<key>SceneFolderSandboxBookmark</key>
+	<data>
+	Ym9va2wDAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAdAIA
+	AAUAAAABAQAAVXNlcnMAAAAEAAAAAQEAAGdhbWUJAAAAAQEAAERvd25sb2FkcwAAAAkA
+	AAABAQAATWFnbmV0MTQ5AAAABgAAAAEBAABJbWFnZXMAABQAAAABBgAABAAAABQAAAAg
+	AAAANAAAAEgAAAAIAAAABAMAAFe5AAAAAAAACAAAAAQDAACTyAUAAAAAAAgAAAAEAwAA
+	9cgFAAAAAAAIAAAABAMAAARABwAAAAAACAAAAAQDAAArQAcAAAAAABQAAAABBgAAdAAA
+	AIQAAACUAAAApAAAALQAAAAYAAAAAQIAAAIAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAgA
+	AAAEAwAAAwAAAAAAAAAEAAAAAwMAAPUBAAAMAAAAAQEAAE1hY2ludG9zaCBIRAgAAAAE
+	AwAAAICBPXQAAAAIAAAAAAQAAEG09HRvAAAAJAAAAAEBAAA5RUZCNTM0NS1BRDUzLTNC
+	MkUtQTkzRC0zQjk5RDVBQTAxRjgYAAAAAQIAAIEAAAABAAgA7z8AAAEACAAAAAAAAAAA
+	AAEAAAABAQAALwAAAAAAAAABBQAABAAAAAMDAAAAAQAArgAAAAECAAA1YTZhNGZjMmEz
+	MGZkMzMyNzMzMDNmNzlhY2VmYWYxYmNiNjc4MWY2OzAwMDAwMDAwOzAwMDAwMDAwMDAw
+	MDAwMjA7Y29tLmFwcGxlLmFwcC1zYW5kYm94LnJlYWQtd3JpdGU7MDAwMDAwMDE7MGUw
+	MDAwMDI7MDAwMDAwMDAwMDA3NDAyYjsvdXNlcnMvZ2FtZS9kb3dubG9hZHMvbWFnbmV0
+	MTQ5L2ltYWdlcwAAAMAAAAD+////AQAAAAAAAAAPAAAABBAAAFgAAAAAAAAABRAAAMQA
+	AAAAAAAAEBAAAOAAAAAAAAAAAiAAAJwBAAAAAAAAECAAABwBAAAAAAAAESAAAFABAAAA
+	AAAAEiAAADABAAAAAAAAEyAAAEABAAAAAAAAICAAAHwBAAAAAAAAMCAAAKgBAAAAAAAA
+	AcAAAAABAAAAAAAAEcAAABQAAAAAAAAAEsAAABABAAAAAAAAENAAALABAAAAAAAAgPAA
+	ALwBAAAAAAAA
+	</data>
+	<key>Version</key>
+	<string>1.8.157</string>
+</dict>
+</plist>

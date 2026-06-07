@@ -159,6 +159,10 @@ export function spawnMagnets(scene, levelData, magnetAnimTags, magnetRangeSize, 
         magnet.state         = ANIM_STATES[magnet.animTag]?.[0] ?? -1;
         magnet.isControlling = false;
 
+        // Mark pentagon/triangle as solid so GameScene can add hero colliders after spawnHero
+        const isSolid = nameLo.includes('five') || nameLo.includes('three') || nameLo.includes('tri');
+        magnet.isSolid = isSolid;
+
         if (obj.path?.curves?.length) {
             magnet.pathCurve   = buildPhaserPath(obj.path);
             magnet.pathT       = 0;
@@ -207,7 +211,8 @@ export function updateMagnetPaths(scene, delta) {
         const pt = magnet.pathCurve.getPoint(magnet.pathT);
         if (!pt) continue;
 
-        magnet.body.reset(pt.x, pt.y);
+        if (magnet.body.enable) magnet.body.reset(pt.x, pt.y);
+        else { magnet.x = pt.x; magnet.y = pt.y; }
         if (magnet.rangeImage)  magnet.rangeImage.setPosition(pt.x, pt.y);
         if (magnet.visualImage) magnet.visualImage.setPosition(pt.x, pt.y);
     }
@@ -390,11 +395,7 @@ export function spawnElastic(scene, levelData) {
         const visual = scene.add.sprite(obj.position.x, obj.position.y, 'rubber_rubber.png')
             .setDisplaySize(w, h).setAngle(angle).setDepth(10);
 
-        // Use an invisible arcade static body as the collision surface
-        const body = scene.physics.add.staticImage(obj.position.x, obj.position.y, '__DEFAULT')
-            .setAlpha(0).setDisplaySize(w, h).refreshBody();
-
-        elasticBlocks.push({ body, visual, angle, x: obj.position.x, y: obj.position.y, w, h });
+        elasticBlocks.push({ visual, angle, x: obj.position.x, y: obj.position.y, w, h });
     }
     return elasticBlocks;
 }
@@ -433,21 +434,105 @@ export function spawnDismagnets(scene, levelData) {
     return dismagnets;
 }
 
+// ── Glass pipes ───────────────────────────────────────────────────────────────
+// Physics derived from glass.pshs fixture data:
+//   gol   – straight pipe, walls at y = ±(H/2 - 3) in local space (open at ends)
+//   bulan – quarter-circle corner pipe, two outer wall strips + inner corner block
+//   amsar – thin connector, visual only (end-cap fixtures are negligibly small)
+export function spawnGlass(scene, levelData) {
+    const visuals = [];
+    const corners = []; // bulan curved-corner circles for manual scooping collision
+
+    function addWall(cx, cy, w, h) {
+        const b = scene.physics.add.staticImage(cx, cy, '__DEFAULT').setAlpha(0);
+        b.setDisplaySize(w, h);
+        b.refreshBody();
+        scene.physics.add.collider(scene.hero, b, () => playSound(scene, 'glass'));
+    }
+
+    for (const obj of levelData.objects) {
+        if (obj.tag !== 'GLASS') continue;
+        const tex = scene.textures.get(obj.sheet);
+        if (!tex) continue;
+        const fn = obj.name + '_gf';
+        if (!tex.has(fn)) tex.add(fn, 0, obj.frame.x, obj.frame.y, obj.frame.w, obj.frame.h);
+        const spr = scene.add.sprite(obj.position.x, obj.position.y, obj.sheet, fn)
+            .setAngle(obj.angle || 0)
+            .setScale(obj.size.x / obj.frame.w, obj.size.y / obj.frame.h)
+            .setDepth(5);
+        if (obj.flipX) spr.setFlipX(true);
+        if (obj.flipY) spr.setFlipY(true);
+        visuals.push(spr);
+
+        const x = obj.position.x, y = obj.position.y;
+        const aDeg = ((obj.angle || 0) % 360 + 360) % 360;
+        const a = Phaser.Math.DegToRad(aDeg);
+        const ca = Math.cos(a), sa = Math.sin(a);
+        const isRot = aDeg === 90 || aDeg === 270;
+        const tw = (lx, ly) => ({ x: x + lx * ca - ly * sa, y: y + lx * sa + ly * ca });
+        const wall = (lx, ly, lw, lh) => {
+            const p = tw(lx, ly);
+            addWall(p.x, p.y, isRot ? lh : lw, isRot ? lw : lh);
+        };
+
+        const spriteName = (obj.sprite || '').toLowerCase();
+
+        if (spriteName === 'gol') {
+            // Walls sit on the outer edge of the sprite, leaving the full interior clear
+            const WALL_T = 4;
+            const halfH = obj.size.y / 2;
+            wall(0, -(halfH + WALL_T / 2), obj.size.x, WALL_T);
+            wall(0, +(halfH + WALL_T / 2), obj.size.x, WALL_T);
+
+        } else if (spriteName === 'bulan') {
+            // Outer wall strips on sprite edges
+            const SIZE = 48, WALL_T = 4, HALF = SIZE / 2 + WALL_T / 2;
+            wall(+HALF, 0,    WALL_T, SIZE);
+            wall(0,    -HALF, SIZE, WALL_T);
+            // Inner corner: a small circle at the intersection of the two inner wall faces.
+            // Handled manually in update() — pushes the hero tangentially around the bend (scoop).
+            // Local position (16, -16) = where the inner faces of the right and top walls meet.
+            const cp = tw(16, -16);
+            corners.push({ cx: cp.x, cy: cp.y, r: 6 }); // r=6 smooths the sharp corner
+        }
+        // amsar: visual only
+    }
+
+    return { visuals, corners };
+}
+
 // ── Portals ───────────────────────────────────────────────────────────────────
 export function spawnPortals(scene, levelData) {
-    const portals = [];
-    for (const obj of levelData.objects.filter(o => o.tag === 'PORTAL')) {
+    const portalMap = {};
+
+    function spawnPortalSprite(obj) {
         const tex = scene.textures.get(obj.sheet);
         const fn  = obj.name + '_pframe';
         if (tex && !tex.has(fn)) tex.add(fn, 0, obj.frame.x, obj.frame.y, obj.frame.w, obj.frame.h);
         const spr = scene.add.sprite(obj.position.x, obj.position.y, obj.sheet, fn)
             .setScale(obj.size.x / obj.frame.w, obj.size.y / obj.frame.h).setDepth(12);
         if (obj.animation && scene.anims.exists(obj.animation)) spr.play(obj.animation);
-        portals.push({ x: obj.position.x, y: obj.position.y, radius: (obj.size?.x || 48) / 2, sprite: spr, cooldown: false });
+        return { sprite: spr, radius: (obj.size?.x || 48) / 2, cooldown: false, pair: null };
     }
-    for (let i = 0; i < portals.length; i++)
-        portals[i].pair = portals.length > 1 ? portals[(i + 1) % portals.length] : null;
-    return portals;
+
+    // Spawn PORTAL-tagged entries (the "in" portals)
+    for (const obj of levelData.objects.filter(o => o.tag === 'PORTAL')) {
+        const entry = spawnPortalSprite(obj);
+        portalMap[obj.name] = entry;
+    }
+
+    // Spawn matching "_out" portals (may be tagged DEFAULT in the level data)
+    for (const baseName of Object.keys(portalMap)) {
+        const outName = baseName + '_out';
+        const outObj  = levelData.objects.find(o => o.name === outName);
+        if (!outObj) continue;
+        const outEntry = spawnPortalSprite(outObj);
+        portalMap[outName] = outEntry;
+        portalMap[baseName].pair = outEntry;
+        outEntry.pair = portalMap[baseName];
+    }
+
+    return Object.values(portalMap);
 }
 
 // ── Robot piece collection ────────────────────────────────────────────────────

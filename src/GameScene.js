@@ -9,11 +9,11 @@ import {
     prepassMagnetTags, spawnVisuals, spawnStars, spawnRobotPieces,
     spawnMagnets, startMagnetTicker, updateMagnetPaths, spawnHero, spawnMetals, spawnWinds,
     spawnWoodBlocks, spawnRockBlocks, spawnElastic,
-    spawnBlackHoles, spawnDismagnets, spawnPortals, collectRobotPiece
+    spawnBlackHoles, spawnDismagnets, spawnPortals, spawnGlass, collectRobotPiece
 } from './GameObjects.js';
 import { createHUD } from './GameButtons.js';
 import { showFail, showWin } from './GamePlayDialog.js';
-import { preloadAudio, playGameBG, stopGameBG, playSound } from './GameAudio.js';
+import { preloadAudio, playGameBG, stopGameBG, stopIntro, playSound } from './GameAudio.js';
 import { setupCamera, followHero } from './camera.js';
 
 export default class GameScene extends Phaser.Scene {
@@ -60,9 +60,13 @@ export default class GameScene extends Phaser.Scene {
         this.blackHoles    = [];
         this.dismagnets    = [];
         this.portals       = [];
+        this.glassSprites  = [];
+        this.glassCorners  = [];
 
         this.dismagneted         = false;
         this.dismagnedSavedFrame = 0;
+
+        this.stuckTriangle = null; // { magnet, nx, ny, hx, hy, mx, my }
 
         this.isLevelComplete = false;
         this.wonAlready      = false;
@@ -101,8 +105,12 @@ export default class GameScene extends Phaser.Scene {
         setupCamera(this, 960, 440);
         this.physics.world.setBounds(0, -60, 960, 440);
 
+        stopIntro(this);
         createBackground(this);
         playGameBG(this);
+
+        // Resume gameplay music when unpausing (PauseScene uses scene.resume)
+        this.events.on('resume', () => playGameBG(this));
 
         // Register Phaser animations from animations.json
         for (const [animName, animData] of Object.entries(animations)) {
@@ -139,14 +147,25 @@ export default class GameScene extends Phaser.Scene {
         // Hero must exist before metals/wood/stone (they register colliders against it)
         spawnHero(this, levelData);
 
+        // Pentagon/triangle magnets: disable physics body — custom geometry collision in update()
+        for (const magnet of this.magnets) {
+            if (magnet.isSolid) magnet.body.enable = false;
+        }
+
         this.metals        = spawnMetals(this, levelData);
         this.winds         = spawnWinds(this, levelData);
         this.woodBlocks    = spawnWoodBlocks(this, levelData);
         this.rockBlocks    = spawnRockBlocks(this, levelData);
         this.elasticBlocks = spawnElastic(this, levelData);
+
         this.blackHoles    = spawnBlackHoles(this, levelData);
         this.dismagnets    = spawnDismagnets(this, levelData);
         this.portals       = spawnPortals(this, levelData);
+        const glass        = spawnGlass(this, levelData);
+        this.glassSprites  = glass.visuals;
+        this.glassCorners  = glass.corners;
+
+        this.physics.world.createDebugGraphic();
 
         this.physics.add.overlap(
             this.hero,
@@ -161,6 +180,31 @@ export default class GameScene extends Phaser.Scene {
         this.trajectoryGraphics = this.add.graphics();
         createHUD(this);
         setupInput(this);
+
+        // Mouse coordinate overlay (world space)
+        this._coordDiv = document.createElement('div');
+        Object.assign(this._coordDiv.style, {
+            position: 'fixed', bottom: '8px', left: '8px',
+            background: 'rgba(0,0,0,0.55)', color: '#fff',
+            fontFamily: 'monospace', fontSize: '13px',
+            padding: '3px 7px', borderRadius: '4px',
+            pointerEvents: 'none', zIndex: '9999',
+        });
+        document.body.appendChild(this._coordDiv);
+        this._coordMove = (e) => {
+            const canvas = this.sys.game.canvas;
+            const rect = canvas.getBoundingClientRect();
+            const scaleX = canvas.width  / rect.width;
+            const scaleY = canvas.height / rect.height;
+            const wx = (e.clientX - rect.left) * scaleX + this.cameras.main.scrollX;
+            const wy = (e.clientY - rect.top)  * scaleY + this.cameras.main.scrollY;
+            this._coordDiv.textContent = `x: ${Math.round(wx)}  y: ${Math.round(wy)}`;
+        };
+        window.addEventListener('mousemove', this._coordMove);
+        this.events.once('shutdown', () => {
+            window.removeEventListener('mousemove', this._coordMove);
+            this._coordDiv.remove();
+        });
     }
 
     // ── Update ────────────────────────────────────────────────────────────────
@@ -169,22 +213,88 @@ export default class GameScene extends Phaser.Scene {
 
         updateMagnetPaths(this, this.game.loop.delta);
 
-        // Elastic bounce — proximity + angle-aware reflection
+        // Elastic springs — diagonal-aware: push hero out each frame + reflect velocity
         for (const el of this.elasticBlocks) {
-            const a    = Phaser.Math.DegToRad(el.angle);
-            const dx   = this.hero.x - el.x, dy = this.hero.y - el.y;
-            const along = dx*Math.cos(a) + dy*Math.sin(a);
-            const perp  = dx*-Math.sin(a) + dy*Math.cos(a);
-            if (Math.abs(along) < el.w/2 && Math.abs(perp) < 14 && !el.bouncing) {
+            const a     = Phaser.Math.DegToRad(el.angle);
+            const cosA  = Math.cos(a), sinA = Math.sin(a);
+            const dx    = this.hero.x - el.x, dy = this.hero.y - el.y;
+            const along = dx * cosA + dy * sinA;
+            const perp  = dx * -sinA + dy * cosA;
+            const HERO_R = 16;
+            if (Math.abs(along) > el.w / 2 + HERO_R) continue;
+            const overlap = HERO_R - Math.abs(perp);
+            if (overlap <= 0) continue;
+            // Push hero out along the surface normal
+            const sign = perp >= 0 ? 1 : -1;
+            this.hero.x += sign * -sinA * overlap;
+            this.hero.y += sign *  cosA * overlap;
+            if (!el.bouncing) {
                 el.bouncing = true;
+                const nx = sign * -sinA, ny = sign * cosA;
+                const vx = this.hero.body.velocity.x, vy = this.hero.body.velocity.y;
+                const dot = vx * nx + vy * ny;
+                this.hero.body.velocity.x = (vx - 2 * dot * nx) * 1.5;
+                this.hero.body.velocity.y = (vy - 2 * dot * ny) * 1.5;
                 playSound(this, 'elastic');
                 if (this.anims.exists('rubber_bounce')) el.visual.play('rubber_bounce');
-                const nx = -Math.sin(a), ny = Math.cos(a);
-                const vx = this.hero.body.velocity.x, vy = this.hero.body.velocity.y;
-                const dot = vx*nx + vy*ny;
-                this.hero.body.velocity.x = (vx - 2*dot*nx) * 1.5;
-                this.hero.body.velocity.y = (vy - 2*dot*ny) * 1.5;
                 this.time.delayedCall(300, () => { el.bouncing = false; });
+            }
+        }
+
+        // Triangle/polygon magnets — custom face-accurate collision: stick on contact, tap to launch
+        for (const magnet of this.magnets) {
+            if (!magnet.isSolid) continue;
+            const HERO_R = 16;
+            const w = magnet.displayWidth / 2, h = magnet.displayHeight / 2;
+            const θ = Phaser.Math.DegToRad(magnet.angle || 0);
+            const c = Math.cos(θ), s = Math.sin(θ);
+            const dx = this.hero.x - magnet.x, dy = this.hero.y - magnet.y;
+            // Transform hero to magnet local space (unrotate by -θ)
+            const lx = dx * c + dy * s;
+            const ly = -dx * s + dy * c;
+            // Right-triangle local vertices: (-w,-h) top-left tip, (-w,+h) bottom-left right-angle, (+w,+h) bottom-right
+            // Outward normals in local space:
+            //   Left edge:   N = (-1, 0)
+            //   Bottom edge: N = (0, +1)
+            //   Hypotenuse:  N = normalize(+h, -w)
+            const normHyp = Math.hypot(h, w);
+            const sd1 = -(lx + w);                                            // left face (negative = inside)
+            const sd2 = ly - h;                                                // bottom face
+            const sd3 = ((lx - w) * h - (ly - h) * w) / normHyp;             // hypotenuse
+            const maxSD = Math.max(sd1, sd2, sd3);
+            if (maxSD >= HERO_R) {
+                // Hero is clearly outside — clear stuck state for this magnet if set
+                if (this.stuckTriangle?.magnet === magnet) this.stuckTriangle = null;
+                continue;
+            }
+            // Hero overlaps — determine contact face (face with largest sd = closest to hero)
+            let lnx, lny;
+            if (sd1 >= sd2 && sd1 >= sd3) { lnx = -1; lny = 0; }
+            else if (sd2 >= sd1 && sd2 >= sd3) { lnx = 0; lny = 1; }
+            else { lnx = h / normHyp; lny = -w / normHyp; }
+            // Rotate contact normal to world space
+            const wnx = lnx * c - lny * s;
+            const wny = lnx * s + lny * c;
+            const overlap = HERO_R - maxSD;
+            // Push hero out
+            this.hero.x += wnx * overlap;
+            this.hero.y += wny * overlap;
+            // Stick: record contact face (velocity is zeroed after all forces below)
+            if (!this.stuckTriangle || this.stuckTriangle.magnet !== magnet) {
+                this.stuckTriangle = { magnet, nx: wnx, ny: wny,
+                    hx: this.hero.x, hy: this.hero.y, mx: magnet.x, my: magnet.y };
+                this.hero.collided = true;
+                playSound(this, 'magnet_pull');
+            } else {
+                // Update stuck normal (magnet may have rotated), follow moving magnet
+                this.stuckTriangle.nx = wnx;
+                this.stuckTriangle.ny = wny;
+                this.hero.x = this.stuckTriangle.hx + (magnet.x - this.stuckTriangle.mx);
+                this.hero.y = this.stuckTriangle.hy + (magnet.y - this.stuckTriangle.my);
+                this.stuckTriangle.mx = magnet.x;
+                this.stuckTriangle.my = magnet.y;
+                this.stuckTriangle.hx = this.hero.x;
+                this.stuckTriangle.hy = this.hero.y;
             }
         }
 
@@ -296,14 +406,44 @@ export default class GameScene extends Phaser.Scene {
                     this.inactivityTimer = null;
                     playSound(this, 'yawn');
                     this.hero.setAngle(0).setAngularVelocity(0);
-                    if (this.anims.exists('free')) this.hero.play('free');
+                    if (this.anims.exists('yawn')) {
+                        this.hero.play('yawn');
+                        this.hero.once('animationcomplete', () => {
+                            if (this.anims.exists('free')) this.hero.play('free');
+                        });
+                    } else if (this.anims.exists('free')) {
+                        this.hero.play('free');
+                    }
                 }
             } else { this.inactivityTimer = null; }
         }
 
+        // Glass pipe curved-corner collision — scoop the hero around the bend
+        for (const c of this.glassCorners) {
+            const dx = this.hero.x - c.cx, dy = this.hero.y - c.cy;
+            const dist = Math.sqrt(dx * dx + dy * dy);
+            const minDist = c.r + 16;
+            if (dist < minDist && dist > 0.01) {
+                const nx = dx / dist, ny = dy / dist;
+                this.hero.x = c.cx + nx * minDist;
+                this.hero.y = c.cy + ny * minDist;
+                this.hero.body.reset(this.hero.x, this.hero.y);
+                // Remove velocity toward the corner, leaving only the tangential component
+                const vDot = this.hero.body.velocity.x * nx + this.hero.body.velocity.y * ny;
+                if (vDot < 0) {
+                    this.hero.body.velocity.x -= vDot * nx;
+                    this.hero.body.velocity.y -= vDot * ny;
+                }
+            }
+        }
+
         updateMagnetPaths(this, this.game.loop.delta);
+        applyMagnetForces(this);
         applyMetalForces(this);
         applyWindForces(this);
+
+        // Re-zero velocity after all forces if hero is stuck to a triangle face
+        if (this.stuckTriangle) this.hero.body.setVelocity(0, 0);
 
         // Sound on first frame of wind/metal contact
         const prevWindContact  = this._windContacted;
@@ -376,7 +516,8 @@ export default class GameScene extends Phaser.Scene {
         // Portals — teleport hero to paired portal with same velocity
         for (const portal of this.portals) {
             if (portal.cooldown || !portal.pair) continue;
-            const dx = this.hero.x - portal.x, dy = this.hero.y - portal.y;
+            const px = portal.sprite.x, py = portal.sprite.y;
+            const dx = this.hero.x - px, dy = this.hero.y - py;
             if (Math.sqrt(dx*dx + dy*dy) < portal.radius + 14) {
                 portal.cooldown = portal.pair.cooldown = true;
                 playSound(this, 'portal');
@@ -385,11 +526,12 @@ export default class GameScene extends Phaser.Scene {
                 if (this.heroRange) this.heroRange.setVisible(false);
                 this.time.delayedCall(200, () => {
                     if (!this.hero?.active || !this.hero.body) return;
-                    this.hero.x = portal.pair.x;
-                    this.hero.y = portal.pair.y;
+                    const destX = portal.pair.sprite.x, destY = portal.pair.sprite.y;
+                    this.hero.x = destX;
+                    this.hero.y = destY;
                     if (this.heroRange) {
-                        this.heroRange.x = portal.pair.x;
-                        this.heroRange.y = portal.pair.y;
+                        this.heroRange.x = destX;
+                        this.heroRange.y = destY;
                         this.heroRange.setVisible(true);
                     }
                     this.hero.setVisible(true);

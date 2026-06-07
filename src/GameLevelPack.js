@@ -12,7 +12,7 @@ export default class GameLevelPack extends Phaser.Scene {
     }
 
     preload() {
-        this.load.image('buttons_sheet', '/assets/buttons_sheet.png');
+        this.load.image('buttons_sheet', '/assets/sprites/buttons_sheet.png');
         for (let w = 1; w <= 4; w++)
             this.load.image(`pack_bg_${w}`, `/assets/pack/${w}/bg-x25-1-1.png`);
     }
