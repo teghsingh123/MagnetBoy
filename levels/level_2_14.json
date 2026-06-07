@@ -171,7 +171,37 @@
       "zOrder": 0,
       "sheet": "blackhole_blackholesheet.png",
       "sprite": "blackhole_01",
-      "animation": "blackhole_normal"
+      "animation": "blackhole_normal",
+      "path": {
+        "name": "BezierNode",
+        "speed": 2.5,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 0,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 864.025945290874,
+              "y": 85.07265354605795
+            },
+            "startControlPoint": {
+              "x": 854.8193946331248,
+              "y": 159.26016704651
+            },
+            "endControlPoint": {
+              "x": 874.8193946331248,
+              "y": 159.26016704651
+            },
+            "endPoint": {
+              "x": 864.4128439574943,
+              "y": 233.44768054696203
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "range_magnet_circle",

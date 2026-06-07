@@ -36,7 +36,37 @@
       "zOrder": 0,
       "sheet": "robotpack2_robotpack2.png",
       "sprite": "2_3_11",
-      "animation": null
+      "animation": null,
+      "path": {
+        "name": "BezierNode",
+        "speed": 2.200000047683716,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 0,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 862,
+              "y": 128
+            },
+            "startControlPoint": {
+              "x": 821.5,
+              "y": 138.25
+            },
+            "endControlPoint": {
+              "x": 841.5,
+              "y": 138.25
+            },
+            "endPoint": {
+              "x": 742,
+              "y": 224
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "star_01_1",

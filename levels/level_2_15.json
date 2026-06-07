@@ -306,7 +306,37 @@
       "zOrder": 0,
       "sheet": "blackhole_blackholesheet.png",
       "sprite": "blackhole_01",
-      "animation": "blackhole_normal"
+      "animation": "blackhole_normal",
+      "path": {
+        "name": "BezierNode_1",
+        "speed": 4,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 1,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 781,
+              "y": 64
+            },
+            "startControlPoint": {
+              "x": 841.25,
+              "y": 221.75
+            },
+            "endControlPoint": {
+              "x": 861.25,
+              "y": 221.75
+            },
+            "endPoint": {
+              "x": 781,
+              "y": 280
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "blackhole_01",
@@ -333,7 +363,37 @@
       "zOrder": 0,
       "sheet": "blackhole_blackholesheet.png",
       "sprite": "blackhole_01",
-      "animation": "blackhole_normal"
+      "animation": "blackhole_normal",
+      "path": {
+        "name": "BezierNode_1",
+        "speed": 2.5,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": false,
+        "startPoint": 0,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 781,
+              "y": 64
+            },
+            "startControlPoint": {
+              "x": 841.25,
+              "y": 221.75
+            },
+            "endControlPoint": {
+              "x": 861.25,
+              "y": 221.75
+            },
+            "endPoint": {
+              "x": 781,
+              "y": 280
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "wall_middle",

@@ -36,7 +36,37 @@
       "zOrder": 0,
       "sheet": "robotpack3_UntitledSheet.png",
       "sprite": "3_3_14",
-      "animation": null
+      "animation": null,
+      "path": {
+        "name": "BezierNode_1",
+        "speed": 3,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": false,
+        "startPoint": 0,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 920.497,
+              "y": 84.3844
+            },
+            "startControlPoint": {
+              "x": 909.932,
+              "y": 129.78
+            },
+            "endControlPoint": {
+              "x": 929.932,
+              "y": 129.78
+            },
+            "endPoint": {
+              "x": 920.3000000044703,
+              "y": 208
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "star_01_2",
@@ -144,7 +174,55 @@
       "zOrder": 0,
       "sheet": "magnet_magnet_sheets.png",
       "sprite": "magnet_range_red",
-      "animation": "BR_CIRCLE1"
+      "animation": "BR_CIRCLE1",
+      "path": {
+        "name": "BezierNode",
+        "speed": 3,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": false,
+        "startPoint": 1,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 352.176,
+              "y": 268.044
+            },
+            "startControlPoint": {
+              "x": 342.176,
+              "y": 227.2
+            },
+            "endControlPoint": {
+              "x": 362.176,
+              "y": 227.2
+            },
+            "endPoint": {
+              "x": 352,
+              "y": 160
+            }
+          },
+          {
+            "startPoint": {
+              "x": 352,
+              "y": 160
+            },
+            "startControlPoint": {
+              "x": 286.59799999999996,
+              "y": 109.64585
+            },
+            "endControlPoint": {
+              "x": 328.08799999999997,
+              "y": 129.678
+            },
+            "endPoint": {
+              "x": 240,
+              "y": 160
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "range_magnet_circle_1",
@@ -252,7 +330,55 @@
       "zOrder": 1,
       "sheet": "magnet_magnet_sheets.png",
       "sprite": "magnet_circle",
-      "animation": null
+      "animation": null,
+      "path": {
+        "name": "BezierNode",
+        "speed": 3,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": false,
+        "startPoint": 1,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 352.176,
+              "y": 268.044
+            },
+            "startControlPoint": {
+              "x": 342.176,
+              "y": 227.2
+            },
+            "endControlPoint": {
+              "x": 362.176,
+              "y": 227.2
+            },
+            "endPoint": {
+              "x": 352,
+              "y": 160
+            }
+          },
+          {
+            "startPoint": {
+              "x": 352,
+              "y": 160
+            },
+            "startControlPoint": {
+              "x": 286.59799999999996,
+              "y": 109.64585
+            },
+            "endControlPoint": {
+              "x": 328.08799999999997,
+              "y": 129.678
+            },
+            "endPoint": {
+              "x": 240,
+              "y": 160
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "magnet_circle_1",
@@ -360,7 +486,37 @@
       "zOrder": 0,
       "sheet": "magnet_magnet_sheets.png",
       "sprite": "magnet_range_red",
-      "animation": "BR_CIRCLE1"
+      "animation": "BR_CIRCLE1",
+      "path": {
+        "name": "BezierNode_2",
+        "speed": 3,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": false,
+        "startPoint": 1,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 242,
+              "y": 52.900000020861626
+            },
+            "startControlPoint": {
+              "x": 355.5,
+              "y": 53
+            },
+            "endControlPoint": {
+              "x": 375.5,
+              "y": 53
+            },
+            "endPoint": {
+              "x": 489,
+              "y": 52.80000004917383
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "magnet_circle_3",
@@ -387,7 +543,37 @@
       "zOrder": 1,
       "sheet": "magnet_magnet_sheets.png",
       "sprite": "magnet_circle",
-      "animation": null
+      "animation": null,
+      "path": {
+        "name": "BezierNode_2",
+        "speed": 3,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": false,
+        "startPoint": 1,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 242,
+              "y": 52.900000020861626
+            },
+            "startControlPoint": {
+              "x": 355.5,
+              "y": 53
+            },
+            "endControlPoint": {
+              "x": 375.5,
+              "y": 53
+            },
+            "endPoint": {
+              "x": 489,
+              "y": 52.80000004917383
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "wall_middle",

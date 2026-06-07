@@ -63,7 +63,37 @@
       "zOrder": 0,
       "sheet": "star_sheet.png",
       "sprite": "star_01",
-      "animation": "star_normal"
+      "animation": "star_normal",
+      "path": {
+        "name": "BezierNode",
+        "speed": 3,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": false,
+        "startPoint": 0,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 197.7000000104308,
+              "y": 218
+            },
+            "startControlPoint": {
+              "x": 217.5,
+              "y": 152.5
+            },
+            "endControlPoint": {
+              "x": 237.5,
+              "y": 152.5
+            },
+            "endPoint": {
+              "x": 198,
+              "y": 87
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "star_01_1",

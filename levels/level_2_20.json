@@ -36,7 +36,37 @@
       "zOrder": 0,
       "sheet": "robotpack2_robotpack2.png",
       "sprite": "2_3_20",
-      "animation": null
+      "animation": null,
+      "path": {
+        "name": "BezierNode_3",
+        "speed": 2.200000047683716,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 0,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 899,
+              "y": 31
+            },
+            "startControlPoint": {
+              "x": 826,
+              "y": 30
+            },
+            "endControlPoint": {
+              "x": 846,
+              "y": 30
+            },
+            "endPoint": {
+              "x": 728,
+              "y": 31.399999991059303
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "star_01",
@@ -360,7 +390,37 @@
       "zOrder": 0,
       "sheet": "blackhole_blackholesheet.png",
       "sprite": "blackhole_01",
-      "animation": "blackhole_normal"
+      "animation": "blackhole_normal",
+      "path": {
+        "name": "BezierNode_2",
+        "speed": 5,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": false,
+        "startPoint": 1,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 282,
+              "y": 135
+            },
+            "startControlPoint": {
+              "x": 407,
+              "y": 30.5
+            },
+            "endControlPoint": {
+              "x": 427,
+              "y": 30.5
+            },
+            "endPoint": {
+              "x": 539,
+              "y": 135.49999997764826
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "yellow_iron_off_3",
@@ -576,7 +636,37 @@
       "zOrder": -1,
       "sheet": "portal_portalgreen.png",
       "sprite": "green_iron_off",
-      "animation": "portal_gre_generator"
+      "animation": "portal_gre_generator",
+      "path": {
+        "name": "BezierNode",
+        "speed": 4,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 0,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 304,
+              "y": 51
+            },
+            "startControlPoint": {
+              "x": 406.5,
+              "y": 98
+            },
+            "endControlPoint": {
+              "x": 426.5,
+              "y": 98
+            },
+            "endPoint": {
+              "x": 528,
+              "y": 51
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "green_iron_off_2",
@@ -603,7 +693,37 @@
       "zOrder": -1,
       "sheet": "portal_portalgreen.png",
       "sprite": "green_iron_off",
-      "animation": "portal_gre_generator"
+      "animation": "portal_gre_generator",
+      "path": {
+        "name": "BezierNode",
+        "speed": 4,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 0,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 304,
+              "y": 51
+            },
+            "startControlPoint": {
+              "x": 406.5,
+              "y": 98
+            },
+            "endControlPoint": {
+              "x": 426.5,
+              "y": 98
+            },
+            "endPoint": {
+              "x": 528,
+              "y": 51
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "green_iron_off_3",
@@ -630,7 +750,37 @@
       "zOrder": -1,
       "sheet": "portal_portalgreen.png",
       "sprite": "green_iron_off",
-      "animation": "portal_gre_generator"
+      "animation": "portal_gre_generator",
+      "path": {
+        "name": "BezierNode",
+        "speed": 4,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 0,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 304,
+              "y": 51
+            },
+            "startControlPoint": {
+              "x": 406.5,
+              "y": 98
+            },
+            "endControlPoint": {
+              "x": 426.5,
+              "y": 98
+            },
+            "endPoint": {
+              "x": 528,
+              "y": 51
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "green_light_01",
@@ -657,7 +807,37 @@
       "zOrder": 0,
       "sheet": "portal_portalgreen.png",
       "sprite": "green_light_01",
-      "animation": "portal_gre_light"
+      "animation": "portal_gre_light",
+      "path": {
+        "name": "BezierNode",
+        "speed": 4,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 0,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 304,
+              "y": 51
+            },
+            "startControlPoint": {
+              "x": 406.5,
+              "y": 98
+            },
+            "endControlPoint": {
+              "x": 426.5,
+              "y": 98
+            },
+            "endPoint": {
+              "x": 528,
+              "y": 51
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "green_light_01_1",
@@ -684,7 +864,37 @@
       "zOrder": 0,
       "sheet": "portal_portalgreen.png",
       "sprite": "green_light_01",
-      "animation": "portal_gre_light"
+      "animation": "portal_gre_light",
+      "path": {
+        "name": "BezierNode",
+        "speed": 4,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 0,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 304,
+              "y": 51
+            },
+            "startControlPoint": {
+              "x": 406.5,
+              "y": 98
+            },
+            "endControlPoint": {
+              "x": 426.5,
+              "y": 98
+            },
+            "endPoint": {
+              "x": 528,
+              "y": 51
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "green_light_01_2",
@@ -711,7 +921,37 @@
       "zOrder": 0,
       "sheet": "portal_portalgreen.png",
       "sprite": "green_light_01",
-      "animation": "portal_gre_light"
+      "animation": "portal_gre_light",
+      "path": {
+        "name": "BezierNode",
+        "speed": 4,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 0,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 304,
+              "y": 51
+            },
+            "startControlPoint": {
+              "x": 406.5,
+              "y": 98
+            },
+            "endControlPoint": {
+              "x": 426.5,
+              "y": 98
+            },
+            "endPoint": {
+              "x": 528,
+              "y": 51
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "portal_out",
@@ -738,7 +978,37 @@
       "zOrder": 1,
       "sheet": "portal_portalgreen.png",
       "sprite": "green_01",
-      "animation": "portal_gre_normal"
+      "animation": "portal_gre_normal",
+      "path": {
+        "name": "BezierNode",
+        "speed": 4,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 0,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 304,
+              "y": 51
+            },
+            "startControlPoint": {
+              "x": 406.5,
+              "y": 98
+            },
+            "endControlPoint": {
+              "x": 426.5,
+              "y": 98
+            },
+            "endPoint": {
+              "x": 528,
+              "y": 51
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "stone_3_6",

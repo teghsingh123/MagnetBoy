@@ -171,7 +171,37 @@
       "zOrder": 0,
       "sheet": "magnet_magnet_sheets.png",
       "sprite": "magnet_range_red",
-      "animation": "BB_CIRCLE1"
+      "animation": "BB_CIRCLE1",
+      "path": {
+        "name": "BezierNode_1",
+        "speed": 3,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": false,
+        "startPoint": 1,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 561,
+              "y": 106.89999998360872
+            },
+            "startControlPoint": {
+              "x": 616.5,
+              "y": 127
+            },
+            "endControlPoint": {
+              "x": 636.5,
+              "y": 127
+            },
+            "endPoint": {
+              "x": 715,
+              "y": 107
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "range_magnet_five",
@@ -252,7 +282,37 @@
       "zOrder": 1,
       "sheet": "magnet_magnet_sheets.png",
       "sprite": "magnet_circle",
-      "animation": null
+      "animation": null,
+      "path": {
+        "name": "BezierNode_1",
+        "speed": 3,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": false,
+        "startPoint": 1,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 561,
+              "y": 106.89999998360872
+            },
+            "startControlPoint": {
+              "x": 616.5,
+              "y": 127
+            },
+            "endControlPoint": {
+              "x": 636.5,
+              "y": 127
+            },
+            "endPoint": {
+              "x": 715,
+              "y": 107
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "magnet_five",
@@ -684,7 +744,37 @@
       "zOrder": 0,
       "sheet": "blackhole_blackholesheet.png",
       "sprite": "blackhole_01",
-      "animation": "blackhole_normal"
+      "animation": "blackhole_normal",
+      "path": {
+        "name": "BezierNode",
+        "speed": 2.200000047683716,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": false,
+        "startPoint": 1,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 441,
+              "y": 253
+            },
+            "startControlPoint": {
+              "x": 396.5,
+              "y": 179
+            },
+            "endControlPoint": {
+              "x": 416.5,
+              "y": 179
+            },
+            "endPoint": {
+              "x": 441.69999996572733,
+              "y": 48
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "stone_3_6",

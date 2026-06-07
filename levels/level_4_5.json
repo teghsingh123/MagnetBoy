@@ -36,7 +36,37 @@
       "zOrder": 0,
       "sheet": "star_sheet.png",
       "sprite": "star_01",
-      "animation": "star_normal"
+      "animation": "star_normal",
+      "path": {
+        "name": "BezierNode",
+        "speed": 3,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 1,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 624,
+              "y": 56
+            },
+            "startControlPoint": {
+              "x": 612.5,
+              "y": 104
+            },
+            "endControlPoint": {
+              "x": 632.5,
+              "y": 104
+            },
+            "endPoint": {
+              "x": 624,
+              "y": 152
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "star_01",
@@ -90,7 +120,37 @@
       "zOrder": 0,
       "sheet": "star_sheet.png",
       "sprite": "star_01",
-      "animation": "star_normal"
+      "animation": "star_normal",
+      "path": {
+        "name": "BezierNode_1",
+        "speed": 3,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": false,
+        "startPoint": 1,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 737.3259612433129,
+              "y": 207.71371042259364
+            },
+            "startControlPoint": {
+              "x": 811.9011724106484,
+              "y": 206.13581469185976
+            },
+            "endControlPoint": {
+              "x": 831.9011724106484,
+              "y": 206.13581469185976
+            },
+            "endPoint": {
+              "x": 904,
+              "y": 208
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "range_magnet_circle",
@@ -1035,7 +1095,37 @@
       "zOrder": 0,
       "sheet": "glass_glass.png",
       "sprite": "gol",
-      "animation": null
+      "animation": null,
+      "path": {
+        "name": "BezierNode",
+        "speed": 3,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 1,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 624,
+              "y": 56
+            },
+            "startControlPoint": {
+              "x": 612.5,
+              "y": 104
+            },
+            "endControlPoint": {
+              "x": 632.5,
+              "y": 104
+            },
+            "endPoint": {
+              "x": 624,
+              "y": 152
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "amsar_3",
@@ -1062,7 +1152,37 @@
       "zOrder": 0,
       "sheet": "glass_glass.png",
       "sprite": "amsar",
-      "animation": null
+      "animation": null,
+      "path": {
+        "name": "BezierNode",
+        "speed": 3,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 1,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 624,
+              "y": 56
+            },
+            "startControlPoint": {
+              "x": 612.5,
+              "y": 104
+            },
+            "endControlPoint": {
+              "x": 632.5,
+              "y": 104
+            },
+            "endPoint": {
+              "x": 624,
+              "y": 152
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "amsar_4",
@@ -1089,7 +1209,37 @@
       "zOrder": 0,
       "sheet": "glass_glass.png",
       "sprite": "amsar",
-      "animation": null
+      "animation": null,
+      "path": {
+        "name": "BezierNode",
+        "speed": 3,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 1,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 624,
+              "y": 56
+            },
+            "startControlPoint": {
+              "x": 612.5,
+              "y": 104
+            },
+            "endControlPoint": {
+              "x": 632.5,
+              "y": 104
+            },
+            "endPoint": {
+              "x": 624,
+              "y": 152
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "amsar_5",

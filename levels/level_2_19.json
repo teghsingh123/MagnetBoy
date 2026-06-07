@@ -441,7 +441,37 @@
       "zOrder": -1,
       "sheet": "portal_portalyellow.png",
       "sprite": "yellow_iron_off",
-      "animation": "portal_yel_generator"
+      "animation": "portal_yel_generator",
+      "path": {
+        "name": "BezierNode",
+        "speed": 2.200000047683716,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 0,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 257.75,
+              "y": 33
+            },
+            "startControlPoint": {
+              "x": 346.25,
+              "y": 32.5
+            },
+            "endControlPoint": {
+              "x": 366.25,
+              "y": 32.5
+            },
+            "endPoint": {
+              "x": 454.75,
+              "y": 33.00000001490116
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "yellow_iron_off_1",
@@ -468,7 +498,37 @@
       "zOrder": -1,
       "sheet": "portal_portalyellow.png",
       "sprite": "yellow_iron_off",
-      "animation": "portal_yel_generator"
+      "animation": "portal_yel_generator",
+      "path": {
+        "name": "BezierNode",
+        "speed": 2.200000047683716,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 0,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 257.75,
+              "y": 33
+            },
+            "startControlPoint": {
+              "x": 346.25,
+              "y": 32.5
+            },
+            "endControlPoint": {
+              "x": 366.25,
+              "y": 32.5
+            },
+            "endPoint": {
+              "x": 454.75,
+              "y": 33.00000001490116
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "yellow_iron_off_2",
@@ -495,7 +555,37 @@
       "zOrder": -1,
       "sheet": "portal_portalyellow.png",
       "sprite": "yellow_iron_off",
-      "animation": "portal_yel_generator"
+      "animation": "portal_yel_generator",
+      "path": {
+        "name": "BezierNode",
+        "speed": 2.200000047683716,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 0,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 257.75,
+              "y": 33
+            },
+            "startControlPoint": {
+              "x": 346.25,
+              "y": 32.5
+            },
+            "endControlPoint": {
+              "x": 366.25,
+              "y": 32.5
+            },
+            "endPoint": {
+              "x": 454.75,
+              "y": 33.00000001490116
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "yellow_light_01",
@@ -522,7 +612,37 @@
       "zOrder": 0,
       "sheet": "portal_portalyellow.png",
       "sprite": "yellow_light_01",
-      "animation": "portal_yel_light"
+      "animation": "portal_yel_light",
+      "path": {
+        "name": "BezierNode",
+        "speed": 2.200000047683716,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 0,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 257.75,
+              "y": 33
+            },
+            "startControlPoint": {
+              "x": 346.25,
+              "y": 32.5
+            },
+            "endControlPoint": {
+              "x": 366.25,
+              "y": 32.5
+            },
+            "endPoint": {
+              "x": 454.75,
+              "y": 33.00000001490116
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "yellow_light_01_1",
@@ -549,7 +669,37 @@
       "zOrder": 0,
       "sheet": "portal_portalyellow.png",
       "sprite": "yellow_light_01",
-      "animation": "portal_yel_light"
+      "animation": "portal_yel_light",
+      "path": {
+        "name": "BezierNode",
+        "speed": 2.200000047683716,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 0,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 257.75,
+              "y": 33
+            },
+            "startControlPoint": {
+              "x": 346.25,
+              "y": 32.5
+            },
+            "endControlPoint": {
+              "x": 366.25,
+              "y": 32.5
+            },
+            "endPoint": {
+              "x": 454.75,
+              "y": 33.00000001490116
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "yellow_light_01_2",
@@ -576,7 +726,37 @@
       "zOrder": 0,
       "sheet": "portal_portalyellow.png",
       "sprite": "yellow_light_01",
-      "animation": "portal_yel_light"
+      "animation": "portal_yel_light",
+      "path": {
+        "name": "BezierNode",
+        "speed": 2.200000047683716,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 0,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 257.75,
+              "y": 33
+            },
+            "startControlPoint": {
+              "x": 346.25,
+              "y": 32.5
+            },
+            "endControlPoint": {
+              "x": 366.25,
+              "y": 32.5
+            },
+            "endPoint": {
+              "x": 454.75,
+              "y": 33.00000001490116
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "portal",
@@ -603,7 +783,37 @@
       "zOrder": 1,
       "sheet": "portal_portalyellow.png",
       "sprite": "yellow_01",
-      "animation": "portal_yel_normal"
+      "animation": "portal_yel_normal",
+      "path": {
+        "name": "BezierNode",
+        "speed": 2.200000047683716,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 0,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 257.75,
+              "y": 33
+            },
+            "startControlPoint": {
+              "x": 346.25,
+              "y": 32.5
+            },
+            "endControlPoint": {
+              "x": 366.25,
+              "y": 32.5
+            },
+            "endPoint": {
+              "x": 454.75,
+              "y": 33.00000001490116
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "green_iron_off_1",

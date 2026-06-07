@@ -765,7 +765,37 @@
       "zOrder": 0,
       "sheet": "dismagnet_dismagnet.png",
       "sprite": "inactive",
-      "animation": "generator"
+      "animation": "generator",
+      "path": {
+        "name": "BezierNode",
+        "speed": 3,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 0,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 260,
+              "y": 40.400000005960464
+            },
+            "startControlPoint": {
+              "x": 374.7075596381762,
+              "y": 42.79059268220854
+            },
+            "endControlPoint": {
+              "x": 394.7075596381762,
+              "y": 42.79059268220854
+            },
+            "endPoint": {
+              "x": 415,
+              "y": 40.400000005960464
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "20",
@@ -792,7 +822,37 @@
       "zOrder": 0,
       "sheet": "dismagnet_dismagnet.png",
       "sprite": "20",
-      "animation": "dismagnet"
+      "animation": "dismagnet",
+      "path": {
+        "name": "BezierNode",
+        "speed": 3,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 0,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 260,
+              "y": 40.400000005960464
+            },
+            "startControlPoint": {
+              "x": 374.7075596381762,
+              "y": 42.79059268220854
+            },
+            "endControlPoint": {
+              "x": 394.7075596381762,
+              "y": 42.79059268220854
+            },
+            "endPoint": {
+              "x": 415,
+              "y": 40.400000005960464
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "inactive_1",
@@ -819,7 +879,37 @@
       "zOrder": 0,
       "sheet": "dismagnet_dismagnet.png",
       "sprite": "inactive",
-      "animation": "generator"
+      "animation": "generator",
+      "path": {
+        "name": "BezierNode",
+        "speed": 3,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 0,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 260,
+              "y": 40.400000005960464
+            },
+            "startControlPoint": {
+              "x": 374.7075596381762,
+              "y": 42.79059268220854
+            },
+            "endControlPoint": {
+              "x": 394.7075596381762,
+              "y": 42.79059268220854
+            },
+            "endPoint": {
+              "x": 415,
+              "y": 40.400000005960464
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "wall_middle_3",

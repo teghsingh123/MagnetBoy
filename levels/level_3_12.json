@@ -117,7 +117,37 @@
       "zOrder": 0,
       "sheet": "star_sheet.png",
       "sprite": "star_01",
-      "animation": "star_normal"
+      "animation": "star_normal",
+      "path": {
+        "name": "BezierNode",
+        "speed": 3,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": false,
+        "startPoint": 0,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 201,
+              "y": 71.75
+            },
+            "startControlPoint": {
+              "x": 266.5,
+              "y": 151.25
+            },
+            "endControlPoint": {
+              "x": 286.5,
+              "y": 151.25
+            },
+            "endPoint": {
+              "x": 201.10000000000002,
+              "y": 240
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "range_magnet_circle",
@@ -711,7 +741,55 @@
       "zOrder": 0,
       "sheet": "dismagnet_dismagnet.png",
       "sprite": "inactive",
-      "animation": "generator"
+      "animation": "generator",
+      "path": {
+        "name": "BezierNode_1",
+        "speed": 3,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 1,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 653,
+              "y": 32
+            },
+            "startControlPoint": {
+              "x": 585.427,
+              "y": 96.0228
+            },
+            "endControlPoint": {
+              "x": 701.5,
+              "y": 95
+            },
+            "endPoint": {
+              "x": 653,
+              "y": 96
+            }
+          },
+          {
+            "startPoint": {
+              "x": 653,
+              "y": 96
+            },
+            "startControlPoint": {
+              "x": 557.5,
+              "y": 95
+            },
+            "endControlPoint": {
+              "x": 605.427,
+              "y": 96.0228
+            },
+            "endPoint": {
+              "x": 405,
+              "y": 96
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "20",
@@ -738,7 +816,55 @@
       "zOrder": 0,
       "sheet": "dismagnet_dismagnet.png",
       "sprite": "20",
-      "animation": "dismagnet"
+      "animation": "dismagnet",
+      "path": {
+        "name": "BezierNode_1",
+        "speed": 3,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 1,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 653,
+              "y": 32
+            },
+            "startControlPoint": {
+              "x": 585.427,
+              "y": 96.0228
+            },
+            "endControlPoint": {
+              "x": 701.5,
+              "y": 95
+            },
+            "endPoint": {
+              "x": 653,
+              "y": 96
+            }
+          },
+          {
+            "startPoint": {
+              "x": 653,
+              "y": 96
+            },
+            "startControlPoint": {
+              "x": 557.5,
+              "y": 95
+            },
+            "endControlPoint": {
+              "x": 605.427,
+              "y": 96.0228
+            },
+            "endPoint": {
+              "x": 405,
+              "y": 96
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "inactive_1_1",
@@ -765,7 +891,55 @@
       "zOrder": 0,
       "sheet": "dismagnet_dismagnet.png",
       "sprite": "inactive",
-      "animation": "generator"
+      "animation": "generator",
+      "path": {
+        "name": "BezierNode_1",
+        "speed": 3,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 1,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 653,
+              "y": 32
+            },
+            "startControlPoint": {
+              "x": 585.427,
+              "y": 96.0228
+            },
+            "endControlPoint": {
+              "x": 701.5,
+              "y": 95
+            },
+            "endPoint": {
+              "x": 653,
+              "y": 96
+            }
+          },
+          {
+            "startPoint": {
+              "x": 653,
+              "y": 96
+            },
+            "startControlPoint": {
+              "x": 557.5,
+              "y": 95
+            },
+            "endControlPoint": {
+              "x": 605.427,
+              "y": 96.0228
+            },
+            "endPoint": {
+              "x": 405,
+              "y": 96
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "range_hero",

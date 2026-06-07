@@ -1251,7 +1251,37 @@
       "zOrder": 0,
       "sheet": "woods_wood.png",
       "sprite": "wood_1_2",
-      "animation": null
+      "animation": null,
+      "path": {
+        "name": "BezierNode",
+        "speed": 4,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": false,
+        "startPoint": 0,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 305.30000000447035,
+              "y": 176.5
+            },
+            "startControlPoint": {
+              "x": 296,
+              "y": 208.5
+            },
+            "endControlPoint": {
+              "x": 316,
+              "y": 208.5
+            },
+            "endPoint": {
+              "x": 305.299999974668,
+              "y": 315.5
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "steel_5_1_1",
@@ -1737,7 +1767,37 @@
       "zOrder": 0,
       "sheet": "dismagnet_dismagnet.png",
       "sprite": "inactive",
-      "animation": "generator"
+      "animation": "generator",
+      "path": {
+        "name": "BezierNode_1",
+        "speed": 3,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 0,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 553.4846242698651,
+              "y": 77.45765534896799
+            },
+            "startControlPoint": {
+              "x": 816.5855752262097,
+              "y": 72.45765534896799
+            },
+            "endControlPoint": {
+              "x": 836.5855752262097,
+              "y": 72.45765534896799
+            },
+            "endPoint": {
+              "x": 819.6865261825543,
+              "y": 77.45765534896799
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "20",
@@ -1764,7 +1824,37 @@
       "zOrder": 0,
       "sheet": "dismagnet_dismagnet.png",
       "sprite": "20",
-      "animation": "dismagnet"
+      "animation": "dismagnet",
+      "path": {
+        "name": "BezierNode_1",
+        "speed": 3,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 0,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 553.4846242698651,
+              "y": 77.45765534896799
+            },
+            "startControlPoint": {
+              "x": 816.5855752262097,
+              "y": 72.45765534896799
+            },
+            "endControlPoint": {
+              "x": 836.5855752262097,
+              "y": 72.45765534896799
+            },
+            "endPoint": {
+              "x": 819.6865261825543,
+              "y": 77.45765534896799
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "inactive_1",
@@ -1791,7 +1881,37 @@
       "zOrder": 0,
       "sheet": "dismagnet_dismagnet.png",
       "sprite": "inactive",
-      "animation": "generator"
+      "animation": "generator",
+      "path": {
+        "name": "BezierNode_1",
+        "speed": 3,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 0,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 553.4846242698651,
+              "y": 77.45765534896799
+            },
+            "startControlPoint": {
+              "x": 816.5855752262097,
+              "y": 72.45765534896799
+            },
+            "endControlPoint": {
+              "x": 836.5855752262097,
+              "y": 72.45765534896799
+            },
+            "endPoint": {
+              "x": 819.6865261825543,
+              "y": 77.45765534896799
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "star_01_1",

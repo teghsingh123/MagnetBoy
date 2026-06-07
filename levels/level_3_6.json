@@ -63,7 +63,37 @@
       "zOrder": 0,
       "sheet": "magnet_magnet_sheets.png",
       "sprite": "magnet_range_red",
-      "animation": "RR_CIRCLE1"
+      "animation": "RR_CIRCLE1",
+      "path": {
+        "name": "BezierNode_1",
+        "speed": 3,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 1,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 682,
+              "y": 253.75
+            },
+            "startControlPoint": {
+              "x": 673.5,
+              "y": 151.75
+            },
+            "endControlPoint": {
+              "x": 693.5,
+              "y": 151.75
+            },
+            "endPoint": {
+              "x": 682.8999999687076,
+              "y": 49.75
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "range_magnet_circle_1",
@@ -144,7 +174,37 @@
       "zOrder": 1,
       "sheet": "magnet_magnet_sheets.png",
       "sprite": "magnet_circle",
-      "animation": null
+      "animation": null,
+      "path": {
+        "name": "BezierNode_1",
+        "speed": 3,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 1,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 682,
+              "y": 253.75
+            },
+            "startControlPoint": {
+              "x": 673.5,
+              "y": 151.75
+            },
+            "endControlPoint": {
+              "x": 693.5,
+              "y": 151.75
+            },
+            "endPoint": {
+              "x": 682.8999999687076,
+              "y": 49.75
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "magnet_circle_1",
@@ -225,7 +285,37 @@
       "zOrder": 0,
       "sheet": "woods_wood.png",
       "sprite": "wood_1_2",
-      "animation": null
+      "animation": null,
+      "path": {
+        "name": "BezierNode",
+        "speed": 3,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 1,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 553,
+              "y": 56.75
+            },
+            "startControlPoint": {
+              "x": 544.5,
+              "y": 159.75
+            },
+            "endControlPoint": {
+              "x": 564.5,
+              "y": 159.75
+            },
+            "endPoint": {
+              "x": 552.4999999478459,
+              "y": 262.75
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "steel_3_1x2_1",

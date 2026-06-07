@@ -1467,7 +1467,37 @@
       "zOrder": 0,
       "sheet": "robotpack2_robotpack2.png",
       "sprite": "2_3_9",
-      "animation": null
+      "animation": null,
+      "path": {
+        "name": "BezierNode",
+        "speed": 2.200000047683716,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": false,
+        "startPoint": 0,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 536,
+              "y": 32
+            },
+            "startControlPoint": {
+              "x": 601.5,
+              "y": 31
+            },
+            "endControlPoint": {
+              "x": 621.5,
+              "y": 31
+            },
+            "endPoint": {
+              "x": 668,
+              "y": 32
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "range_hero",

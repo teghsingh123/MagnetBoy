@@ -171,7 +171,37 @@
       "zOrder": 0,
       "sheet": "magnet_magnet_sheets.png",
       "sprite": "magnet_range_red",
-      "animation": "RR_CIRCLE1"
+      "animation": "RR_CIRCLE1",
+      "path": {
+        "name": "BezierNode",
+        "speed": 3,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 0,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 544.8943498177508,
+              "y": 191.90631216889196
+            },
+            "startControlPoint": {
+              "x": 615.1709684176425,
+              "y": 191.90631216889196
+            },
+            "endControlPoint": {
+              "x": 635.1709684176425,
+              "y": 191.90631216889196
+            },
+            "endPoint": {
+              "x": 735.4475870175341,
+              "y": 191.90631216889196
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "range_magnet_three",
@@ -279,7 +309,37 @@
       "zOrder": 1,
       "sheet": "magnet_magnet_sheets.png",
       "sprite": "magnet_circle",
-      "animation": null
+      "animation": null,
+      "path": {
+        "name": "BezierNode",
+        "speed": 3,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 0,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 544.8943498177508,
+              "y": 191.90631216889196
+            },
+            "startControlPoint": {
+              "x": 615.1709684176425,
+              "y": 191.90631216889196
+            },
+            "endControlPoint": {
+              "x": 635.1709684176425,
+              "y": 191.90631216889196
+            },
+            "endPoint": {
+              "x": 735.4475870175341,
+              "y": 191.90631216889196
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "magnet_three",

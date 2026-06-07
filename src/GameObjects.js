@@ -1,5 +1,35 @@
 import Phaser from 'phaser';
 import { ANIM_STATES } from './GameLogic.js';
+import { playSound } from './GameAudio.js';
+
+// ── Triangle staircase hitbox helper ─────────────────────────────────────────
+// Approximates a right-triangle shape using N stacked axis-aligned rectangles.
+// Handles all 4 standard rotations (0/90/180/270) and flipX/flipY correctly.
+function spawnTriangleHitbox(scene, obj, slices, outArray, soundKey = 'stone') {
+    const aDeg   = ((obj.angle % 360) + 360) % 360;
+    const isRot  = (aDeg >= 45 && aDeg < 135) || (aDeg >= 225 && aDeg < 315);
+    const w      = isRot ? (obj.size?.y || 24.5) : (obj.size?.x || 24.5);
+    const h      = isRot ? (obj.size?.x || 24.5) : (obj.size?.y || 24.5);
+    const sw     = w / slices;
+    // 180° and 270° need inv (short→tall L→R); 0° and 90° are tall→short L→R
+    const wantInv  = (aDeg >= 135 && aDeg < 315);
+    const inv      = wantInv !== !!(obj.flipX);
+    // 90° and 180° align steps to the top; 0° and 270° align to the bottom
+    const wantTop  = (aDeg >= 45 && aDeg < 225);
+    const alignTop = wantTop !== !!(obj.flipY);
+
+    for (let i = 0; i < slices; i++) {
+        const sh      = inv ? h * ((i + 1) / slices) : h * ((slices - i) / slices);
+        const offsetY = alignTop ? 0 : Math.max(0, h - sh);
+        const s = scene.physics.add.staticImage(obj.position.x, obj.position.y, '__DEFAULT').setAlpha(0);
+        s.setDisplaySize(w, h);
+        s.refreshBody();
+        s.body.setSize(sw, Math.max(2, sh));
+        s.body.setOffset(i * sw, offsetY);
+        scene.physics.add.collider(scene.hero, s, () => playSound(scene, soundKey));
+        outArray.push(s);
+    }
+}
 
 // ── Pre-pass ──────────────────────────────────────────────────────────────────
 export function prepassMagnetTags(levelData) {
@@ -93,6 +123,20 @@ export function spawnRobotPieces(scene, levelData) {
     return robotPieces;
 }
 
+// ── Bezier path builder ───────────────────────────────────────────────────────
+function buildPhaserPath(pathData) {
+    if (!pathData?.curves?.length) return null;
+    const p = new Phaser.Curves.Path(pathData.curves[0].startPoint.x, pathData.curves[0].startPoint.y);
+    for (const c of pathData.curves) {
+        p.cubicBezierTo(
+            c.endPoint.x,          c.endPoint.y,
+            c.startControlPoint.x, c.startControlPoint.y,
+            c.endControlPoint.x,   c.endControlPoint.y,
+        );
+    }
+    return p;
+}
+
 // ── Magnets ───────────────────────────────────────────────────────────────────
 export function spawnMagnets(scene, levelData, magnetAnimTags, magnetRangeSize, rangeImageByMagnet, visualImageByMagnet) {
     const magnets = [];
@@ -114,9 +158,59 @@ export function spawnMagnets(scene, levelData, magnetAnimTags, magnetRangeSize, 
         magnet.animFrame     = 0;
         magnet.state         = ANIM_STATES[magnet.animTag]?.[0] ?? -1;
         magnet.isControlling = false;
+
+        if (obj.path?.curves?.length) {
+            magnet.pathCurve   = buildPhaserPath(obj.path);
+            magnet.pathT       = 0;
+            magnet.pathDir     = 1;
+            magnet.pathSpeed   = obj.path.speed ?? 1;
+            magnet.pathCyclic  = obj.path.isCyclic ?? false;
+            magnet.pathPingPong = !obj.path.isClosed; // open paths always ping-pong
+        }
+
         magnets.push(magnet);
     }
     return magnets;
+}
+
+// ── Magnet path movement (call each frame with delta ms) ──────────────────────
+export function updateMagnetPaths(scene, delta) {
+    for (const magnet of scene.magnets) {
+        if (!magnet.pathCurve) continue;
+        // Stop moving only while hero is physically attached to this magnet
+        if (scene.isAttached && scene.attachedMagnet === magnet) continue;
+
+        const totalLen = magnet.pathCurve.getLength();
+        if (totalLen < 1) continue;
+
+        // speed is pixels/frame at 60 fps; normalize to actual delta
+        const advance = magnet.pathSpeed * (delta / 16.667);
+        magnet.pathT += (advance / totalLen) * magnet.pathDir;
+
+        if (magnet.pathT >= 1) {
+            if (magnet.pathPingPong) {
+                magnet.pathT  = 2 - magnet.pathT;
+                magnet.pathDir = -1;
+            } else {
+                magnet.pathT -= 1; // loop
+            }
+        } else if (magnet.pathT <= 0) {
+            if (magnet.pathPingPong) {
+                magnet.pathT  = -magnet.pathT;
+                magnet.pathDir = 1;
+            } else {
+                magnet.pathT += 1;
+            }
+        }
+        magnet.pathT = Phaser.Math.Clamp(magnet.pathT, 0, 1);
+
+        const pt = magnet.pathCurve.getPoint(magnet.pathT);
+        if (!pt) continue;
+
+        magnet.body.reset(pt.x, pt.y);
+        if (magnet.rangeImage)  magnet.rangeImage.setPosition(pt.x, pt.y);
+        if (magnet.visualImage) magnet.visualImage.setPosition(pt.x, pt.y);
+    }
 }
 
 // Magnet + hero polarity ticker — 250 ms, matches Corona animation system
@@ -151,8 +245,8 @@ export function spawnHero(scene, levelData) {
     scene.hero.body.setAllowGravity(false);
     scene.hero.body.setAllowRotation(true);
     scene.hero.body.setAngularDrag(150);
-    scene.hero.body.setBounce(0.1, 0.1);
-    scene.hero.body.setFriction(0.2, 0.2);
+    scene.hero.body.setBounce(0, 0);
+    scene.hero.body.setFriction(0.45, 0.45);
     scene.hero.setDepth(10);
     scene.hero.collided   = true;
     scene.hero.isThrowing = false;
@@ -244,30 +338,12 @@ export function spawnWoodBlocks(scene, levelData) {
         const isTri = nl.includes('_1_6') || sl.includes('_1_6') || fl.includes('_1_6');
 
         if (isTri) {
-            const slices = 4, sw = w / slices;
-            let inv = obj.angle === 270 || obj.angle === -90;
-            if (obj.flipX) inv = !inv;
-            for (let i = 0; i < slices; i++) {
-                let sh = inv ? h*((i+1)/slices) : h*((slices-i)/slices);
-                if (obj.flipY) sh = h - sh;
-                const s = scene.physics.add.staticImage(obj.position.x, obj.position.y, '__DEFAULT').setAlpha(0);
-                s.body.setSize(sw, Math.max(2, sh));
-                s.body.setOffset(i*sw, obj.flipY ? 0 : h-sh);
-                s.setDisplaySize(w, h).refreshBody();
-                scene.physics.add.collider(scene.hero, s, () => {
-                    if (Math.abs(scene.hero.body.velocity.x) > 5)
-                        scene.hero.setAngularVelocity(scene.hero.body.velocity.x * 2);
-                });
-                woodBlocks.push(s);
-            }
+            spawnTriangleHitbox(scene, obj, 6, woodBlocks, 'wood');
         } else {
             const b = scene.physics.add.staticImage(obj.position.x, obj.position.y, '__DEFAULT').setAlpha(0);
-            b.body.setSize(w, h).setOffset(0, 0);
-            b.setDisplaySize(w, h).refreshBody();
-            scene.physics.add.collider(scene.hero, b, () => {
-                if (Math.abs(scene.hero.body.velocity.x) > 5)
-                    scene.hero.setAngularVelocity(scene.hero.body.velocity.x * 2);
-            });
+            b.setDisplaySize(w, h);
+            b.refreshBody();
+            scene.physics.add.collider(scene.hero, b, () => playSound(scene, 'wood'));
             woodBlocks.push(b);
         }
     }
@@ -291,30 +367,12 @@ export function spawnRockBlocks(scene, levelData) {
                       nl.includes('tri')||sl.includes('tri');
 
         if (isTri) {
-            const slices = 6, sw = w / slices;
-            let inv = obj.angle === 270 || obj.angle === -90;
-            if (obj.flipX) inv = !inv;
-            for (let i = 0; i < slices; i++) {
-                let stepH = inv ? h*((i+1)/slices) : h*((slices-i)/slices);
-                if (obj.flipY) stepH = h - stepH;
-                const s = scene.physics.add.staticImage(obj.position.x, obj.position.y, '__DEFAULT').setAlpha(0);
-                s.body.setSize(sw, Math.max(2, stepH));
-                s.body.setOffset(i*sw, obj.flipY ? 0 : h-stepH);
-                s.setDisplaySize(w, h).refreshBody();
-                scene.physics.add.collider(scene.hero, s, () => {
-                    if (Math.abs(scene.hero.body.velocity.x) > 5)
-                        scene.hero.setAngularVelocity(scene.hero.body.velocity.x * 2.5);
-                });
-                rockBlocks.push(s);
-            }
+            spawnTriangleHitbox(scene, obj, 6, rockBlocks);
         } else {
             const b = scene.physics.add.staticImage(obj.position.x, obj.position.y, '__DEFAULT').setAlpha(0);
-            b.body.setSize(w, h).setOffset(0, 0);
-            b.setDisplaySize(w, h).refreshBody();
-            scene.physics.add.collider(scene.hero, b, () => {
-                if (Math.abs(scene.hero.body.velocity.x) > 5)
-                    scene.hero.setAngularVelocity(scene.hero.body.velocity.x * 2);
-            });
+            b.setDisplaySize(w, h);
+            b.refreshBody();
+            scene.physics.add.collider(scene.hero, b, () => playSound(scene, 'stone'));
             rockBlocks.push(b);
         }
     }
@@ -326,13 +384,17 @@ export function spawnElastic(scene, levelData) {
     const elasticBlocks = [];
     for (const obj of levelData.objects) {
         if (obj.tag !== 'ELASTIC') continue;
-        const visual = scene.add.sprite(obj.position.x, obj.position.y, 'rubber_rubber.png', '01')
-            .setScale(obj.size.x / 64, obj.size.y / 7.5)
-            .setAngle(obj.angle || 0).setDepth(10);
-        const mb = scene.matter.add.image(obj.position.x, obj.position.y, '__DEFAULT');
-        mb.setDisplaySize(obj.size.x, obj.size.y).setAngle(obj.angle || 0);
-        mb.setStatic(true).setAlpha(0).setFriction(0).setBounce(1.5);
-        elasticBlocks.push({ matterBody: mb, visual, angle: obj.angle || 0 });
+        const w = obj.size?.x || 64, h = obj.size?.y || 8;
+        const angle = obj.angle || 0;
+
+        const visual = scene.add.sprite(obj.position.x, obj.position.y, 'rubber_rubber.png')
+            .setDisplaySize(w, h).setAngle(angle).setDepth(10);
+
+        // Use an invisible arcade static body as the collision surface
+        const body = scene.physics.add.staticImage(obj.position.x, obj.position.y, '__DEFAULT')
+            .setAlpha(0).setDisplaySize(w, h).refreshBody();
+
+        elasticBlocks.push({ body, visual, angle, x: obj.position.x, y: obj.position.y, w, h });
     }
     return elasticBlocks;
 }
@@ -392,6 +454,7 @@ export function spawnPortals(scene, levelData) {
 export function collectRobotPiece(scene, player, pd) {
     if (scene.isLevelComplete || pd.collected) return;
     pd.collected = true;
+    playSound(scene, 'star');
     if (pd.img)  pd.img.disableBody(true, true);
     if (pd.glow) pd.glow.destroy();
 

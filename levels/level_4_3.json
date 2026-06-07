@@ -144,7 +144,37 @@
       "zOrder": 0,
       "sheet": "magnet_magnet_sheets.png",
       "sprite": "magnet_range_red",
-      "animation": "RR_CIRCLE1"
+      "animation": "RR_CIRCLE1",
+      "path": {
+        "name": "BezierNode",
+        "speed": 2.5,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 0,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 288.22789423208303,
+              "y": 201.73216751121782
+            },
+            "startControlPoint": {
+              "x": 301.9036480341441,
+              "y": 244.5494612445762
+            },
+            "endControlPoint": {
+              "x": 321.9036480341441,
+              "y": 244.5494612445762
+            },
+            "endPoint": {
+              "x": 288.5794018809087,
+              "y": 287.3667549779346
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "range_magnet_circle_2",
@@ -252,7 +282,37 @@
       "zOrder": 1,
       "sheet": "magnet_magnet_sheets.png",
       "sprite": "magnet_circle",
-      "animation": null
+      "animation": null,
+      "path": {
+        "name": "BezierNode",
+        "speed": 2.5,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 0,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 288.22789423208303,
+              "y": 201.73216751121782
+            },
+            "startControlPoint": {
+              "x": 301.9036480341441,
+              "y": 244.5494612445762
+            },
+            "endControlPoint": {
+              "x": 321.9036480341441,
+              "y": 244.5494612445762
+            },
+            "endPoint": {
+              "x": 288.5794018809087,
+              "y": 287.3667549779346
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "magnet_circle_2",

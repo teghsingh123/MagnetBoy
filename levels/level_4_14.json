@@ -36,7 +36,37 @@
       "zOrder": 0,
       "sheet": "star_sheet.png",
       "sprite": "star_01",
-      "animation": "star_normal"
+      "animation": "star_normal",
+      "path": {
+        "name": "BezierNode",
+        "speed": 3,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 1,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 592,
+              "y": 40
+            },
+            "startControlPoint": {
+              "x": 566.50146484375,
+              "y": 83.78819274902344
+            },
+            "endControlPoint": {
+              "x": 586.50146484375,
+              "y": 83.78819274902344
+            },
+            "endPoint": {
+              "x": 592.50146484375,
+              "y": 125.28819274902344
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "star_01",
@@ -63,7 +93,37 @@
       "zOrder": 0,
       "sheet": "star_sheet.png",
       "sprite": "star_01",
-      "animation": "star_normal"
+      "animation": "star_normal",
+      "path": {
+        "name": "BezierNode_1",
+        "speed": 3,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 0,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 578.00146484375,
+              "y": 158.28819274902344
+            },
+            "startControlPoint": {
+              "x": 648.50146484375,
+              "y": 159.78819274902344
+            },
+            "endControlPoint": {
+              "x": 668.50146484375,
+              "y": 159.78819274902344
+            },
+            "endPoint": {
+              "x": 744,
+              "y": 160
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "star_01_2",
@@ -657,7 +717,37 @@
       "zOrder": 0,
       "sheet": "glass_glass.png",
       "sprite": "gol",
-      "animation": null
+      "animation": null,
+      "path": {
+        "name": "BezierNode",
+        "speed": 3,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 1,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 592,
+              "y": 40
+            },
+            "startControlPoint": {
+              "x": 566.50146484375,
+              "y": 83.78819274902344
+            },
+            "endControlPoint": {
+              "x": 586.50146484375,
+              "y": 83.78819274902344
+            },
+            "endPoint": {
+              "x": 592.50146484375,
+              "y": 125.28819274902344
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "gol_1",
@@ -684,7 +774,37 @@
       "zOrder": 0,
       "sheet": "glass_glass.png",
       "sprite": "gol",
-      "animation": null
+      "animation": null,
+      "path": {
+        "name": "BezierNode_1",
+        "speed": 3,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 0,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 578.00146484375,
+              "y": 158.28819274902344
+            },
+            "startControlPoint": {
+              "x": 648.50146484375,
+              "y": 159.78819274902344
+            },
+            "endControlPoint": {
+              "x": 668.50146484375,
+              "y": 159.78819274902344
+            },
+            "endPoint": {
+              "x": 744,
+              "y": 160
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "amsar",
@@ -711,7 +831,37 @@
       "zOrder": 0,
       "sheet": "glass_glass.png",
       "sprite": "amsar",
-      "animation": null
+      "animation": null,
+      "path": {
+        "name": "BezierNode",
+        "speed": 3,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 1,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 592,
+              "y": 40
+            },
+            "startControlPoint": {
+              "x": 566.50146484375,
+              "y": 83.78819274902344
+            },
+            "endControlPoint": {
+              "x": 586.50146484375,
+              "y": 83.78819274902344
+            },
+            "endPoint": {
+              "x": 592.50146484375,
+              "y": 125.28819274902344
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "amsar_1",
@@ -738,7 +888,37 @@
       "zOrder": 0,
       "sheet": "glass_glass.png",
       "sprite": "amsar",
-      "animation": null
+      "animation": null,
+      "path": {
+        "name": "BezierNode_1",
+        "speed": 3,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 0,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 578.00146484375,
+              "y": 158.28819274902344
+            },
+            "startControlPoint": {
+              "x": 648.50146484375,
+              "y": 159.78819274902344
+            },
+            "endControlPoint": {
+              "x": 668.50146484375,
+              "y": 159.78819274902344
+            },
+            "endPoint": {
+              "x": 744,
+              "y": 160
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "amsar_2",
@@ -765,7 +945,37 @@
       "zOrder": 0,
       "sheet": "glass_glass.png",
       "sprite": "amsar",
-      "animation": null
+      "animation": null,
+      "path": {
+        "name": "BezierNode",
+        "speed": 3,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 1,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 592,
+              "y": 40
+            },
+            "startControlPoint": {
+              "x": 566.50146484375,
+              "y": 83.78819274902344
+            },
+            "endControlPoint": {
+              "x": 586.50146484375,
+              "y": 83.78819274902344
+            },
+            "endPoint": {
+              "x": 592.50146484375,
+              "y": 125.28819274902344
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "amsar_3",
@@ -792,7 +1002,37 @@
       "zOrder": 0,
       "sheet": "glass_glass.png",
       "sprite": "amsar",
-      "animation": null
+      "animation": null,
+      "path": {
+        "name": "BezierNode_1",
+        "speed": 3,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 0,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 578.00146484375,
+              "y": 158.28819274902344
+            },
+            "startControlPoint": {
+              "x": 648.50146484375,
+              "y": 159.78819274902344
+            },
+            "endControlPoint": {
+              "x": 668.50146484375,
+              "y": 159.78819274902344
+            },
+            "endPoint": {
+              "x": 744,
+              "y": 160
+            }
+          }
+        ],
+        "isClosed": false
+      }
     }
   ],
   "joints": [

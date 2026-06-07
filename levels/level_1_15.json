@@ -63,7 +63,91 @@
       "zOrder": 0,
       "sheet": "star_sheet.png",
       "sprite": "star_01",
-      "animation": "star_normal"
+      "animation": "star_normal",
+      "path": {
+        "name": "BezierNode",
+        "speed": 5,
+        "isCyclic": true,
+        "otherEnd": true,
+        "moveDelta": false,
+        "startPoint": 1,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 381,
+              "y": 61
+            },
+            "startControlPoint": {
+              "x": 317,
+              "y": 61
+            },
+            "endControlPoint": {
+              "x": 269,
+              "y": 109
+            },
+            "endPoint": {
+              "x": 269,
+              "y": 157
+            }
+          },
+          {
+            "startPoint": {
+              "x": 269,
+              "y": 157
+            },
+            "startControlPoint": {
+              "x": 268,
+              "y": 229
+            },
+            "endControlPoint": {
+              "x": 301,
+              "y": 261
+            },
+            "endPoint": {
+              "x": 381,
+              "y": 277
+            }
+          },
+          {
+            "startPoint": {
+              "x": 381,
+              "y": 277
+            },
+            "startControlPoint": {
+              "x": 448,
+              "y": 264
+            },
+            "endControlPoint": {
+              "x": 488,
+              "y": 232
+            },
+            "endPoint": {
+              "x": 488,
+              "y": 152
+            }
+          },
+          {
+            "startPoint": {
+              "x": 488,
+              "y": 152
+            },
+            "startControlPoint": {
+              "x": 488,
+              "y": 120
+            },
+            "endControlPoint": {
+              "x": 437,
+              "y": 61
+            },
+            "endPoint": {
+              "x": 381,
+              "y": 61
+            }
+          }
+        ],
+        "isClosed": true
+      }
     },
     {
       "name": "star_01_1",
@@ -90,7 +174,91 @@
       "zOrder": 0,
       "sheet": "star_sheet.png",
       "sprite": "star_01",
-      "animation": "star_normal"
+      "animation": "star_normal",
+      "path": {
+        "name": "BezierNode",
+        "speed": 5,
+        "isCyclic": true,
+        "otherEnd": true,
+        "moveDelta": true,
+        "startPoint": 0,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 381,
+              "y": 61
+            },
+            "startControlPoint": {
+              "x": 317,
+              "y": 61
+            },
+            "endControlPoint": {
+              "x": 269,
+              "y": 109
+            },
+            "endPoint": {
+              "x": 269,
+              "y": 157
+            }
+          },
+          {
+            "startPoint": {
+              "x": 269,
+              "y": 157
+            },
+            "startControlPoint": {
+              "x": 268,
+              "y": 229
+            },
+            "endControlPoint": {
+              "x": 301,
+              "y": 261
+            },
+            "endPoint": {
+              "x": 381,
+              "y": 277
+            }
+          },
+          {
+            "startPoint": {
+              "x": 381,
+              "y": 277
+            },
+            "startControlPoint": {
+              "x": 448,
+              "y": 264
+            },
+            "endControlPoint": {
+              "x": 488,
+              "y": 232
+            },
+            "endPoint": {
+              "x": 488,
+              "y": 152
+            }
+          },
+          {
+            "startPoint": {
+              "x": 488,
+              "y": 152
+            },
+            "startControlPoint": {
+              "x": 488,
+              "y": 120
+            },
+            "endControlPoint": {
+              "x": 437,
+              "y": 61
+            },
+            "endPoint": {
+              "x": 381,
+              "y": 61
+            }
+          }
+        ],
+        "isClosed": true
+      }
     },
     {
       "name": "star_01_2",
@@ -225,7 +393,37 @@
       "zOrder": 0,
       "sheet": "magnet_magnet_sheets.png",
       "sprite": "magnet_range_red",
-      "animation": "BB_CIRCLE1"
+      "animation": "BB_CIRCLE1",
+      "path": {
+        "name": "BezierNode_1",
+        "speed": 2.5,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 0,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 673.92,
+              "y": 254.834
+            },
+            "startControlPoint": {
+              "x": 664.406,
+              "y": 142.958
+            },
+            "endControlPoint": {
+              "x": 684.406,
+              "y": 142.958
+            },
+            "endPoint": {
+              "x": 673.7929999836088,
+              "y": 66.0819
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "range_magnet_three",
@@ -333,7 +531,37 @@
       "zOrder": 1,
       "sheet": "magnet_magnet_sheets.png",
       "sprite": "magnet_circle",
-      "animation": null
+      "animation": null,
+      "path": {
+        "name": "BezierNode_1",
+        "speed": 2.5,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 0,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 673.92,
+              "y": 254.834
+            },
+            "startControlPoint": {
+              "x": 664.406,
+              "y": 142.958
+            },
+            "endControlPoint": {
+              "x": 684.406,
+              "y": 142.958
+            },
+            "endPoint": {
+              "x": 673.7929999836088,
+              "y": 66.0819
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "magnet_three",

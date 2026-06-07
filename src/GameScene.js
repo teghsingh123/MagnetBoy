@@ -7,12 +7,13 @@ import { setupInput } from './GamePlay.js';
 import { createBackground } from './GameBG.js';
 import {
     prepassMagnetTags, spawnVisuals, spawnStars, spawnRobotPieces,
-    spawnMagnets, startMagnetTicker, spawnHero, spawnMetals, spawnWinds,
+    spawnMagnets, startMagnetTicker, updateMagnetPaths, spawnHero, spawnMetals, spawnWinds,
     spawnWoodBlocks, spawnRockBlocks, spawnElastic,
     spawnBlackHoles, spawnDismagnets, spawnPortals, collectRobotPiece
 } from './GameObjects.js';
 import { createHUD } from './GameButtons.js';
 import { showFail, showWin } from './GamePlayDialog.js';
+import { preloadAudio, playGameBG, stopGameBG, playSound } from './GameAudio.js';
 import { setupCamera, followHero } from './camera.js';
 
 export default class GameScene extends Phaser.Scene {
@@ -42,6 +43,7 @@ export default class GameScene extends Phaser.Scene {
         this.lastAttachedMagnet = null;
         this.jointLength        = 0;
         this.isThrowing         = false;
+        this.manuallyGrabbed    = false;
 
         this.lastActivityAt  = null;
         this.inactivityTimer = null;
@@ -71,7 +73,7 @@ export default class GameScene extends Phaser.Scene {
     // ── Preload ───────────────────────────────────────────────────────────────
     preload() {
         this.load.image('dialog_bg',     '/assets/ui/dialog_bg.png');
-        this.load.image('buttons_sheet', '/assets/buttons_sheet.png');
+        this.load.image('buttons_sheet', '/assets/sprites/buttons_sheet.png');
 
         for (let col = 1; col <= 5; col++)
             for (let row = 1; row <= 2; row++)
@@ -81,14 +83,17 @@ export default class GameScene extends Phaser.Scene {
         for (const obj of getLevel(this.currentWorld, this.currentLevel).objects)
             if (obj.sheet) sheets.add(obj.sheet);
         for (const sheet of sheets)
-            this.load.image(sheet, `/assets/${sheet}`);
+            this.load.image(sheet, `/assets/sprites/${sheet}`);
 
         [
             'robotpack1_robotpack1.png', 'robotpack2_robotpack2.png',
             'robotpack3_UntitledSheet.png', 'robotpack4_UntitledSheet.png',
             'blackhole_blackholesheet.png', 'dismagnet_dismagnet.png',
             'portal_portalgreen.png', 'portal_portalyellow.png', 'glass_glass.png',
-        ].forEach(s => { if (!sheets.has(s)) this.load.image(s, `/assets/${s}`); });
+            'rubber_rubber.png',
+        ].forEach(s => { if (!sheets.has(s)) this.load.image(s, `/assets/sprites/${s}`); });
+
+        preloadAudio(this);
     }
 
     // ── Create ────────────────────────────────────────────────────────────────
@@ -97,6 +102,7 @@ export default class GameScene extends Phaser.Scene {
         this.physics.world.setBounds(0, -60, 960, 440);
 
         createBackground(this);
+        playGameBG(this);
 
         // Register Phaser animations from animations.json
         for (const [animName, animData] of Object.entries(animations)) {
@@ -161,17 +167,17 @@ export default class GameScene extends Phaser.Scene {
     update() {
         if (this.isLevelComplete || !this.hero?.body) return;
 
-        // Elastic bounce (Matter physics)
+        updateMagnetPaths(this, this.game.loop.delta);
+
+        // Elastic bounce — proximity + angle-aware reflection
         for (const el of this.elasticBlocks) {
-            const b  = el.matterBody.body;
-            const cx = (b.bounds.min.x + b.bounds.max.x) / 2;
-            const cy = (b.bounds.min.y + b.bounds.max.y) / 2;
-            const a  = Phaser.Math.DegToRad(el.angle);
-            const dx = this.hero.x - cx, dy = this.hero.y - cy;
+            const a    = Phaser.Math.DegToRad(el.angle);
+            const dx   = this.hero.x - el.x, dy = this.hero.y - el.y;
             const along = dx*Math.cos(a) + dy*Math.sin(a);
             const perp  = dx*-Math.sin(a) + dy*Math.cos(a);
-            if (Math.abs(along) < el.matterBody.displayWidth/2 && Math.abs(perp) < 12 && !el.bouncing) {
+            if (Math.abs(along) < el.w/2 && Math.abs(perp) < 14 && !el.bouncing) {
                 el.bouncing = true;
+                playSound(this, 'elastic');
                 if (this.anims.exists('rubber_bounce')) el.visual.play('rubber_bounce');
                 const nx = -Math.sin(a), ny = Math.cos(a);
                 const vx = this.hero.body.velocity.x, vy = this.hero.body.velocity.y;
@@ -288,16 +294,25 @@ export default class GameScene extends Phaser.Scene {
                 if (!this.inactivityTimer) this.inactivityTimer = this.time.now;
                 else if (this.time.now - this.inactivityTimer > 5000) {
                     this.inactivityTimer = null;
+                    playSound(this, 'yawn');
                     this.hero.setAngle(0).setAngularVelocity(0);
                     if (this.anims.exists('free')) this.hero.play('free');
                 }
             } else { this.inactivityTimer = null; }
         }
 
-        applyMagnetForces(this);
+        updateMagnetPaths(this, this.game.loop.delta);
         applyMetalForces(this);
         applyWindForces(this);
+
+        // Sound on first frame of wind/metal contact
+        const prevWindContact  = this._windContacted;
+        const prevMetalContact = this._metalContacted;
         updateCollisionFlags(this);
+        this._windContacted  = this.winds.some(w => w.collided);
+        this._metalContacted = this.metals.some(m => m.collided);
+        if (!prevWindContact  && this._windContacted)  playSound(this, 'wind');
+        if (!prevMetalContact && this._metalContacted) playSound(this, 'metal');
 
         // Star collection
         for (const star of this.stars) {
@@ -305,6 +320,7 @@ export default class GameScene extends Phaser.Scene {
             const dx = this.hero.x - star.x, dy = this.hero.y - star.y;
             if (Math.sqrt(dx*dx + dy*dy) < star.radius + 16) {
                 star.collected = true;
+                playSound(this, 'star');
                 if (this.anims.exists('star_pick')) {
                     star.rect.play('star_pick');
                     star.rect.once('animationcomplete', () => star.rect.setVisible(false));
@@ -324,6 +340,7 @@ export default class GameScene extends Phaser.Scene {
             if (Math.sqrt(dx*dx + dy*dy) < bh.radius + 14) {
                 bh.triggered = true;
                 this.isLevelComplete = true;
+                playSound(this, 'blackhole');
                 if (this.hero.body) this.hero.body.setVelocity(0, 0);
                 this.tweens.add({ targets: this.hero, x: bh.x, y: bh.y, alpha: 0, duration: 500,
                     onComplete: () => this.showFail() });
@@ -337,6 +354,7 @@ export default class GameScene extends Phaser.Scene {
                 if (!dm.active) continue;
                 const dx = this.hero.x - dm.x, dy = this.hero.y - dm.y;
                 if (Math.sqrt(dx*dx + dy*dy) < dm.hw + 14) {
+                    playSound(this, 'dismagnet');
                     this.dismagneted         = true;
                     this.dismagnedSavedFrame = this.heroAnimFrame;
                     this.heroAnimFrame       = 1;
@@ -361,6 +379,7 @@ export default class GameScene extends Phaser.Scene {
             const dx = this.hero.x - portal.x, dy = this.hero.y - portal.y;
             if (Math.sqrt(dx*dx + dy*dy) < portal.radius + 14) {
                 portal.cooldown = portal.pair.cooldown = true;
+                playSound(this, 'portal');
                 const vx = this.hero.body.velocity.x, vy = this.hero.body.velocity.y;
                 this.hero.setVisible(false);
                 if (this.heroRange) this.heroRange.setVisible(false);
@@ -388,6 +407,6 @@ export default class GameScene extends Phaser.Scene {
         }
     }
 
-    showFail() { showFail(this); }
-    showWin()  { showWin(this); }
+    showFail() { stopGameBG(this); playSound(this, 'fail'); showFail(this); }
+    showWin()  { stopGameBG(this); playSound(this, 'win');  showWin(this);  }
 }

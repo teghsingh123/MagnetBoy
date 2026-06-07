@@ -468,7 +468,37 @@
       "zOrder": 0,
       "sheet": "blackhole_blackholesheet.png",
       "sprite": "blackhole_01",
-      "animation": null
+      "animation": null,
+      "path": {
+        "name": "BezierNode",
+        "speed": 2.5,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": false,
+        "startPoint": 1,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 896,
+              "y": 168
+            },
+            "startControlPoint": {
+              "x": 852.75,
+              "y": 85.5
+            },
+            "endControlPoint": {
+              "x": 872.75,
+              "y": 85.5
+            },
+            "endPoint": {
+              "x": 760,
+              "y": 168
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "steel_3_1x2",

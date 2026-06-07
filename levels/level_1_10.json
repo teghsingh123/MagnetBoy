@@ -819,7 +819,37 @@
       "zOrder": 0,
       "sheet": "magnet_magnet_sheets.png",
       "sprite": "magnet_range_red",
-      "animation": "RR_CIRCLE1"
+      "animation": "RR_CIRCLE1",
+      "path": {
+        "name": "BezierNode",
+        "speed": 2.5,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 0,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 356,
+              "y": 251.9000000283122
+            },
+            "startControlPoint": {
+              "x": 489.5,
+              "y": 252
+            },
+            "endControlPoint": {
+              "x": 509.5,
+              "y": 252
+            },
+            "endPoint": {
+              "x": 536,
+              "y": 251.5999999344349
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "range_magnet_circle_2",
@@ -900,7 +930,37 @@
       "zOrder": 1,
       "sheet": "magnet_magnet_sheets.png",
       "sprite": "magnet_circle",
-      "animation": null
+      "animation": null,
+      "path": {
+        "name": "BezierNode",
+        "speed": 2.5,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 0,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 356,
+              "y": 251.9000000283122
+            },
+            "startControlPoint": {
+              "x": 489.5,
+              "y": 252
+            },
+            "endControlPoint": {
+              "x": 509.5,
+              "y": 252
+            },
+            "endPoint": {
+              "x": 536,
+              "y": 251.5999999344349
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "magnet_circle_2",

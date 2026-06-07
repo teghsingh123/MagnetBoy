@@ -306,7 +306,37 @@
       "zOrder": 0,
       "sheet": "woods_wood.png",
       "sprite": "wood_1_2",
-      "animation": null
+      "animation": null,
+      "path": {
+        "name": "BezierNode",
+        "speed": 3,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 0,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 210,
+              "y": 80.5
+            },
+            "startControlPoint": {
+              "x": 339.5,
+              "y": 211.5
+            },
+            "endControlPoint": {
+              "x": 359.5,
+              "y": 211.5
+            },
+            "endPoint": {
+              "x": 459,
+              "y": 80.39999996870756
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "wood_1_5",
@@ -333,7 +363,37 @@
       "zOrder": 0,
       "sheet": "woods_wood.png",
       "sprite": "wood_1_5",
-      "animation": null
+      "animation": null,
+      "path": {
+        "name": "BezierNode",
+        "speed": 3,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 0,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 210,
+              "y": 80.5
+            },
+            "startControlPoint": {
+              "x": 339.5,
+              "y": 211.5
+            },
+            "endControlPoint": {
+              "x": 359.5,
+              "y": 211.5
+            },
+            "endPoint": {
+              "x": 459,
+              "y": 80.39999996870756
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "wood_1_5_1",
@@ -360,7 +420,37 @@
       "zOrder": 0,
       "sheet": "woods_wood.png",
       "sprite": "wood_1_5",
-      "animation": null
+      "animation": null,
+      "path": {
+        "name": "BezierNode",
+        "speed": 3,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 0,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 210,
+              "y": 80.5
+            },
+            "startControlPoint": {
+              "x": 339.5,
+              "y": 211.5
+            },
+            "endControlPoint": {
+              "x": 359.5,
+              "y": 211.5
+            },
+            "endPoint": {
+              "x": 459,
+              "y": 80.39999996870756
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "wood_1_2_1",
@@ -387,7 +477,37 @@
       "zOrder": 0,
       "sheet": "woods_wood.png",
       "sprite": "wood_1_2",
-      "animation": null
+      "animation": null,
+      "path": {
+        "name": "BezierNode",
+        "speed": 3,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 0,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 210,
+              "y": 80.5
+            },
+            "startControlPoint": {
+              "x": 339.5,
+              "y": 211.5
+            },
+            "endControlPoint": {
+              "x": 359.5,
+              "y": 211.5
+            },
+            "endPoint": {
+              "x": 459,
+              "y": 80.39999996870756
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "steel_2_1",
@@ -495,7 +615,37 @@
       "zOrder": 0,
       "sheet": "dismagnet_dismagnet.png",
       "sprite": "inactive",
-      "animation": "generator"
+      "animation": "generator",
+      "path": {
+        "name": "BezierNode_1",
+        "speed": 4,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 0,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 578.7376289242633,
+              "y": 36.927392142849556
+            },
+            "startControlPoint": {
+              "x": 552.7817447060473,
+              "y": 31.927392142849556
+            },
+            "endControlPoint": {
+              "x": 572.7817447060473,
+              "y": 31.927392142849556
+            },
+            "endPoint": {
+              "x": 421.8258604878314,
+              "y": 36.927392142849556
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "20",
@@ -522,7 +672,37 @@
       "zOrder": 0,
       "sheet": "dismagnet_dismagnet.png",
       "sprite": "20",
-      "animation": "dismagnet"
+      "animation": "dismagnet",
+      "path": {
+        "name": "BezierNode_1",
+        "speed": 4,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 0,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 578.7376289242633,
+              "y": 36.927392142849556
+            },
+            "startControlPoint": {
+              "x": 552.7817447060473,
+              "y": 31.927392142849556
+            },
+            "endControlPoint": {
+              "x": 572.7817447060473,
+              "y": 31.927392142849556
+            },
+            "endPoint": {
+              "x": 421.8258604878314,
+              "y": 36.927392142849556
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "inactive_1",
@@ -549,7 +729,37 @@
       "zOrder": 0,
       "sheet": "dismagnet_dismagnet.png",
       "sprite": "inactive",
-      "animation": "generator"
+      "animation": "generator",
+      "path": {
+        "name": "BezierNode_1",
+        "speed": 4,
+        "isCyclic": true,
+        "otherEnd": false,
+        "moveDelta": true,
+        "startPoint": 0,
+        "startAtLaunch": true,
+        "curves": [
+          {
+            "startPoint": {
+              "x": 578.7376289242633,
+              "y": 36.927392142849556
+            },
+            "startControlPoint": {
+              "x": 552.7817447060473,
+              "y": 31.927392142849556
+            },
+            "endControlPoint": {
+              "x": 572.7817447060473,
+              "y": 31.927392142849556
+            },
+            "endPoint": {
+              "x": 421.8258604878314,
+              "y": 36.927392142849556
+            }
+          }
+        ],
+        "isClosed": false
+      }
     },
     {
       "name": "yellow_iron_off_3",
