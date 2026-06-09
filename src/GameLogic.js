@@ -47,6 +47,11 @@ export function applyMagnetForces(scene) {
                 scene.jointLength        = Math.min(dist, 40);
                 playSound(scene, 'magnet_pull');
                 if (scene.anims.exists('normal')) scene.hero.play('normal');
+                if (scene.anims.exists('magnet_effect')) {
+                    const eff = scene.add.sprite(scene.hero.x, scene.hero.y, 'hero_hero_sheet.png').setDepth(12);
+                    eff.play('magnet_effect');
+                    eff.once('animationcomplete', () => eff.destroy());
+                }
             }
         }
         // Skip force from the triangle magnet the hero is stuck to (velocity is zeroed in update anyway)

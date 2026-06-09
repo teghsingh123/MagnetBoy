@@ -489,7 +489,10 @@ export default class GameScene extends Phaser.Scene {
         updateCollisionFlags(this);
         this._windContacted  = this.winds.some(w => w.collided);
         this._metalContacted = this.metals.some(m => m.collided);
-        if (!prevWindContact  && this._windContacted)  playSound(this, 'wind');
+        if (!prevWindContact  && this._windContacted) {
+            playSound(this, 'wind');
+            if (this.anims.exists('oh_no')) this.hero.play('oh_no');
+        }
         if (!prevMetalContact && this._metalContacted) playSound(this, 'metal');
 
         // Star collection
@@ -587,6 +590,24 @@ export default class GameScene extends Phaser.Scene {
         }
     }
 
-    showFail() { stopGameBG(this); playSound(this, 'fail'); showFail(this); }
-    showWin()  { stopGameBG(this); playSound(this, 'win');  showWin(this);  }
+    showFail() {
+        stopGameBG(this);
+        playSound(this, 'fail');
+        if (this.hero && this.anims.exists('lost')) {
+            this.hero.play('lost');
+            this.hero.once('animationcomplete', () => showFail(this));
+        } else {
+            showFail(this);
+        }
+    }
+    showWin() {
+        stopGameBG(this);
+        playSound(this, 'win');
+        if (this.hero && this.anims.exists('win')) {
+            this.hero.play('win');
+            this.hero.once('animationcomplete', () => showWin(this));
+        } else {
+            showWin(this);
+        }
+    }
 }
