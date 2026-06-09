@@ -17,7 +17,6 @@ function launchDirect(scene, pointer) {
     scene.hero.body.setAllowGravity(true);
     scene.hasLaunched = true;
     playSound(scene, 'projectile');
-    if (scene.anims.exists('fly')) scene.hero.play('fly');
     scene.isThrowing  = true;
     scene.time.delayedCall(500, () => { scene.isThrowing = false; });
 }
@@ -36,7 +35,6 @@ function launchFromMagnet(scene, pointer) {
     scene.hero.body.setAllowGravity(true);
     scene.hasLaunched = true;
     playSound(scene, 'projectile');
-    if (scene.anims.exists('fly')) scene.hero.play('fly');
 
     // isThrowing cooldown — matches Lua: timer.performWithDelay(300/power_ratio, ...)
     scene.isThrowing = true;
@@ -72,7 +70,6 @@ function handleRelease(scene, pointer) {
             scene.hero.body.setVelocity(nx * 320, ny * 320);
             scene.hasLaunched = true;
             playSound(scene, 'projectile');
-            if (scene.anims.exists('fly')) scene.hero.play('fly');
             scene.isThrowing = true;
             scene.time.delayedCall(400, () => { scene.isThrowing = false; });
             changePole(scene);

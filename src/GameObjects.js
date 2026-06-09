@@ -2,15 +2,6 @@ import Phaser from 'phaser';
 import { ANIM_STATES } from './GameLogic.js';
 import { playSound } from './GameAudio.js';
 
-function playCollide(scene) {
-    if (!scene.anims.exists('collide')) return;
-    if (scene.hero.anims?.currentAnim?.key === 'collide') return;
-    scene.hero.play('collide');
-    scene.hero.once('animationcomplete', () => {
-        if (scene.hasLaunched && scene.anims.exists('fly')) scene.hero.play('fly');
-    });
-}
-
 // ── Triangle staircase hitbox helper ─────────────────────────────────────────
 // Approximates a right-triangle shape using N stacked axis-aligned rectangles.
 // Handles all 4 standard rotations (0/90/180/270) and flipX/flipY correctly.
@@ -36,7 +27,7 @@ function spawnTriangleHitbox(scene, obj, slices, outArray, soundKey = 'stone') {
         s.body.setSize(sw, Math.max(2, sh));
         s.body.setOffset(i * sw, offsetY);
         scene.physics.add.collider(scene.hero, s, () => {
-            if (scene._preStepSpeed > 100) { playSound(scene, soundKey); playCollide(scene); }
+            if (scene._preStepSpeed > 100) playSound(scene, soundKey);
         });
         outArray.push(s);
     }
@@ -422,10 +413,7 @@ export function spawnWoodBlocks(scene, levelData) {
             b.setDisplaySize(w, h);
             b.refreshBody();
             scene.physics.add.collider(scene.hero, b, () => {
-                if (scene._preStepSpeed > 100) {
-                    playSound(scene, 'wood');
-                    playCollide(scene);
-                }
+                if (scene._preStepSpeed > 100) playSound(scene, 'wood');
             });
             woodBlocks.push(b);
         }
@@ -456,10 +444,7 @@ export function spawnRockBlocks(scene, levelData) {
             b.setDisplaySize(w, h);
             b.refreshBody();
             scene.physics.add.collider(scene.hero, b, () => {
-                if (scene._preStepSpeed > 100) {
-                    playSound(scene, 'stone');
-                    playCollide(scene);
-                }
+                if (scene._preStepSpeed > 100) playSound(scene, 'stone');
             });
             rockBlocks.push(b);
         }
@@ -531,7 +516,7 @@ export function spawnGlass(scene, levelData) {
         b.setDisplaySize(w, h);
         b.refreshBody();
         scene.physics.add.collider(scene.hero, b, () => {
-            if (scene._preStepSpeed > 100) { playSound(scene, 'glass'); playCollide(scene); }
+            if (scene._preStepSpeed > 100) playSound(scene, 'glass');
         });
     }
 
