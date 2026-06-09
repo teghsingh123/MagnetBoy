@@ -1496,7 +1496,8 @@
             }
           }
         ],
-        "isClosed": false
+        "isClosed": false,
+        "isSimpleLine": true
       }
     },
     {

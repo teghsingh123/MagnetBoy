@@ -91,8 +91,9 @@ function parseNode(node, output, paths) {
                 moveDelta:  pp.PathMoveDelta ?? false,
                 startPoint: pp.PathStartPoint ?? 0,
                 startAtLaunch: pp.PathStartAtLaunch ?? true,
-                curves:     pathDef ? pathDef.curves : [],
-                isClosed:   pathDef ? pathDef.isClosed : false,
+                curves:       pathDef ? pathDef.curves : [],
+                isClosed:     pathDef ? pathDef.isClosed : false,
+                isSimpleLine: pathDef ? pathDef.isSimpleLine : false,
             };
         }
 

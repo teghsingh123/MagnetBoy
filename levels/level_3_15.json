@@ -1280,7 +1280,8 @@
             }
           }
         ],
-        "isClosed": false
+        "isClosed": false,
+        "isSimpleLine": true
       }
     },
     {
@@ -1796,7 +1797,8 @@
             }
           }
         ],
-        "isClosed": false
+        "isClosed": false,
+        "isSimpleLine": true
       }
     },
     {
@@ -1853,7 +1855,8 @@
             }
           }
         ],
-        "isClosed": false
+        "isClosed": false,
+        "isSimpleLine": true
       }
     },
     {
@@ -1910,7 +1913,8 @@
             }
           }
         ],
-        "isClosed": false
+        "isClosed": false,
+        "isSimpleLine": true
       }
     },
     {

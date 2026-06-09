@@ -21,7 +21,7 @@ import { playSound } from './GameAudio.js';
 export function applyMagnetForces(scene) {
     if (scene.isThrowing || scene.isAttached || scene.heroState === 0) return;
     for (const magnet of scene.magnets) {
-        if (magnet.isControlling || magnet.state === 0) continue;
+        if (magnet.state === 0) continue;
         const dx   = magnet.x - scene.hero.x;
         const dy   = magnet.y - scene.hero.y;
         const dist = Math.sqrt(dx*dx + dy*dy);
@@ -49,8 +49,8 @@ export function applyMagnetForces(scene) {
                 if (scene.anims.exists('normal')) scene.hero.play('normal');
             }
         }
-        // Skip velocity from the specific triangle the hero is stuck to (update() zeroes it anyway)
-        if (scene.stuckTriangle?.magnet === magnet) continue;
+        // Skip force from the triangle magnet the hero is stuck to (velocity is zeroed in update anyway)
+        if (scene.stuckTriangle?.magnet === magnet && magnet.isTriangle) continue;
         // Lua: setLinearVelocity(vx/1.02) then applyForce (force applied directly, not as acceleration)
         scene.hero.body.velocity.x = scene.hero.body.velocity.x / 1.02 + fx * force;
         scene.hero.body.velocity.y = scene.hero.body.velocity.y / 1.02 + fy * force;
@@ -76,10 +76,12 @@ export function applyWindForces(scene) {
     for (const wind of scene.winds) {
         if (!wind.collided) continue;
         const dx   = scene.hero.x - wind.x;
-        const dy   = scene.hero.y - wind.y;
+        const dy   = scene.hero.y - (wind.y + 5);
         const dist = Math.sqrt(dx*dx + dy*dy);
         if (dist < 1) continue;
-        const force = 800 / (dist * dist);
+        // Lua applyForce(dx*800/dist², ...) — scaled up for Arcade direct-velocity units
+        // (Box2D applyForce is force/mass*dt; Arcade has no mass so needs ~25x)
+        const force = 20000 / (dist * dist);
         scene.hero.body.velocity.x += dx * force * (1/60);
         scene.hero.body.velocity.y += dy * force * (1/60);
     }

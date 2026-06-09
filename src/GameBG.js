@@ -7,7 +7,7 @@ export function createBackground(scene) {
     for (let col = 0; col < 5; col++) {
         let yPos = 0;
         for (let row = 0; row < 2; row++) {
-            scene.add.image(xPos, yPos, `bg${col+1}_${row+1}`).setOrigin(0, 0).setScale(scale);
+            scene.add.image(xPos, yPos, `bg_w${scene.currentWorld}_${col+1}_${row+1}`).setOrigin(0, 0).setScale(scale);
             yPos += rowHeights[row] * scale;
         }
         xPos += colWidths[col] * scale;

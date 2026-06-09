@@ -72,6 +72,7 @@ function handleRelease(scene, pointer) {
             playSound(scene, 'projectile');
             scene.isThrowing = true;
             scene.time.delayedCall(400, () => { scene.isThrowing = false; });
+            changePole(scene);
             return;
         }
         if (scene.hasLaunched) changePole(scene);

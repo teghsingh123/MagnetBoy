@@ -65,7 +65,8 @@
             }
           }
         ],
-        "isClosed": false
+        "isClosed": false,
+        "isSimpleLine": false
       }
     },
     {

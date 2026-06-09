@@ -848,7 +848,8 @@
             }
           }
         ],
-        "isClosed": false
+        "isClosed": false,
+        "isSimpleLine": false
       }
     },
     {
@@ -959,7 +960,8 @@
             }
           }
         ],
-        "isClosed": false
+        "isClosed": false,
+        "isSimpleLine": false
       }
     },
     {

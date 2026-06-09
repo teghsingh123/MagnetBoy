@@ -26,7 +26,9 @@ function spawnTriangleHitbox(scene, obj, slices, outArray, soundKey = 'stone') {
         s.refreshBody();
         s.body.setSize(sw, Math.max(2, sh));
         s.body.setOffset(i * sw, offsetY);
-        scene.physics.add.collider(scene.hero, s, () => playSound(scene, soundKey));
+        scene.physics.add.collider(scene.hero, s, () => {
+            if (scene._preStepSpeed > 100) playSound(scene, soundKey);
+        });
         outArray.push(s);
     }
 }
@@ -128,11 +130,15 @@ function buildPhaserPath(pathData) {
     if (!pathData?.curves?.length) return null;
     const p = new Phaser.Curves.Path(pathData.curves[0].startPoint.x, pathData.curves[0].startPoint.y);
     for (const c of pathData.curves) {
-        p.cubicBezierTo(
-            c.endPoint.x,          c.endPoint.y,
-            c.startControlPoint.x, c.startControlPoint.y,
-            c.endControlPoint.x,   c.endControlPoint.y,
-        );
+        if (pathData.isSimpleLine) {
+            p.lineTo(c.endPoint.x, c.endPoint.y);
+        } else {
+            p.cubicBezierTo(
+                c.endPoint.x,          c.endPoint.y,
+                c.startControlPoint.x, c.startControlPoint.y,
+                c.endControlPoint.x,   c.endControlPoint.y,
+            );
+        }
     }
     return p;
 }
@@ -159,9 +165,9 @@ export function spawnMagnets(scene, levelData, magnetAnimTags, magnetRangeSize, 
         magnet.state         = ANIM_STATES[magnet.animTag]?.[0] ?? -1;
         magnet.isControlling = false;
 
-        // Mark pentagon/triangle as solid so GameScene can add hero colliders after spawnHero
-        const isSolid = nameLo.includes('five') || nameLo.includes('three') || nameLo.includes('tri');
-        magnet.isSolid = isSolid;
+        magnet.isPentagon = nameLo.includes('five');
+        magnet.isTriangle = nameLo.includes('tra') || nameLo.includes('tri') || nameLo.includes('three');
+        magnet.isSolid    = magnet.isPentagon || magnet.isTriangle;
 
         if (obj.path?.curves?.length) {
             magnet.pathCurve   = buildPhaserPath(obj.path);
@@ -250,7 +256,7 @@ export function spawnHero(scene, levelData) {
     scene.hero.body.setAllowGravity(false);
     scene.hero.body.setAllowRotation(true);
     scene.hero.body.setAngularDrag(150);
-    scene.hero.body.setBounce(0, 0);
+    scene.hero.body.setBounce(0.2, 0.2);
     scene.hero.body.setFriction(0.45, 0.45);
     scene.hero.setDepth(10);
     scene.hero.collided   = true;
@@ -317,17 +323,75 @@ export function spawnWinds(scene, levelData) {
     for (const obj of levelData.objects) {
         if (obj.tag !== 'WIND') continue;
         const rangeObj = windRangeMap[obj.name] || windRangeMap[obj.name.replace(/_\d+$/, '')];
-        let dirX = 0, dirY = -1;
+        let dirX = 0, dirY = -1, zoneLen = 140;
         if (rangeObj) {
             const rdx = rangeObj.position.x - obj.position.x;
             const rdy = rangeObj.position.y - obj.position.y;
             const rdist = Math.sqrt(rdx*rdx + rdy*rdy) || 1;
             dirX = rdx / rdist;
             dirY = rdy / rdist;
+            zoneLen = rdist;
         }
-        winds.push({ x: obj.position.x, y: obj.position.y + 5, dirX, dirY, zoneLen: 240, zoneW: 22, collided: false });
+        const zoneW = (rangeObj?.size?.x ?? 44) / 2;
+        const gfx = scene.add.graphics().setDepth(5);
+        const phaseOffset = Math.random() * 1000;
+
+        // Fan base is a static solid body in the original (LevelHelper bodyType=static)
+        const bw = obj.size?.x ?? 44, bh = obj.size?.y ?? 44;
+        const body = scene.physics.add.staticImage(obj.position.x, obj.position.y, '__DEFAULT').setAlpha(0);
+        body.setBodySize(bw, bh);
+        body.refreshBody();
+        scene.physics.add.collider(scene.hero, body);
+
+        winds.push({
+            x: obj.position.x, y: obj.position.y,
+            dirX, dirY, zoneLen, zoneW,
+            collided: false,
+            gfx, phaseOffset,
+        });
     }
     return winds;
+}
+
+// ── Wind visual animation (call each frame with scene.time.now ms) ────────────
+export function updateWindVisuals(scene, now) {
+    for (const wind of scene.winds) {
+        const { gfx, x, y, dirX, dirY, zoneLen, zoneW, phaseOffset } = wind;
+        gfx.clear();
+
+        const px = -dirY, py = dirX; // perpendicular direction
+
+        // Gradient column: layered alpha rects stepping along the wind axis
+        const steps = 8;
+        for (let i = 0; i < steps; i++) {
+            const t0 = (i / steps) * zoneLen;
+            const t1 = ((i + 1) / steps) * zoneLen;
+            const alpha = 0.35 * (1 - i / steps);
+            gfx.fillStyle(0x60b4db, alpha);
+            const ax = x + dirX * t0 + px * zoneW, ay = y + dirY * t0 + py * zoneW;
+            const bx = x + dirX * t0 - px * zoneW, by = y + dirY * t0 - py * zoneW;
+            const cx = x + dirX * t1 - px * zoneW, cy = y + dirY * t1 - py * zoneW;
+            const dx2 = x + dirX * t1 + px * zoneW, dy2 = y + dirY * t1 + py * zoneW;
+            gfx.fillTriangle(ax, ay, bx, by, cx, cy);
+            gfx.fillTriangle(ax, ay, cx, cy, dx2, dy2);
+        }
+
+        // Animated dashes scrolling from fan toward range
+        const period = 800;
+        const phase  = ((now + phaseOffset) % period) / period;
+        for (let i = 0; i < 5; i++) {
+            const t = ((phase + i / 5) % 1) * zoneLen;
+            const lineAlpha = 0.55 * Math.sin(Math.PI * ((phase + i / 5) % 1));
+            gfx.lineStyle(1.5, 0xffffff, lineAlpha);
+            const pOff = (i - 2) * (zoneW * 0.35);
+            const x0 = x + dirX * t      + px * pOff, y0 = y + dirY * t      + py * pOff;
+            const x1 = x + dirX * (t+12) + px * pOff, y1 = y + dirY * (t+12) + py * pOff;
+            gfx.beginPath();
+            gfx.moveTo(x0, y0);
+            gfx.lineTo(x1, y1);
+            gfx.strokePath();
+        }
+    }
 }
 
 // ── Wood blocks ───────────────────────────────────────────────────────────────
@@ -348,7 +412,9 @@ export function spawnWoodBlocks(scene, levelData) {
             const b = scene.physics.add.staticImage(obj.position.x, obj.position.y, '__DEFAULT').setAlpha(0);
             b.setDisplaySize(w, h);
             b.refreshBody();
-            scene.physics.add.collider(scene.hero, b, () => playSound(scene, 'wood'));
+            scene.physics.add.collider(scene.hero, b, () => {
+                if (scene._preStepSpeed > 100) playSound(scene, 'wood');
+            });
             woodBlocks.push(b);
         }
     }
@@ -377,7 +443,9 @@ export function spawnRockBlocks(scene, levelData) {
             const b = scene.physics.add.staticImage(obj.position.x, obj.position.y, '__DEFAULT').setAlpha(0);
             b.setDisplaySize(w, h);
             b.refreshBody();
-            scene.physics.add.collider(scene.hero, b, () => playSound(scene, 'stone'));
+            scene.physics.add.collider(scene.hero, b, () => {
+                if (scene._preStepSpeed > 100) playSound(scene, 'stone');
+            });
             rockBlocks.push(b);
         }
     }
@@ -447,7 +515,9 @@ export function spawnGlass(scene, levelData) {
         const b = scene.physics.add.staticImage(cx, cy, '__DEFAULT').setAlpha(0);
         b.setDisplaySize(w, h);
         b.refreshBody();
-        scene.physics.add.collider(scene.hero, b, () => playSound(scene, 'glass'));
+        scene.physics.add.collider(scene.hero, b, () => {
+            if (scene._preStepSpeed > 100) playSound(scene, 'glass');
+        });
     }
 
     for (const obj of levelData.objects) {
@@ -489,11 +559,11 @@ export function spawnGlass(scene, levelData) {
             const SIZE = 48, WALL_T = 4, HALF = SIZE / 2 + WALL_T / 2;
             wall(+HALF, 0,    WALL_T, SIZE);
             wall(0,    -HALF, SIZE, WALL_T);
-            // Inner corner: a small circle at the intersection of the two inner wall faces.
-            // Handled manually in update() — pushes the hero tangentially around the bend (scoop).
-            // Local position (16, -16) = where the inner faces of the right and top walls meet.
-            const cp = tw(16, -16);
-            corners.push({ cx: cp.x, cy: cp.y, r: 6 }); // r=6 smooths the sharp corner
+            // Arc guide: the inner corner of the tube channel is where the two inner wall
+            // planes meet, at local (SIZE/2, -SIZE/2). The hero's path follows a quarter-
+            // circle of midR ~24 around this point. update() steers them tangentially (scoop).
+            const arcC = tw(SIZE / 2, -SIZE / 2);
+            corners.push({ cx: arcC.x, cy: arcC.y, innerR: 4, outerR: 28 });
         }
         // amsar: visual only
     }
