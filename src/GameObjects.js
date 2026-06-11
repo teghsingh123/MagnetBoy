@@ -71,7 +71,7 @@ export function spawnVisuals(scene, levelData, magnetAnimTags, magnetRangeSize) 
 
         const img = scene.add.image(obj.position.x, obj.position.y, obj.sheet, frameName)
             .setScale(obj.size.x / fw, obj.size.y / fh)
-            .setAlpha(obj.tag === 'MAGNET_RANGE' ? 0.4 : 1)
+            .setAlpha(1)
             .setAngle(obj.angle || 0)
             .setDepth(obj.tag === 'MAGNET_RANGE' ? 5 : 10);
 

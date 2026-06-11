@@ -72,12 +72,21 @@ export default class GameScene extends Phaser.Scene {
         this.wonAlready      = false;
         this.failShown       = false;
         this.hasLaunched     = false;
+        this.fruttaPack      = Math.floor(Math.random() * 3) + 1;
     }
 
     // ── Preload ───────────────────────────────────────────────────────────────
     preload() {
         this.load.image('dialog_bg',     '/assets/ui/dialog_bg.png');
         this.load.image('buttons_sheet', '/assets/sprites/buttons_sheet.png');
+
+        // Frutti character frames (individual PNGs) for the selected pack
+        const FRUTTA_COUNTS = { 1: 102, 2: 49, 3: 76 };
+        const ps = String(this.fruttaPack).padStart(2, '0');
+        for (let i = 0; i < FRUTTA_COUNTS[this.fruttaPack]; i++) {
+            const n = String(i).padStart(4, '0');
+            this.load.image(`frutta_${ps}_${n}`, `/assets/pack/Magnet_boy_Frutta_${ps}_PNG${n}.png`);
+        }
 
         for (let col = 1; col <= 5; col++)
             for (let row = 1; row <= 2; row++)
